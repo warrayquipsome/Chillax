@@ -1,2 +1,2 @@
-# Chillax
-stress doesn't really goes with your fit, try out chillax you might not regret it.
+# chillax
+stress doesn't really goes with your fit, try out 'CHILLAX' today you might not regret it.
