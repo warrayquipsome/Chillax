@@ -1,24 +1,24 @@
 /*avatar only member list*/
-.membersWrap-2h-GB4 {
+.membersWrap-3NUR2t {
   min-width: unset;
 }
-.membersWrap-2h-GB4 .members-1998pB {
+.membersWrap-3NUR2t .members-3WRCEx {
   max-width: 65px;
   min-width: 65px;
   -webkit-transition: .3s ease;
   transition: .3s ease;
 }
-.membersWrap-2h-GB4 .members-1998pB:hover {
+.membersWrap-3NUR2t .members-3WRCEx:hover {
   max-width: 240px;
   min-width: 240px;
 }
-.membersWrap-2h-GB4 .members-1998pB .content-3YMskv:not(:hover) {
+.membersWrap-3NUR2t .members-3WRCEx .content-2a4AW9:not(:hover) {
   padding-top: 10px;
 }
-.membersGroup-v9BXpm {
+.membersGroup-2eiWxl {
   transition: .3s ease;
 }
-.membersWrap-2h-GB4:not(:hover) .membersGroup-v9BXpm {
+.membersWrap-3NUR2t:not(:hover) .membersGroup-2eiWxl {
   height: 0px;
   opacity: 0;
   padding: 0%;
