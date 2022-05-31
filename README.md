@@ -4,4 +4,4 @@ stress doesn't really goes with your fit, try out 'CHILLAX' today you might not 
 
 # Contributors:
 - › Demented Elmo
-- › JaCK
+- › Cedrick
