@@ -847,7 +847,53 @@ display: none;
 .content-1jQy2l:before {
 display: none;
 }
-
+/*appearance theme preview*/
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] {
+    display: flex;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98 {
+    width: 134px;
+    height: 88px;
+    margin-right: 20px;
+    border-radius: 20px;
+    box-shadow: var(--box-shadow-outer-3), var(--background-primary-box-shadow-border);
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98:first-child {
+    background: url("https://cdn.discordapp.com/attachments/934719923735904257/990556326943932446/unknown.png?size=4096") center/cover;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(2) {
+    background: url("https://cdn.discordapp.com/attachments/934719923735904257/990556326746787840/unknown.png?size=4096") center/cover;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98:nth-child(3) {
+    background: url("https://cdn.discordapp.com/attachments/934719923735904257/990559275145384007/chillax_sync.jpg?size=4096") center/cover, var(--background-primary);
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98 .radioBar-3w9XY- svg {
+    display: none;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98 .radioBar-3w9XY- .info-2FZci4 {
+    margin-right: 0;
+    grid-gap: 0;
+    text-align: center;
+    transform: translateY(40px);
+    pointer-events: none;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98 .radioBar-3w9XY- {
+    height: 100%;
+    align-items: flex-end;
+    gap: 0;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98:last-child .info-2FZci4 .text-md-medium-2avxhQ {
+    display: none;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) [role="radiogroup"] .item-2idW98:last-child .info-2FZci4::before {
+    content: "Sync";
+    font-size: 16px;
+    line-height: 20px;
+    font-weight: 500;
+}
+#appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) .container-1zDvAE.marginTop20-2T8ZJx {
+    margin-top: 50px;
+}
 
 
 
