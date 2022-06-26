@@ -1,21 +1,24 @@
 /**
- * @name        Chillax
- * @author      ∤ YABOIWQ ∤
- * @version     ersion: AU
- * @invite      DrfX6286kF
+ * @name Chillax
+ * @author Chillax Squad
+ * @authorLink https://github.com/warrayquipsome
+ * @version AU 
+ * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
- * @source      https://github.com/warrayquipsome/Chillax/blob/main/chillax.css
+ * @source https://github.com/warrayquipsome/Chillax
 */
-@import url("https://warrayquipsome.github.io/Chillax/AvatarOnlyMemberList.css");
 
-
-/*                   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                   */
-/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-/* ┃  █████╗   ██╗  ██╗  ██╗  ██╗       ██╗        █████╗   ██╗  ██╗ ┃ */
-/* ┃ ██╔══██╗  ██║  ██║  ██║  ██║       ██║       ██╔══██╗  ╚██╗██╔╝ ┃ */
-/* ┃ ██║  ╚═╝  ███████║  ██║  ██║       ██║       ███████║   ╚███╔╝  ┃ */
-/* ┃ ██║  ██╗  ██╔══██║  ██║  ██║       ██║       ██╔══██║   ██╔██╗  ┃ */
-/* ┃ ╚█████╔╝  ██║  ██║  ██║  ███████╗  ███████╗  ██║  ██║  ██╔╝╚██╗ ┃ */
-/* ┃  ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝  ╚══════╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝ ┃ */
-/* ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━ */
-/*                   ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                   */
+/*                  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  */
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*┃  █████╗   ██╗  ██╗  ██╗  ██╗       ██╗        █████╗   ██╗  ██╗ ┃*/
+/*┃ ██╔══██╗  ██║  ██║  ██║  ██║       ██║       ██╔══██╗  ╚██╗██╔╝ ┃*/
+/*┃ ██║  ╚═╝  ███████║  ██║  ██║       ██║       ███████║   ╚███╔╝  ┃*/
+/*┃ ██║  ██╗  ██╔══██║  ██║  ██║       ██║       ██╔══██║   ██╔██╗  ┃*/
+/*┃ ╚█████╔╝  ██║  ██║  ██║  ███████╗  ███████╗  ██║  ██║  ██╔╝╚██╗ ┃*/
+/*┃  ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝  ╚══════╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝ ┃*/
+/*━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━*/
+/*                  ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━                  */
+/*dark mode*/
+@import url('https://warrayquipsome.github.io/Chillax/dark.mode.css');
+/*light mode*/
+@import url('https://warrayquipsome.github.io/Chillax/light.mode.css');
