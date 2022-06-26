@@ -902,5 +902,10 @@ display: none;
 #appearance-tab.contentColumn-1C7as6> :not([class]):first-child>.children-1xdcWE>div:nth-child(2) .container-1zDvAE.marginTop20-2T8ZJx {
     margin-top: 50px;
 }
-
+/*ping design*/
+.numberBadge-37OJ3S {
+  padding: 5px 10px!important;
+  background-color: #fe365c;
+  box-shadow: 0px 0px 10px 2px #ff2d54;
+}
 
