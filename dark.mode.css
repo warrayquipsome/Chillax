@@ -3,6 +3,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 
 /****ADDONS****/
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css');
@@ -900,5 +901,9 @@ display: none;
   background-color: #fe365c;
   box-shadow: 0px 0px 10px 2px #ff2d54;
 }
-
+/*chillax squad font and colour change*/
+[href='https\:\/\/github.com/warrayquipsome']{
+  font-family: "Send Flowers";
+  color: rgb(255, 217, 0)!important;
+}
 
