@@ -183,9 +183,9 @@ background: transparent!important;
     display: none !important;
 }
 .wordmark-2u86JB::before{
-    content:'‏‏‎ ‎‎C H I L L A X';
+    content:'‏‏‎ ‎‎c h i l l a x';
     font-size: 12px;
-    font-weight: 100;
+    font-family: "Comfortaa"!important;
     position:fixed;
     color: rgb(255, 255, 255);
     margin-left: 20px;
