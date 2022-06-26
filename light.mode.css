@@ -79,25 +79,7 @@
 }
 
 
-/****REMOVE AFTER U HAVE WATCHED THE VIDEO****/
-/*.layers-OrUESM::after{
-display: flex;
-background-color: black;
-content:"⚠️Watch this video before using this theme⚠️";
-height: 40px;
-width:96%;
-z-index: 9;
-left: 100px;
-align-self: center;
-border-radius: 50px;
-margin-top: 5px;
-margin-bottom: 5px;
-color: rgb(255, 255, 255);
-justify-content: center;
-line-height: 40px;
-font-weight: 300;
-}
-*/
+
 
 
 
