@@ -914,3 +914,12 @@ display: none;
   font-family: "Send Flowers";
   color: rgb(255, 217, 0)!important;
 }
+/*custom group name*/
+.input-1nrc5P {
+  -webkit-text-stroke: 1px #ffe9e9;
+  color: transparent;
+  overflow: visible!important;
+  font-family: "Amatic SC"!important;
+  letter-spacing: 0.2px;
+  font-size: 25px;
+}
