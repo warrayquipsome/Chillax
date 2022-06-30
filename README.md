@@ -1,6 +1,6 @@
-# wq presents: C H I L L A X
-![chillaxforgithub](https://user-images.githubusercontent.com/84565593/150661790-8b4a4fe4-2adf-4102-92bc-da4ac361f99d.jpg)
-stress doesn't really goes with your fit, try out 'CHILLAX' today you might not regret it.
+# wq presents:   C H I L L A X
+![chillax try out](https://user-images.githubusercontent.com/84565593/176651795-9914c810-2ee3-48a7-b9f9-3dda40d98f60.jpg)
+stress doesn't really goes with your fit, try out 'chillax' today you won't regret it.
 
 # Contributors:
 - › Demented Elmo
