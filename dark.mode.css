@@ -16,7 +16,25 @@
 @import url("https://lavender-discord.github.io/Lavender/modules/addons/iconpack.css");
 
 
-
+/* update notice */
+.theme-dark #app-mount .titleBar-1it3bQ::before {
+content: "Your version of 'chillax' is outdated. Please download the newest version from https://betterdiscord.app/theme/chillax";
+display: var(--version1_0, block);
+background: rgba(0, 0, 0, .5);
+backdrop-filter: blur(5px);
+color: #fff;
+font-size: 14px;
+font-weight: 100;
+line-height: 50px;
+width: 500px;
+text-align: center;
+z-index: 2;
+position: fixed;
+left: 35%;
+top: 2%;
+border-radius: 8px;
+animation: warningflash 1.5s ease infinite;
+}
 
 /*Chillax Theme Dark*/ /*.theme-dark*/
 /*discord transparency*//*roots*/
