@@ -103,4 +103,7 @@
 
   /*chatbox*/
   --color-brand-lighter: transparent;
+  
+  /*update notice*/
+  --version1_0: none;
 }
