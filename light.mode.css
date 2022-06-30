@@ -266,13 +266,13 @@ span[class="inner-26JK4f"]:after {
 span[class="inner-26JK4f"] > *{
     display: none;
 }
-/* member list hover effect */
-.clickable-28SzVr:hover {
+/* member list and friend DMs hover effect */
+.clickable-28SzVr:hover, .interactive-1vLZ_I:hover {
 transform: scale(1.1);
-transition: all 0.1s ease-in;
+transition: all 0.2s;
 }
 .clickable-28SzVr {
-transition: all 0.1s ease-in;
+transition: all 0.3s;
 }
 /*recolor search*/
 .theme-light .container-2McqkF {
