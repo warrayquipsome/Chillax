@@ -1,5 +1,5 @@
 /**
- * @name Chillax
+ * @name Chillax Self Use
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax
  * @version 0.1
@@ -95,7 +95,6 @@
   --user-name: "King";
 
   
-
   /*glow radial status*/ /*must end in px*/
   --rs-small-spacing:0px;
   --rs-large-spacing:0px;
@@ -127,9 +126,14 @@
   --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
 
 
+  /*server bounce height*/
+  --guild-bounce-height: 15px;
+
+
   /*chatbox*/
   --color-brand-lighter: transparent;
   
+
   /*update notice*/
   --version1_0: none;
 }
