@@ -999,3 +999,15 @@ border-radius: 8px;
 -webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
 box-shadow: var(--elevation-stroke), var(--elevation-medium);
 }
+/*My guild is excited to mention me*/
+.full-motion .listItem-3SmSlK.bd-guild.bd-badge .pill-2RsI5Q.bd-unread:not(.bd-selected) + div:not([class])  {
+ animation-name: unreadguildbounce; 
+ animation-delay: 1s; /* delay before begin bouncing */
+ animation-duration: 1.5s; /* duration of each bounce */
+ animation-iteration-count: 3; /* number of bounces */
+}
+@keyframes unreadguildbounce {
+0%, 20%, 50%, 80%, 100% {transform: translateY(0);} 
+40% {transform: translateY(calc(var(--guild-bounce-height) * -1));} 
+60% {transform: translateY(calc(var(--guild-bounce-height) * -.5));} 
+}
