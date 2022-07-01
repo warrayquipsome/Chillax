@@ -969,3 +969,33 @@ display: none;
   width: 100%; 
   left: 0; 
 }
+/*Connection Issue Let Me Be*/
+.container-2RRFHK {
+background: transparent;
+pointer-events: none;
+}
+.container-2RRFHK .anchor-1MIwyf { pointer-events: auto; }
+.container-2RRFHK .content-3AIQZv .text-2bYgPB {
+display:none;
+}
+.container-2RRFHK .ready-3BZNWT {
+position: absolute;
+bottom: 44px;
+right: 244px;
+z-index: 1;
+}
+.container-2RRFHK img, .container-2RRFHK video {
+display: none;
+}
+.container-2RRFHK .problems-CvGwpb {
+padding: 8px 16px;
+bottom: 18px;
+left: unset;
+right: 18px;
+width:fit-content;
+height:fit-content;
+background-color: var(--background-floating);
+border-radius: 8px;
+-webkit-box-shadow: var(--elevation-stroke), var(--elevation-medium);
+box-shadow: var(--elevation-stroke), var(--elevation-medium);
+}
