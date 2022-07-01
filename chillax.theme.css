@@ -120,7 +120,7 @@
   
 
   /*background image*/
-  --background-image:var(--wq-suggested-bg);
+  --background-image:var(--de-suggested-bg);
   /*bg dev suggestions*/
   --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
   --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
