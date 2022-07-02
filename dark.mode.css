@@ -1006,3 +1006,52 @@ box-shadow: var(--elevation-stroke), var(--elevation-medium);
 40% {transform: translateY(calc(var(--guild-bounce-height) * -1));} 
 60% {transform: translateY(calc(var(--guild-bounce-height) * -.5));} 
 }
+/*Better status*/
+#status-picker-custom-status,
+#status-picker #status-picker-custom-status+.separator-1So4YB+div {
+flex: 1 1 100%;
+}
+#status-picker-online,
+#status-picker-idle,
+#status-picker-dnd,
+#status-picker-invisible {
+flex: 1 1 calc(25% - 2px);
+display: flex;
+justify-content: center;
+height: 40px;
+}
+#status-picker-online .statusItem-2hiCNB,
+#status-picker-idle .statusItem-2hiCNB,
+#status-picker-dnd .statusItem-2hiCNB,
+#status-picker-invisible .statusItem-2hiCNB {
+width: fit-content;
+display: flex;
+padding: 0;
+justify-content: center;
+}
+#status-picker .item-1OdjEX:not(#status-picker-custom-status, #status-picker-switch-account) .status-3TYC5W {
+display: none;
+}
+#status-picker .description-3Cwkxk {
+display: none;
+}
+#status-picker .separator-1So4YB {
+display: none;
+}
+.statusItem-2hiCNB {
+column-gap: 5px;
+}
+#status-picker .mask-2Me5HY {
+height: 50%;
+width: auto;
+}
+.item-1OdjEX foreignObject {
+  mask: none;
+}
+.status-2DiCMd {
+  border-radius: 8px!important;
+  width: 6px!important;
+  height: 6px!important;
+  margin-left: 2px;
+  margin-top: 2px;
+}
