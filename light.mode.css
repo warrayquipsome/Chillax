@@ -586,6 +586,11 @@ opacity: 0;
 }
 /* Light/dark mode indicator */
 .titleBar-1it3bQ::after {
+position: fixed;
+left: 26px;
+padding-left:6px;
+padding-right:6px;
+line-height: 23px;
 height: 1px;
 margin-bottom: -15px;
 padding-bottom:43px;
@@ -597,7 +602,7 @@ backdrop-filter: blur(2px);
 }
 .theme-dark .titleBar-1it3bQ::after {
 content: "Chillax Dark mode";
-background: rgba(32, 34, 37, 0.733);
+background: rgba(32, 34, 37, 0.500);
 color: rgb(255, 255, 255);
 width:49px;
 text-align: center;
@@ -605,7 +610,7 @@ bottom: 40px!important;
 }
 .theme-light .titleBar-1it3bQ::after {
 content: "Chillax Light mode";
-background: rgba(227, 229, 232, 0.884);
+background: rgba(227, 229, 232, 0.500);
 color: rgb(0, 0, 0);
 width:50px;
 text-align: center;
