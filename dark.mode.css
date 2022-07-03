@@ -697,8 +697,9 @@ bottom: 40px!important;
   font-size: 13px!important;
 }
 /*custom public servers and create server buttons*/
-:root .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {border-radius: 50px;background: rgba(255, 255, 255, 0.10);color: rgb(255, 255, 255);transition: all 0.4s;border: dashed 1px rgba(255, 255, 255, 0.400);}
-:root .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg:hover {color: #ffffff;background: transparent;}
+/*custom public servers and create server buttons*/
+.theme-dark .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {border-radius: 50px;background: rgba(255, 255, 255, 0.10);color: rgb(255, 255, 255);transition: all 0.4s;border: dashed 1px rgba(255, 255, 255, 0.400);}
+.theme-dark .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg:hover {color: #ffffff;background: transparent;}
 .pill-1NRFie {display: none;}
 /* colored links */
 /* YouTube */
