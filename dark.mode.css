@@ -1056,3 +1056,60 @@ width: auto;
   margin-left: 2px;
   margin-top: 2px;
 }
+/*tooltip animation*/
+.tooltip-14MtrL.tooltipTop-1wv5UJ{
+  -webkit-animation:cl-tooltip-animation-1 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  animation:cl-tooltip-animation-1 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  transform-origin:50% 100%
+}
+.tooltip-14MtrL.tooltipBottom-2WzfVx{
+  -webkit-animation:cl-tooltip-animation-1 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  animation:cl-tooltip-animation-1 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  transform-origin:50% 0
+}
+.tooltip-14MtrL.tooltipRight-2TSb42{
+  -webkit-animation:cl-tooltip-animation-2 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  animation:cl-tooltip-animation-2 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  transform-origin:0 50%
+}
+.tooltip-14MtrL.tooltipLeft-3H43DQ{
+  -webkit-animation:cl-tooltip-animation-2 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  animation:cl-tooltip-animation-2 .20s cubic-bezier(0.2, 0.6, 0.5, 1.1);
+  transform-origin:100% 50%
+}
+@-webkit-keyframes cl-tooltip-animation-1{
+  from{
+    transform:rotateX(-90deg);
+    opacity:0
+  }
+  to{
+    transform:none;
+    opacity:1
+    }}
+@keyframes cl-tooltip-animation-1{
+  from{
+    transform:rotateX(-90deg);
+    opacity:0
+  }
+  to{
+    transform:none;
+    opacity:1
+    }}
+@-webkit-keyframes cl-tooltip-animation-2{
+  from{
+    transform:rotateY(-90deg);
+    opacity:0
+  }
+  to{
+    transform:none;
+    opacity:1
+    }}
+@keyframes cl-tooltip-animation-2{
+  from{
+    transform:rotateY(-90deg);
+    opacity:0
+  }
+  to{
+    transform:none;
+    opacity:1
+  }}
