@@ -1113,3 +1113,49 @@ width: auto;
     transform:none;
     opacity:1
   }}
+/*Embeds*/
+:root {
+    --embed-border-radius: 3px;
+}
+.embed-hKpSrO {
+    border-radius: var(--embed-border-radius);
+}
+.embed-hKpSrO code {
+    background: var(--background-secondary);
+}
+:root {
+    --embed-line-width: 300px;
+}
+.embedFull-1HGV2S {
+    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+    background: var(--background-secondary);
+}
+.grid-1aWVsE {
+    margin-left: calc( -1 * var(--embed-line-width));
+    z-index: 1;
+}
+.embedFull-1HGV2S:after, .embedFull-1HGV2S:before {
+    content: "";
+    height: 100%;
+    width: var(--embed-line-width);
+    position: absolute;
+    top: 0;
+    left: calc(-1 * var(--embed-line-width));
+}
+.embedFull-1HGV2S:after {
+    background: linear-gradient(to right, transparent, var(--background-secondary));
+}
+.embedFull-1HGV2S:before {
+    background: var(--background-secondary);
+    opacity: .8;
+}
+ /* Settings/Deafen/Mute Buttons Animated */
+.button-12Fmur:hover .contents-3ca1mk {
+    animation:UserModalButtons 0.5s normal ease;
+}
+
+@keyframes UserModalButtons {
+    0% {transform:translateY(0px);}
+    50% {transform:translateY(-5px);}
+    100% {transform:translateY(0px);}
+}
