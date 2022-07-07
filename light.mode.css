@@ -1076,14 +1076,14 @@ width: auto;
     border-radius: var(--embed-border-radius);
 }
 .embed-hKpSrO code {
-    background: var(--background-secondary);
+    background: rgb(36, 36, 36);
 }
 :root {
     --embed-line-width: 300px;
 }
 .embedFull-1HGV2S {
     border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
-    background: var(--background-secondary);
+    background: rgb(36, 36, 36);
 }
 .grid-1aWVsE {
     margin-left: calc( -1 * var(--embed-line-width));
@@ -1098,11 +1098,11 @@ width: auto;
     left: calc(-1 * var(--embed-line-width));
 }
 .embedFull-1HGV2S:after {
-    background: linear-gradient(to right, transparent, var(--background-secondary));
+    background: linear-gradient(to right, transparent, rgb(36, 36, 36));
 }
 .embedFull-1HGV2S:before {
-    background: var(--background-secondary);
-    opacity: .8;
+    background: rgb(36, 36, 36);
+    opacity: .5;
 }
  /* Settings/Deafen/Mute Buttons Animated */
 .button-12Fmur:hover .contents-3ca1mk {
