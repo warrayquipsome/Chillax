@@ -1,7 +1,7 @@
 /**
  * @name Chillax
  * @author Chillax Squad
- * @authorLink https://github.com/warrayquipsome/Chillax
+ * @authorLink https://github.com/warrayquipsome/Chillax#contributors
  * @version 0.1
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
@@ -26,6 +26,12 @@
 /*light mode*/
 @import url('https://warrayquipsome.github.io/Chillax/light.mode.css');
 
+/*Permissions*/
+/*
+-You do not have the rights to use our theme name Chillax™ on other projects 
+-You do not have the rights to remove our theme watermark in the theme
+-You do not have the rights to change this theme author name to anyone
+*/
 
 /*credits*/
 /*
@@ -34,21 +40,21 @@
  Demented_Elmo                            Co-Author
  Cedrick                                  Chillax Squad
 =================================================================
- Radial Status                            by Gibbu
- Blurple recolour                         by DevilBro
  Replace Wandering Cubes                  by AGreenPig
- Better Jump to Present Button            by Lonk
- About Me Clamp                           by ItMeSarah
- Light/Dark mode indicator                by Saltssaumure
+ Embeds                                   by Alexis  WyvernZu
+ Hide User Buttons until Hover            by Commie Axolotl
  Center profile badge, avatar and name    by Commie Axolotl
+ Blurple recolour                         by DevilBro
+ Emoji Replace                            by DevilBro
  Connection Issue Let Me Be               by Disease
  My Guild is Excited to Mention Me        by Disease
- Hide User Buttons until Hover            by Commie Axolotl
+ Radial Status                            by Gibbu
+ About Me Clamp                           by ItMeSarah
+ Better Jump to Present Button            by Lonk
  Settings Icons                           by Lavender
- Discolored                               by Nyri4
- Emoji Replace                            by DevilBro
  IconPack                                 by Lavender
- Embeds                                   by Alexis  WyvernZu
+ Discolored                               by Nyri4
+ Light/Dark mode indicator                by Saltssaumure
 =================================================================
 */
 
@@ -65,7 +71,7 @@
   --interactive-normal: #b9bbbe;
   --interactive-hover: #dcddde;
   --interactive-active: #fff;
- --interactive-muted: #4f545c;
+  --interactive-muted: #4f545c;
   --background-primary: transparent;
   --background-secondary: transparent;
   --background-tertiary: transparent;
@@ -118,7 +124,7 @@
 
 
   /*chillax colours rgb*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
-  --accentcolor:			251, 84, 84;	
+  --accentcolor:	  251, 84, 84;	
   /*chillax colours hex*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
   --accentcolor2:     #fb5454;
   
@@ -134,7 +140,7 @@
   --guild-bounce-height: 15px;
 
 
-  /*chatbox*/
+  /*chatbox*/ 
   --color-brand-lighter: transparent;
   
 
