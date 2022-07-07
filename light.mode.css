@@ -1174,3 +1174,7 @@ width: auto;
     50% {transform:translateY(-5px);}
     100% {transform:translateY(0px);}
 }
+/*guild pills glow*/
+.theme-light .item-2LIpTv {
+  box-shadow: 0 0 5px rgb(0, 0, 0);
+}
