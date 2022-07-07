@@ -47,67 +47,7 @@ animation: warningflash 1.5s ease infinite;
   }
 }
 
-/*Chillax Theme Light*/ /*.theme-light*/
-/*discord transparency*//*roots*/
-  .theme-light {
-  --background-message-hover: rgba(255, 255, 255, 0.055);
-  --header-primary: rgb(0, 0, 0);
-  --header-secondary: #3f3f3f;
-  --text-normal: #303030;
-  --text-muted: #333333;
-  --channels-default: #585b5e;
-  --interactive-normal: #3a3a3a;
-  --interactive-hover: #333333;
-  --interactive-active: rgb(0, 0, 0);
-  --interactive-muted: #4f545c;
-  --background-primary: transparent;
-  --background-secondary: transparent;
-  --background-tertiary: transparent;
-  --background-accent: rgb(27, 27, 27);
-  --background-floating: rgb(255, 255, 255);
-  --activity-card-background: transparent;
-  --deprecated-panel-background: transparent;
-}
-  /*roots*/
-:root {
-  --user-name: "King";
 
-  
-
-  /*glow radial status*/ /*must end in px*/
-  --rs-small-spacing:0px;
-  --rs-large-spacing:0px;
-  --rs-medium-spacing:0px;
-  --rs-small-width: 2.5px; 
-  --rs-medium-width: 3.5px; 
-  --rs-large-width: 4.5px; 
-  --rs-avatar-shape:50%;
-  --rs-online-color:#1df594;
-  --rs-idle-color:#faa61a;
-  --rs-dnd-color:#f04747;
-  --rs-offline-color:#636b75;
-  --rs-streaming-color:#643da7;
-  --rs-invisible-color:#636b75;
-  --rs-phone-visible:block;
-  --rs-phone-color:var(--rs-online-color);
-
-
-  /*chillax colours rgb*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
-  --accentcolor:			251, 84, 84;	
-  /*chillax colours hex*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
-  --accentcolor2:     #fb5454;
-  
-
-  /*background image*/
-  --background-image:var(--wq-suggested-bg);
-  /*bg dev suggestions*/
-  --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
-  --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
-
-
-  /*chatbox*/
-  --color-brand-lighter: transparent;
-}
 
 
 
