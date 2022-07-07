@@ -957,7 +957,7 @@ display: none;
   font-size: 25px;
 }
 /*user setting channel hover effect*/
-.selected-g-kMVV:after {    
+.theme-dark .selected-g-kMVV:after {    
   background: none repeat scroll 0 0 transparent;
   bottom: 0;
   content: "";
