@@ -457,18 +457,15 @@ transform:translate(-60%,-100%);}}
 [src="/assets/7c8f476123d28d103efe381543274c25.png"] {content: url(https://i.imgur.com/tYEPmPZ.png)}
 [src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {content: url(https://i.imgur.com/tYEPmPZ.png)}
 [src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {content: url(https://i.imgur.com/tYEPmPZ.png)}
-/*mentioned background colour*/
-.theme-dark .mentioned-Tre-dv::before {
-background-color: rgb(255, 255, 255);
-width: 3px;
+/*custom mentioned colour*/
+.mentioned-Tre-dv::before {
+  background: linear-gradient(135deg, #b289ff, #d76d78)!important;
 }
-.theme-dark .mentioned-Tre-dv {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.171) 1%, rgba(0, 0, 0, 0) 100%)!important;
-  background-color: transparent!important;
+.mentioned-Tre-dv {
+  background: linear-gradient(-60deg, rgba(181, 142, 255, 0.596),#d76d78da, #ffb07b04)!important;
 }
-.theme-dark .mentioned-Tre-dv:hover {
-  background: linear-gradient(90deg, rgba(255, 255, 255, 0.151) 1%, rgba(0, 0, 0, 0) 100%)!important;
-  background-color: transparent!important;
+.mentioned-Tre-dv:hover {
+  background: linear-gradient(-60deg, rgba(181, 142, 255, 0.496),#d76d78c4, #ffb07b00)!important;
 }
 /*user popout animation*/
 .theme-dark #app-mount [class*=userPopout][aria-modal=true] {
