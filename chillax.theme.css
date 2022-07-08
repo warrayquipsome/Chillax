@@ -100,7 +100,23 @@
   --activity-card-background: transparent;
   --deprecated-panel-background: transparent;
 }
-  /*roots*/
+
+
+  /*roots*/ /*dark mode*/
+:root.theme-dark {
+  --popout-window-margin: 20px;
+  --popout-window-colour: #0009;
+  --popout-window-blur: 5px;
+}
+  /*roots*/ /*light mode*/
+:root.theme-light {
+  --popout-window-margin: 20px;
+  --popout-window-colour: rgba(255, 255, 255, 0.6);
+  --popout-window-blur: 5px;
+}
+
+
+  /*roots*/ /*both dark and light*/
 :root {
   --user-name: "King";
 
