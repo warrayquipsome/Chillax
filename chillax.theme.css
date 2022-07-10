@@ -104,15 +104,17 @@
 
   /*roots*/ /*dark mode*/
 :root.theme-dark {
-  --popout-window-margin: 20px;
-  --popout-window-colour: #0009;
-  --popout-window-blur: 5px;
+  --window-margin: 20px; /*must be above 20px*/
+  --window-colour: #0009;
+  --window-blur: 5px;
+  --window-border-radius: 10px;
 }
   /*roots*/ /*light mode*/
 :root.theme-light {
-  --popout-window-margin: 20px;
-  --popout-window-colour: rgba(255, 255, 255, 0.6);
-  --popout-window-blur: 5px;
+  --window-margin: 20px; /*must be above 20px*/
+  --window-colour: rgba(255, 255, 255, 0.6);
+  --window-blur: 5px;
+  --window-border-radius: 10px;
 }
 
 
