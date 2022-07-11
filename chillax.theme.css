@@ -145,8 +145,14 @@
   --accentcolor:	  251, 84, 84;	
   /*chillax colours hex*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
   --accentcolor2:     #fb5454;
-  
+     
+     
+  /*settings modal root*/
+  --settingsmodalbackground: 	transparent;			/* default:	transparent		(lowest bg color of changed windows, change it in case another theme turns them transparent)	*/
+  --settingsmodalwidth: 		960px;					/* default:	960px			(width of the settings modal, px/vw)															*/
+  --settingsmodalheight: 		80vh;					/* default:	80vh			(height of the settings modal, px/vh)		
 
+     
   /*background image*/
   --background-image:var(--de-suggested-bg);
   /*bg dev suggestions*/
