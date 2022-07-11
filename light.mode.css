@@ -1172,3 +1172,9 @@ width: auto;
   color: #fff!important;
   transform: translateY(-7px);
 }
+/*seperator in settings*/
+.theme-light .separator-2wx7h6 {
+  background: rgb(63, 63, 63);
+  height: 5.5px!important;
+  border-radius: 8px!important;
+}
