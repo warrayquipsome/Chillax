@@ -193,7 +193,7 @@ margin-left: 37px;
 bottom: -13px;
 }
 /* button design*/
-.fieldButton-14lHvK, .colorBrand-I6CyqQ {
+.lookFilled-yCfaCM {
   border-radius: 45px;
   background: #fff!important;
   color: #000!important;
@@ -201,7 +201,7 @@ bottom: -13px;
   font-family: "Roboto";
   font-size: 12px;
 }
-.theme-light .colorBrand-I6CyqQ:hover, .fieldButton-14lHvK:hover {
+.theme-light .lookFilled-yCfaCM:hover {
     box-shadow: inset 1px 1px 2px rgb(231, 231, 231), inset -1px -1px 2px rgb(255, 255, 255);
 }
 /*channel unread pill*/
