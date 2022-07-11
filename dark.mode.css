@@ -191,13 +191,17 @@ height: 12px;
 margin-left: 37px;
 bottom: -13px;
 }
-/*button design*/
-.lookFilled-yCfaCM {
-  background-color: #e3e7ea!important;
-  color: rgb(94, 94, 94)!important;
+/* button design*/
+.fieldButton-14lHvK, .colorBrand-I6CyqQ {
+  border-radius: 45px;
+  background: #fff!important;
+  color: #000!important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto";
+  font-size: 12px;
 }
-.lookFilled-yCfaCM:hover {
-  box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
+.theme-dark .colorBrand-I6CyqQ:hover, .fieldButton-14lHvK:hover {
+    box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
 }
 /*channel unread pill*/
 .unread-36eUEm {
@@ -1122,4 +1126,40 @@ width: auto;
 /*inline colour error fix*/
 .theme-dark .inline {
   background: rgba(47, 49, 54, 0.500)!important;
+}
+/*disable and delete account button design*/
+.theme-dark .colorRed-rQXKgM{
+  width: 140px;
+  height: 45px;
+  font-family: 'Roboto'!important;
+  text-transform: uppercase;
+  letter-spacing: 2.5px;
+  font-weight: 500;
+  color: rgb(255, 255, 255)!important;
+  background-color: rgb(58, 58, 58)!important;
+  border: none;
+  border-radius: 45px;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease 0s;
+  cursor: pointer;
+  outline: none;
+  }
+.theme-dark .colorRed-rQXKgM:hover {
+  background-color: rgb(229, 46, 46)!important;
+  box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+  color: rgb(37, 37, 37)!important;
+  transform: translateY(-7px);
+}
+.theme-dark .colorRed-rQXKgM {
+  font-size: 0px!important;
+}
+.theme-dark .disableButton-3BR0Vj.colorRed-rQXKgM::before {
+  content: "Disable";
+  position: absolute;
+  font-size: 11px!important;
+}
+.theme-dark .lookOutlined-3yKVGo.colorRed-rQXKgM::before {
+  content: "Delete";
+  position: absolute;
+  font-size: 11px!important;
 }
