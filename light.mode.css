@@ -1,10 +1,9 @@
 /****GOOGLE/BD FONTS****/
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&display=swap');
 @import url('https://nfld99.github.io/Better-Discord/Source_Code/Addons/Use_Fonts/DiscordFont.css');
 @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@300&display=swap');
-@import url('https://fonts.googleapis.com/css2?family=Send+Flowers&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Barcode+128&family=Libre+Barcode+128+Text&display=swap');
 
 /****ADDONS****/
 @import url("https://warrayquipsome.github.io/Chillax/BlurpleRecolorEdited.css");
@@ -896,16 +895,16 @@ display: none;
 }
 /*chillax squad font and colour change*/
 [href='https\:\/\/github.com/warrayquipsome/Chillax#author']{
-  font-family: "Send Flowers";
-  font-weight: 1000;
-  color: transparent!important;
-  background: conic-gradient(
-    rgb(255, 106, 106) 12%, 
-    rgb(219, 219, 219) 32%,
-    rgb(255, 149, 83) 87%);
-  background-size: 50%;
-  background-clip: text!important;  
-  -webkit-background-clip: text;
+  font-family: 'Libre Barcode 128 Text';
+  color:rgb(255, 161, 161)!important;
+  font-weight: 400;
+  font-size: 25px;
+}
+[href='https\:\/\/github.com/warrayquipsome/Chillax#author']:hover{
+  font-family: 'Libre Barcode 128';
+  color:rgb(255, 161, 161)!important;
+  font-weight: 400;
+  font-size: 25px;
 }
 /*custom group name*/
 .input-1nrc5P {
@@ -1184,3 +1183,113 @@ width: auto;
 .members-3WRCEx {max-width: 65px;min-width: 65px;transition: 0.5s ease;}
 .members-3WRCEx:hover {max-width: 240px;min-width: 240px;}
 div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
+/*nitro buttons in settings*/
+.theme-light .button-1U79Hu {
+  color: rgb(0, 0, 0)!important;
+  border: 4px solid rgb(255, 255, 255);
+  box-shadow:0px 0px 0px 1px rgb(255, 255, 255) inset!important;
+  background-color: rgb(255, 255, 255)!important;
+  overflow: hidden;
+  position: relative;
+  transition: all 0.3s ease-in-out;
+}
+.theme-light .button-1U79Hu:hover {
+  border: 4px solid rgb(187, 187, 187);
+  background-color: rgb(0, 0, 0)!important;
+  box-shadow:0px 0px 0px 4px rgb(24, 24, 24) inset!important;
+}
+.theme-light .button-1U79Hu:after {
+  background: rgb(0, 0, 0)!important;
+  border: 0px solid rgb(255, 255, 255)!important;
+  content: "";
+  height: 155px;
+  left: -75px;
+  opacity: .8;
+  position: absolute;
+  top: -50px;
+  -webkit-transform: rotate(35deg);
+          transform: rotate(35deg);
+  width: 50px;
+  transition: all 1s cubic-bezier(0.075, 0.82, 0.165, 1);/*easeOutCirc*/
+  z-index: 1;
+}
+.theme-light .button-1U79Hu:hover:after {
+  background: rgb(0, 0, 0)!important;
+  border: 20px solid rgb(255, 255, 255)!important;
+  opacity: 0;
+  left: 120%;
+  -webkit-transform: rotate(40deg);
+          transform: rotate(40deg);
+}
+.theme-light .giftButton-2RVWns {
+  transition: all 0.2s ease-out;
+  z-index: 2;
+}
+.theme-light .giftButton-2RVWns:hover{
+  letter-spacing: 0.13em;
+  color: rgb(207, 207, 207)!important;
+}
+/*custom min max close button*/
+.theme-light .winButtonClose-3Q8ZH5 {
+  top: 1px;
+  right: 20px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 0px 5px 5px 0px;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.4);
+  transition: .2s;
+}
+.theme-light .winButtonClose-3Q8ZH5:hover {
+  top: 1px;
+  right: 20px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 0px 5px 5px 0px;
+  color: rgb(0, 0, 0);
+  background: transparent;
+  transform: rotate(45deg)!important;
+  transition: .1s;
+}
+.theme-light .winButtonMinMax-3RsPUg:nth-child(3) {
+  top: 1px;
+  right: 10px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 0px;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.4);
+  transition: .2s;
+}
+.theme-light .winButtonMinMax-3RsPUg:nth-child(3):hover {
+  top: 1px;
+  right: 10px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 0px;
+  color: rgb(19, 18, 18);
+  background: transparent;
+  transform: rotate(45deg)!important;
+  transition: .1s;
+}
+.theme-light .winButtonMinMax-3RsPUg:nth-child(2n) {
+  top: 1px;
+  right: 0px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px 0px 0px 5px;
+  color: rgb(0, 0, 0);
+  background: rgba(255, 255, 255, 0.4);
+  transition: .2s;
+}
+.theme-light .winButtonMinMax-3RsPUg:nth-child(2n):hover {
+  top: 1px;
+  right: 0px;
+  padding: 5px;
+  margin: 5px;
+  border-radius: 5px 0px 0px 5px;
+  color: rgb(0, 0, 0);
+  background: transparent;
+  transform: rotate(45deg)!important;
+  transition: .1s;
+}
