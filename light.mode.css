@@ -1135,30 +1135,15 @@ width: auto;
   background: rgba(184, 184, 184, 0.5)!important;
 }
 /*disable and delete account button design*/
-.theme-light .colorRed-rQXKgM {
-  font-size: 0px!important;
-}
-.theme-light .disableButton-3BR0Vj.colorRed-rQXKgM::before {
-  content: "Disable";
-  position: absolute;
-  font-size: 11px!important;
-  box-shadow: none!important;
-}
-.theme-light .lookOutlined-3yKVGo.colorRed-rQXKgM::before {
-  content: "Delete";
-  position: absolute;
-  font-size: 11px!important;
-}
-.theme-light .colorRed-rQXKgM{
+.theme-dark .children-1xdcWE .colorRed-rQXKgM{
   width: 140px;
   height: 45px;
   font-family: 'Roboto'!important;
-  font-size: 11px;
   text-transform: uppercase;
   letter-spacing: 2.5px;
   font-weight: 500;
-  color: #000!important;
-  background-color: #fff!important;
+  color: rgb(255, 255, 255)!important;
+  background-color: rgb(58, 58, 58)!important;
   border: none;
   border-radius: 45px;
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
@@ -1166,11 +1151,24 @@ width: auto;
   cursor: pointer;
   outline: none;
   }
-.theme-light .colorRed-rQXKgM:hover {
+.theme-dark .children-1xdcWE .colorRed-rQXKgM:hover {
   background-color: rgb(229, 46, 46)!important;
   box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
-  color: #fff!important;
+  color: rgb(37, 37, 37)!important;
   transform: translateY(-7px);
+}
+.theme-dark .children-1xdcWE .colorRed-rQXKgM {
+  font-size: 0px!important;
+}
+.theme-dark .children-1xdcWE .disableButton-3BR0Vj.colorRed-rQXKgM::before {
+  content: "Disable";
+  position: absolute;
+  font-size: 11px!important;
+}
+.theme-dark .children-1xdcWE .lookOutlined-3yKVGo.colorRed-rQXKgM::before {
+  content: "Delete";
+  position: absolute;
+  font-size: 11px!important;
 }
 /*seperator in settings*/
 .theme-light .separator-2wx7h6 {
