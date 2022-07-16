@@ -1222,7 +1222,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 }
 /*custom min max close button*/
 .theme-dark .winButtonClose-3Q8ZH5 {
-  top: 1px;
+  top: -3.5px;
   right: 20px;
   padding: 5px;
   margin: 5px;
@@ -1232,7 +1232,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   transition: .2s;
 }
 .theme-dark .winButtonClose-3Q8ZH5:hover {
-  top: 1px;
+  top: -3.5px;
   right: 20px;
   padding: 5px;
   margin: 5px;
@@ -1243,7 +1243,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   transition: .1s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(3) {
-  top: 1px;
+  top: -3.5px;
   right: 10px;
   padding: 5px;
   margin: 5px;
@@ -1253,7 +1253,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   transition: .2s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(3):hover {
-  top: 1px;
+  top: -3.5px;
   right: 10px;
   padding: 5px;
   margin: 5px;
@@ -1264,7 +1264,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   transition: .1s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(2n) {
-  top: 1px;
+  top: -3.5px;
   right: 0px;
   padding: 5px;
   margin: 5px;
@@ -1274,7 +1274,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   transition: .2s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(2n):hover {
-  top: 1px;
+  top: -3.5px;
   right: 0px;
   padding: 5px;
   margin: 5px;
