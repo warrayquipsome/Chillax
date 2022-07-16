@@ -1129,7 +1129,7 @@ width: auto;
   background: rgba(47, 49, 54, 0.500)!important;
 }
 /*disable and delete account button design*/
-.theme-dark .colorRed-rQXKgM{
+.theme-dark .children-1xdcWE .colorRed-rQXKgM{
   width: 140px;
   height: 45px;
   font-family: 'Roboto'!important;
@@ -1145,21 +1145,21 @@ width: auto;
   cursor: pointer;
   outline: none;
   }
-.theme-dark .colorRed-rQXKgM:hover {
+.theme-dark .children-1xdcWE .colorRed-rQXKgM:hover {
   background-color: rgb(229, 46, 46)!important;
   box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
   color: rgb(37, 37, 37)!important;
   transform: translateY(-7px);
 }
-.theme-dark .colorRed-rQXKgM {
+.theme-dark .children-1xdcWE .colorRed-rQXKgM {
   font-size: 0px!important;
 }
-.theme-dark .disableButton-3BR0Vj.colorRed-rQXKgM::before {
+.theme-dark .children-1xdcWE .disableButton-3BR0Vj.colorRed-rQXKgM::before {
   content: "Disable";
   position: absolute;
   font-size: 11px!important;
 }
-.theme-dark .lookOutlined-3yKVGo.colorRed-rQXKgM::before {
+.theme-dark .children-1xdcWE .lookOutlined-3yKVGo.colorRed-rQXKgM::before {
   content: "Delete";
   position: absolute;
   font-size: 11px!important;
