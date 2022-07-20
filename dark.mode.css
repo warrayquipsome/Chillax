@@ -1215,6 +1215,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   border-radius: 0px 5px 5px 0px;
   color: #fff;
   background: var(--window-colour);
+  backdrop-filter: var(--window-blur);
   transition: .2s;
 }
 .theme-dark .winButtonClose-3Q8ZH5:hover {
@@ -1236,6 +1237,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   border-radius: 0px;
   color: #fff;
   background: var(--window-colour);
+  backdrop-filter: var(--window-blur);
   transition: .2s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(3):hover {
@@ -1257,6 +1259,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   border-radius: 5px 0px 0px 5px;
   color: #fff;
   background: var(--window-colour);
+  backdrop-filter: var(--window-blur);
   transition: .2s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(2n):hover {
