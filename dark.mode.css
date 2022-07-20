@@ -1228,6 +1228,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   background: transparent;
   transform: rotate(45deg)!important;
   transition: .1s;
+  backdrop-filter: none;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(3) {
   top: -3.5px;
@@ -1250,6 +1251,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   background: transparent;
   transform: rotate(45deg)!important;
   transition: .1s;
+  backdrop-filter: none;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(2n) {
   top: -3.5px;
@@ -1272,4 +1274,5 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   background: transparent;
   transform: rotate(45deg)!important;
   transition: .1s;
+  backdrop-filter: none;
 }
