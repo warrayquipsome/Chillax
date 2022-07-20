@@ -713,27 +713,6 @@ bottom: 40px!important;
     top: -10px;
 }
 
-/*setting close button design and colour*/
-.theme-light .closeButton-PCZcma {
-  animation: ripplelight 4s linear infinite;
-}
-@keyframes ripplelight {
-  0% {
-    box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.2),
-                0 0 0 4px rgba(0, 0, 0, 0.2),
-                0 0 0 8px rgba(0, 0, 0, 0.2);
-  }
-  50% {
-    box-shadow: 0 0 0 1.5px rgba(0, 0, 0, 0.2),
-                0 0 0 4px rgba(0, 0, 0, 0.2),
-                0 0 0 8px rgba(0, 0, 0, 0);
-  }
-  100% {
-    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.2),
-                0 0 0 4px rgba(0, 0, 0, 0.2),
-                0 0 0 8px rgba(0, 0, 0, 0.2);
-  }
-}
 /*remove unread with date*/ /*it causes issue with the theme*/
 .hasContent-1y12-u {
   display:none;
