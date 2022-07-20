@@ -570,21 +570,6 @@ width:50px;
 text-align: center;
 bottom: 40px!important;
 }
-/*custom min max close button*/
-.theme-dark .winButtonClose-3Q8ZH5 {
-  top: 1px;
-  right: 25px;
-  padding: 5px;
-  border-radius: 10px;
-  color: #fff;
-}
-.theme-dark .winButtonMinMax-3RsPUg {
-  top: 1px;
-  right: 25px;
-  padding: 5px;
-  border-radius: 10px;
-  color: #fff;
-}
 /*custom bd window edit*/
 .floating-window {
   border-radius: 5px!important;
@@ -1229,7 +1214,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   margin: 5px;
   border-radius: 0px 5px 5px 0px;
   color: #fff;
-  background: rgba(0, 0, 0, 0.400);
+  background: var(--window-colour);
   transition: .2s;
 }
 .theme-dark .winButtonClose-3Q8ZH5:hover {
@@ -1250,7 +1235,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   margin: 5px;
   border-radius: 0px;
   color: #fff;
-  background: rgba(0, 0, 0, 0.400);
+  background: var(--window-colour);
   transition: .2s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(3):hover {
@@ -1271,7 +1256,7 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   margin: 5px;
   border-radius: 5px 0px 0px 5px;
   color: #fff;
-  background: rgba(0, 0, 0, 0.400);
+  background: var(--window-colour);
   transition: .2s;
 }
 .theme-dark .winButtonMinMax-3RsPUg:nth-child(2n):hover {
