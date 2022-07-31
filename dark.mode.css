@@ -1255,3 +1255,11 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
   transition: .1s;
   backdrop-filter: none;
 }
+/*flickering user setting icons*/
+.sidebar-nqHbhN .item-3XjbnG:hover:before {
+  transition: all 0.20s;
+  transform: rotateY(180deg);
+}
+.sidebar-nqHbhN .item-3XjbnG:before {
+  transition: all 0.20s;
+}
