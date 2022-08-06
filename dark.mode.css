@@ -328,18 +328,66 @@ transition: font-size .2s, color .2s .1s, padding .4s;
 margin-right: 2px;
 margin-left: -6px;
 }
-/* Pop-out Animation */ 
-.theme-dark .menu-1QACrS, .emojiPicker-6YCk8a, .browser-mnQ1T7, .messagesPopoutWrap-3zryHW, .wrapper-1NB3WY, .container-3u7RcY, .container-2o3qEW, .container-2ebMPP, .userPopout-2j1gM4 {
-animation: custom-menu-animation 250ms ease;
-transform-origin: top;
+/*menu animation*/
+.container-2McqkF,
+.css-1x99fvh-menu,
+.css-3vaxre-menu,
+.drawerSizingWrapper-1txdWG,
+.layer-2aCOJ3 div[role=dialog],
+.layer-2aCOJ3 div[role=menu],
+.messagesPopoutWrap-3zryHW,
+.popout-1KHNAq[role=listbox] {
+    animation: animation-top .25s ease;
 }
-@keyframes custom-menu-animation {
-0% {
-    transform: scale(0);
+.layer-2aCOJ3 .animatorLeft-3yvG13 div[role=dialog] {
+    position: relative;
+    animation: animation-left .25s ease;
 }
-100% {
-    transform: scale(1);
+.layer-2aCOJ3 div[role=dialog] .messagesPopoutWrap-3zryHW {
+    animation: none;
 }
+.layer-2aCOJ3 .animatorRight-xAUgTY .userPopout-2j1gM4 {
+    transform-origin: center left;
+    animation: animation-right .25s ease;
+}
+@keyframes animation-top {
+    0% {
+        -webkit-transform: translate(0, calc(14px * -1));
+        transform: translate(0, calc(14px * -1));
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 1
+    }
+}
+@keyframes animation-left {
+    0% {
+        -webkit-transform: translate(calc(14px * -1), 0);
+        transform: translate(calc(14px * -1), 0);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 1
+    }
+}
+@keyframes animation-right {
+    0% {
+        -webkit-transform: translate(14px, 0);
+        transform: translate(14px, 0);
+        opacity: 0
+    }
+
+    100% {
+        -webkit-transform: translate(0, 0);
+        transform: translate(0, 0);
+        opacity: 1
+    }
 }
 /*hide buttons in user panel until hover*/
 .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
