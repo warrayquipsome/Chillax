@@ -7,7 +7,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Monoton&display=swap');
 
 /****ADDONS****/
-@import url("https://warrayquipsome.github.io/Chillax/BlurpleRecolorEdited.css");
+@import url(https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css);
 @import url("https://warrayquipsome.github.io/Chillax/IconPackEdited.css");
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
@@ -1040,26 +1040,31 @@ width: auto;
   }}
 /*Embeds*/
 :root {
-    --embed-border-radius: 3px;
+    --embed-border-radius: 5px;
 }
-.embed-hKpSrO {
+.theme-dark .embed-hKpSrO {
     border-radius: var(--embed-border-radius);
+    z-index: -2;
 }
-.embed-hKpSrO code {
-    background: rgb(36, 36, 36);
+.theme-dark .embed-hKpSrO code {
+    background: rgb(51, 50, 53);
 }
 :root {
     --embed-line-width: 300px;
 }
-.embedFull-1HGV2S {
-    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
-    background: rgb(36, 36, 36);
+.theme-dark .embedFull-1HGV2S{
+    border-top:none;border-right:none;border-bottom:none;
 }
-.grid-1aWVsE {
+.theme-dark .embedFull-1HGV2S {
+    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
+    background: rgb(51, 50, 53);
+    box-shadow: 2px 2px 8px rgb(42, 42, 46);
+}
+.theme-dark .grid-1aWVsE {
     margin-left: calc( -1 * var(--embed-line-width));
     z-index: 1;
 }
-.embedFull-1HGV2S:after, .embedFull-1HGV2S:before {
+.theme-dark .embedFull-1HGV2S:after, .embedFull-1HGV2S:before {
     content: "";
     height: 100%;
     width: var(--embed-line-width);
@@ -1067,12 +1072,14 @@ width: auto;
     top: 0;
     left: calc(-1 * var(--embed-line-width));
 }
-.embedFull-1HGV2S:after {
-    background: linear-gradient(to right, transparent, rgb(36, 36, 36));
+.theme-dark .embedFull-1HGV2S:after {
+    background: linear-gradient(to right, transparent, rgb(51, 50, 53));
+    z-index: -3;
 }
-.embedFull-1HGV2S:before {
-    background: rgb(36, 36, 36);
-    opacity: .5;
+.theme-dark .embedFull-1HGV2S:before {
+    background: rgb(51, 50, 53);
+    opacity: .8;
+    z-index: -1;
 }
  /* Settings/Deafen/Mute Buttons Animated */
 .button-12Fmur:hover .contents-3ca1mk {
