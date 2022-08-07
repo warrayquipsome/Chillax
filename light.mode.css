@@ -1316,3 +1316,103 @@ div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 .sidebar-nqHbhN .item-3XjbnG:before {
   transition: all 0.20s;
 }
+/*settings user profile recolour*/
+.theme-light .accountProfileCard-lbN7n- {
+  background: rgb(240, 240, 240);
+}
+.theme-light .background-3d_SjE {
+  background: rgb(226, 226, 226);
+}
+/*Better status*/
+#account-edit-custom-status,
+#status-picker #account-edit-custom-status+.separator-1So4YB+div {
+flex: 1 1 100%;
+}
+#account-status-picker--online,
+#account-status-picker--dnd,
+#account-status-picker--idle,
+#account-status-picker--invisible {
+flex: 1 1 calc(25% - 2px);
+display: flex;
+justify-content: center;
+height: 40px;
+}
+.status-2xYiEF, .description-1Dd2kv, .separator-1So4YB {
+display: none;
+}
+#status-picker .mask-2Me5HY {
+height: 50%;
+width: auto;
+}
+.mask-2Me5HY foreignObject {
+  mask: none;
+}
+.status-2DiCMd {
+  border-radius: 8px!important;
+  width: 6px!important;
+  height: 6px!important;
+  margin-left: 2px!important;
+  margin-top: 2px!important;
+}
+.profileBody-3QbfPe {
+  display: none;
+}
+.theme-light .withTagAsButton-OsgQ9L:hover {
+  background: #6A74803D;
+}
+.theme-dark .withTagAsButton-OsgQ9L:hover {
+  background: rgb(49, 54, 58);
+}
+/*floating user controls*/
+.theme-light .panels-3wFtMD {
+background: #e4e4e4!important;
+      border-radius: 8px;
+      margin: 27.5px;
+}
+/*custom user setting profile position*/
+.layer-86YKbF .accountProfileCard-lbN7n- .banner-1YaD3N {
+  width: unset;
+  height: 150px;
+  margin: 8px;
+}
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W {
+  align-items: center;
+  justify-content: center;
+  width: calc(100% - 34px);
+  margin-left: 17px;
+  padding: 0;
+  padding-top: 94px;
+  padding-bottom: 9px;
+}
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .avatar-3mTjvZ {
+  top: 110px;
+  left: calc(50% - 49px);
+}
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .userTag-2qPxEZ {
+  margin-bottom: 2px;
+}
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .container-1gYwHN {
+  justify-content: center;
+  width: 100%;
+  margin-bottom: 57px;
+}
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .button-f2h6uQ {
+  position: absolute;
+  top: 118.9px;
+  right: 282.5px;
+  width: 77px;
+  height: 77px;
+  min-width: unset;
+  min-height: unset;
+  padding: 0;
+  border-radius: 50px;
+  background-color: transparent!important;
+  font-size: 0;
+}
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .button-f2h6uQ:hover {
+  background-color: rgba(0, 0, 0, 0.6)!important;
+  box-shadow: none;
+  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="thistle" class="bi bi-pencil-square" viewBox="0 0 16 16"><path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z"/><path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5v11z"/></svg>')!important;
+  background-position: center!important;
+  background-repeat: no-repeat!important;
+}
