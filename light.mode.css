@@ -202,7 +202,7 @@ bottom: -13px;
   font-size: 12px;
 }
 .theme-light .lookFilled-yCfaCM:hover {
-    box-shadow: inset 1px 1px 2px rgb(231, 231, 231), inset -1px -1px 2px rgb(255, 255, 255);
+    box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
 }
 /*channel unread pill*/
 .unread-36eUEm {
