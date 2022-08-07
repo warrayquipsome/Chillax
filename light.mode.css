@@ -152,45 +152,26 @@ background: transparent!important;
 /*--ETC CSS STATION--*/
 /*discord wordmark*/
 .wordmark-2u86JB path{
-    display: none !important;
+display: none !important;
 }
-.wordmark-2u86JB::before{
-    content:'‏‏‎ ‎‎c h i l l a x';
-    font-size: 12px;
-    font-family: "Comfortaa"!important;
-    position:fixed;
-    color: rgb(255, 255, 255);
-    margin-left: 20px;
-    margin-top: 20px;
+.theme-light .wordmark-2u86JB::before{
+content:'‏‏‎ c h i l l a x';
+font-size: 12px;
+font-family: "Poiret one"!important;
+position:fixed;
+color: rgb(0, 0, 0);
+background: var(--window-colour);
+backdrop-filter: blur(var(--window-blur));
+border-radius: 5px;
+padding: 7px 11px 7px 7px;
+margin-left: 20px;
+margin-top: 5px;
+pointer-events: all;
+transition: 0.5s ease-in-out;
 }
-/*wordmark typing animation*/
-.wordmark-2u86JB::before {
-  width: 10ch;
-  animation: typing 5s steps(22), blink .5s step-end infinite alternate;
-  border-right: 1px solid;
-  overflow: hidden;
-  white-space: nowrap;
-}
-@keyframes typing {
-  from {
-    width: 0
-  }
-}
-@keyframes blink {
-  50% {
-    border-color: transparent
-  }
-}
-/*wordmark icon*/
-.wordmarkWindows-2dq6rw::after {
-content: "";
-position: absolute;
-pointer-events: none;
-background: url('data:image/svg+xml;utf8,<svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6" fill="none" viewBox="0 0 24 24" stroke="white" stroke-width="2"><path stroke-linecap="round" stroke-linejoin="round" d="M8 9l3 3-3 3m5 0h3M5 20h14a2 2 0 002-2V6a2 2 0 00-2-2H5a2 2 0 00-2 2v12a2 2 0 002 2z" /></svg>') center/100% no-repeat;
-width: 12px;
-height: 12px;
-margin-left: 37px;
-bottom: -13px;
+.wordmark-2u86JB:hover:before{
+content:'‏‏‎ c h i l l a x';
+letter-spacing: 2px;
 }
 /* button design*/
 .lookFilled-yCfaCM {
