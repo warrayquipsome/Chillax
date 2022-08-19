@@ -11,7 +11,7 @@
 @import url('https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css');
 @import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
 @import url("https://warrayquipsome.github.io/Chillax/SettingsModalEdited.css");
-
+@import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 
 
 /* update notice */
@@ -1530,4 +1530,16 @@ margin:10px 0;
 }
 .scroller-3X7KbA>div[aria-label="Servers"]::-webkit-scrollbar {
 width:0px;
+}
+/*custom friends grid fix*/
+.avatar-2MSPKk{
+  left: 25px;
+  bottom: -20px;
+}
+.listItemContents-2n2Uy9 {
+  background: rgb(25, 25, 26);
+}
+.listItemContents-2n2Uy9:hover {
+  background: rgb(43, 43, 44);
+  transition: 0.2s;
 }
