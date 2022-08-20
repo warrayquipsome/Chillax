@@ -262,6 +262,71 @@ transition: all 0.3s;
 background-color: var(--accentcolor2)!important;
 border-radius: 50px;
 }
+/*better mark as read button*/
+@keyframes pop {
+from {
+    transform: translateY(30px);
+    opacity: 0.4;
+}
+to {
+    transform: translateY(0);
+    opacity: 1;
+}
+}
+.newMessagesBar-1hF-9G.barBase-3xxDXu {
+margin-left: auto;
+margin-top: auto;
+align-self: flex-end;
+justify-self: flex-end !important;
+position: absolute !important;
+z-index: 998;
+bottom: 78px;
+right: 22px;
+padding: 8px 8px !important;
+width: 25.5px;
+height: 20px;
+background-color: var(--brand-experiment);
+box-shadow: var(--elevation-high);
+border-radius: 100px;
+display: flex;
+animation: pop 0.2s ease-in;
+transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+opacity: 1;
+}
+.newMessagesBar-1hF-9G.barBase-3xxDXu:hover {
+padding: 8px 18px !important;
+width: 105px;
+transition: font-size 0s, color 0.2s 0.1s, padding 0.4s, width 0.1s 50ms;
+}
+.newMessagesBar-1hF-9G.barBase-3xxDXu > button {
+font-size: 0px;
+color: transparent !important;
+transition: color 0.3s 0.1s, padding 0.4s;
+}
+.newMessagesBar-1hF-9G.barBase-3xxDXu:hover > button {
+font-size: 14px;
+color: #ffffff !important;
+transition: color 0.3s 0.1s, padding 0.4s;
+}
+.barButtonIcon-bMvzp2 {
+order: -1;
+margin: 0;
+margin-right: 0;
+margin-left: 6.5px;
+transition: all 0.2s;
+color: #fff !important;
+}
+.newMessagesBar-1hF-9G.barBase-3xxDXu:hover .barButtonIcon-bMvzp2 {
+margin-right: 5px;
+margin-left: 0;
+}
+.barButtonBase-Sk2mdB {
+padding: 0;
+}
+.barButtonMain-2GIx4o,
+.barButtonMain-2GIx4o * {
+display: none !important;
+}
 /* Better Jump To Present Button */
 [class*="jumpToPresentBar"] {
 display: contents;
