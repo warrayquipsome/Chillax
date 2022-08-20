@@ -1606,3 +1606,42 @@ width:0px;
   background: rgb(43, 43, 44);
   transition: 0.2s;
 }
+.peopleColumn-1wMU14 .text-3j8t_e {
+    width: 100% !important;
+    margin-left: 0px !important;
+    display: flex;
+    align-items: center;
+}
+.peopleColumn-1wMU14 .listItemContents-2n2Uy9 .discordTag-3HiQI9 {
+    margin-bottom: 10px;
+}
+.peopleColumn-1wMU14 .listItemContents-2n2Uy9 .activity-1KqKY2 {
+    max-width: 250px;
+}
+/*pins inbox background fix*/
+.theme-light .messagesPopoutWrap-3zryHW, .recentMentionsPopout-2bI1ZN, .drawerSizingWrapper-1txdWG {
+  background: rgb(223, 223, 223)!important;
+}
+/*custom new unreads*/
+.bar-wDIGjg {
+  padding: 14px 50px;
+}
+.unreadIcon-3dqgX9 {
+  display: none;
+}
+.text-xs-medium-2LRpEj {
+  margin-left: 5px!important;
+}
+.text-xs-medium-2LRpEj:before {
+  content: "▸ ";
+}
+.text-xs-medium-2LRpEj:after {
+  content: " ◂";
+}
+/*custom nsfw warning*/
+.image-3HC6rC{
+content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
+}
+.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz{
+  background: transparent!important;
+}
