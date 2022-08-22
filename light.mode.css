@@ -199,14 +199,17 @@ letter-spacing: 2px;
     border: 1px solid transparent;
     outline: none;
 }
-.input-2g-os5:hover,
-.scrollableContainer-15eg7h:hover {
-    border-color: #ffffff15;
-    background-color: #ffffff1f;
+.theme-light .input-2g-os5:hover,
+.theme-light .scrollableContainer-15eg7h:hover {
+    border-color: #a5a5a515;
+    background-color: #a5a5a51f;
 }
-.input-2g-os5:focus-within,
-.scrollableContainer-15eg7h:focus-within {
-    background-color: rgba(0, 0, 0, 0.267);
+.theme-light .input-2g-os5:focus-within,
+.theme-light .scrollableContainer-15eg7h:focus-within {
+    background-color: rgba(145, 145, 145, 0.3);
+}
+.message-2CShn3, .mentioned-Tre-dv {
+  border-radius: 8px!important;
 }
 /*Textbox Text*/
 .theme-light .placeholder-1rCBhr {visibility: hidden!important;}
@@ -1619,7 +1622,7 @@ width:0px;
     max-width: 250px;
 }
 /*pins inbox background fix*/
-.theme-light .messagesPopoutWrap-3zryHW, .recentMentionsPopout-2bI1ZN, .drawerSizingWrapper-1txdWG {
+.theme-light .messagesPopoutWrap-3zryHW, .theme-light .recentMentionsPopout-2bI1ZN, .drawerSizingWrapper-1txdWG {
   background: rgb(223, 223, 223)!important;
 }
 /*custom new unreads*/
@@ -1671,4 +1674,8 @@ content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
 .body-16rSsp {
        display: none;
+}
+/*message hover small buttons fix*/
+.theme-light .wrapper-2vIMkT{
+  background: rgb(243, 243, 243)!important;
 }
