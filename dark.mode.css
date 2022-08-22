@@ -1624,7 +1624,7 @@ width:0px;
     max-width: 250px;
 }
 /*pins inbox background fix*/
-.theme-dark .messagesPopoutWrap-3zryHW, .recentMentionsPopout-2bI1ZN, .drawerSizingWrapper-1txdWG {
+.theme-dark .messagesPopoutWrap-3zryHW, .theme-dark .recentMentionsPopout-2bI1ZN, .drawerSizingWrapper-1txdWG {
   background: rgb(51, 49, 53)!important;
 }
 /*custom new unreads*/
