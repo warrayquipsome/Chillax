@@ -199,14 +199,17 @@ letter-spacing: 2px;
     border: 1px solid transparent;
     outline: none;
 }
-.input-2g-os5:hover,
-.scrollableContainer-15eg7h:hover {
-    border-color: #ffffff15;
-    background-color: #ffffff1f;
+.theme-dark .input-2g-os5:hover,
+.theme-dark .scrollableContainer-15eg7h:hover {
+    border-color: #00000015;
+    background-color: #0000001f;
 }
-.input-2g-os5:focus-within,
-.scrollableContainer-15eg7h:focus-within {
-    background-color: rgba(0, 0, 0, 0.267);
+.theme-dark .input-2g-os5:focus-within,
+.theme-dark .scrollableContainer-15eg7h:focus-within {
+    background-color: rgba(0, 0, 0, 0.300);
+}
+.message-2CShn3, .mentioned-Tre-dv {
+  border-radius: 8px!important;
 }
 /*Textbox Text*/
 .theme-dark .placeholder-1rCBhr {visibility: hidden!important;}
@@ -1644,7 +1647,7 @@ width:0px;
 .image-3HC6rC{
 content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
-.flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz{
+.flex-2S1XBF.vertical-3aLnqW.gatedContent-31-gID > .flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz{
   background: transparent!important;
 }
 /*active now css*/
@@ -1673,4 +1676,8 @@ content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
 .body-16rSsp {
        display: none;
+}
+/*message hover small buttons fix*/
+.theme-dark .wrapper-2vIMkT{
+  background: rgb(51, 49, 53)!important;
 }
