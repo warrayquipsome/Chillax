@@ -1,7 +1,25 @@
 # wq presents:   C H I L L A X
-![chillax try out](https://user-images.githubusercontent.com/84565593/176652573-acdf7196-eaaa-42d4-bf51-889e983d7c2c.png)
-stress doesn't really goes with your fit, try out 'chillax' today you won't regret it.
+# Installation
+To download the theme in Better Discord Site:
+1. Press the download button.
+2. Open your Discord and go User Settings > Themes > Open Themes Folder.
+3. Drag the theme.css file you just downloaded into the theme folder that opened.
+4. Go back to Discord and enable the theme and VOILA you did it.
 
+To download the theme in Github:
+1. Go to chillax.theme.css
+2. Press the copy raw contents button.
+3. Edit the theme.css in your Discord.
+4. Select everything and paste in the copied code.
+
+
+And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS4w"
+
+
+# What do i do if the theme is outdated?
+As where you are right now, you should be at the Better Discord site so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded, but if its still the same you can go to the support server and ask for help.
+
+# stress doesn't really goes with your fit, try out 'chillax' today you won't regret it.
 # Author
 - › Wq
 # Contributors:
