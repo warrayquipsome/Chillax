@@ -179,3 +179,9 @@
 	top: 22px !important;
 	z-index: -1 !important;
 }
+.theme-dark .sidebarRegion-1VBisG {
+  background: var(--sidebar-colour);
+}
+.theme-light .sidebarRegion-1VBisG {
+  background: var(--sidebar-colour);
+}
