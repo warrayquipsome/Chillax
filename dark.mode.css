@@ -1082,7 +1082,7 @@ width: auto;
 }
 .theme-dark .embed-hKpSrO {
     border-radius: var(--embed-border-radius);
-    z-index: -2;
+    z-index: 2;
 }
 .theme-dark .embed-hKpSrO code {
     background: rgb(51, 50, 53);
