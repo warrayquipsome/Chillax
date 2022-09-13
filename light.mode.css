@@ -1081,7 +1081,7 @@ width: auto;
 }
 .theme-light .embed-hKpSrO {
     border-radius: var(--embed-border-radius);
-    z-index: -2;
+    z-index: 2;
 }
 .theme-light .embed-hKpSrO code {
     background: rgb(221, 221, 221);
