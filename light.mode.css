@@ -1178,11 +1178,6 @@ width: auto;
   height: 5.5px!important;
   border-radius: 8px!important;
 }
-/*avatar only memberlist*/
-.membersWrap-3NUR2t {min-width: unset;}
-.members-3WRCEx {max-width: 65px;min-width: 65px;transition: 0.5s ease;}
-.members-3WRCEx:hover {max-width: 240px;min-width: 240px;}
-div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
 /*nitro buttons in settings*/
 .theme-light .button-1U79Hu {
   color: rgb(0, 0, 0)!important;
