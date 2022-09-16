@@ -144,7 +144,10 @@ background: transparent!important;
 .bd-addon-header {
   background: transparent!important;
 }
-
+/*forum channel*/
+.container-3wLKDe {
+background: transparent !important;
+}
 
 
 /*--ETC CSS STATION--*/
@@ -262,7 +265,7 @@ transition: all 0.3s;
 }
 
 /*connected vc buttons background*/
-.colorable-3rVGna, .flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz {
+.wrapper-3t3Yqv, .centerButton-1IShs7.colorable-3rVGna {
 background-color: var(--accentcolor2)!important;
 border-radius: 50px;
 }
