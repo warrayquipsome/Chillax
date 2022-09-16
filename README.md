@@ -26,4 +26,4 @@ For problems installing or using the theme join the support server[https://disco
 - › Wq
 # Contributors:
 - › Demented Elmo
-- › Cedrick
+
