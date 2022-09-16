@@ -1721,3 +1721,30 @@ position: absolute;
 background: inherit;
 opacity: var(--transparency);
 }
+/*spotify bar glow*/
+.barFill-Dhkah7 {
+  box-shadow: 4px 3px 10px #fff;
+}
+/*radiobar*/
+#app-mount .itemFilled-1cPbtg[aria-checked=true] .radioBar-3w9XY-::before {
+  opacity: 1;
+}
+#app-mount .radioBar-3w9XY- {
+  border: none !important;
+  position: relative;
+  grid-gap: 16px;
+}
+#app-mount .radioBar-3w9XY-::before {
+  content: "";
+  height: 100%;
+  width: 4px;
+  border-radius: 8px;
+  background: var(--radio-bar-accent-color);
+  box-shadow: 0 0 calc(1 * 15px) var(--radio-bar-accent-color);
+}
+.radioIconForeground-2BMavi {
+  display: none;
+}
+.radioBar-3w9XY- path {
+  display: none;
+}
