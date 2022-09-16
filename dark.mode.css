@@ -200,17 +200,16 @@ letter-spacing: 2px;
 .scrollableContainer-15eg7h {
     background-color: transparent;
     transition: background-color 0.2s ease, border-color 0.2s ease;
-    border: 1px solid transparent;
     outline: none;
 }
 .theme-dark .input-2g-os5:hover,
 .theme-dark .scrollableContainer-15eg7h:hover {
-    border-color: #00000015;
-    background-color: #0000001f;
+    background-color: #00000023;
 }
 .theme-dark .input-2g-os5:focus-within,
 .theme-dark .scrollableContainer-15eg7h:focus-within {
-    background-color: rgba(0, 0, 0, 0.300);
+    background-color: #181a1d;
+    box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
 }
 .message-2CShn3, .mentioned-Tre-dv {
   border-radius: 8px!important;
