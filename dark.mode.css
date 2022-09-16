@@ -1678,33 +1678,6 @@ content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 .flex-2S1XBF.vertical-3aLnqW.gatedContent-31-gID > .flex-2S1XBF.flex-3BkGQD.horizontal-112GEH.horizontal-1Piu5-.flex-3BkGQD.directionRow-2Iu2A9.justifyCenter-rrurWZ.alignCenter-14kD11.noWrap-hBpHBz{
   background: transparent!important;
 }
-/*active now css*/
-.nowPlayingColumn-1eCBCN>div>div>h3 {
-      position: fixed;
-      width: 360px;
-      right:0;
-      top:24px;
-      text-align: center;
-}
-.nowPlayingColumn-1eCBCN>div>div {
-      margin-top: 60px;
-      display: grid;
-      grid-template-columns: repeat(auto-fill, minmax(160px, 112px));
-      grid-gap: 10px;
-      grid-template-rows: repeat(auto-fill, minmax(70px, 0px));
-      justify-content: center;
-      margin-left: auto;
-      margin-right: auto;
-}
-.theme-dark .itemCard-3Etziu.wrapper-2RrXDg{
-  background: rgb(51, 49, 53);
-}
-.itemCard-3Etziu {
-      margin-top: unset;
-}
-.body-16rSsp {
-       display: none;
-}
 /*message hover small buttons fix*/
 .theme-dark .wrapper-2vIMkT{
   background: rgb(51, 49, 53)!important;
