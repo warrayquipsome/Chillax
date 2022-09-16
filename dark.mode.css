@@ -1756,3 +1756,81 @@ opacity: var(--transparency);
 .theme-dark .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3{
   background: #292b2f;
 }
+/*better blocked message*/
+@font-face {
+  font-family: Blank;
+  src: url("https://raw.githack.com/adobe-fonts/adobe-blank/master/AdobeBlank.ttf.woff");
+  unicode-range: U+2014;
+}
+.blockedSystemMessage-3FmE9n .iconContainer-2rPbqG {
+    display: none;
+}
+.theme-dark .blockedSystemMessage-3FmE9n {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(45, 48, 53);
+    border-radius: 3px;
+}
+.blockedSystemMessage-3FmE9n {
+    margin-left: -56px;
+    margin-right: -3px;
+}
+.blockedSystemMessage-3FmE9n .content-vSHmMD {
+    font-size: 12px !important;
+    font-weight: 500;
+    padding: 1px 0;
+    text-transform: uppercase;
+}
+.blockedMessageText-3Zeg3y {
+    cursor: pointer;
+    pointer-events: none;
+    font-family: Blank, var(--font-primary);
+    color: var(--header-secondary);
+    margin-right: -2.64px;
+    z-index: 0;
+}
+.blockedAction-2cPk2G {
+    pointer-events: all;
+    display: block;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    left: 0;
+    bottom: 0;
+    color: rgba(0,0,0,0%) !important;
+    z-index: -1;
+}
+.blockedSystemMessage-3FmE9n:hover {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+}
+.theme-dark .blockedSystemMessage-3FmE9n:hover .blockedAction-2cPk2G {
+    background: rgb(37, 41, 46);
+}
+.groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n {
+    background: none;
+    border: 0;
+    border-radius: 3px 3px 0 0;
+    margin-left: -73px;
+    margin-right: -17px;
+    top: -.125rem;
+}
+.theme-dark .groupStart-3Mlgv1.expanded-3lghlw .blockedSystemMessage-3FmE9n:hover {
+    background: rgb(24, 25, 27);
+    box-shadow: none;
+}
+.theme-dark .groupStart-3Mlgv1.expanded-3lghlw {
+    background: rgb(45, 48, 53);
+    border-radius: 3px;
+    margin-left: 16px;
+    margin-right: 13px;
+}
+.groupStart-3Mlgv1.expanded-3lghlw:hover {
+    box-shadow: 0 1px 3px rgb(0 0 0 / 16%);
+}
+.groupStart-3Mlgv1.expanded-3lghlw .messageListItem-ZZ7v6g:last-child {
+    padding-bottom: 20px;
+}
+.chatContent-3KubbW .scrollerInner-2PPAp2 > :nth-last-child(2).groupStart-3Mlgv1.expanded-3lghlw+.scrollerSpacer-3AqkT9{
+height: 10px;
+}
