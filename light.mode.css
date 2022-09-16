@@ -1746,3 +1746,11 @@ opacity: var(--transparency);
 .radioBar-3w9XY- path {
   display: none;
 }
+/*emoji/gif/sticker tab fix*/
+.theme-light .drawerSizingWrapper-1txdWG {
+  background: #d4def1a6!important;
+  border-radius: 5px;
+}
+.theme-light .unicodeShortcut-3N8oDe, .standardStickerShortcut-ObSns3{
+  background: #EBEDEF;
+}
