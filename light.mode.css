@@ -562,14 +562,14 @@ transform:translate(-60%,-100%);}}
 [src="/assets/6f26ddd1bf59740c536d2274bb834a05.png"] {content: url(https://i.imgur.com/tYEPmPZ.png)}
 [src="/assets/3c6ccb83716d1e4fb91d3082f6b21d77.png"] {content: url(https://i.imgur.com/tYEPmPZ.png)}
 /*custom mentioned colour*/
-.mentioned-Tre-dv::before {
-  background: linear-gradient(135deg, #b289ff, #d76d78)!important;
+.mentioned-Tre-dv:before {
+  background: linear-gradient(135deg, #3b3b3b, var(--accentcolor2))!important;
 }
 .mentioned-Tre-dv {
-  background: linear-gradient(-60deg, rgba(181, 142, 255, 0.596),#d76d78da, #ffb07b04)!important;
+  background: linear-gradient(60deg, rgba(41, 41, 41, 0.3), rgba(var(--accentcolor),.9))!important;
 }
 .mentioned-Tre-dv:hover {
-  background: linear-gradient(-60deg, rgba(181, 142, 255, 0.496),#d76d78c4, #ffb07b00)!important;
+  background: linear-gradient(60deg, rgba(32, 32, 32, 0.5), rgba(var(--accentcolor)))!important;
 }
 /*user popout animation*/
 .theme-light #app-mount [class*=userPopout][aria-modal=true] {
