@@ -20,10 +20,9 @@ And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS
 As where you are right now, you should be at the Better Discord site so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
 
 # Support
-For problems installing or using the theme join the support server[https://discord.gg/DrfX6286kF] and ask for help.
+For problems installing or using the theme join the support server [https://discord.gg/DrfX6286kF] and ask for help.
 
 # Author
 - › Wq
-# Contributors:
+# Helper:
 - › Demented Elmo
-
