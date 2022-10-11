@@ -23,6 +23,16 @@ As where you are right now, you should be at the Better Discord site so just red
 # Support
 For problems installing or using the theme join the support server [https://discord.gg/DrfX6286kF] and ask for help.
 
+# Some of our best of the best
+![image](https://user-images.githubusercontent.com/84565593/195045867-6f8374c1-ad21-43e6-8901-d0d09b43b41e.png)
+![image](https://user-images.githubusercontent.com/84565593/195045896-bd386edd-3af8-45be-b526-53f55f8ba869.png)
+![image](https://user-images.githubusercontent.com/84565593/195045909-cd305dff-669e-4db0-a815-a91c25361f11.png)
+![image](https://user-images.githubusercontent.com/84565593/195045924-27e510b4-5de8-4c36-b1ee-11d79487d280.png)
+![image](https://user-images.githubusercontent.com/84565593/195045941-21cdf829-9bf7-4c7c-af8f-92b83cd3f256.png)
+![image](https://user-images.githubusercontent.com/84565593/195045958-b95c73f3-15fd-4e2a-83c5-9084da71a70e.png)
+![image](https://user-images.githubusercontent.com/84565593/195046542-f1e72971-31ec-47fb-bdeb-9ae139367177.png)
+![image](https://user-images.githubusercontent.com/84565593/195046557-2ca6613c-7f09-47b9-9b8c-30358fdac147.png)
+
 # Author
 - › Wq
 # Helper:
