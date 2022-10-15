@@ -842,19 +842,19 @@ div[data-list-item-id="guildsnav___guild-discover-button"]:hover {
 }
 /*glow radial status*/
 div[class*="wrapper-1VLyxH"][aria-label*="Streaming"]>svg[class="mask-1FEkla svg-2azL_l"] {
-  filter: drop-shadow(0 0 7px var(--rs-streaming-color))!important;
+  filter: drop-shadow(0 0 3px var(--rs-streaming-color))!important;
 }
 div[class*="wrapper-1VLyxH"][aria-label*="Do Not Disturb"]>svg[class="mask-1FEkla svg-2azL_l"] {
-  filter: drop-shadow(0 0 7px var(--rs-dnd-color))!important;
+  filter: drop-shadow(0 0 3px var(--rs-dnd-color))!important;
 }
 div[class*="wrapper-1VLyxH"][aria-label*="Offline"]>svg[class="mask-1FEkla svg-2azL_l"] {
-  filter: drop-shadow(0 0 14px var(--rs-offline-color))!important;
+  filter: drop-shadow(0 0 3px var(--rs-offline-color))!important;
 }
 div[class*="wrapper-1VLyxH"][aria-label*="Idle"]>svg[class="mask-1FEkla svg-2azL_l"] {
-  filter: drop-shadow(0 0 7px var(--rs-idle-color))!important;
+  filter: drop-shadow(0 0 3px var(--rs-idle-color))!important;
 }
 div[class*="wrapper-1VLyxH"][aria-label*="Online"]>svg[class="mask-1FEkla svg-2azL_l"] {
-  filter: drop-shadow(0 0 7px var(--rs-online-color))!important;
+  filter: drop-shadow(0 0 3px var(--rs-online-color))!important;
 }
 /*theme background image*/
 .bg-1QIAus {
@@ -1856,4 +1856,52 @@ height: 10px;
 /*devilbro's dev badge fix*/
 .dev-A7f2Rx.hasBadge-4rT8_u .mask-1FEkla{
 -webkit-mask: unset;
+}
+/*jump to message btn background fix*/
+.theme-light .button-cfOvv- {
+  background: rgb(223, 223, 223);
+}
+/*edited version of bd cards in plugins and themes*/
+.bd-addon-card-disabled{
+border: 2px solid #ff6f6f;
+box-shadow: 0 0 5px #f04747;
+}
+.bd-addon-card-disabled>*:not(#a#B){
+background: var(--info-danger-background);
+}
+.bd-addon-card-disabled>:first-child{
+border-bottom: 2px solid #ff6f6f;
+}
+.bd-description-wrap>*{
+border: 0;
+justify-content: center;
+display: flex;
+}
+.bd-addon-card-disabled .banner-danger{
+display: none;
+}
+.bd-addon-card-disabled>.bd-addon-header>.bd-icon>path{
+d: path("M11 15h2v2h-2zm0-8h2v6h-2zm.99-5C6.47 2 2 6.48 2 12s4.47 10 9.99 10C17.52 22 22 17.52 22 12S17.52 2 11.99 2zM12 20c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z");
+fill: #ff6f6f;
+}
+.bd-addon-card-disabled>.bd-addon-header>.bd-icon{
+width: 22px !important;
+height: 22px !important;
+}
+.bd-addon-header>.bd-title>.bd-name{
+text-align: center;
+}
+.bd-addon-card :where(.bd-title, .bd-name, .bd-meta){
+display: block;
+}
+.bd-addon-card .bd-meta{
+width: 100;
+text-align: center;
+padding-top: 5px;
+}
+.theme-light .bd-addon-list .bd-addon-header{
+  background: rgb(212, 212, 212)!important;
+}
+.bd-addon-card-disabled>*:not(#a#B) {
+  background: var(--info-danger-background)!important;
 }
