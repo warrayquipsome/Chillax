@@ -34,6 +34,9 @@ For problems installing or using the theme join the support server [https://disc
 ![image](https://user-images.githubusercontent.com/84565593/195046557-2ca6613c-7f09-47b9-9b8c-30358fdac147.png)
 ![image](https://user-images.githubusercontent.com/84565593/195046937-7043cbe3-70f7-4b8b-979b-6dca2aa20d29.png)
 ![image](https://user-images.githubusercontent.com/84565593/195045867-6f8374c1-ad21-43e6-8901-d0d09b43b41e.png)
+![image](https://user-images.githubusercontent.com/84565593/195983214-b7b9a397-4341-4d15-9316-62c0335c66a2.png)
+![image](https://user-images.githubusercontent.com/84565593/195983219-59180643-50ee-44c7-93a2-437b56c4b4c5.png)
+
 
 # Author
 - › Wq
