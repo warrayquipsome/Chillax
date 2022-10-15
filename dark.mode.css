@@ -788,6 +788,12 @@ opacity: 0;
     right: 0px;
     top: -10px;
 }
+
+.userPopout-2j1gM4 .bannerSVGWrapper-qc0szY>mask>circle{
+cx: 150;
+r: 47;
+cy: 57
+}
 /* Center profile badge, avatar and name 2*/
 .avatarPositionNormal-V4Mjtq {
     position: absolute;
