@@ -19,7 +19,7 @@
 /* update notice */
 .theme-dark #app-mount .titleBar-1it3bQ::before {
 content: "Your version of 'chillax' is outdated. Please download the newest version from https://betterdiscord.app/theme/chillax";
-display: var(--version2_0, block);
+display: var(--version3_0, block);
 background: rgba(0, 0, 0, .5);
 backdrop-filter: blur(5px);
 color: #fff;
