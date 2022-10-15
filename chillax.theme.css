@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.2
+ * @version 0.3
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
  * @source https://github.com/warrayquipsome/Chillax
@@ -158,7 +158,7 @@
   /*chillax colours rgb*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
   --accentcolor:	  251, 84, 84;	
   /*chillax colours hex*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
-  --accentcolor2:     #fb5454;
+  --accentcolorV2:     #fb5454;
      
      
   /*settings modal root*/
@@ -186,5 +186,5 @@
   
 
   /*update notice*/
-  --version2_0: none;
+  --version3_0: none;
 }
