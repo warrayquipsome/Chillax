@@ -1855,3 +1855,7 @@ height: 10px;
 .theme-dark .container-2O1UgZ {
   background: rgb(51, 49, 53);
 }
+/*devilbro's dev badge fix*/
+.dev-A7f2Rx.hasBadge-4rT8_u .mask-1FEkla{
+-webkit-mask: unset;
+}
