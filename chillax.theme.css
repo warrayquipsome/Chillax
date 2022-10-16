@@ -2,11 +2,117 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.3
+ * @version 0.3.1
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
  * @source https://github.com/warrayquipsome/Chillax
 */
+
+@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
+
+/* removable addons */
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
+@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
+@import url('https://nyri4.github.io/Discolored/main.css');
+@import url("https://warrayquipsome.github.io/Chillax/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/AvatarOnlyMemberList.css");
+
+:root {
+  --user-name: "King";
+
+  --accentcolor: 251, 84, 84; /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --background-image: url('https://i.imgur.com/1KaTJwm.jpg');
+  /* modern background options (replace the link above)
+  https://i.imgur.com/SWOtW5e.jpg
+  https://i.imgur.com/PKV015P.jpg
+  */
+
+  /*chatbox*/
+  --color-brand-lighter: transparent;
+
+  /* window */
+  --window-margin: 20px; /* must be above 20px */
+  --window-blur: 5px;
+  --window-border-radius: 10px;
+}
+
+:root.theme-dark {
+ --window-colour: #0009;
+ --sidebar-colour: rgb(36, 36, 36);
+}
+
+:root.theme-light {
+ --window-colour: rgba(255, 255, 255, 0.6);
+ --sidebar-colour: rgb(209, 209, 209);
+}
+
+.theme-dark {
+  --background-message-hover: rgba(255, 255, 255, 0.055);
+  --header-primary: #fff;
+  --header-secondary: #b9bbbe;
+  --text-normal: #dcddde;
+  --text-muted: #9d9d9d;
+  --channels-default: #8e9297;
+  --interactive-normal: #b9bbbe;
+  --interactive-hover: #dcddde;
+  --interactive-active: #fff;
+  --interactive-muted: #4f545c;
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-tertiary: transparent;
+  --background-accent: rgb(36, 36, 36);
+  --background-floating: rgb(0, 0, 0);
+  --activity-card-background: transparent;
+  --deprecated-panel-background: transparent;
+}
+
+.theme-light {
+  --background-message-hover: rgba(255, 255, 255, 0.055);
+  --header-primary: rgb(0, 0, 0);
+  --header-secondary: #3f3f3f;
+  --text-normal: #303030;
+  --text-muted: #333333;
+  --channels-default: #585b5e;
+  --interactive-normal: #3a3a3a;
+  --interactive-hover: #333333;
+  --interactive-active: rgb(0, 0, 0);
+  --interactive-muted: #4f545c;
+  --background-primary: transparent;
+  --background-secondary: transparent;
+  --background-tertiary: transparent;
+  --background-accent: rgb(27, 27, 27);
+  --background-floating: rgb(255, 255, 255);
+  --activity-card-background: transparent;
+  --deprecated-panel-background: transparent;
+}
+
+/* settingsmodal */
+:root {
+  --themelightsettingsmodalbackground: rgb(223, 223, 223);
+  --themedarksettingsmodalbackground: rgb(51, 49, 53);
+  --settingsmodalwidth: 960px;
+  --settingsmodalheight: 80vh;
+
+}
+
+/* radialstatus (must end in px) */
+:root {
+  --rs-small-spacing: 0px;
+  --rs-large-spacing: 0px;
+  --rs-medium-spacing: 0px;
+  --rs-small-width: 2.5px;
+  --rs-medium-width: 3.5px;
+  --rs-large-width: 4.5px;
+  --rs-avatar-shape: 50%;
+  --rs-online-color: #1df594;
+  --rs-idle-color: #faa61a;
+  --rs-dnd-color: #f04747;
+  --rs-offline-color: #636b75;
+  --rs-streaming-color: #643da7;
+  --rs-invisible-color: #636b75;
+  --rs-phone-visible: block;
+  --rs-phone-color: var(--rs-online-color);
+}
 
 /*
      ⸙  ────     ────     ───── ❝ 𝐚𝐥𝐥 𝐫𝐢𝐠𝐡𝐭 𝐡𝐞𝐫𝐞 ❞ ─────    ────     ────  ⸙
@@ -20,18 +126,6 @@
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
 
 */
-
-/*dark mode*/
-@import url('https://warrayquipsome.github.io/Chillax/dark.mode.css');
-/*light mode*/
-@import url('https://warrayquipsome.github.io/Chillax/light.mode.css');
-
-/*removable addons*/
-@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
-@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
-@import url('https://nyri4.github.io/Discolored/main.css');
-@import url("https://warrayquipsome.github.io/Chillax/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/AvatarOnlyMemberList.css");
 
 /*Permissions*/
 /*
@@ -56,7 +150,6 @@
  Blurple recolour                         by DevilBro
  Emoji Replace                            by DevilBro
  Connection Issue Let Me Be               by Disease
- My Guild is Excited to Mention Me        by Disease
  Profile Banner Skins                     by Disease
  Radial Status                            by Gibbu
  About Me Clamp                           by ItMeSarah
@@ -69,122 +162,3 @@
  Better Spotify Control                   by Uri
 =================================================================
 */
-
-
-/*Chillax Roots*/
-/*discord transparency*//*roots*/ /*theme dark*/
-  .theme-dark {
-  --background-message-hover: rgba(255, 255, 255, 0.055);
-  --header-primary: #fff;
-  --header-secondary: #b9bbbe;
-  --text-normal: #dcddde;
-  --text-muted: #9d9d9d;
-  --channels-default: #8e9297;
-  --interactive-normal: #b9bbbe;
-  --interactive-hover: #dcddde;
-  --interactive-active: #fff;
-  --interactive-muted: #4f545c;
-  --background-primary: transparent;
-  --background-secondary: transparent;
-  --background-tertiary: transparent;
-  --background-accent: rgb(36, 36, 36);
-  --background-floating: rgb(0, 0, 0);
-  --activity-card-background: transparent;
-  --deprecated-panel-background: transparent;
-}
-/*discord transparency*//*roots*/ /*theme light*/
-  .theme-light {
-  --background-message-hover: rgba(255, 255, 255, 0.055);
-  --header-primary: rgb(0, 0, 0);
-  --header-secondary: #3f3f3f;
-  --text-normal: #303030;
-  --text-muted: #333333;
-  --channels-default: #585b5e;
-  --interactive-normal: #3a3a3a;
-  --interactive-hover: #333333;
-  --interactive-active: rgb(0, 0, 0);
-  --interactive-muted: #4f545c;
-  --background-primary: transparent;
-  --background-secondary: transparent;
-  --background-tertiary: transparent;
-  --background-accent: rgb(27, 27, 27);
-  --background-floating: rgb(255, 255, 255);
-  --activity-card-background: transparent;
-  --deprecated-panel-background: transparent;
-}
-
-
-  /*window*/ /*dark mode*/
-:root.theme-dark {
-  --window-margin: 20px; /*must be above 20px*/
-  --window-colour: #0009;
-  --window-blur: 5px;
-  --window-border-radius: 10px;
-  --sidebar-colour: rgb(36, 36, 36);
-}
-  /*window*/ /*light mode*/
-:root.theme-light {
-  --window-margin: 20px; /*must be above 20px*/
-  --window-colour: rgba(255, 255, 255, 0.6);
-  --window-blur: 5px;
-  --window-border-radius: 10px;
-  --sidebar-colour: rgb(209, 209, 209);
-}
-
-
-  /*roots*/ /*both dark and light*/
-:root {
-  --user-name: "King";
-
-  
-  /*glow radial status*/ /*must end in px*/
-  --rs-small-spacing:0px;
-  --rs-large-spacing:0px;
-  --rs-medium-spacing:0px;
-  --rs-small-width: 2.5px; 
-  --rs-medium-width: 3.5px; 
-  --rs-large-width: 4.5px; 
-  --rs-avatar-shape:50%;
-  --rs-online-color:#1df594;
-  --rs-idle-color:#faa61a;
-  --rs-dnd-color:#f04747;
-  --rs-offline-color:#636b75;
-  --rs-streaming-color:#643da7;
-  --rs-invisible-color:#636b75;
-  --rs-phone-visible:block;
-  --rs-phone-color:var(--rs-online-color);
-
-
-  /*chillax colours rgb*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
-  --accentcolor:	  251, 84, 84;	
-  /*chillax colours hex*/ /*you can find it in https://www.google.com/search?q=color+picker&sxsrf=ALiCzsYKrCjMKrZIxmXaa2pbzaLKvkznBA%3A1655630964863&ei=dOyuYtahNICQ4-EPx6mHaA&ved=0ahUKEwjWq6j8mbn4AhUAyDgGHcfUAQ0Q4dUDCA4&uact=5&oq=color+picker&gs_lcp=Cgdnd3Mtd2l6EAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAEEcQsAMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyBwgAELADEEMyCggAEOQCELADGAEyCggAEOQCELADGAEyCggAEOQCELADGAEyDwguENQCEMgDELADEEMYAjIPCC4Q1AIQyAMQsAMQQxgCMg8ILhDUAhDIAxCwAxBDGAJKBAhBGABKBAhGGAFQAFgAYL0DaAFwAXgAgAEAiAEAkgEAmAEAyAESwAEB2gEGCAEQARgJ2gEGCAIQARgI&sclient=gws-wiz*/
-  --accentcolorV2:     #fb5454;
-     
-     
-  /*settings modal root*/
-  --themelightsettingsmodalbackground: rgb(223, 223, 223);
-  --themedarksettingsmodalbackground: rgb(51, 49, 53);
-  --settingsmodalwidth: 960px;
-  --settingsmodalheight: 80vh;	
-
-     
-  /*background image*/
-  --background-image:var(--de-suggested-bg);
-  /*bg dev suggestions*/
-  --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
-  --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
-  --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
-  --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
-
-
-  /*server bounce height*/
-  --guild-bounce-height: 15px;
-
-
-  /*chatbox*/ 
-  --color-brand-lighter: transparent;
-  
-
-  /*update notice*/
-  --version3_0: none;
-}
