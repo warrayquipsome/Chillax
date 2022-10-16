@@ -1840,17 +1840,7 @@ opacity: var(--transparency);
 .chatContent-3KubbW .scrollerInner-2PPAp2 > :nth-last-child(2).groupStart-3Mlgv1.expanded-3lghlw+.scrollerSpacer-3AqkT9{
 height: 10px;
 }
-/*vc ring colour*/
-/* Servers */
-.avatarSpeaking-2pCGrZ {box-shadow: inset 0 0 0 2px var(--accentcolorV2),inset 0 0 0 2px var(--background-secondary)}
-/* DMs */
-.border-2BJQjd.speaking-3RWJBr {box-shadow: inset 0 0 0 2px var(--accentcolorV2),inset 0 0 0 2px var(--background-floating)}
-/* Grid call */
-.border-2Vy6FN.speaking-7QZEkv {box-shadow: inset 0 0 0 2px var(--accentcolorV2), inset 0 0 0 2px #000}
-/* User menu (bottom left) */
-.avatarSpeaking-33RRJU {box-shadow: inset 0 0 0 2px var(--accentcolorV2),inset 0 0 0 2px var(--background-secondary)}
-/* Voice users */
-.speaking-3K28iH {box-shadow: inset 0 0 0 2px var(--accentcolorV2),inset 0 0 0 2px var(--background-secondary)}
+
 /*add roles background fix*/
 .theme-dark .container-2O1UgZ {
   background: rgb(51, 49, 53);
