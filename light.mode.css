@@ -2316,3 +2316,57 @@ box-shadow: 0 0 5px var(--accentcolorV2);
 .profileBadge22-3GAYRy:not(#a#b),.profileBadge22-3OAigE:not(#a#b){
 object-position: unset;
 }
+/*user setting redesign*/
+.clickable-1knRMS {
+margin: 0;
+}
+.theme-light .container-1gYwHN {
+border-radius: 8px;
+background-color: #e4e4e4;
+padding: 5px;
+}
+.field-21XZwa:last-child {
+    margin-right: 0 !important;
+}
+.theme-light .field-21XZwa {
+    width: calc((100%/3) - ((20/3) * 1px));
+    border-radius: 8px;
+    background-color: #e4e4e4;
+    max-height: none;
+    flex-flow: column;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    margin-top: 0 !important;
+    position: relative;
+    overflow-y: scroll;
+    height: 150px;
+}
+.field-21XZwa::-webkit-scrollbar {
+    width: 0;
+}
+.constrainedRow-3y91Xf {
+  overflow: visible;
+}
+.fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit phone number"] {
+  top: 50px;
+  border-radius: 8px;
+}
+.fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit username"] {
+  top: 50px;
+  border-radius: 8px;
+}
+.fieldButton-14lHvK.removeButton-v6eolJ {
+  top: 50px!important;
+  border-radius: 8px;
+}
+.fieldButton-14lHvK.button-f2h6uQ {
+  top: 30px;
+  border-radius: 8px;
+}
+.background-3d_SjE {
+  background: transparent!important;
+}
+.settingsBanner-1eDJ5w {
+  border-radius: 8px;
+}
