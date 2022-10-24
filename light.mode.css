@@ -2080,6 +2080,17 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
 .bd-addon-card-disabled > *:not(#a#B) {
   background: var(--info-danger-background) !important;
 }
+/*bd btn redesign*/
+.bd-switch-body {
+  border-radius: 10px !important;
+}
+.bd-switch-symbol {
+  display: none;
+}
+.bd-switch-handle {
+  transform: scale(0.8);
+  transform-origin: center;
+}
 /*twitter like forum*/
 .list-3FIpnh > div:first-child {
   width: 600px;
