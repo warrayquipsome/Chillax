@@ -1815,10 +1815,10 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   left: 25px;
   bottom: -20px;
 }
-.listItemContents-2n2Uy9 {
+.theme-dark .listItemContents-2n2Uy9 {
   background: rgb(25, 25, 26);
 }
-.listItemContents-2n2Uy9:hover {
+.theme-dark .listItemContents-2n2Uy9:hover {
   background: rgb(43, 43, 44);
   transition: 0.2s;
 }
@@ -1833,6 +1833,20 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
 }
 .peopleColumn-1wMU14 .listItemContents-2n2Uy9 .activity-1KqKY2 {
   max-width: 250px;
+}
+/*active now*/
+.heading-lg-medium-3gUJeM {
+  text-align: center;
+}
+.theme-dark .itemCard-3Etziu.wrapper-2RrXDg {
+  background: rgb(25, 25, 26);
+}
+.theme-dark .itemCard-3Etziu.wrapper-2RrXDg:hover {
+  background: rgb(43, 43, 44);
+  transition: 0.2s;
+}
+.section-3G9aLW {
+  background: transparent;
 }
 /*pins inbox background fix*/
 .theme-dark .messagesPopoutWrap-3zryHW,
