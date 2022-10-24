@@ -2382,3 +2382,27 @@ padding: 5px;
 .settingsBanner-1eDJ5w {
   border-radius: 8px;
 }
+/*animated chat name hover*/
+.username-h_Y3Us:after {
+content: "";
+position: absolute;
+width: 100%;
+transform: scaleX(0);
+height: 1.5px;
+bottom: 0;
+left: 0;
+background-color: currentColor;
+transform-origin: bottom center;
+transition: transform .1s;
+}
+.username-h_Y3Us:hover {
+text-decoration: none !important;
+}
+.username-h_Y3Us:hover:after {
+transform: scaleX(1);
+transform-origin: bottom center;
+}
+/*channel border radius*/
+.content-1gYQeQ {
+  border-radius: 8px!important;
+}
