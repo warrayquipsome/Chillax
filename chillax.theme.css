@@ -53,7 +53,6 @@
   --background-secondary: transparent;
   --background-tertiary: transparent;
   --background-accent: rgb(36, 36, 36);
-  --background-floating: rgb(0, 0, 0);
   --activity-card-background: transparent;
   --deprecated-panel-background: transparent;
 }
@@ -73,7 +72,6 @@
   --background-secondary: transparent;
   --background-tertiary: transparent;
   --background-accent: rgb(27, 27, 27);
-  --background-floating: rgb(255, 255, 255);
   --activity-card-background: transparent;
   --deprecated-panel-background: transparent;
 }
