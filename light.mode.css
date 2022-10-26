@@ -2451,3 +2451,9 @@ width: calc((100%/2) - 15px);
 .pencilContainer-18TrEJ {
     display: none;
 }
+/*server banner design*/
+.animatedContainer-2laTjx {
+  transform: scale(0.9)!important;
+  border-radius: 8px;
+  box-shadow: 0 0 15px;
+}
