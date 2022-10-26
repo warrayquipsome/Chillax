@@ -1811,6 +1811,10 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   width: 0px;
 }
 /*custom friends grid fix*/
+.avatar-2MSPKk {
+  left: 25px;
+  bottom: -60px;
+}
 .theme-dark .listItemContents-2n2Uy9 {
   background: rgb(25, 25, 26);
 }
