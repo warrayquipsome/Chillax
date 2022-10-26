@@ -2406,3 +2406,46 @@ transform-origin: bottom center;
 .content-1gYQeQ {
   border-radius: 8px!important;
 }
+/*user profiles tweak*/
+.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY>mask>circle{
+display: none;
+}
+.banner-2boKnS.popoutBanner-16rVDY{
+    border-radius: 8px;
+    margin: 7px;
+    width: 95.5%;
+    height: 53px;
+}
+.banner-2boKnS.profileBanner-2zIsK7 {
+    border-radius: 8px;
+    margin: 12px;
+    width: 96%;
+    height: 95px;
+}
+.root-g14mjS .avatar-1YsFQ1{
+border: 8px solid transparent;
+}
+.root-g14mjS .bannerSVGWrapper-qc0szY>mask{
+display: none;
+}
+.theme-dark .nameTag-2ysfG3 {
+    background-color: #141414;
+    padding: 10px;
+    border-radius: 8px;
+    width: fit-content;
+}
+.theme-dark .connectedAccountContainer-3aLMHJ {
+border-radius: 8px;
+background-color: #111111;
+border: none!important;
+width: 97%;
+}
+.connectedAccounts-2R5M4w.userInfoSection-2u2hir {
+margin-top: 15px;
+}
+.connectedAccountsColumn-1zdyyx {
+width: calc((100%/2) - 15px);
+}
+.pencilContainer-18TrEJ {
+    display: none;
+}
