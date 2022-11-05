@@ -2481,3 +2481,13 @@ width: calc((100%/2) - 15px);
   border-radius: var(--window-border-radius);
   backdrop-filter: blur(var(--window-blur));
 }
+/*chat box reply fix*/
+.hasConnectedBar-1vN2JH {
+  border-radius: 8px;
+}
+.theme-dark .attachedBars-2BCP3l {
+padding: 10px;
+margin: 20px 20px 10px 20px;
+background: #181a1d;
+border-radius: var(--window-border-radius)
+}
