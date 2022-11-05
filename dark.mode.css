@@ -2324,6 +2324,22 @@ box-shadow: 0 0 5px var(--accentcolorV2);
 .theme-dark #Chillax-card [href='DrfX6286kF'] {
   color: #fff!important;
 }
+.bd-grid-view #Chillax-card .bd-name{
+  font-size: 70px;
+  text-align: left;
+}
+.bd-grid-view #Chillax-card .bd-name::after {
+  font-size: 20px;
+  content: "activated";
+  display: block;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+.theme-dark .bd-grid-view #Chillax-card .bd-meta {
+  margin-left: -50px;
+  bottom: 25px;
+  color: rgb(226, 226, 226);
+}
 /*nitro badge fix*/
 .profileBadge22-3GAYRy:not(#a#b),.profileBadge22-3OAigE:not(#a#b){
 object-position: unset;
