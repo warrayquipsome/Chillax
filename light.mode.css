@@ -2301,10 +2301,10 @@ li.row-uezxzk {
   margin-top: -20px;
   margin-left: 15px;
 }
-.theme-light #Chillax-card .bd-meta {
+.theme-dark #Chillax-card .bd-meta {
   margin-left: 15px;
   bottom: 25px;
-  color: rgb(0, 0, 0);
+  color: rgb(226, 226, 226);
 }
 #Chillax-card {
   border: 2px solid var(--accentcolorV2);
@@ -2320,11 +2320,27 @@ box-shadow: 0 0 5px var(--accentcolorV2);
 #Chillax-card .bd-description {
   display: none;
 }
-.theme-light #Chillax-card [href='https\:\/\/github.com/warrayquipsome/Chillax'] {
-  color: #000!important;
+.theme-dark #Chillax-card [href='https\:\/\/github.com/warrayquipsome/Chillax'] {
+  color: #fff!important;
 }
-.theme-light #Chillax-card [href='DrfX6286kF'] {
-  color: #000!important;
+.theme-dark #Chillax-card [href='DrfX6286kF'] {
+  color: #fff!important;
+}
+.bd-grid-view #Chillax-card .bd-name{
+  font-size: 70px;
+  text-align: left;
+}
+.bd-grid-view #Chillax-card .bd-name::after {
+  font-size: 20px;
+  content: "activated";
+  display: block;
+  margin-top: -15px;
+  margin-left: 10px;
+}
+.theme-light .bd-grid-view #Chillax-card .bd-meta {
+  margin-left: -50px;
+  bottom: 25px;
+  color: rgb(0, 0, 0);
 }
 /*nitro badge fix*/
 .profileBadge22-3GAYRy:not(#a#b),.profileBadge22-3OAigE:not(#a#b){
@@ -2456,4 +2472,12 @@ width: calc((100%/2) - 15px);
   transform: scale(0.9)!important;
   border-radius: 8px;
   box-shadow: 0 0 15px;
+}
+/*channel tab fix*/
+#channelTabs-container {
+  background: var(--window-colour)!important;
+  margin: 20px 21px -13px 21px;
+  padding: 10px!important;
+  border-radius: var(--window-border-radius);
+  backdrop-filter: blur(var(--window-blur));
 }
