@@ -1746,6 +1746,8 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   border-radius: 50px;
   background-color: transparent !important;
   font-size: 0;
+  border: none!important;
+  box-shadow: none;
 }
 .layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .button-f2h6uQ:hover {
   background-color: rgba(0, 0, 0, 0.6) !important;
