@@ -2455,3 +2455,11 @@ width: calc((100%/2) - 15px);
   border-radius: 8px;
   box-shadow: 0 0 15px;
 }
+/*channel tab fix*/
+#channelTabs-container {
+  background: var(--window-colour)!important;
+  margin: 20px 21px -13px 21px;
+  padding: 10px!important;
+  border-radius: var(--window-border-radius);
+  backdrop-filter: blur(var(--window-blur));
+}
