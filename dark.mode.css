@@ -175,16 +175,18 @@
   letter-spacing: 2px;
 }
 /* button design*/
-.lookFilled-yCfaCM {
+.theme-dark .lookFilled-yCfaCM {
   border-radius: 45px;
-  background: #fff !important;
+  background: rgb(255, 187, 0) !important;
   color: #000 !important;
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  border: 2px solid goldenrod;
+  box-shadow: 0 0 6px 0 rgb(255 234 0 / 50%);
   font-family: "Roboto";
   font-size: 12px;
+  transition: 0.2s;
 }
 .theme-dark .lookFilled-yCfaCM:hover {
-  box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
+  box-shadow: 0 0 10px 0 rgb(255 234 0 / 40%);
 }
 /*channel unread pill*/
 .unread-36eUEm {
