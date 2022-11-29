@@ -2533,3 +2533,16 @@ border-radius: var(--window-border-radius)
     margin-top:-5px;
     margin-left:4px;
 }
+/*video control*/
+.videoControls-2NzHnF {
+width: auto;
+margin: 15px;
+padding-bottom: 0px;
+border-radius: 8px;
+background-color: #000000f1;
+transform: none !important;
+transition: 0.2s;
+}
+.wrapperControlsHidden-2BK8R2 .videoControls-2NzHnF{
+margin-bottom: -30px;
+}
