@@ -2496,3 +2496,42 @@ margin: 20px 20px 10px 20px;
 background: #181a1d;
 border-radius: var(--window-border-radius)
 }
+/* user typing... but its edited*/
+.dots-1BwzZQ {
+  margin-right: 5px;
+}
+.base-3bcbY3 .text-3S7XCz {
+    display:flex;
+    align-items:center;
+}
+.typing-2J1mQU {
+    font-size:0;
+}
+.typing-2J1mQU strong {
+    font-size:12px;
+}
+.typing-2J1mQU strong:after {
+    content:',';
+    margin-right:4px;
+}
+.typing-2J1mQU strong:nth-last-child(2)::after {
+    content:'and';
+    margin:0 4px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top:-5px;
+}
+.typing-2J1mQU strong:last-child::after {
+    content:'is smashing some buttons';
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top:-5px;
+    margin-left:4px;
+}
+.typing-2J1mQU strong:nth-last-child()::after {
+    content:'are smashing some buttons';
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top:-5px;
+    margin-left:4px;
+}
