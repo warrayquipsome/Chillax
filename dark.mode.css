@@ -213,9 +213,11 @@
   background-color: #181a1d;
   box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
 }
-.message-2CShn3,
-.mentioned-Tre-dv {
+.message-2CShn3 {
   border-radius: 8px !important;
+}
+.mentioned-Tre-dv  {
+  border-radius: 0 8px 8px 0!important
 }
 /*Textbox Text*/
 .theme-dark .placeholder-1rCBhr {
@@ -601,17 +603,17 @@ span:not(.spinner-item) {
   content: url(https://i.imgur.com/tYEPmPZ.png);
 }
 /*custom mentioned colour*/
-.mentioned-Tre-dv:before {
+.theme-dark .mentioned-Tre-dv:before {
   background: linear-gradient(135deg, #3b3b3b, var(--accentcolorV2)) !important;
 }
-.mentioned-Tre-dv {
+.theme-dark .mentioned-Tre-dv {
   background: linear-gradient(
     60deg,
     rgba(41, 41, 41, 0.3),
     rgba(var(--accentcolor), 0.9)
   ) !important;
 }
-.mentioned-Tre-dv:hover {
+.theme-dark .mentioned-Tre-dv:hover {
   background: linear-gradient(
     60deg,
     rgba(32, 32, 32, 0.5),
