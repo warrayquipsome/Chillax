@@ -2364,10 +2364,11 @@ object-position: unset;
 .clickable-1knRMS {
 margin: 0;
 }
-.theme-light .container-1gYwHN {
+.theme-light .container-5SvbtF {
 border-radius: 8px;
 background-color: #e4e4e4;
-padding: 5px;
+margin-top: 5px;
+padding: 1px;
 }
 .field-21XZwa:last-child {
     margin-right: 0 !important;
@@ -2393,7 +2394,7 @@ padding: 5px;
   overflow: visible;
 }
 .fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit phone number"] {
-  top: 50px;
+  top: 30px;
   border-radius: 8px;
 }
 .fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit username"] {
@@ -2401,8 +2402,8 @@ padding: 5px;
   border-radius: 8px;
 }
 .fieldButton-14lHvK.removeButton-v6eolJ {
-  top: 50px!important;
-  border-radius: 8px;
+  top: 30px!important;
+  font-size: 13px;
 }
 .fieldButton-14lHvK.button-f2h6uQ {
   top: 30px;
@@ -2411,7 +2412,7 @@ padding: 5px;
 .background-3d_SjE {
   background: transparent!important;
 }
-.settingsBanner-1eDJ5w {
+.settingsBanner-2E5fAp {
   border-radius: 8px;
 }
 /*animated chat name hover*/
