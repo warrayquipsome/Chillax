@@ -1719,7 +1719,7 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   z-index: -1;
 }
 /*custom user setting profile position*/
-.layer-86YKbF .accountProfileCard-lbN7n- .banner-1YaD3N {
+.layer-86YKbF .accountProfileCard-lbN7n- .settingsBanner-2E5fAp {
   width: unset;
   height: 150px;
   margin: 8px;
@@ -1740,7 +1740,7 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
 .layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .userTag-2qPxEZ {
   margin-bottom: 2px;
 }
-.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .container-1gYwHN {
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .container-5SvbtF {
   justify-content: center;
   width: 100%;
   margin-bottom: 57px;
@@ -2366,10 +2366,11 @@ object-position: unset;
 .clickable-1knRMS {
 margin: 0;
 }
-.theme-dark .container-1gYwHN {
+.theme-dark .container-5SvbtF {
 border-radius: 8px;
 background-color: #333135;
-padding: 5px;
+margin-top: 5px;
+padding: 1px;
 }
 .field-21XZwa:last-child {
     margin-right: 0 !important;
@@ -2395,7 +2396,7 @@ padding: 5px;
   overflow: visible;
 }
 .fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit phone number"] {
-  top: 50px;
+  top: 30px;
   border-radius: 8px;
 }
 .fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit username"] {
@@ -2403,8 +2404,8 @@ padding: 5px;
   border-radius: 8px;
 }
 .fieldButton-14lHvK.removeButton-v6eolJ {
-  top: 50px!important;
-  border-radius: 8px;
+  top: 30px!important;
+  font-size: 13px;
 }
 .fieldButton-14lHvK.button-f2h6uQ {
   top: 30px;
@@ -2413,7 +2414,7 @@ padding: 5px;
 .background-3d_SjE {
   background: transparent!important;
 }
-.settingsBanner-1eDJ5w {
+.settingsBanner-2E5fAp {
   border-radius: 8px;
 }
 /*animated chat name hover*/
