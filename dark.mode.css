@@ -527,13 +527,22 @@ span[class="inner-26JK4f"] > * {
   }
 }
 /*bd editor control colour*/
-#bd-editor-controls {
-  background-image: linear-gradient(
-    -60deg,
-    #c45252 0%,
-    #f9b3ff 80%,
-    #e683ff 100%
-  ) !important;
+.theme-dark #bd-editor-controls {
+  background-color: rgba(0, 0, 0, 0.575)!important;
+  box-shadow: none!important;
+}
+#floating-editor-window {
+  border-radius: 5px;
+}
+.theme-dark .floating-window.resizable,
+.theme-dark .floating-window-content,
+.theme-dark .editor-wrapper,
+.theme-dark .monaco-editor,
+.theme-dark .monaco-editor-background,
+.theme-dark .monaco-editor .inputarea.ime-input,
+.theme-dark .monaco-editor .margin {
+background: rgba(0, 0, 0, 0.1) !important;
+backdrop-filter: blur(5px);
 }
 .btn-primary {
   color: white !important;
