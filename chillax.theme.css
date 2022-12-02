@@ -6,17 +6,18 @@
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
  * @source https://github.com/warrayquipsome/Chillax
+ * @donate https://www.paypal.me/wqqt9
 */
 
 /*
      ⸙  ────     ────     ───── ❝ 𝐚𝐥𝐥 𝐫𝐢𝐠𝐡𝐭 𝐡𝐞𝐫𝐞 ❞ ─────    ────     ────  ⸙
   ╭─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻🂡༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╮
-         █████╗   ██╗  ██╗  ██╗  ██╗       ██╗        █████╗   ██╗  ██╗   
-        ██╔══██╗  ██║  ██║  ██║  ██║       ██║       ██╔══██╗  ╚██╗██╔╝   
-  ||    ██║  ╚═╝  ███████║  ██║  ██║       ██║       ███████║   ╚███╔╝    ||
-        ██║  ██╗  ██╔══██║  ██║  ██║       ██║       ██╔══██║   ██╔██╗    
-        ╚█████╔╝  ██║  ██║  ██║  ███████╗  ███████╗  ██║  ██║  ██╔╝╚██╗   
-         ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝  ╚══════╝  ╚═╝  ╚═╝  ╚═╝  ╚═╝   
+          █████╗   ██╗  ██╗  ██╗  ██╗      ██╗       █████╗   ██╗  ██╗       
+         ██╔══██╗  ██║  ██║  ██║  ██║      ██║      ██╔══██╗  ╚██╗██╔╝       
+  ||     ██║  ╚═╝  ███████║  ██║  ██║      ██║      ███████║   ╚███╔╝      ||
+         ██║  ██╗  ██╔══██║  ██║  ██║      ██║      ██╔══██║   ██╔██╗        
+         ╚█████╔╝  ██║  ██║  ██║  ███████╗ ███████╗ ██║  ██║  ██╔╝╚██╗       
+          ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝       
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
 
 */
@@ -26,17 +27,81 @@
 
 /*removable addons*/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
-@import url("https://lavender-discord.github.io/Lavender/modules/addons/settings-icons.css");
+@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
-@import url("https://warrayquipsome.github.io/Chillax/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/AvatarOnlyMemberList.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList");
 
-/*additional addons*/ /*(remove the * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/SimpleLessLag.css");*/
+/*additional addons*/ /*(remove the both * to use)*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag");*/
 
 
 
 /*Chillax Roots*/
+/*window*/ /*dark mode*/
+:root.theme-dark {
+  --window-margin: 20px; /*must be above 20px*/
+  --window-colour: #0009;
+  --window-blur: 5px;
+  --window-border-radius: 10px;
+  --sidebar-colour: rgb(36, 36, 36);
+}
+/*window*/ /*light mode*/
+:root.theme-light {
+  --window-margin: 20px; /*must be above 20px*/
+  --window-colour: rgba(255, 255, 255, 0.6);
+  --window-blur: 5px;
+  --window-border-radius: 10px;
+  --sidebar-colour: rgb(209, 209, 209);
+}
+
+
+/*roots*/ /*both dark and light*/
+:root {
+  --user-name: "King";
+
+  
+/*glow radial status*/ /*must end in px*/
+  --rs-small-spacing:0px;
+  --rs-large-spacing:0px;
+  --rs-medium-spacing:0px;
+  --rs-small-width: 2.5px; 
+  --rs-medium-width: 3.5px; 
+  --rs-large-width: 4.5px; 
+  --rs-avatar-shape:50%;
+  --rs-online-color:#1df594;
+  --rs-idle-color:#faa61a;
+  --rs-dnd-color:#f04747;
+  --rs-offline-color:#636b75;
+  --rs-streaming-color:#643da7;
+  --rs-invisible-color:#636b75;
+  --rs-phone-visible:block;
+  --rs-phone-color:var(--rs-online-color);
+
+
+/*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --accentcolor:	  251, 84, 84;	
+/*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --accentcolorV2:     #fb5454;
+     
+     
+/*settings modal root*/
+  --themelightsettingsmodalbackground: rgb(223, 223, 223);
+  --themedarksettingsmodalbackground: rgb(51, 49, 53);
+  --settingsmodalwidth: 960px;
+  --settingsmodalheight: 80vh;	
+
+     
+/*background image*/ /*(replace the link to use)*/
+  --background-image:var(--de-suggested-bg);
+/*bg dev suggestions*/
+  --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
+  --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
+/*modern background selection*/
+  --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
+  --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
+}
+
 /*discord transparency*//*roots*/ /*theme dark*/
   .theme-dark {
   --background-message-hover: rgba(255, 255, 255, 0.055);
@@ -77,69 +142,7 @@
 }
 
 
-  /*window*/ /*dark mode*/
-:root.theme-dark {
-  --window-margin: 20px; /*must be above 20px*/
-  --window-colour: #0009;
-  --window-blur: 5px;
-  --window-border-radius: 10px;
-  --sidebar-colour: rgb(36, 36, 36);
-}
-  /*window*/ /*light mode*/
-:root.theme-light {
-  --window-margin: 20px; /*must be above 20px*/
-  --window-colour: rgba(255, 255, 255, 0.6);
-  --window-blur: 5px;
-  --window-border-radius: 10px;
-  --sidebar-colour: rgb(209, 209, 209);
-}
 
-
-  /*roots*/ /*both dark and light*/
-:root {
-  --user-name: "King";
-
-  
-  /*glow radial status*/ /*must end in px*/
-  --rs-small-spacing:0px;
-  --rs-large-spacing:0px;
-  --rs-medium-spacing:0px;
-  --rs-small-width: 2.5px; 
-  --rs-medium-width: 3.5px; 
-  --rs-large-width: 4.5px; 
-  --rs-avatar-shape:50%;
-  --rs-online-color:#1df594;
-  --rs-idle-color:#faa61a;
-  --rs-dnd-color:#f04747;
-  --rs-offline-color:#636b75;
-  --rs-streaming-color:#643da7;
-  --rs-invisible-color:#636b75;
-  --rs-phone-visible:block;
-  --rs-phone-color:var(--rs-online-color);
-
-
-  /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-  --accentcolor:	  251, 84, 84;	
-  /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
-  --accentcolorV2:     #fb5454;
-     
-     
-  /*settings modal root*/
-  --themelightsettingsmodalbackground: rgb(223, 223, 223);
-  --themedarksettingsmodalbackground: rgb(51, 49, 53);
-  --settingsmodalwidth: 960px;
-  --settingsmodalheight: 80vh;	
-
-     
-  /*background image*/ /*(replace the link to use)*/
-  --background-image:var(--de-suggested-bg);
-  /*bg dev suggestions*/
-  --wq-suggested-bg: url('https://wallpaperaccess.com/full/2799204.jpg');
-  --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
-  /*modern background selection*/
-  --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
-  --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
-}
      
      
 /*Permissions*/
@@ -147,13 +150,6 @@
 -You do not have the rights to use our theme name Chillax™ on other projects 
 -You do not have the rights to remove our theme watermark in the theme
 -You do not have the rights to change this theme author name to anyone
-*/
-     
-/*Sign Up Pls*/
-/*
--If you would like to join us, you have to first show us your creations and if 
- we like it you will be apart of chillax squad and for codes you would wish to
- add in to the theme make sure to ask the owner of the theme bfr adding. Good Luck!!
 */
      
 /*credits*/
