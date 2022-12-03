@@ -160,6 +160,7 @@
 .theme-light .wordmark-2u86JB::before {
   content: "‏‏‎ c h i l l a x";
   font-size: 12px;
+  font-weight: 900;
   font-family: "Poiret one" !important;
   position: fixed;
   color: rgb(0, 0, 0);
