@@ -792,12 +792,12 @@ span:not(.spinner-item) {
 }
 /*custom channel and text area font and size*/
 .channelName-3KPsGw {
-  font-family: "Poppins";
+  font-family: var(--font-name);
   font-size: 12px !important;
 }
 .messageContent-2t3eCI,
 .contents-2MsGLg {
-  font-family: Poppins;
+  font-family: var(--font-name);
   font-size: 13px !important;
 }
 /*custom public servers and create server buttons*/
