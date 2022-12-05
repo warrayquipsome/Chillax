@@ -59,7 +59,8 @@
 /*roots*/ /*both dark and light*/
 :root {
   --user-name: "King";
-
+  --font-name: Poppins;
+     
   
 /*glow radial status*/ /*must end in px*/
   --rs-small-spacing:0px;
