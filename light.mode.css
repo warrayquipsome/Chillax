@@ -793,12 +793,12 @@ span:not(.spinner-item) {
 /*custom channel and text area font and size*/
 .channelName-3KPsGw {
   font-family: var(--font-name);
-  font-size: 12px !important;
+  font-size: var(--font-size) !important;
 }
 .messageContent-2t3eCI,
 .contents-2MsGLg {
   font-family: var(--font-name);
-  font-size: 13px !important;
+  font-size: var(--font-size) !important;
 }
 /*custom public servers and create server buttons*/
 .theme-light .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {
