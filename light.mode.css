@@ -1574,8 +1574,28 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
 /*floating user controls*/
 .theme-light .panels-3wFtMD {
   background: #e4e4e4 !important;
-  border-radius: 8px;
-  margin: 10px;
+  box-shadow: 0 5px 8px #d6d6d6;
+  border-radius: 12px;
+  margin: 10px 10px 23px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sidebar-1tnWFu {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+.theme-light .sidebar-1tnWFu .content-2a4AW9:after{
+content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+font-size: 13px;
+color: rgba(0, 0, 0, 0.1);
+text-align: center;
+text-shadow: 0 0 15px rgb(255, 255, 255);
+margin-top: 50px;
+height: 340px;
+display: block;
 }
 .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
   opacity: 0% !important;
@@ -2587,4 +2607,26 @@ margin-bottom: -30px;
 .bd-notice {
   margin: 12px;
   border-radius: 8px!important;
+}
+/*user profile in dms design*/
+.panelBanner-13bsBR {
+  border-radius: 12px;
+  margin: 12px;
+  width: 93%;
+  height: 105px;
+}
+.avatarPositionPanel-3P4Ted, .avatarStack-3vfSFa:before{
+  left: 10%;
+}
+.bannerSVGWrapper-qc0szY foreignObject {
+mask: none;
+}
+/*user profile in dms fix*/
+.mutualGuildsList-37Q6HT > .collapseBtn-2sFINR, .mutualFriendsList-7kySbG > .collapseBtn-2sFINR {
+  background: transparent!important;
+  box-shadow: none!important;
+  border-radius: 0px!important;
+}
+.theme-light .mutualGuildsList-37Q6HT > .collapseBtn-2sFINR:hover, .theme-light .mutualFriendsList-7kySbG > .collapseBtn-2sFINR:hover{
+  background: rgba(0, 0, 0, 0.2)!important;
 }
