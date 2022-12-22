@@ -2514,6 +2514,19 @@ width: calc((100%/2) - 15px);
   border-radius: var(--window-border-radius);
   backdrop-filter: blur(var(--window-blur));
 }
+html.platform-osx .typeMacOS-3V4xXE {
+   position: absolute;
+   width: unset;
+}
+.channelTabs-tabContainer {
+   -webkit-app-region: drag;
+}
+.channelTabs-tabContainer>* {
+   -webkit-app-region: no-drag;
+}
+html .channelTabs-newTab {
+   margin-right: calc(6px + 72px);
+}
 /*chat box reply fix*/
 .hasConnectedBar-1vN2JH {
   border-radius: 8px;
