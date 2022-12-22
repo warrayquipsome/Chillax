@@ -2643,3 +2643,26 @@ mask: none;
 .theme-light .mutualGuildsList-37Q6HT > .collapseBtn-2sFINR:hover, .theme-light .mutualFriendsList-7kySbG > .collapseBtn-2sFINR:hover{
   background: rgba(0, 0, 0, 0.2)!important;
 }
+/*emoji tab design n fix*/
+.theme-light .nav-1zWVQw>.navList-YSb9UB>button{
+flex: auto;
+bottom: 20px;
+line-height: 45px;
+margin: 0;
+border-radius: 0px;
+background:#ebedef;
+}
+.inspector-2A2Chb {
+  border-radius: 8px;
+  margin: 10px;
+  width: 95%
+}
+.unicodeShortcut-3N8oDe {
+  border-radius: 8px;
+  margin: 12px;
+  margin-left: 5px;
+  top: 330px!important;
+  width: 85%;
+}
+.theme-light .nav-1zWVQw>.navList-YSb9UB>button:hover {background: rgba(0, 0, 0, 0.2);}
+.nav-1zWVQw{padding:0; }
