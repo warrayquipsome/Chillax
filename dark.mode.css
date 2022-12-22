@@ -792,12 +792,12 @@ span:not(.spinner-item) {
 /*custom channel and text area font and size*/
 .channelName-3KPsGw {
   font-family: var(--font-name);
-  font-size: 12px !important;
+  font-size: var(--font-size) !important;
 }
 .messageContent-2t3eCI,
 .contents-2MsGLg {
   font-family: var(--font-name);
-  font-size: 13px !important;
+  font-size: var(--font-size) !important;
 }
 /*custom public servers and create server buttons*/
 .theme-dark .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {
@@ -1572,9 +1572,29 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
 }
 /*floating user controls*/
 .theme-dark .panels-3wFtMD {
-  background: #181a1d !important;
-  border-radius: 8px;
-  margin: 10px;
+  background: #181a1d!important;
+  box-shadow: 0 5px 8px #15171a;
+  border-radius: 12px;
+  margin: 10px 10px 23px;
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+}
+.sidebar-1tnWFu {
+  background-color: transparent;
+  position: relative;
+  overflow: hidden;
+}
+.theme-dark .sidebar-1tnWFu .content-2a4AW9:after{
+content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+font-size: 13px;
+color: rgba(255, 255, 255, 0.03);
+text-align: center;
+text-shadow: 0 0 15px #000;
+margin-top: 50px;
+height: 340px;
+display: block;
 }
 .panels-3wFtMD > .container-YkUktl .flex-2S1XBF > :not(:last-child) {
   opacity: 0% !important;
@@ -2363,14 +2383,11 @@ box-shadow: 0 0 5px var(--accentcolorV2);
 object-position: unset;
 }
 /*user setting redesign*/
-.clickable-1knRMS {
-margin: 0;
-}
-.theme-dark .container-5SvbtF {
+.theme-dark .badgeList-b3Ajmk {
 border-radius: 8px;
 background-color: #333135;
 margin-top: 5px;
-padding: 1px;
+padding: 2px;
 }
 .field-21XZwa:last-child {
     margin-right: 0 !important;
@@ -2498,6 +2515,19 @@ width: calc((100%/2) - 15px);
   border-radius: var(--window-border-radius);
   backdrop-filter: blur(var(--window-blur));
 }
+html.platform-osx .typeMacOS-3V4xXE {
+   position: absolute;
+   width: unset;
+}
+.channelTabs-tabContainer {
+   -webkit-app-region: drag;
+}
+.channelTabs-tabContainer>* {
+   -webkit-app-region: no-drag;
+}
+html .channelTabs-newTab {
+   margin-right: calc(6px + 72px);
+}
 /*chat box reply fix*/
 .hasConnectedBar-1vN2JH {
   border-radius: 8px;
@@ -2559,4 +2589,26 @@ transition: 0.2s;
 }
 .wrapperControlsHidden-2BK8R2 .videoControls-2NzHnF{
 margin-bottom: -30px;
+}
+/*user profile in dms design*/
+.panelBanner-13bsBR {
+  border-radius: 12px;
+  margin: 12px;
+  width: 93%;
+  height: 105px;
+}
+.avatarPositionPanel-3P4Ted, .avatarStack-3vfSFa:before{
+  left: 10%;
+}
+.bannerSVGWrapper-qc0szY foreignObject {
+mask: none;
+}
+/*user profile in dms fix*/
+.mutualGuildsList-37Q6HT > .collapseBtn-2sFINR, .mutualFriendsList-7kySbG > .collapseBtn-2sFINR {
+  background: transparent!important;
+  box-shadow: none!important;
+  border-radius: 0px!important;
+}
+.theme-dark .mutualGuildsList-37Q6HT > .collapseBtn-2sFINR:hover, .theme-dark .mutualFriendsList-7kySbG > .collapseBtn-2sFINR:hover{
+  background: rgba(255, 255, 255, 0.2)!important;
 }
