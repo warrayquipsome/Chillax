@@ -201,17 +201,20 @@
 /*chatbox recolour*/
 .input-2g-os5,
 .scrollableContainer-15eg7h {
-  background-color: transparent;
+  background-color: transparent!important;
   transition: background-color 0.2s ease, border-color 0.2s ease;
   outline: none;
 }
+.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI{
+  color: transparent!important;
+}
 .theme-light .input-2g-os5:hover,
 .theme-light .scrollableContainer-15eg7h:hover {
-  background-color: #ffffff23;
+  background-color: #ffffff23!important;
 }
 .theme-light .input-2g-os5:focus-within,
 .theme-light .scrollableContainer-15eg7h:focus-within {
-  background-color: #e4e4e4;
+  background-color: #e4e4e4!important;
   box-shadow: 0px 8px 18px rgba(255, 255, 255, 0.2);
 }
 .message-2CShn3 {
@@ -1581,6 +1584,9 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   bottom: 0;
   left: 0;
   right: 0;
+}
+.container-YkUktl{
+background: transparent!important;
 }
 .sidebar-1tnWFu {
   background-color: transparent;
