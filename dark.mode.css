@@ -198,18 +198,21 @@
 }
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer-15eg7h {
-  background-color: transparent;
+.scrollableContainer-15eg7h{
+  background-color: transparent!important;
   transition: background-color 0.2s ease, border-color 0.2s ease;
   outline: none;
 }
+.placeholder-1rCBhr.slateTextArea-27tjG0.fontSize16Padding-XoMpjI{
+  color: transparent!important;
+}
 .theme-dark .input-2g-os5:hover,
 .theme-dark .scrollableContainer-15eg7h:hover {
-  background-color: #00000023;
+  background-color: #00000023!important;
 }
 .theme-dark .input-2g-os5:focus-within,
 .theme-dark .scrollableContainer-15eg7h:focus-within {
-  background-color: #181a1d;
+  background-color: #181a1d!important;
   box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
 }
 .message-2CShn3 {
