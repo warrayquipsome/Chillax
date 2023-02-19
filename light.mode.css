@@ -2595,31 +2595,6 @@ transition: 0.2s;
 .wrapperControlsHidden-2BK8R2 .videoControls-2NzHnF{
 margin-bottom: -30px;
 }
-/*cleaner folder group icon*/
-.folderIconWrapper-1oRIZr{
-    background: url("https://i.imgur.com/IWDKX4z.png");
-    background-repeat:no-repeat;
-    background-blend-mode:overlay;
-    background-position:center;
-}
-.expandedFolderIconWrapper-3RwQpD,
-.closedFolderIconWrapper-3tRb2d{display:none;}
-.folderIconWrapper-1oRIZr:not([style=""])::before {
-    position: absolute;
-    content: "";
-    width: 18px;
-    height: 18px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background-color: inherit;
-    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
-    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
-    transform: scale(1.3335);
-    filter: brightness(1.5) saturate(1.5);
-}
 /* Re-round Spotify Status Images */
 .assetsLargeImageSpotify-17ME3M{border-radius:10px;}
 /*bd theme n plugins notices design*/
