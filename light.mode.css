@@ -1363,7 +1363,7 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   background: rgba(184, 184, 184, 0.5) !important;
 }
 /*disable and delete account button design*/
-.theme-light .children-1xdcWE .colorRed-rQXKgM {
+.theme-light .children-2C96Ex .colorRed-2VFhM4 {
   width: 140px;
   height: 45px;
   font-family: "Roboto" !important;
@@ -1379,21 +1379,21 @@ div[class*="wrapper-1VLyxH"][aria-label*="Online"]
   cursor: pointer;
   outline: none;
 }
-.theme-light .children-1xdcWE .colorRed-rQXKgM:hover {
+.theme-light .children-2C96Ex .colorRed-2VFhM4:hover {
   background-color: rgb(255, 129, 129) !important;
   box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
   color: rgb(255, 255, 255) !important;
   transform: translateY(-7px);
 }
-.theme-light .children-1xdcWE .colorRed-rQXKgM {
+.theme-light .children-2C96Ex .colorRed-2VFhM4 {
   font-size: 0px !important;
 }
-.theme-light .children-1xdcWE .disableButton-3BR0Vj.colorRed-rQXKgM::before {
+.theme-light .children-2C96Ex .disableButton-3BR0Vj.colorRed-2VFhM4::before {
   content: "Disable";
   position: absolute;
   font-size: 11px !important;
 }
-.theme-light .children-1xdcWE .lookOutlined-3yKVGo.colorRed-rQXKgM::before {
+.theme-light .children-2C96Ex .lookOutlined-3RTC7c.colorRed-2VFhM4::before {
   content: "Delete";
   position: absolute;
   font-size: 11px !important;
