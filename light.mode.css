@@ -2657,3 +2657,8 @@ opacity: 01!important;
 .gameIcon-1mDo1J{
   color: transparent;
 }
+/*forum thread overlap fix*/
+.chatTarget-3H6mpC.container-3XgAHv.floating-3M3WeH{
+  background: rgba(26, 26, 26, 0.9)!important;
+  box-shadow: 0 0 15px rgb(0, 0, 0);
+}
