@@ -946,24 +946,24 @@ div[data-list-item-id="guildsnav___guild-discover-button"]:hover {
   opacity: 1;
 }
 /*glow radial status*/
-div[class*="wrapper-1VLyxH"][aria-label*="Streaming"]
-  > svg[class="mask-1FEkla svg-2azL_l"] {
+div[class*="wrapper-3Un6-K"][aria-label*="Streaming"]
+  > svg[class="mask-1y0tyc svg-1G_H_8"] {
   filter: drop-shadow(0 0 3px var(--rs-streaming-color)) !important;
 }
-div[class*="wrapper-1VLyxH"][aria-label*="Do Not Disturb"]
-  > svg[class="mask-1FEkla svg-2azL_l"] {
+div[class*="wrapper-3Un6-K"][aria-label*="Do Not Disturb"]
+  > svg[class="mask-1y0tyc svg-1G_H_8"] {
   filter: drop-shadow(0 0 3px var(--rs-dnd-color)) !important;
 }
-div[class*="wrapper-1VLyxH"][aria-label*="Offline"]
-  > svg[class="mask-1FEkla svg-2azL_l"] {
+div[class*="wrapper-3Un6-K"][aria-label*="Offline"]
+  > svg[class="mask-1y0tyc svg-1G_H_8"] {
   filter: drop-shadow(0 0 3px var(--rs-offline-color)) !important;
 }
-div[class*="wrapper-1VLyxH"][aria-label*="Idle"]
-  > svg[class="mask-1FEkla svg-2azL_l"] {
+div[class*="wrapper-3Un6-K"][aria-label*="Idle"]
+  > svg[class="mask-1y0tyc svg-1G_H_8"] {
   filter: drop-shadow(0 0 3px var(--rs-idle-color)) !important;
 }
-div[class*="wrapper-1VLyxH"][aria-label*="Online"]
-  > svg[class="mask-1FEkla svg-2azL_l"] {
+div[class*="wrapper-3Un6-K"][aria-label*="Online"]
+  > svg[class="mask-1y0tyc svg-1G_H_8"] {
   filter: drop-shadow(0 0 3px var(--rs-online-color)) !important;
 }
 /*theme background image*/
