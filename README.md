@@ -30,12 +30,8 @@ For problems installing or using the theme join the support server [https://disc
 ![image](https://user-images.githubusercontent.com/84565593/195045941-21cdf829-9bf7-4c7c-af8f-92b83cd3f256.png)
 ![image](https://user-images.githubusercontent.com/84565593/195045958-b95c73f3-15fd-4e2a-83c5-9084da71a70e.png)
 ![image](https://user-images.githubusercontent.com/84565593/195983143-573c15db-0e08-4683-9d70-a891bc34c0c4.png)
-![image](https://user-images.githubusercontent.com/84565593/195046542-f1e72971-31ec-47fb-bdeb-9ae139367177.png)
-![image](https://user-images.githubusercontent.com/84565593/195046557-2ca6613c-7f09-47b9-9b8c-30358fdac147.png)
-![image](https://user-images.githubusercontent.com/84565593/195046937-7043cbe3-70f7-4b8b-979b-6dca2aa20d29.png)
+![image](https://user-images.githubusercontent.com/84565593/225212685-4807d724-4047-44c1-99af-b9e10f718cc0.png)
 ![image](https://user-images.githubusercontent.com/84565593/195045867-6f8374c1-ad21-43e6-8901-d0d09b43b41e.png)
-![image](https://user-images.githubusercontent.com/84565593/195983214-b7b9a397-4341-4d15-9316-62c0335c66a2.png)
-![image](https://user-images.githubusercontent.com/84565593/195983219-59180643-50ee-44c7-93a2-437b56c4b4c5.png)
 
 
 # Author
