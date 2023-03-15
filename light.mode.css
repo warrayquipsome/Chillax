@@ -2443,6 +2443,40 @@ padding: 1px;
 .settingsBanner-2E5fAp {
   border-radius: 8px;
 }
+#my-account-tab {	
+  transform: scale(0.98) translateX(-17px);	
+}	
+.fieldButton-14lHvK.button-ejjZWC[aria-label="Edit phone number"] {	
+  top: 50px;	
+  border-radius: 8px;	
+}	
+.fieldButton-14lHvK.button-ejjZWC[aria-label="Remove phone number"] {	
+  top: 50px!important;	
+}	
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W {	
+  align-items: center;	
+  justify-content: center;	
+  width: calc(100% - 34px);	
+  margin-left: 17px;	
+  padding: 0;	
+  padding-top: 94px;	
+  padding-bottom: 9px;	
+}	
+.layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W .button-f2h6uQ {	
+  position: absolute;	
+  top: 60.9px!important;	
+  right: 298px;	
+  width: 77px;	
+  height: 77px;	
+  min-width: unset;	
+  min-height: unset;	
+  padding: 0;	
+  border-radius: 50px;	
+  background-color: transparent !important;	
+  font-size: 0;	
+  border: none!important;	
+  box-shadow: none;	
+}
 /*animated chat name hover*/
 .username-h_Y3Us:after {
 content: "";
