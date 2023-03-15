@@ -1519,11 +1519,11 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]
   backdrop-filter: none;
 }
 /*flickering user setting icons*/
-.sidebar-nqHbhN .item-3XjbnG:hover:before {
+.sidebar-nqHbhN .item-2GWPIy:hover:before {
   transition: all 0.2s;
   transform: rotateY(180deg);
 }
-.sidebar-nqHbhN .item-3XjbnG:before {
+.sidebar-nqHbhN .item-2GWPIy:before {
   transition: all 0.2s;
 }
 /*settings user profile recolour*/
