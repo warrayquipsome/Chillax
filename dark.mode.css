@@ -2500,36 +2500,37 @@ transform-origin: bottom center;
   border-radius: 8px!important;
 }
 /*user profiles tweak*/
-.userPopoutOuter-3AVBmJ .bannerSVGWrapper-qc0szY>mask>circle{
+.userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN>mask>circle{
 display: none;
 }
-.banner-2boKnS.popoutBanner-16rVDY{
+.banner-1YaD3N.popoutBanner-3cqRD9{
     border-radius: 8px;
     margin: 7px;
     width: 95.5%;
     height: 53px;
 }
-.banner-2boKnS.profileBanner-2zIsK7 {
+.banner-1YaD3N.profileBanner-1owKI5 {
     border-radius: 8px;
     margin: 12px;
     width: 96%;
     height: 95px;
 }
-.root-g14mjS .avatar-1YsFQ1{
+.root-8LYsGj .avatar-3QF_VA{
 border: 8px solid transparent;
 }
-.root-g14mjS .bannerSVGWrapper-qc0szY>mask{
+.root-8LYsGj .bannerSVGWrapper-2CLfzN>mask{
 display: none;
 }
-.theme-dark .nameTag-2ysfG3 {
-    background-color: #141414;
+.theme-dark .nameTag-35jqbZ {
+    background-color: var(--profile-gradient-secondary-color);
     padding: 10px;
     border-radius: 8px;
     width: fit-content;
 }
 .theme-dark .connectedAccountContainer-3aLMHJ {
 border-radius: 8px;
-background-color: #111111;
+background-color: var(--profile-gradient-secondary-color);
+
 border: none!important;
 width: 97%;
 }
