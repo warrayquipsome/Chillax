@@ -897,21 +897,23 @@ span:not(.spinner-item) {
   cy: 57;
 }
 /* Center profile badge, avatar and name 2*/
-.avatarPositionNormal-V4Mjtq {
+.avatarPositionNormal-2jWoC2 {
   position: absolute;
   transform: translate(-50%);
   left: 50%;
 }
-.userText-148fun {
+.userText-1_v2Cq {
   text-align: center;
 }
-.profileBadges-31rDHI {
+.profileBadges-2pItdR {
   max-width: 40%;
+  left: -20px;
+  top: 15px;
 }
-.divider-1tWBgZ {
+.divider-1QVlfF {
   display: none;
 }
-.section-3FmfOT.lastSection-3_1yKt {
+.section-28YDOf.lastSection-q3HCfo {
   visibility: hidden;
   margin-top: -65px !important;
 }
