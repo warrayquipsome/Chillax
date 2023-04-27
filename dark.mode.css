@@ -2632,18 +2632,20 @@ transition: 0.2s;
 margin-bottom: -30px;
 }
 /*user profile in dms design*/
-.panelBanner-13bsBR {
+.panelBanner-2KnOzw {
   border-radius: 12px;
   margin: 12px;
   width: 93%;
   height: 105px;
 }
-.avatarPositionPanel-3P4Ted, .avatarStack-3vfSFa:before{
-  left: 10%;
+.avatarPositionPanel-3ZMJUj, .avatarStack-3Bjmsl:before{
+  transform: scale(1.2);
+  left: 130px;
 }
-.bannerSVGWrapper-qc0szY foreignObject {
+.bannerSVGWrapper-2CLfzN foreignObject {
 mask: none;
 }
+.profilePanel-2VBkh8>.userProfileOuterUnthemed-11rPfA>div,#app-mount .userProfileOuterUnthemed-11rPfA{background: none;background-color: transparent;}
 /*user profile in dms fix*/
 .mutualGuildsList-3uBUvR > .collapseBtn-3-5Cu0, .mutualFriendsList-2bD7qC > .collapseBtn-3-5Cu0 {
   background: transparent!important;
