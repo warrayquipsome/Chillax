@@ -2645,12 +2645,12 @@ margin-bottom: -30px;
 mask: none;
 }
 /*user profile in dms fix*/
-.mutualGuildsList-37Q6HT > .collapseBtn-2sFINR, .mutualFriendsList-7kySbG > .collapseBtn-2sFINR {
+.mutualGuildsList-3uBUvR > .collapseBtn-3-5Cu0, .mutualFriendsList-2bD7qC > .collapseBtn-3-5Cu0 {
   background: transparent!important;
   box-shadow: none!important;
   border-radius: 0px!important;
 }
-.theme-dark .mutualGuildsList-37Q6HT > .collapseBtn-2sFINR:hover, .theme-dark .mutualFriendsList-7kySbG > .collapseBtn-2sFINR:hover{
+.theme-dark .mutualGuildsList-3uBUvR > .collapseBtn-3-5Cu0:hover, .theme-dark .mutualFriendsList-2bD7qC > .collapseBtn-3-5Cu0:hover{
   background: rgba(255, 255, 255, 0.1)!important;
 }
 /*emoji tab design n fix*/
