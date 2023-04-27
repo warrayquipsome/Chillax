@@ -921,30 +921,6 @@ span:not(.spinner-item) {
 .hasContent-1y12-u {
   display: none;
 }
-/* Smaller Server */
-ul[data-list-id="guildsnav"] [class^="pill-"],
-ul[data-list-id="guildsnav"] [class^="pill-"] > div {
-  height: 40px !important;
-}
-ul[data-list-id="guildsnav"] div[style*="height: 56"],
-ul[id^="folder-items-"] {
-  height: auto !important;
-}
-span[class^="expandedFolderBackground-"] {
-  border-radius: 14px;
-  width: 40px;
-  left: 16px;
-}
-.wrapper-28eC3z,
-[data-list-id="guildsnav"] [data-dnd-name] > div,
-[data-list-id="guildsnav"] svg[width="48"] {
-  width: 40px;
-  height: 40px;
-}
-div[data-list-item-id="guildsnav___create-join-button"]:hover,
-div[data-list-item-id="guildsnav___guild-discover-button"]:hover {
-  opacity: 1;
-}
 /*glow radial status*/
 div[class*="wrapper-3Un6-K"][aria-label*="Streaming"]
   > svg[class="mask-1y0tyc svg-1G_H_8"] {
