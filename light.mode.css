@@ -1834,8 +1834,9 @@ display: block;
 }
 /*custom friends grid fix*/
 .avatar-2MSPKk {
-  left: 25px;
-  bottom: -60px;
+  left: 165px;
+  bottom: -45px;
+  transform: scale(1.9);
 }
 .theme-light .listItemContents-2n2Uy9 {
   background: #f2f3f5
