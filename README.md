@@ -1,5 +1,5 @@
 # wq presents:   C H I L L A X
-![chillax](https://user-images.githubusercontent.com/84565593/235059952-adb7f65a-1912-4b29-8974-76c59ecf1474.png)
+![chillax](https://user-images.githubusercontent.com/84565593/235061753-91bd6417-9ce3-4f0d-9004-221676a9d042.png)
 
 # Installation
 To download the theme in Better Discord Site:
