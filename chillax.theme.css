@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.8
+ * @version 0.9
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you might not regret it.
  * @source https://github.com/warrayquipsome/Chillax
@@ -105,6 +105,7 @@
   --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
 }
 
+
 /*discord transparency*//*roots*/ /*theme dark*/
   .theme-dark {
   --background-message-hover: rgba(255, 255, 255, 0.055);
@@ -144,10 +145,17 @@
   --deprecated-panel-background: transparent;
 }
 
+/*friends grid banner colour*/
+.theme-dark{
+--FG-cards-banner-background: transparent!important;
+}
+.theme-light{
+--FG-cards-banner-background: transparent!important;
+} 
 
 
-     
-     
+
+
 /*Permissions*/
 /*
 -You do not have the rights to use our theme name Chillax™ on other projects 
@@ -161,7 +169,6 @@
  Wq                                       Author
  Demented_Elmo                            Co-Author
 =================================================================
- Replace Wandering Cubes                  by AGreenPig
  Embeds                                   by Alexis WyvernZu
  Active Now CSS                           by Cedrick
  Memberlist until hover                   by Cedrick
@@ -169,15 +176,14 @@
  Center profile badge, avatar and name    by Commie Axolotl
  Blurple recolour                         by DevilBro
  Emoji Replace                            by DevilBro
+ Settings Icons                           by DevilBro
  Connection Issue Let Me Be               by Disease
  Radial Status                            by Gibbu
  About Me Clamp                           by ItMeSarah
  Better Jump to Present Button            by Lonk
  Better Mark As Read Button               by Lonk
- Settings Icons                           by Lavender
  IconPack                                 by Lavender
  Discolored                               by Nyri4
- Light/Dark mode indicator                by Saltssaumure
  Better Spotify Control                   by Uri
 =================================================================
 */
