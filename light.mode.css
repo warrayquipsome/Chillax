@@ -2377,11 +2377,15 @@ background-color: #e4e4e4;
 margin-top: 5px;
 padding: 1px;
 }
+.fieldList-in8WkP{	
+margin-left: 10px;	
+margin-bottom: 25px;	
+}
 .field-21XZwa:last-child {
     margin-right: 0 !important;
 }
 .theme-light .field-21XZwa {
-    width: calc((100%/3) - ((20/3) * 1px));
+	width: calc((100%/2.2) - ((-45/3) * 1px));
     border-radius: 8px;
     background-color: #e4e4e4;
     max-height: none;
@@ -2389,7 +2393,7 @@ padding: 1px;
     padding: 15px;
     display: inline-block;
     margin-right: 10px;
-    margin-top: 0 !important;
+    margin-top: 10pximportant;
     position: relative;
     overflow-y: scroll;
     height: 150px;
@@ -2401,7 +2405,7 @@ padding: 1px;
   overflow: visible;
 }
 .fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit phone number"] {
-  top: 30px;
+  top: 30px!important;
   border-radius: 8px;
 }
 .fieldButton-14lHvK.button-f2h6uQ[aria-label="Edit username"] {
@@ -2430,7 +2434,7 @@ padding: 1px;
   border-radius: 8px;	
 }	
 .fieldButton-14lHvK.button-ejjZWC[aria-label="Remove phone number"] {	
-  top: 50px!important;	
+  top: 30px!important;
 }	
 .layer-86YKbF .accountProfileCard-lbN7n- .userInfo-regn9W {	
   align-items: center;	
