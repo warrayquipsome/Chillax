@@ -2678,3 +2678,16 @@ opacity: 01!important;
   background: rgba(26, 26, 26, 0.9)!important;
   box-shadow: 0 0 15px rgb(0, 0, 0);
 }
+/*forum fix*/
+.forumOrHome-2VTX6r {
+  background: transparent!important;
+}
+.children-3xh0VB:after{
+  background: transparent!important;
+}
+.flex-1UA-El .scrollbar-3vVt8d {
+  background-color: transparent!important;
+}
+.theme-dark .container-2qVG6q:hover {
+  background-color: #181a1d;
+}
