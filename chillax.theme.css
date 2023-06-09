@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.9.2
+ * @version 0.9.3
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you wont regret it.
  * @source https://github.com/warrayquipsome/Chillax
@@ -104,7 +104,7 @@
   --themedarksettingsmodalbackground: rgb(51, 49, 53);
   --settingsmodalwidth: 960px;
   --settingsmodalheight: 80vh;	
-
+}
      
 /*discord transparency*//*roots*/ /*theme dark*/
   .theme-dark {
