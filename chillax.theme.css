@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.9.1
+ * @version 0.9.2
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you wont regret it.
  * @source https://github.com/warrayquipsome/Chillax
@@ -39,7 +39,7 @@
 
 
 /*Chillax Roots*/
-
+:root{
 /*background image*/ /*(replace the link to use)*/
   --background-image:var(--wallpaper);
 /*bg dev suggestions*/
