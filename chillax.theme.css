@@ -41,12 +41,15 @@
 /*Chillax Roots*/
 :root{
 /*background image*/ /*(replace the link to use)*/
-  --background-image:var(--wallpaper);
+  --background-image:var(--window-seat-bg);
 /*bg dev suggestions*/
   --wallpaper: url('https://wallpaperaccess.com/full/2799204.jpg');
+  --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
 /*modern background selection*/
   --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
   --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
+/* my backgrounds */
+  --window-seat-bg: url('https://cloud.johnclear.me/index.php/s/tHnzX8DnZbNFnT3/preview')
 }
 
 
@@ -189,3 +192,57 @@
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
+
+
+/* My stuff below */
+
+/* accent color override */
+:root {
+/*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --accentcolor:	  106, 27, 143 !important;	
+/*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --accentcolorV2:     #6a1b8f !important;
+  --user-name: 'My Liege' !important;
+}
+
+/* channel name font size */
+.channelName-3KPsGw {
+  /* TODO this doesn't work */
+  font-size: 14px !important;
+}
+
+/* chat message font size */
+.messageContent-2t3eCI,
+.contents-2MsGLg {
+  /* TODO this doesn't work */
+  font-size: 15px !important;
+}
+
+/* text color for youtube links */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+  color: #d93530 !important;
+}
+
+/* settings cog hover animation */
+.panels-3wFtMD>.container-YkUktl:hover .flex-2S1XBF > :not(:last-child) {
+  width: 40px !important;
+}
+
+/* fix for emoji picker background when opening from message context menu */
+.theme-dark #emoji-picker-tab-panel {
+  background: #18191ba6 !important;
+  border-radius: 5px;
+}
+
+/* hide message in the sidebar */
+/* .sidebar-1tnWFu .content-2a4AW9:after{ */
+.sidebar-1tnWFu .content-yjf30S:after {
+color: rgba(255, 255, 255, 0)!important;
+text-shadow: none!important;
+}
+
+/* realign background image */
+.bg-1QIAus {
+  background-position: var(--background-position, right);
+}
