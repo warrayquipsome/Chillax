@@ -246,3 +246,23 @@ text-shadow: none!important;
 .bg-1QIAus {
   background-position: var(--background-position, right);
 }
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+/* Hide super reaction button */
+div[aria-label="Add Super Reaction"] {
+    display: none;
+}
+
+/* Hide super reaction tab in emoji picker */
+button[id="super-reaction-picker-tab"] {
+    display: none;
+}
