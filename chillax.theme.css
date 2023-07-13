@@ -267,7 +267,12 @@ button[id="super-reaction-picker-tab"] {
     display: none;
 }
 
-/* channel name font */
+/* Channel name font */
 .sidebar-1tnWFu .name-28HaxV {
   font-family: var(--font-name)
+}
+
+/* Increase visibility of message highlight */
+.backgroundFlash-1X5jVs[style*="background-color: rgba(148, 156, 247, 0)"] {
+    --message-background-flash: rgba(var(--accentcolor), 0.15) !important;
 }
