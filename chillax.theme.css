@@ -266,3 +266,8 @@ div[aria-label="Add Super Reaction"] {
 button[id="super-reaction-picker-tab"] {
     display: none;
 }
+
+/* channel name font */
+.sidebar-1tnWFu .name-28HaxV {
+  font-family: var(--font-name)
+}
