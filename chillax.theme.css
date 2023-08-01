@@ -276,3 +276,20 @@ button[id="super-reaction-picker-tab"] {
 .backgroundFlash-1X5jVs[style*="background-color: rgba(148, 156, 247, 0)"] {
     --message-background-flash: rgba(var(--accentcolor), 0.15) !important;
 }
+
+/* Fix layout with many badges */
+.contents-3NembX{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.containerWithContent-2Yws8V{
+    width: 70px !important;
+}
+
+/* Fix activity status menu */
+.description-1Dd2kv{
+    display: none;
+    width: 10px !important;
+}
