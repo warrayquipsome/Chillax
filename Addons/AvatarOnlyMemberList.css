@@ -3,3 +3,20 @@
 .members-3WRCEx {max-width: 65px;min-width: 65px;transition: 0.5s ease;}
 .members-3WRCEx:hover {max-width: 240px;min-width: 240px;}
 div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
+
+/* Don't shift the chat when the members list expands */
+.members-3WRCEx {
+    margin-left: 0px;
+    background-color: rgb(0, 0, 0, 0);
+    /* backdrop-filter: none;  */
+    transition: 0.5s ease;
+}
+
+.members-3WRCEx:hover {
+    margin-left: -175px;
+    background-color: rgb(0.1, 0.1, 0.1, .5);
+    /* backdrop-filter: blur(5px); */
+}
+
+/* Make list fill the window height */
+.membersWrap-3NUR2t {height: 100%;}
