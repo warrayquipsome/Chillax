@@ -293,3 +293,18 @@ button[id="super-reaction-picker-tab"] {
     display: none;
     width: 10px !important;
 }
+
+/* Don't shift the chat when the members list expands */
+.members-3WRCEx {
+    margin-left: 0px;
+    background-color: rgb(0, 0, 0, 0);
+    transition: 0.5s ease;
+}
+
+.members-3WRCEx:hover {
+    margin-left: -175px;
+    background-color: #1d1f22dd;
+}
+
+/* Make list fill the window height */
+.membersWrap-3NUR2t {height: 100%;}
