@@ -308,3 +308,8 @@ button[id="super-reaction-picker-tab"] {
 
 /* Make list fill the window height */
 .membersWrap-3NUR2t {height: 100%;}
+
+/* Fix grammar in message box */
+.theme-dark .placeholder-1rCBhr::before {
+  content: "Life is so much easier when you just take a moment to chill";
+}
