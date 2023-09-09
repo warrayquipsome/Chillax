@@ -230,13 +230,13 @@
 }
 
 /* fix for emoji picker background when opening from message context menu */
+/* TODO fix this */
 .theme-dark #emoji-picker-tab-panel {
   background: #18191ba6 !important;
   border-radius: 5px;
 }
 
 /* hide message in the sidebar */
-/* .sidebar-1tnWFu .content-2a4AW9:after{ */
 .sidebar-1tnWFu .content-yjf30S:after {
 color: rgba(255, 255, 255, 0)!important;
 text-shadow: none!important;
@@ -274,7 +274,7 @@ button[id="super-reaction-picker-tab"] {
 
 /* Increase visibility of message highlight */
 .backgroundFlash-1X5jVs[style*="background-color: rgba(148, 156, 247, 0)"] {
-    --message-background-flash: rgba(var(--accentcolor), 0.15) !important;
+    --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
 
 /* Fix layout with many badges */
@@ -283,7 +283,6 @@ button[id="super-reaction-picker-tab"] {
     justify-content: center;
     align-items: center;
 }
-
 .containerWithContent-2Yws8V{
     width: 70px !important;
 }
@@ -294,22 +293,46 @@ button[id="super-reaction-picker-tab"] {
     width: 10px !important;
 }
 
-/* Don't shift the chat when the members list expands */
+/* Make the member list expand on top of the chat instead of shifting it */
 .members-3WRCEx {
     margin-left: 0px;
     background-color: rgb(0, 0, 0, 0);
     transition: 0.5s ease;
 }
-
 .members-3WRCEx:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
 }
-
-/* Make list fill the window height */
+/* Make the list fill the window height */
 .membersWrap-3NUR2t {height: 100%;}
 
 /* Fix grammar in message box */
 .theme-dark .placeholder-1rCBhr::before {
   content: "Life is so much easier when you just take a moment to chill" !important;
+}
+
+/* Dropdown background */
+.option-Uc12mm {
+  background-color: #1e1f22 !important;
+}
+.option-Uc12mm:hover {
+  background-color: #333135 !important;
+}
+
+/* Un-hide unread divider with date */
+.isUnread-3Lojb- {
+  display: flex !important;
+}
+
+/* Hide date in unread divider */
+.content-3spvdd {
+  display: none;
+}
+
+/* Background in list of people who reacted to a message */
+.container-KM8BU6, .reactors-1VXca7 {
+  background-color: #181a1d;
+}
+.scroller-2GkvCq {
+  background-color: #111214;
 }
