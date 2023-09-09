@@ -230,10 +230,9 @@
 }
 
 /* fix for emoji picker background when opening from message context menu */
-/* TODO fix this */
-.theme-dark #emoji-picker-tab-panel {
-  background: #18191ba6 !important;
-  border-radius: 5px;
+.contentWrapper-2f9yME {
+  background-color: #18191ba6;
+  backdrop-filter: blur(5px);
 }
 
 /* hide message in the sidebar */
