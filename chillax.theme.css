@@ -330,3 +330,8 @@ button[id="super-reaction-picker-tab"] {
 .scroller-2GkvCq {
   background-color: #111214;
 }
+
+/*Remove dashed border from the guild list buttons*/
+.theme-dark .guilds-2JjMmN .scroller-3X7KbA .circleIconButton-1VxDrg {
+  border: rgba(255, 255, 255, 0.400)!important;
+}
