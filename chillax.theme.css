@@ -248,22 +248,22 @@ text-shadow: none!important;
 
 /* Hide Nitro gift button */
 button[aria-label="Send a gift"] {
-    display: none;
+  display: none;
 }
 
 /* Hide sticker picker button */
 button[aria-label="Open sticker picker"] {
-    display: none;
+  display: none;
 }
 
 /* Hide super reaction button */
 div[aria-label="Add Super Reaction"] {
-    display: none;
+  display: none;
 }
 
 /* Hide super reaction tab in emoji picker */
 button[id="super-reaction-picker-tab"] {
-    display: none;
+  display: none;
 }
 
 /* Channel name font */
@@ -273,24 +273,24 @@ button[id="super-reaction-picker-tab"] {
 
 /* Increase visibility of message highlight */
 .backgroundFlash-1X5jVs[style*="background-color: rgba(148, 156, 247, 0)"] {
-    --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
+  --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
 
 /* Fix activity status menu */
 .description-1Dd2kv{
-    display: none;
-    width: 10px !important;
+  display: none;
+  width: 10px !important;
 }
 
 /* Make the member list expand on top of the chat instead of shifting it */
 .members-3WRCEx {
-    margin-left: 0px;
-    background-color: #0000;
-    transition: 0.5s ease;
+  margin-left: 0px;
+  background-color: #0000;
+  transition: 0.5s ease;
 }
 .members-3WRCEx:hover {
-    margin-left: -175px;
-    background-color: #181a1ddd;
+  margin-left: -175px;
+  background-color: #181a1ddd;
 }
 /* Make the list fill the window height */
 .membersWrap-3NUR2t {height: 100%;}
@@ -306,6 +306,11 @@ button[id="super-reaction-picker-tab"] {
 }
 .option-Uc12mm:hover {
   background-color: #333135 !important;
+}
+
+/* Role picker background */
+.container-2kTWmC {
+  background-color: #1e1f22
 }
 
 /* Un-hide unread divider with date */
