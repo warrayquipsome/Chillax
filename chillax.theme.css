@@ -23,15 +23,15 @@
 */
 
 /*chillax*/
-@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
+@import url('https://raw.githubusercontent.com/LofiTurtle/Chillax/main/chillax.css');
 
 /*removable addons*/
 /* @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css"); */
 @import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
 @import url('https://nyri4.github.io/Discolored/main.css');
-@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://raw.githubusercontent.com/LofiTurtle/Chillax/main/Addons/IconPackEdited.css");
+@import url("https://raw.githubusercontent.com/LofiTurtle/Chillax/main/Addons/AvatarOnlyMemberList.css");
+@import url("https://raw.githubusercontent.com/LofiTurtle/Chillax/main/Addons/FolderRedesign.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/

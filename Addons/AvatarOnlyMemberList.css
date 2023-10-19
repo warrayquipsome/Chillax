@@ -1,5 +1,42 @@
 /*avatar only memberlist*/
-.membersWrap-3NUR2t {min-width: unset;}
-.members-3WRCEx {max-width: 65px;min-width: 65px;transition: 0.5s ease;}
-.members-3WRCEx:hover {max-width: 240px;min-width: 240px;}
-div:not(:hover)>.members-3WRCEx>div {padding-top: 10px;}
+.membersWrap-3NUR2t {
+  min-width: unset;
+}
+
+.members-3WRCEx {
+  max-width: 65px;
+  min-width: 65px;
+  transition: 0.5s ease;
+}
+
+.members-3WRCEx:hover {
+  max-width: 240px;
+  min-width: 240px;
+}
+
+div:not(:hover)>.members-3WRCEx>div {
+  padding-top: 10px;
+}
+
+/* Fix alignment issues with the members list */
+.container-2vWgD2,
+.membersWrap-3GwLFp {
+  width: 65px;
+}
+
+/* Make the member list expand on top of the chat instead of shifting it */
+.members-2y1nVj {
+  margin-left: 0px;
+  background-color: #0000;
+  transition: 0.5s ease;
+}
+
+.members-2y1nVj:hover {
+  margin-left: -175px;
+  background-color: #181a1ddd;
+}
+
+/* Make the list fill the window height */
+.membersWrap-3GwLFp {
+  height: 100%;
+}
