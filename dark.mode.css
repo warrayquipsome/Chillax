@@ -963,6 +963,7 @@ span:not(.spinner-item) {
   background: rgba(255, 255, 255, 0.1);
   color: rgb(255, 255, 255);
   transition: all 0.4s;
+  border: none;
 }
 
 .theme-dark .scroller__3d071 .circleIconButton_d8df29:hover {
