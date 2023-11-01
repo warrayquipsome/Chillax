@@ -1,8 +1,12 @@
-:root {
+/*theme background image*/
+.bg__12180 {
   /*background image*/
-  --background-image: var(--window-seat-bg) !important;
+  --background-image: var(--window-seat-bg);
   /* my backgrounds */
-  --window-seat-bg: url('https://cloud.lofitur.tel/index.php/s/tHnzX8DnZbNFnT3/preview')
+  --window-seat-bg: url('https://cloud.lofitur.tel/index.php/s/tHnzX8DnZbNFnT3/preview') background-image: var(--background-image);
+  background-attachment: var(--background-attachment, fixed);
+  background-size: var(--background-size, cover);
+  background-position: var(--background-position, center);
 }
 
 /* accent color override */
