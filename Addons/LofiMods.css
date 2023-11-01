@@ -1,0 +1,59 @@
+/* accent color override */
+:root {
+  /*chillax colours rgb*/
+  /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --accentcolor: 106, 27, 143 !important;
+  /*chillax colours hex*/
+  /* Google RGB Picker: https://g.co/kgs/NoY83h */
+  --accentcolorV2: #6a1b8f !important;
+  --user-name: 'My Liege' !important;
+}
+
+/* text color for youtube links */
+[href*="youtu.be"],
+[href*="youtube.com"] {
+  color: #d93530 !important;
+}
+
+/* fix for emoji picker background when opening from message context menu */
+/* TODO move into the main theme files */
+.contentWrapper-2f9yME {
+  background-color: #18191ba6;
+  backdrop-filter: blur(5px);
+}
+
+/* hide message in the sidebar */
+.sidebar-1tnWFu .content-yjf30S:after {
+  color: rgba(255, 255, 255, 0) !important;
+  text-shadow: none !important;
+}
+
+/* realign background image */
+.bg__12180 {
+  background-position: var(--background-position, right);
+}
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+  display: none;
+}
+
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+  display: none;
+}
+
+/* Hide super reaction button */
+div[aria-label="Add Super Reaction"] {
+  display: none;
+}
+
+/* Hide super reaction tab in emoji picker */
+button[id="super-reaction-picker-tab"] {
+  display: none;
+}
+
+/* Increase visibility of message highlight */
+.backgroundFlash_e5b9ad[style*="background-color: rgba(148, 156, 247, 0)"] {
+  --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
+}

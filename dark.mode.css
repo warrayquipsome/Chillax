@@ -1092,23 +1092,23 @@ span:not(.spinner-item) {
 }
 
 /*glow radial status*/
-div[class*="wrapper-3Un6-K"][aria-label*="Streaming"]>svg[class="mask-1y0tyc svg-1G_H_8"] {
+div[class*="wrapper_edb6e0"][aria-label*="Streaming"]>svg[class="mask__1979f svg_f5b652"] {
   filter: drop-shadow(0 0 3px var(--rs-streaming-color)) !important;
 }
 
-div[class*="wrapper-3Un6-K"][aria-label*="Do Not Disturb"]>svg[class="mask-1y0tyc svg-1G_H_8"] {
+div[class*="wrapper_edb6e0"][aria-label*="Do Not Disturb"]>svg[class="mask__1979f svg_f5b652"] {
   filter: drop-shadow(0 0 3px var(--rs-dnd-color)) !important;
 }
 
-div[class*="wrapper-3Un6-K"][aria-label*="Offline"]>svg[class="mask-1y0tyc svg-1G_H_8"] {
+div[class*="wrapper_edb6e0"][aria-label*="Offline"]>svg[class="mask__1979f svg_f5b652"] {
   filter: drop-shadow(0 0 3px var(--rs-offline-color)) !important;
 }
 
-div[class*="wrapper-3Un6-K"][aria-label*="Idle"]>svg[class="mask-1y0tyc svg-1G_H_8"] {
+div[class*="wrapper_edb6e0"][aria-label*="Idle"]>svg[class="mask__1979f svg_f5b652"] {
   filter: drop-shadow(0 0 3px var(--rs-idle-color)) !important;
 }
 
-div[class*="wrapper-3Un6-K"][aria-label*="Online"]>svg[class="mask-1y0tyc svg-1G_H_8"] {
+div[class*="wrapper_edb6e0"][aria-label*="Online"]>svg[class="mask__1979f svg_f5b652"] {
   filter: drop-shadow(0 0 3px var(--rs-online-color)) !important;
 }
 
@@ -1195,8 +1195,7 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]>svg[class="mask-1y0tyc svg-1G
 }
 
 /*ping design*/
-.numberBadge-37OJ3S {
-  padding: 5px 10px !important;
+.numberBadge__50328 {
   background-color: #fe365c;
   box-shadow: 0px 0px 10px 2px #ff2d54;
 }
@@ -1491,7 +1490,7 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]>svg[class="mask-1y0tyc svg-1G
 }
 
 /*guild pills glow*/
-.theme-dark .item-2LIpTv {
+.theme-dark .item_f9d377 {
   box-shadow: 0 0 3px rgb(255, 255, 255);
 }
 
@@ -1755,8 +1754,16 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]>svg[class="mask-1y0tyc svg-1G
   right: 0;
 }
 
-.container-YkUktl {
+.container_ca50b9 {
   background: transparent !important;
+}
+
+/* Profile and mute/deafen/settings background */
+.panels__58331 {
+  background: #181a1d !important;
+  box-shadow: 0 5px 8px #15171a;
+  border-radius: 12px;
+  margin: 10px 10px 23px;
 }
 
 .sidebar-1tnWFu {
@@ -2275,14 +2282,20 @@ div[class*="wrapper-3Un6-K"][aria-label*="Online"]>svg[class="mask-1y0tyc svg-1G
 }
 
 /*emoji/gif/sticker tab fix*/
-.theme-dark .drawerSizingWrapper-1txdWG {
+.theme-dark .contentWrapper__321ed,
+.contentWrapper_eab878 {
   background: #18191ba6 !important;
+  backdrop-filter: blur(5px);
   border-radius: 5px;
 }
 
-.theme-dark .unicodeShortcut-3N8oDe,
-.standardStickerShortcut-ObSns3 {
+.theme-dark .unicodeShortcut__1dd6b,
+.standardStickerShortcut__5254d {
   background: #292b2f;
+}
+
+.emojiItem_b15dee.emojiItemSelected__1a09a {
+  background-color: #18191b90;
 }
 
 /*better blocked message*/
@@ -2588,13 +2601,13 @@ li.row-uezxzk {
   display: none;
 }
 
-.footer-3dzxcR .reaction-102jx9 .reactionCount-SWXh9W::before {
+.footer-3dzxcR .reaction_fef95b .reactionCount_b49901::before {
   content: "❤";
   margin-right: 4px;
 }
 
-.reactionMe-2zhiyZ .reactionCount-SWXh9W {
-  color: var(--status-danger) !important;
+.reactionMe__98f57 .reactionCount_b49901 {
+  color: #FFF !important;
 }
 
 .messageCountBox-XEP63e:hover * {
@@ -3057,7 +3070,7 @@ html .channelTabs-newTab {
 }
 
 /*emoji tab design n fix*/
-.theme-dark .nav-1zWVQw>.navList-YSb9UB>button {
+.theme-dark .nav__2bf35>.navList__9f792>button {
   flex: auto;
   bottom: 20px;
   line-height: 45px;
@@ -3066,13 +3079,13 @@ html .channelTabs-newTab {
   background: #333135;
 }
 
-.inspector-2A2Chb {
+.inspector__993e1 {
   border-radius: 8px;
   margin: 10px;
   width: 95%
 }
 
-.unicodeShortcut-3N8oDe {
+.unicodeShortcut__1dd6b {
   border-radius: 8px;
   margin: 12px;
   margin-left: 5px;
@@ -3080,11 +3093,11 @@ html .channelTabs-newTab {
   width: 85%;
 }
 
-.theme-dark .nav-1zWVQw>.navList-YSb9UB>button:hover {
+.theme-dark .nav__2bf35>.navList__9f792>button:hover {
   background: rgba(255, 255, 255, 0.2);
 }
 
-.nav-1zWVQw {
+.nav__2bf35 {
   padding: 0;
 }
 
@@ -3101,24 +3114,63 @@ html .channelTabs-newTab {
 }
 
 /*forum thread overlap fix*/
-.chatTarget-3H6mpC.container-3XgAHv.floating-3M3WeH {
+.chatTarget__0ea5e.container_def45c.floating_f021e2 {
   background: rgba(26, 26, 26, 0.9) !important;
   box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 
 /*forum fix*/
-.forumOrHome-2VTX6r {
-  background: transparent !important;
+.container_b181b6 {
+  background: transparent;
 }
 
-.children-3xh0VB:after {
-  background: transparent !important;
+.theme-dark .container__99b06:hover {
+  background-color: #181a1d99 !important;
 }
 
-.flex-1UA-El .scrollbar-3vVt8d {
-  background-color: transparent !important;
+.theme-dark .container__99b06.isOpen__8593d {
+  background-color: #181a1d70;
 }
 
-.theme-dark .container-2qVG6q:hover {
+/* Dropdown background */
+.option_be8b2e {
+  background-color: #1e1f22 !important;
+}
+
+.option_be8b2e:hover {
+  background-color: #333135 !important;
+}
+
+/* Role picker item background */
+.container__7712a,
+.item__287de {
+  background-color: #1e1f22
+}
+
+/* Role picker background */
+.container_d27846 {
+  border-radius: 8px;
+  background-color: #18191ba6;
+  backdrop-filter: blur(5px);
+}
+
+/* Background in list of people who reacted to a message */
+.container_dc03c3,
+.reactors-1VXca7 {
   background-color: #181a1d;
+}
+
+.scroller__5fda0 {
+  background-color: #111214;
+}
+
+/* Remove descriptions from status selector menu */
+.description_ea6680 {
+  display: none;
+  width: 10px !important;
+}
+
+/* Remove slowmode message */
+.cooldownWrapper_de448f {
+  font-size: 0px;
 }
