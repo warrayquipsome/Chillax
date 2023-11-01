@@ -1,6 +1,6 @@
 :root {
   /*background image*/
-  --background-image: var(--window-seat-bg);
+  --background-image: var(--window-seat-bg) !important;
   /* my backgrounds */
   --window-seat-bg: url('https://cloud.lofitur.tel/index.php/s/tHnzX8DnZbNFnT3/preview')
 }

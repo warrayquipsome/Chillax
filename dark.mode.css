@@ -2130,6 +2130,11 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]>svg[class="mask__1979f svg_f5
   background: rgb(51, 49, 53) !important;
 }
 
+/* Inbox message item background */
+.messageContainer_aa7d14 {
+  background-color: rgb(70, 69, 71);
+}
+
 /*custom new unreads*/
 .bar-wDIGjg {
   padding: 14px 50px;
@@ -3173,4 +3178,9 @@ html .channelTabs-newTab {
 /* Remove slowmode message */
 .cooldownWrapper_de448f {
   font-size: 0px;
+}
+
+/* Increase visibility of message highlight */
+.backgroundFlash_e5b9ad[style*="background-color: rgba(148, 156, 247, 0)"] {
+  --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }

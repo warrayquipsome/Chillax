@@ -37,6 +37,8 @@
 /*(remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
 
+/* My modifications, comment out for default design */
+@import url("https://lofiturtle.github.io/Chillax/Addons/LofiMods.css");
 
 
 /*Chillax Roots*/
@@ -207,6 +209,3 @@
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
-
-/* My modifications, comment out for default design */
-@import url("https://lofiturtle.github.io/Chillax/Addons/LofiMods.css");
