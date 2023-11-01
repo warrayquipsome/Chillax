@@ -3184,3 +3184,13 @@ html .channelTabs-newTab {
 .backgroundFlash_e5b9ad[style*="background-color: rgba(148, 156, 247, 0)"] {
   --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
+
+/* Quick Switcher */
+.quickswitcher_a3d29a {
+  background-color: #18191ba6;
+  backdrop-filter: blur(5px);
+}
+
+.theme-dark .backdrop__7e89b {
+  background-color: rgba(0, 0, 0, .5) !important;
+}
