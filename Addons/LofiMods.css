@@ -1,3 +1,10 @@
+:root {
+  /*background image*/
+  --background-image: var(--window-seat-bg);
+  /* my backgrounds */
+  --window-seat-bg: url('https://cloud.lofitur.tel/index.php/s/tHnzX8DnZbNFnT3/preview')
+}
+
 /* accent color override */
 :root {
   /*chillax colours rgb*/
@@ -13,13 +20,6 @@
 [href*="youtu.be"],
 [href*="youtube.com"] {
   color: #d93530 !important;
-}
-
-/* fix for emoji picker background when opening from message context menu */
-/* TODO move into the main theme files */
-.contentWrapper-2f9yME {
-  background-color: #18191ba6;
-  backdrop-filter: blur(5px);
 }
 
 /* hide message in the sidebar */
@@ -51,9 +51,4 @@ div[aria-label="Add Super Reaction"] {
 /* Hide super reaction tab in emoji picker */
 button[id="super-reaction-picker-tab"] {
   display: none;
-}
-
-/* Increase visibility of message highlight */
-.backgroundFlash_e5b9ad[style*="background-color: rgba(148, 156, 247, 0)"] {
-  --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }

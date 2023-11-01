@@ -32,7 +32,6 @@
 @import url("https://lofiturtle.github.io/Chillax/Addons/IconPackEdited.css");
 @import url("https://lofiturtle.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
 @import url("https://lofiturtle.github.io/Chillax/Addons/FolderRedesign.css");
-@import url("https://lofiturtle.github.io/Chillax/Addons/LofiMods.css");
 
 /*additional addons*/
 /*(remove the both * to use)*/
@@ -44,15 +43,13 @@
 :root {
   /*background image*/
   /*(replace the link to use)*/
-  --background-image: var(--window-seat-bg);
+  --background-image: var(--wallpaper);
   /*bg dev suggestions*/
   --wallpaper: url('https://wallpaperaccess.com/full/2799204.jpg');
   --de-suggested-bg: url('https://i.imgur.com/BtNVFtq.jpg');
   /*modern background selection*/
   --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
   --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
-  /* my backgrounds */
-  --window-seat-bg: url('https://cloud.lofitur.tel/index.php/s/tHnzX8DnZbNFnT3/preview')
 }
 
 
@@ -210,3 +207,6 @@
 =================================================================
 */
 /*I really want to give a special shoutout to all of you for supporting me in this theme, thank you all.*/
+
+/* My modifications, comment out for default design */
+@import url("https://lofiturtle.github.io/Chillax/Addons/LofiMods.css");
