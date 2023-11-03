@@ -2130,6 +2130,11 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]>svg[class="mask__1979f svg_f5
   background: rgb(51, 49, 53) !important;
 }
 
+/* Inbox channel item background */
+.channelHeader__5d30c {
+  background-color: rgb(51, 49, 53) !important;
+}
+
 /* Inbox message item background */
 .messageContainer_aa7d14 {
   background-color: rgb(70, 69, 71);
