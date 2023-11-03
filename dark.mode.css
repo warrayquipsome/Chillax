@@ -289,6 +289,11 @@
   visibility: visible !important;
 }
 
+/* Fix slight scroll when text box is empty */
+.inner__9fd0b {
+  overflow: hidden;
+}
+
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
 span[class="inner-26JK4f"]:after {
   background-image: url("https://multiplexurbangreen.com/images/loader.gif");
