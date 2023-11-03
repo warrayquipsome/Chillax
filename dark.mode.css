@@ -291,7 +291,7 @@
 
 /* Fix slight scroll when text box is empty */
 .inner__9fd0b {
-  overflow: hidden;
+  overflow: hidden !important;
 }
 
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
