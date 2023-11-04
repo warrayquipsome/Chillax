@@ -38,3 +38,7 @@ For problems installing or using the theme join the support server [https://disc
 - › Wq
 # Helper:
 - › Demented Elmo
+- › LofiTurtle
+- › Inmoresentum
+
+I just wanna quickly say thank you to everyone who helped, supported and used this theme. LUV ALL OF YOU!!
