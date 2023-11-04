@@ -1,26 +1,3 @@
-/*theme background image*/
-.bg__12180 {
-  /*background image*/
-  --background-image: var(--window-seat-bg);
-  /* my backgrounds */
-  --window-seat-bg: url('https://cloud.lofitur.tel/index.php/s/tHnzX8DnZbNFnT3/preview');
-  background-image: var(--background-image);
-  background-attachment: var(--background-attachment, fixed);
-  background-size: var(--background-size, cover);
-  background-position: var(--background-position, center);
-}
-
-/* accent color override */
-:root {
-  /*chillax colours rgb*/
-  /* Google RGB Picker: https://g.co/kgs/NoY83h */
-  --accentcolor: 106, 27, 143 !important;
-  /*chillax colours hex*/
-  /* Google RGB Picker: https://g.co/kgs/NoY83h */
-  --accentcolorV2: #6a1b8f !important;
-  --user-name: 'My Liege' !important;
-}
-
 /* text color for youtube links */
 [href*="youtu.be"],
 [href*="youtube.com"] {
@@ -28,7 +5,7 @@
 }
 
 /* hide message in the sidebar */
-.sidebar-1tnWFu .content-yjf30S:after {
+.theme-dark .sidebar_ded4b5 .content__23cab:after {
   color: rgba(255, 255, 255, 0) !important;
   text-shadow: none !important;
 }

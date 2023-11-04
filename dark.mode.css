@@ -2840,6 +2840,7 @@ display: none;
 .theme-dark .connectedAccountContainer__23f00 {
 border-radius: 8px;
 background-color: var(--profile-gradient-secondary-color);
+}
 
 /*user profiles tweak*/
 .userPopoutOuter-1OHwPL .bannerSVGWrapper-2CLfzN>mask>circle {
@@ -3028,6 +3029,7 @@ opacity: 01!important;
 
 .theme-dark .container__99b06.isOpen__8593d {
   background-color: #181a1d70;
+}
 .forumOrHome__75784 {
   background: transparent!important;
 }
