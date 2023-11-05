@@ -1212,8 +1212,8 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
 }
 
 /*ping design*/
-.numberBadge__50328 {
-  padding: 5px 10px !important;
+.theme-dark .numberBadge__50328 {
+  padding: 0px 0px !important;
   background-color: #fe365c;
   box-shadow: 0px 0px 10px 2px #ff2d54;
 }
@@ -2242,7 +2242,7 @@ display: block;
 }
 
 /*emoji/gif/sticker tab fix*/
-.theme-dark .drawerSizingWrapper__30274 {
+.theme-dark .drawerSizingWrapper__30274 .wrapper__66cd5 {
   background: #18191ba6 !important;
   backdrop-filter: blur(5px);
   border-radius: 5px;
@@ -2550,7 +2550,7 @@ li.row-uezxzk {
   content: "❤";
   margin-right: 4px;
 }
-.reactionMe__98f57 .reactionCount_b49901 {
+.theme-dark .reactionMe__98f57 .reactionCount_b49901 {
   color: #EEE !important;
 }
 
@@ -3044,18 +3044,21 @@ opacity: 01!important;
 }
 
 /* Dropdown background */
-.option_be8b2e {
-  background-color: #1e1f22 !important;
+.popout_a6e77f {
+  background: #18191ba6 !important;
+  backdrop-filter: blur(5px);
 }
-
+.option_be8b2e {
+  background: transparent !important;
+}
 .option_be8b2e:hover {
-  background-color: #333135 !important;
+    background-color: rgba(78, 80, 88, 0.3) !important;
 }
 
 /* Role picker item background */
 .container__7712a,
 .item__287de {
-  background-color: #1e1f22
+  background: transparent;
 }
 
 /* Role picker background */

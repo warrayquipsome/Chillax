@@ -34,3 +34,13 @@ div[aria-label="Add Super Reaction"] {
 button[id="super-reaction-picker-tab"] {
   display: none;
 }
+
+/* Custom font for channel names */
+.containerDefault__3187b {
+  font-family: var(--font-name);
+}
+
+/* Remove mobile icon */
+#app-mount .wrapper_edb6e0 foreignObject[mask*=mobile]:after {
+  display: none;
+}
