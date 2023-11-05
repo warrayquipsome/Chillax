@@ -2244,7 +2244,7 @@ display: block;
 /*emoji/gif/sticker tab fix, and right-click reaction menu*/
 .theme-dark .drawerSizingWrapper__30274, .theme-dark .wrapper__66cd5 {
   background: #18191ba6 !important;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
   border-radius: 5px;
 }
 /* Disable double background in emoji/gif/sticker tab menu */
@@ -3100,22 +3100,18 @@ opacity: 01!important;
   --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
 
-/* Quick Switcher */
-.quickswitcher_a3d29a {
-  background-color: #18191ba6;
-  backdrop-filter: blur(15px);
-}
-.theme-dark .backdrop__7e89b {
-  background-color: rgba(0, 0, 0, .5) !important;
-}
-
-/* Notification Settings background */
+/* Notification Settings/Quick Switcher background */
 .root_a28985 {
   border-radius: 8px;
   background-color: #18191ba6;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
 }
 /* bottom bar */
 .footer__89240 {
   background-color: rgba(0, 0, 0, 0);
+}
+
+/* Dimmed background during modal */
+.theme-dark .backdrop__7e89b {
+  background-color: rgba(0, 0, 0, .5) !important;
 }
