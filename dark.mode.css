@@ -3052,7 +3052,7 @@ opacity: 01!important;
 /* Dropdown background */
 .popout_a6e77f {
   background: #18191ba6 !important;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
 }
 .option_be8b2e {
   background: transparent !important;
@@ -3071,7 +3071,7 @@ opacity: 01!important;
 .container_d27846 {
   border-radius: 8px;
   background-color: #18191ba6;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
 }
 
 /* Background in list of people who reacted to a message */
@@ -3103,7 +3103,7 @@ opacity: 01!important;
 /* Quick Switcher */
 .quickswitcher_a3d29a {
   background-color: #18191ba6;
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(15px);
 }
 .theme-dark .backdrop__7e89b {
   background-color: rgba(0, 0, 0, .5) !important;
