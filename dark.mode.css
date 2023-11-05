@@ -1766,7 +1766,7 @@ display: block;
   width: 50px;
   transition: all 0.3s;
 }
-.panels__58331 > .container_ca50b9:hover .flex_f5fbb7 > :not(:last-child) {
+.theme-dark .panels__58331 > .container_ca50b9:hover .flex_f5fbb7 > :not(:last-child) {
   opacity: 100% !important;
   width: 40px;
   margin-left: 10px;
@@ -2551,7 +2551,7 @@ li.row-uezxzk {
   margin-right: 4px;
 }
 .reactionMe__98f57 .reactionCount_b49901 {
-  color: var(--status-danger) !important;
+  color: #EEE !important;
 }
 
 .messageCountBox-XEP63e:hover * {
@@ -2840,6 +2840,9 @@ display: none;
 .theme-dark .connectedAccountContainer__23f00 {
 border-radius: 8px;
 background-color: var(--profile-gradient-secondary-color);
+
+border: none!important;
+width: 97%;
 }
 
 /*user profiles tweak*/
@@ -3093,7 +3096,17 @@ opacity: 01!important;
   background-color: #18191ba6;
   backdrop-filter: blur(5px);
 }
-
 .theme-dark .backdrop__7e89b {
   background-color: rgba(0, 0, 0, .5) !important;
+}
+
+/* Notification Settings background */
+.root_a28985 {
+  border-radius: 8px;
+  background-color: #18191ba6;
+  backdrop-filter: blur(5px);
+}
+/* bottom bar */
+.footer__89240 {
+  background-color: rgba(0, 0, 0, 0);
 }

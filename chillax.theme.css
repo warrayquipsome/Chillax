@@ -85,7 +85,7 @@
 :root {
   --user-name: "My Liege";
   --font-name: Poppins;
-  --font-size: 14px;
+  --font-size: inherit;
 
 
   /*glow radial status*/
