@@ -2244,7 +2244,7 @@ display: block;
 /*emoji/gif/sticker tab fix, and right-click reaction menu*/
 .theme-dark .drawerSizingWrapper__30274, .theme-dark .wrapper__66cd5 {
   background: #18191ba6 !important;
-  backdrop-filter: blur(15px);
+  backdrop-filter: blur(15px) !important;
   border-radius: 5px;
 }
 /* Disable double background in emoji/gif/sticker tab menu */
