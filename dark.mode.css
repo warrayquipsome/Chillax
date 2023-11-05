@@ -2241,11 +2241,17 @@ display: block;
   display: none;
 }
 
-/*emoji/gif/sticker tab fix*/
-.theme-dark .drawerSizingWrapper__30274, .wrapper__66cd5 {
+/*emoji/gif/sticker tab fix, and right-click reaction menu*/
+.theme-dark .drawerSizingWrapper__30274, .theme-dark .wrapper__66cd5 {
   background: #18191ba6 !important;
   backdrop-filter: blur(5px);
   border-radius: 5px;
+}
+/* Disable double background in emoji/gif/sticker tab menu */
+.theme-dark .drawerSizingWrapper__30274 .wrapper__66cd5 {
+    background: transparent !important;
+    backdrop-filter: none;
+    border-radius: 0px;
 }
 .theme-dark .unicodeShortcut__1dd6b,
 .standardStickerShortcut__5254d {
