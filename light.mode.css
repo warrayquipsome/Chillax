@@ -114,7 +114,7 @@
 /*all in settings*/
 .theme-light .messagesPopoutWrap_b3b384,
 .drawerSizingWrapper__30274 {
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px) !important;
   background: rgba(255, 255, 255, 0.267) !important;
 }
 .inspector-2A2Ch {
@@ -2815,7 +2815,7 @@ opacity: 01!important;
 /*all in settings*/
 .theme-light .messagesPopoutWrap_b3b384,
 .drawerSizingWrapper__30274 {
-  backdrop-filter: blur(5px);
+  backdrop-filter: blur(5px) !important;
   background: rgba(255, 255, 255, 0.267) !important;
 }
 .inspector-2A2Ch {
