@@ -2250,7 +2250,7 @@ display: block;
 /* Disable double background in emoji/gif/sticker tab menu */
 .theme-dark .drawerSizingWrapper__30274 .wrapper__66cd5 {
     background: transparent !important;
-    backdrop-filter: none;
+    backdrop-filter: none !important;
     border-radius: 0px;
 }
 .theme-dark .unicodeShortcut__1dd6b,
