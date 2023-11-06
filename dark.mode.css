@@ -3101,7 +3101,7 @@ opacity: 01!important;
 }
 
 /* Notification Settings/Quick Switcher background */
-.root_a28985 {
+.quickswitcher_a3d29a, .root_a28985 {
   border-radius: 8px;
   background-color: #18191ba6;
   backdrop-filter: blur(15px);
@@ -3109,6 +3109,11 @@ opacity: 01!important;
 /* bottom bar */
 .footer__89240 {
   background-color: rgba(0, 0, 0, 0);
+}
+/* Disable .root_a28985 background in unintended places */
+.container_f03f1d, .zoomedCarouselModalRoot__1e2da {
+  background: transparent !important;
+  backdrop-filter: none !important;
 }
 
 /* Dimmed background during modal */
