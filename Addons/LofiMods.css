@@ -44,3 +44,9 @@ button[id="super-reaction-picker-tab"] {
 #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile]:after {
   display: none;
 }
+
+/* Reset groupchat name font */
+.input__321f5 {
+  font-family: var(--font-name) !important;
+  font-weight: inherit !important;
+}
