@@ -1973,7 +1973,12 @@ display: block;
 
 /*threads background fix*/
 .theme-dark .container__8261a {
-  background: rgb(51, 49, 53);
+  background: #181a1da6 !important;
+  backdrop-filter: blur(15px) !important;
+}
+/* threads item hover */
+.container__6604b:hover {
+  background-color: #181a1d99;
 }
 
 /*toolbar fix [the bar when u double click ur unsent text]*/
