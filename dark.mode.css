@@ -3133,3 +3133,13 @@ opacity: 01!important;
   border-color: transparent;
   background-color: #181a1d99;
 }
+
+/* Search autocomplete background */
+.popout__24e32, .container_d6dad3 {
+  background-color: #181a1da6 !important;
+  backdrop-filter: blur(15px) !important;
+}
+/* Remove weird shadow */
+.option_b5597b:after {
+  background: transparent !important;
+}
