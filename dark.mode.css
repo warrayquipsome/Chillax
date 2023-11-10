@@ -2083,17 +2083,19 @@ display: block;
 .theme-dark .messagesPopoutWrap_b3b384,
 .theme-dark .recentMentionsPopout__826a9,
 .drawerSizingWrapper__30274 {
-  background: rgb(51, 49, 53) !important;
+  background: #181a1da6 !important;
+  backdrop-filter: blur(15px) !important;
+}
+
+/* Inbox alignment fix */
+.container__56e52 {
+  padding-left: 16px;
 }
 
 /* Inbox channel item background */
 .channelHeader__5d30c {
   background-color: rgb(51, 49, 53) !important;
-}
-
-/* Inbox message item background */
-.messageContainer_aa7d14 {
-  background-color: rgb(70, 69, 71);
+  border-radius: 8px;
 }
 
 /*custom new unreads*/
@@ -3081,7 +3083,7 @@ opacity: 01!important;
 }
 
 .scroller__5fda0 {
-  background-color: #111214;
+  background-color: #00000050;
 }
 
 /* Remove descriptions from status selector menu */
@@ -3119,4 +3121,10 @@ opacity: 01!important;
 /* Dimmed background during modal */
 .theme-dark .backdrop__7e89b {
   background-color: rgba(0, 0, 0, .5) !important;
+}
+
+/* File attachment */
+.attachment_f3cf2c {
+  border-color: transparent;
+  background-color: #181a1d99;
 }
