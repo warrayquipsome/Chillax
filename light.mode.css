@@ -1833,31 +1833,6 @@ display: block;
 .scroller__3d071 > div[aria-label="Servers"]::-webkit-scrollbar {
   width: 0px;
 }
-/*custom friends grid fix*/
-.avatar__8986c {
-  left: 165px;
-  bottom: -45px;
-  transform: scale(1.9);
-}
-.theme-light .listItemContents__7c940 {
-  background: #f2f3f5
-}
-.theme-light .listItemContents__7c940:hover {
-  background: rgb(255, 255, 255);
-  transition: 0.2s;
-}
-.peopleColumn__51df3 .text__923ee {
-  width: 100% !important;
-  margin-left: 0px !important;
-  display: flex;
-  align-items: center;
-}
-.peopleColumn__51df3 .listItemContents__7c940 .discordTag_e6cb79 {
-  margin-bottom: 10px;
-}
-.peopleColumn__51df3 .listItemContents__7c940 .activity__24558 {
-  max-width: 250px;
-}
 /*active now*/
 .heading-lg-medium-3gUJeM {
   text-align: center;
