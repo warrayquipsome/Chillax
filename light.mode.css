@@ -2692,6 +2692,12 @@ opacity: 01!important;
 .flex_fc800b .scrollbar_d66c5e {
   background-color: transparent!important;
 }
-.theme-light .container-2qVG6q:hover {
+.theme-light .container__99b06:hover {
+  background-color: #e4e4e4b7;
+}
+.theme-light .container__99b06.isOpen__8593d{
   background-color: #e4e4e4;
+}
+.container_b181b6 {
+  background: transparent!important;
 }
