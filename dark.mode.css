@@ -2688,5 +2688,11 @@ opacity: 01!important;
   background-color: transparent!important;
 }
 .theme-dark .container-2qVG6q:hover {
+  background-color: #181a1db7;
+}
+.theme-dark .container__99b06.isOpen__8593d{
   background-color: #181a1d;
+}
+.container_b181b6 {
+  background: transparent!important;
 }
