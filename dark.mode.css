@@ -2358,6 +2358,14 @@ margin-bottom: 25px;
 .field__9e8e2:last-child {
     margin-right: 0 !important;
 }
+div[class="fieldList_aab0de"] > div[class*="field__9e8e2"] {
+width: 95.5%;
+}
+div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButton_a93f59 button_afdfd9 lookFilled__19298 colorPrimary__6ed40 sizeSmall__71a98 grow__4c8a4"] {
+width: 90%;
+position: absolute;
+bottom: -1px;
+}
 .theme-dark .field__9e8e2 {
     width: calc((100%/2.2) - ((-45/3) * 1px));
     border-radius: 8px;
@@ -2421,8 +2429,8 @@ margin-bottom: 25px;
 }
 .layer__2efaa  .accountProfileCard__22589 .userInfo__8f826 .button_afdfd9 {
   position: absolute;
-  top: 60.9px!important;
-  right: 298px;
+  top: 52.5px!important;
+  right: 294.5px;
   width: 77px;
   height: 77px;
   min-width: unset;
