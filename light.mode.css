@@ -2347,6 +2347,18 @@ box-shadow: 0 0 5px var(--accentcolorV2);
 object-position: unset;
 }
 /*user setting redesign*/
+.theme-light .fieldButton_a93f59.button_afdfd9[aria-label="Remove phone number"] {
+  background: #fff !important;
+  color: #000 !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto";
+  font-size: 12px;
+}
+.theme-light .fieldButton_a93f59.button_afdfd9[aria-label="Remove phone number"]:hover {
+  background-color: rgb(255, 129, 129) !important;
+  box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+  color: rgb(255, 255, 255) !important;
+}
 .theme-light .badgeList__243e0 {
 border-radius: 8px;
 background-color: #e4e4e4;
