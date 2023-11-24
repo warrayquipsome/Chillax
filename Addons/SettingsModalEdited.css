@@ -209,6 +209,12 @@
 .theme-light .sidebarRegion__60457 {
 	background: var(--sidebar-colour);
 }
+.contentRegion__0bec1 {
+zoom: 0.9!important;
+}
+.premiumFeatureBorder__9bbb3{
+  background: linear-gradient(var(--background-primary),var(--background-primary))padding-box border-box;
+}
 
 /* Hide hover underline on selected tab */
 .selected__5711d:after {
