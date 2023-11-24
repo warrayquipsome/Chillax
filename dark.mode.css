@@ -2696,3 +2696,12 @@ opacity: 01!important;
 .container_b181b6 {
   background: transparent!important;
 }
+/*custom edited icon*/
+.edited_b20dd9 {color: transparent} /*Render the original edited text invisible*/
+.edited_b20dd9::before {
+content: "(" var(--edited-message) ")"; /*Put the edited icon before the original edited text.*/
+color: var(--text-muted); /*Give it the same muted color at the edited text.*/
+font-size: 10px; 
+font-weight: 400; 
+line-height: 1;
+}
