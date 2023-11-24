@@ -186,7 +186,9 @@
   transition: 0.2s;
 }
 .theme-dark .lookFilled__19298:hover {
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  background: rgb(0, 0, 0) !important;
+  transition: 0.1s;
 }
 /*channel unread pill*/
 .unread__48cf4 {
@@ -2345,6 +2347,20 @@ box-shadow: 0 0 5px var(--accentcolorV2);
 object-position: unset;
 }
 /*user setting redesign*/
+.theme-dark .fieldButton_a93f59.button_afdfd9[aria-label="Remove phone number"] {
+  background: rgb(36, 36, 36) !important;
+  color: rgb(255, 255, 255) !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto";
+  font-size: 12px;
+  transition: 0.2s;
+}
+.theme-dark .fieldButton_a93f59.button_afdfd9[aria-label="Remove phone number"]:hover {
+  background: rgb(229, 46, 46) !important;
+  color: #000!important;
+  box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
+  transition: 0.1s;
+}
 .theme-dark .badgeList__243e0 {
 border-radius: 8px;
 background-color: #333135;
