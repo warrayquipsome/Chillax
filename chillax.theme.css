@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 0.9.3
+ * @version 24.11.23
  * @invite DrfX6286kF
  * @description stress doesn't really goes with your fit, try out chillax you wont regret it.
  * @source https://github.com/warrayquipsome/Chillax
@@ -84,6 +84,8 @@
 /*both dark and light*/
 :root {
   --user-name: "My Liege";
+  --user-name: "King";
+  --edited-message: " EDITED ✎ ";
   --font-name: Poppins;
   --font-size: 16px;
 

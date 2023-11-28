@@ -220,7 +220,9 @@
   transition: 0.2s;
 }
 .theme-dark .lookFilled__19298:hover {
-  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.3);
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+  background: rgb(0, 0, 0) !important;
+  transition: 0.1s;
 }
 
 /*channel unread pill*/
@@ -2042,33 +2044,6 @@ display: block;
 .scroller__3d071 > div[aria-label="Servers"]::-webkit-scrollbar {
   width: 0px;
 }
-
-/*custom friends grid fix*/
-.avatar__8986c {
-  left: 165px;
-  bottom: -45px;
-  transform: scale(1.9);
-}
-.theme-dark .listItemContents__7c940 {
-  background: rgb(25, 25, 26);
-}
-.theme-dark .listItemContents__7c940:hover {
-  background: rgb(43, 43, 44);
-  transition: 0.2s;
-}
-.peopleColumn__51df3 .text__923ee {
-  width: 100% !important;
-  margin-left: 0px !important;
-  display: flex;
-  align-items: center;
-}
-.peopleColumn__51df3 .listItemContents__7c940 .discordTag_e6cb79 {
-  margin-bottom: 10px;
-}
-.peopleColumn__51df3 .listItemContents__7c940 .activity__24558 {
-  max-width: 250px;
-}
-
 /*active now*/
 .heading-lg-medium-3gUJeM {
   text-align: center;
@@ -2705,6 +2680,20 @@ object-position: unset;
 }
 
 /*user setting redesign*/
+.theme-dark .fieldButton_a93f59.button_afdfd9[aria-label="Remove phone number"] {
+  background: rgb(36, 36, 36) !important;
+  color: rgb(255, 255, 255) !important;
+  box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+  font-family: "Roboto";
+  font-size: 12px;
+  transition: 0.2s;
+}
+.theme-dark .fieldButton_a93f59.button_afdfd9[aria-label="Remove phone number"]:hover {
+  background: rgb(229, 46, 46) !important;
+  color: #000!important;
+  box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
+  transition: 0.1s;
+}
 .theme-dark .badgeList__243e0 {
 border-radius: 8px;
 background-color: #333135;
@@ -2717,6 +2706,14 @@ margin-bottom: 25px;
 }
 .field__9e8e2:last-child {
     margin-right: 0 !important;
+}
+div[class="fieldList_aab0de"] > div[class*="field__9e8e2"] {
+width: 95.5%;
+}
+div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButton_a93f59 button_afdfd9 lookFilled__19298 colorPrimary__6ed40 sizeSmall__71a98 grow__4c8a4"] {
+width: 90%;
+position: absolute;
+bottom: -1px;
 }
 .theme-dark .field__9e8e2 {
     width: calc((100%/2.2) - ((-45/3) * 1px));
@@ -2783,8 +2780,8 @@ margin-bottom: 25px;
 }
 .layer__2efaa  .accountProfileCard__22589 .userInfo__8f826 .button_afdfd9 {
   position: absolute;
-  top: 60.9px !important;
-  right: 298px;
+  top: 52.5px!important;
+  right: 294.5px;
   width: 77px;
   height: 77px;
   min-width: unset;
@@ -3084,6 +3081,16 @@ opacity: 01!important;
 /* Background in list of people who reacted to a message */
 .container_dc03c3,
 .reactors-1VXca7 {
+  background-color: #181a1db7;
+}
+.theme-dark .container__99b06.isOpen__8593d{
+  background-color: #181a1d;
+}
+
+.theme-dark .container-2qVG6q:hover {
+  background-color: #181a1db7;
+}
+.theme-dark .container__99b06.isOpen__8593d{
   background-color: #181a1d;
 }
 
