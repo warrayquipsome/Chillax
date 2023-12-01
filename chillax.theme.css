@@ -85,7 +85,7 @@
 :root {
   --user-name: "My Liege";
   --user-name: "King";
-  --edited-message: " EDITED ✎ ";
+  --edited-message: "edited";
   --font-name: Poppins;
   --font-size: 16px;
 
