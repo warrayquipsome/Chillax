@@ -1,5 +1,5 @@
 # wq presents:   C H I L L A X
-![chillax](https://user-images.githubusercontent.com/84565593/235061753-91bd6417-9ce3-4f0d-9004-221676a9d042.png)
+![chillax cover](https://github.com/warrayquipsome/Chillax/assets/84565593/eedd9969-6f6d-4cf0-8885-89cefa473085)
 
 # Installation
 To download the theme in Better Discord Site:
@@ -23,15 +23,15 @@ As where you are right now, you should be at the Better Discord site so just red
 # Support
 For problems installing or using the theme join the support server [https://discord.gg/DrfX6286kF] and ask for help.
 
-# Some of our best of the best
-![image](https://user-images.githubusercontent.com/84565593/195045896-bd386edd-3af8-45be-b526-53f55f8ba869.png)
-![image](https://user-images.githubusercontent.com/84565593/195045909-cd305dff-669e-4db0-a815-a91c25361f11.png)
-![image](https://user-images.githubusercontent.com/84565593/195045924-27e510b4-5de8-4c36-b1ee-11d79487d280.png)
-![image](https://user-images.githubusercontent.com/84565593/195045941-21cdf829-9bf7-4c7c-af8f-92b83cd3f256.png)
-![image](https://user-images.githubusercontent.com/84565593/195045958-b95c73f3-15fd-4e2a-83c5-9084da71a70e.png)
-![image](https://user-images.githubusercontent.com/84565593/195983143-573c15db-0e08-4683-9d70-a891bc34c0c4.png)
-![image](https://user-images.githubusercontent.com/84565593/225212685-4807d724-4047-44c1-99af-b9e10f718cc0.png)
-![image](https://user-images.githubusercontent.com/84565593/195045867-6f8374c1-ad21-43e6-8901-d0d09b43b41e.png)
+# Some of our best
+![chillax photo 1](https://github.com/warrayquipsome/Chillax/assets/84565593/b8f6e950-0dcc-45bc-a4ef-8f42285a0e4a)
+![chillax photo 2](https://github.com/warrayquipsome/Chillax/assets/84565593/ed4425f6-48d4-4b21-bf78-42ae1a5d51ea)
+![chillax rec 1](https://github.com/warrayquipsome/Chillax/assets/84565593/083833a3-12bb-4350-af87-6f6e5e1af1bd)
+![chillax rec 3](https://github.com/warrayquipsome/Chillax/assets/84565593/79094b2d-ec24-404d-bd7b-87457886a6c8)
+![chillax rec 4](https://github.com/warrayquipsome/Chillax/assets/84565593/41bb7383-159e-4693-93e6-27db7f9c2336)
+![image](https://github.com/warrayquipsome/Chillax/assets/84565593/825cfc4d-8920-4187-8393-bfa5d83d6cd2)
+![image](https://github.com/warrayquipsome/Chillax/assets/84565593/f4fa6f61-b523-4e3c-a5e3-0707f01ac1fa)
+![image](https://github.com/warrayquipsome/Chillax/assets/84565593/0fd0a150-07f6-42fd-9ee8-ca5867ceedf0)
 
 
 # Author
