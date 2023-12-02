@@ -136,6 +136,10 @@
   z-index: -1;
   border-radius: 5px;
 }
+/* Fix blur in nested floating menu */
+.submenu_acf564.menu_dc52c6::before {
+  width: calc(100% - 16px);
+}
 
 /*all in settings*/
 .messagesPopoutWrap_b3b384,
