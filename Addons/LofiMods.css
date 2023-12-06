@@ -99,7 +99,7 @@ div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButto
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link__2e8e1:has(.highlighted__7bba7), .modeUnreadImportant_efb53e {
+.link__2e8e1:has(.highlighted__7bba7), .modeUnreadImportant_efb53e:has(.mentionsBadge_c2f85b) {
   border-left: 2px solid rgba(var(--accentcolor), 0.8);
   background: linear-gradient(
     90deg,
