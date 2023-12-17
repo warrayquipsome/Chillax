@@ -83,8 +83,9 @@ This way you will have the full control over `update/patch` and there will be no
 
 Well, it depends on how you installed the theme.
 If you used the [Better Discord Site](https://betterdiscord.app/theme/Chillax) then you 
-can just go there and download the latest one and replace it with the old one.
-For other methods [described](#Installation) you can always get the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Chillax).
+can go there and download the latest one and replace it with the old one.
+For other methods [described above](#Installation) you can always get
+the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Chillax).
 
 # Support
 
