@@ -1,15 +1,35 @@
-# wq presents:   C H I L L A X
+<h1 align="center">wq presents:   C H I L L A X </h1>
+
 ![chillax cover](https://github.com/warrayquipsome/Chillax/assets/84565593/eedd9969-6f6d-4cf0-8885-89cefa473085)
 
+<div align="center">
+    <hr width="250px"/>
+    <div align="center">
+        <a href="https://www.paypal.me/wqqt9" target="_blank">
+            <img src="https://img.shields.io/badge/donate paypal-00457c?style=for-the-badge&logo=paypal&logocolor=white" alt="wq"/>
+        </a>
+    </div>
+    <div align="center">
+        <a href="https://discord.gg/drfx6286kf" target="_blank">
+            <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
+        </a>
+    </div>
+    <hr width="250px"/>
+</div>
+
 # Installation
-To download the theme in Better Discord Site:
+
+<details>
+<summary>BetterDiscord</summary>
+
+To download the theme in [Better Discord](https://betterdiscord.app/theme/Chillax) Site:
 1. Press the download button.
 2. Open your Discord and go User Settings > Themes > Open Themes Folder.
 3. Drag the theme.css file you just downloaded into the theme folder that opened.
 4. Go back to Discord and enable the theme and VOILA you did it.
 
-To download the theme in Github:
-1. Go to chillax.theme.css
+To download the theme from GitHub:
+1. Go to [chillax.theme.css](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
 2. Press the copy raw contents button.
 3. Edit the theme.css in your Discord.
 4. Select everything and paste in the copied code.
@@ -17,13 +37,39 @@ To download the theme in Github:
 
 And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS4w"
 
-# What do i do if the theme is outdated?
-As where you are right now, you should be at the Better Discord site so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
+</details>
 
-# Support
-For problems installing or using the theme join the support server [https://discord.gg/DrfX6286kF] and ask for help.
+<details>
+<summary>Vencord</summary>
+
+To install and use the theme on [Vencord](https://vencord.dev/)
+1. Go to [chillax.theme.css](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
+2. Press the copy raw contents button.
+3. Go to your Vencord themes tab.
+4. Click the "Open QuickCSS file" button.
+5. Paste the contents you copied from before.
+6. It should now automatically load the theme and apply.
+7. Modify/Change any `variables/css` if you need to.
+
+</details>
+
+<details>
+<summary>Raw GitHub Links</summary>
+
+Raw links are also another option for using the theme and most client mod supports them,
+but there are some inconveniences.
+For instance, when the theme gets updated,
+you will **lose all the customization** that you did on top of chillax.
+So they are **not recommended** when it comes to customizations.
+
+To overcome this issue, we recommend you to fork the [Chillax](https://github.com/warrayquipsome/Chillax)
+repository and make changes there and use the raw link of the forked repository.
+This way you will have the full control over `update/patch` and there will be no surprises.
+
+</details>
 
 # Some of our best
+
 ![chillax photo 1](https://github.com/warrayquipsome/Chillax/assets/84565593/b8f6e950-0dcc-45bc-a4ef-8f42285a0e4a)
 ![chillax photo 2](https://github.com/warrayquipsome/Chillax/assets/84565593/ed4425f6-48d4-4b21-bf78-42ae1a5d51ea)
 ![chillax rec 1](https://github.com/warrayquipsome/Chillax/assets/84565593/083833a3-12bb-4350-af87-6f6e5e1af1bd)
@@ -33,12 +79,32 @@ For problems installing or using the theme join the support server [https://disc
 ![image](https://github.com/warrayquipsome/Chillax/assets/84565593/f4fa6f61-b523-4e3c-a5e3-0707f01ac1fa)
 ![image](https://github.com/warrayquipsome/Chillax/assets/84565593/0fd0a150-07f6-42fd-9ee8-ca5867ceedf0)
 
+# What do i do if the theme is outdated?
+
+As where you are right now, you should be at the Better Discord site
+so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
+
+# Support
+
+For problems installing or using the theme,
+join the support server [[https://discord.gg/DrfX6286kF](https://discord.gg/DrfX6286kF)]
+and ask for help.
+
 
 # Author
-- › Wq
+
+- › [Wq](https://github.com/warrayquipsome)
+
 # Helper:
-- › Demented Elmo
-- › LofiTurtle
-- › Inmoresentum
+
+- › [Demented Elmo](https://github.com/Demented-Elmo)
+- › [LofiTurtle](https://github.com/LofiTurtle)
+- › [Inmoresentum](https://github.com/Inmoresentum)
 
 I just wanna quickly say thank you to everyone who helped, supported and used this theme. LUV ALL OF YOU!!
+
+&#160;
+
+<p align="center">Copyright &copy; 2022-present 
+   <a href="https://github.com/warrayquipsome" target="_blank">wq</a>
+</p>
