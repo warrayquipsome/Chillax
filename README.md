@@ -5,11 +5,6 @@
 <div align="center">
     <hr width="250px"/>
     <div align="center">
-        <a href="https://www.paypal.me/wqqt9" target="_blank">
-            <img src="https://img.shields.io/badge/donate paypal-00457c?style=for-the-badge&logo=paypal&logocolor=white" alt="wq"/>
-        </a>
-    </div>
-    <div align="center">
         <a href="https://discord.gg/drfx6286kf" target="_blank">
             <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
         </a>
@@ -93,7 +88,7 @@ the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Ch
 # Support
 
 For problems installing or using the theme,
-join the support server [[https://discord.gg/DrfX6286kF](https://discord.gg/DrfX6286kF)]
+join the support server [https://discord.gg/DrfX6286kF](https://discord.gg/DrfX6286kF)
 and ask for help.
 
 
