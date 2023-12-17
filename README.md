@@ -63,8 +63,8 @@ you will **lose all the customization** that you did on top of chillax.
 So they are **not recommended** when it comes to customizations.
 
 To overcome this issue, we recommend you to fork the [Chillax](https://github.com/warrayquipsome/Chillax)
-repository and make changes there and use the raw link of the forked repository.
-This way you will have the full control over `update/patch` and there will be no surprises.
+repository and make changes in the newly forked repository and use the raw link of the forked repository.
+This way you will have the full control over `update/patch` and there will be **no surprises**.
 
 </details>
 
