@@ -69,7 +69,7 @@ This way you will have the full control over `update/patch` and there will be **
 </details>
 
 **Disclaimer:** _We do not hold any responsibility for the aforementioned [client mods/wrapper](#Installation).
-Please them based on your own judgement._
+Please use them based on your own judgement._
 
 # Some of our best
 
