@@ -68,6 +68,9 @@ This way you will have the full control over `update/patch` and there will be **
 
 </details>
 
+**Disclaimer:** _We do not hold any responsibility for the aforementioned [client mods/wrapper](#Installation).
+Please them based on your own judgement._
+
 # Some of our best
 
 ![chillax photo 1](https://github.com/warrayquipsome/Chillax/assets/84565593/b8f6e950-0dcc-45bc-a4ef-8f42285a0e4a)
