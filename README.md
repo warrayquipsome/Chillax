@@ -79,10 +79,12 @@ This way you will have the full control over `update/patch` and there will be no
 ![image](https://github.com/warrayquipsome/Chillax/assets/84565593/f4fa6f61-b523-4e3c-a5e3-0707f01ac1fa)
 ![image](https://github.com/warrayquipsome/Chillax/assets/84565593/0fd0a150-07f6-42fd-9ee8-ca5867ceedf0)
 
-# What do i do if the theme is outdated?
+# What do I do if the theme is outdated?
 
-As where you are right now, you should be at the Better Discord site
-so just redownload the theme and open your themes folder remove the old one and add the new one you just downloaded.
+Well, it depends on how you installed the theme.
+If you used the [Better Discord Site](https://betterdiscord.app/theme/Chillax) then you 
+can just go there and download the latest one and replace it with the old one.
+For other methods [described](#Installation) you can always get the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Chillax).
 
 # Support
 
@@ -106,5 +108,5 @@ I just wanna quickly say thank you to everyone who helped, supported and used th
 &#160;
 
 <p align="center">Copyright &copy; 2022-present 
-   <a href="https://github.com/warrayquipsome" target="_blank">wq</a>
+   <a href="https://github.com/warrayquipsome" target="_blank">Wq</a>
 </p>
