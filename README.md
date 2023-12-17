@@ -59,7 +59,7 @@ To install and use the theme on [Vencord](https://vencord.dev/)
 Raw links are also another option for using the theme and most client mod supports them,
 but there are some inconveniences.
 For instance, when the theme gets updated,
-you will **lose all the customization** that you did on top of chillax.
+you will **lose all the customization** that you did on top of Chillax.
 So they are **not recommended** when it comes to customizations.
 
 To overcome this issue, we recommend you to fork the [Chillax](https://github.com/warrayquipsome/Chillax)
