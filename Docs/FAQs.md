@@ -61,14 +61,14 @@ Alternatively, if you want to use a downloaded font:
 * Host the font somewhere. [GitHub](https://www.github.com) is a good place.
 * All you have to do it create a new repo and upload the font there.
 * After click on the font file and get the **RAW** link of that.
-* Now just like in the previous step 7, we import the font but this time
-  use the **RAW** GitHub link instead of Google font one.
+* Now just like in the previous step 7, we import the font, but this time
+  using the **RAW** GitHub link instead of Google font one.
 
 ```css
    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 ```
 
-instead
+instead, it will be
 
 ```css
    @import url('RAW LINK');
