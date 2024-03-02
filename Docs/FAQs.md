@@ -89,3 +89,7 @@ That's it.
 
 **Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is for [hex](https://imagecolorpicker.com/).
 
+### How to change the theme welcome username?
+
+* Go to `Settings` > `Themes` > `Edit Quick CSS`.
+* Find the css variables `--user-name` and change it.
