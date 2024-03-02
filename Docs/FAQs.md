@@ -56,7 +56,7 @@ See the below screenshots:
 
 And Now the new fonts should be applied.
 
-Alternatively, if you want to use a downloaded font:
+#### Alternatively, if you want to use a downloaded font:
 
 * Host the font somewhere. [GitHub](https://www.github.com) is a good place.
 * All you have to do it create a new repo and upload the font there.
@@ -80,3 +80,12 @@ instead, it will be
 * Find the css variable `--font-size` and change it to your needs.
 
 That's it.
+
+### How to change the accent color
+
+* Go to `Settings` > `Themes` > `Edit Quick CSS`.
+* Find the css variables `--accentcolor`, `--accentcolor2` and change them to your needs.
+* You may want to play around with them to find the right balance.
+
+**Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is for [hex](https://imagecolorpicker.com/).
+
