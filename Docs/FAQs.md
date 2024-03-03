@@ -214,7 +214,7 @@ This is basically an addon; to remove it:
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * **Remove** or **comment out** the line (currently line number `33`) containing
-  `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`.
   Now the member list will always be visible instead of hover.
   See the below screenshots:
 
@@ -257,7 +257,6 @@ Remove it to get back default emojis:
     </a>
 </div>
 
-&#160;
 
 <p align="center">Copyright &copy; 2024-present 
    <a href="https://github.com/warrayquipsome" target="_blank">Wq</a>
