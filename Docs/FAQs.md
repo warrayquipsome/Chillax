@@ -164,6 +164,8 @@ and you won't have to do any of the above-mentioned things.
   use it [here](#how-to-changeuse-another-fonts).
 
 * Now use the below css snippet by @LofiTurtle:
+  * **Note:** If the below css does not work,
+    then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in the [Support Discord Server](https://discord.gg/drfx6286kf).
   ```css
       /* Reset groupchat name font */
       .input__321f5 {
@@ -253,12 +255,16 @@ Remove it to get back default emojis:
 
 ### 12. How to get rid of the below ugly thing?
 
-<img src="images/Ugly_writing/ugly_writing_white_bg.png" alt="wq is loading">
+<div align="center">
+    <img src="images/Ugly_writing/ugly_writing_white_bg.png" alt="wq is loading">
+</div>
 
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * Now the use/paste below css snippet by @LofiTurtle at the very end:
+    * **Note:** If the below css does not work,
+      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in the [Support Discord Server](https://discord.gg/drfx6286kf).
     ```css
         /* hide message in the sidebar */
         .theme-dark .sidebar_ded4b5 .content__23cab:after {
