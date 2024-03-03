@@ -3,7 +3,7 @@
 
 ### How to change the background/background image of CHILLAX?
 
-The steps are first `settings`, then go to the `VENCORD` tab and then `Themes`.
+The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
 See the below-attached screenshots:
 
@@ -71,7 +71,7 @@ And Now the new fonts should be applied.
 instead, it will be
 
 ```css
-   @import url('RAW LINK');
+   @import url('RAW LINK'); /* Replace `RAW LINK` with the GitHub raw url/link */
 ```
 
 ### How to change the font size?
@@ -89,7 +89,41 @@ That's it.
 
 **Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is for [hex](https://imagecolorpicker.com/).
 
-### How to change the theme welcome username?
+### How to change the theme welcome user name?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 * Find the css variables `--user-name` and change it.
+
+### How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
+
+**We recommend you to not go for that**
+
+
+However, if you have decided to make up your mind then
+
+* Go to `Settings` > `Vencord` > `Enable Window Transparency` and turn it on.
+* Now `Settings` > `Themes` > `Edit Quick CSS` and remove `--wallpaper` css variable
+  mentioned in [here](#how-to-change-the-backgroundbackground-image-of-chillax).
+* Your window should now be `transparent` or `see through` etc.
+* Now you may want to add a bit of blur to make things readable in the `container__037ed`.
+  However, discord uses electron, and we have found it to work differently on different
+  OS and window manager of your OS also plays a vital role here.
+  So, the below css snippet may or may does not work properly (Translucence is enabled in
+  window manager level).
+  In case it does not work, it will at least make the window a bit darker.
+  ```css
+      .container__037ed {
+            background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
+            /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
+            backdrop-filter: blur(1px) !important; /*Blur the background*/
+            border-radius: 10px; /* Rounded corners */
+            /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
+            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
+      }
+  ```
+**Note**: *Linux users this may be a hit or miss due to infinite number of factors
+  (Too many DEs, WMs & Display Protocols).* 
+  But using WM you can **natively add/force** translucence
+  at window level
+  (i.e. [hyprland](https://hyprland.org/) [**wayland warning**], [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.), 
+  and you won't have to do any of the above-mentioned things.
