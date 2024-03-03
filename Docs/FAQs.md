@@ -2,7 +2,7 @@
 <div align="center">
         <img align="center" src="https://media.tenor.com/bYgWUSFEfYYAAAAi/discord-vencord.gif" alt="wq is loading"/>
     <h3 align="center">
-            Vencord Edition
+            <a href="https://vencord.dev/">Vencord Edition</a>
     </h3>
 </div>
 
@@ -94,7 +94,7 @@ instead, it will be
    @import url('RAW LINK'); /* Replace `RAW LINK` with the GitHub raw url/link */
 ```
 
-### How to change the font size?
+### 3. How to change the font size?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
@@ -102,7 +102,7 @@ instead, it will be
 
 That's it.
 
-### 3. How to change the accent color
+### 4. How to change the accent color
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
@@ -113,13 +113,13 @@ That's it.
 **Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is
 for [hex](https://imagecolorpicker.com/).
 
-### 4. How to change the theme welcome username?
+### 5. How to change the theme welcome username?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
 * Find the css variables `--user-name` and change it.
 
-### 5. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
+### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
 
 **We recommend you to not go for that**
 
@@ -158,7 +158,7 @@ at window level
 **}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
 and you won't have to do any of the above-mentioned things.
 
-### 6. How to change the font of the group chat?
+### 7. How to change the font of the group chat?
 
 * We have already mentioned how you can import a custom font and
   use it [here](#how-to-changeuse-another-fonts).
@@ -174,7 +174,7 @@ and you won't have to do any of the above-mentioned things.
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
-### 7. CHILLAX is laggy or slow, very slow, any fix?
+### 8. CHILLAX is laggy or slow, very slow, any fix?
 
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
@@ -207,7 +207,7 @@ Consequently, you can try out OpenAsar which part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should give a bit more performance boost.
 
-### 8. How to make the member list always stay visible instead of on hover?
+### 9. How to make the member list always stay visible instead of on hover?
 
 This is basically an addon; to remove it:
 
@@ -228,7 +228,7 @@ This is basically an addon; to remove it:
 
 3.  <img src="images/addon_faqs/results.png" alt="wq is loading"/>
 
-### 9. How to get back the old emojis?
+### 10. How to get back the old emojis?
 
 This is also very similar to the previous [FAQ](#8-how-to-make-the-member-list-always-stay-visible-instead-of-on-hover).
 This thing is also an addon.
@@ -241,7 +241,7 @@ Remove it to get back default emojis:
 
 * Now you should have the old emojis.
 
-### 10. How to get rid of the Folder Icons and Make it like the old discord?
+### 11. How to get rid of the Folder Icons and Make it like the old discord?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
