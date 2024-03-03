@@ -24,7 +24,7 @@ See the below screenshots:
 
 Now your favourite BG should be applied.
 
-**Note**: If you are using discord CDN they expire after some time.
+**Note**: If you are using discord CDN, they expire after some time.
 In such cases fetch a new link.
 
 ### How to change/use another font(s)?
@@ -70,7 +70,7 @@ And Now the new fonts should be applied.
 
 * Host the font somewhere. [GitHub](https://www.github.com) is a good place.
 
-* All you have to do it create a new repo and upload the font there.
+* For GitHub, all you have to do is create a new repo and upload the font there.
 
 * After click on the font file and get the **RAW** link of that.
 
@@ -152,7 +152,7 @@ and you won't have to do any of the above-mentioned things.
 
 ### How to change the font of the group chat?
 
-* We have already mentioned how you can import a custom font and use
+* We have already mentioned how you can import a custom font and
   use it [here](#how-to-changeuse-another-fonts).
 
 * Now use the below css snippet by @LofiTurtle
