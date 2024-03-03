@@ -253,7 +253,7 @@ Remove it to get back default emojis:
 
 ### 12. How to get rid of the below ugly thing?
 
-<img src="images/Ugly_writing/ugly_writing.png" alt="wq is loading">
+<img src="images/Ugly_writing/ugly_writing_white_bg.png" alt="wq is loading">
 
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
