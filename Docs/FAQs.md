@@ -7,9 +7,9 @@ The steps are first `settings`, then go to the `VENCORD` Section and then `Theme
 Finally, click `Edit Quick CSS` which should open [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
 See the below-attached screenshots:
 
-<img src="images/bg_change/go_to_settings.png" alt="whatever">
-<img src="images/bg_change/edit_quick_css.png" alt="whatever">
-<img src="images/bg_change/monaco_editor.png" alt="whatever">
+1. <img src="images/bg_change/go_to_settings.png" alt="whatever"/>
+2. <img src="images/bg_change/edit_quick_css.png" alt="whatever"/>
+3. <img src="images/bg_change/monaco_editor.png" alt="whatever"/>
 
 Now to go to line number `46` (*at the time of writing the line number
 is 46 which in a later version might change*) or where the variable `--wallpaper`
@@ -18,7 +18,7 @@ to the wallpaper/gif **url** that you want to set.
 
 See the below screenshots:
 
-<img src="images/bg_change/bg_change.png" alt="whatever">
+<img src="images/bg_change/bg_change.png" alt="whatever"/>
 
 Now your favourite BG should be applied.
 
@@ -34,12 +34,12 @@ From there, choose the font you are looking for and adjust all the settings
 and everything (font weights, size etc.) and then copy the css import url.
 See the below screenshots:
 
-1. <img src="images/font_change/font_change_1.png" alt="wq is loading">
-2. <img src="images/font_change/font_change_2.png" alt="wq is loading">
-3. <img src="images/font_change/font_change_3.png" alt="wq is loading">
-4. <img src="images/font_change/font_change_4.png" alt="wq is loading">
-5. <img src="images/font_change/font_change_5.png" alt="wq is loading">
-6. <img src="images/font_change/font_change_6.png" alt="wq is loading">
+1. <img src="images/font_change/font_change_1.png" alt="wq is loading"/>
+2. <img src="images/font_change/font_change_2.png" alt="wq is loading"/>
+3. <img src="images/font_change/font_change_3.png" alt="wq is loading"/>
+4. <img src="images/font_change/font_change_4.png" alt="wq is loading"/>
+5. <img src="images/font_change/font_change_5.png" alt="wq is loading"/>
+6. <img src="images/font_change/font_change_6.png" alt="wq is loading"/>
 
     * Only copy the highlighted part.
       In your case, the link maybe different.
@@ -128,3 +128,28 @@ However, if you have decided to make up your mind then
   at window level
   (i.e. [hyprland](https://hyprland.org/) [**wayland warning**], [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.), 
   and you won't have to do any of the above-mentioned things.
+
+### How to change the font of the group chat?
+   
+* We have already mentioned how you can import a custom font and use
+  use it [here](#how-to-changeuse-another-fonts).
+* Now use the below css snippet by @LofiTurtle
+  ```css
+      /* Reset groupchat name font */
+      .input__321f5 {
+            font-family: var(--font-name) !important;
+            font-weight: inherit !important;
+      }
+   ```
+* If you want, you can replace `var(--font-name)` with your custom font name
+  if you are planning on using multiple fonts at once.  
+
+### CHILLAX is leggy or slow, any fix?
+
+* Make sure that **Hardware Acceleration** is on.
+  If not, then turn it on.
+* The steps are first `settings`, then `Advance` and then turn on `Hardware Acceleration`.
+
+
+If you are on a system that is not older than 5 years,
+the theme should work fine without any lag.
