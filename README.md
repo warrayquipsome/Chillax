@@ -8,6 +8,11 @@
         <a href="https://discord.gg/drfx6286kf" target="_blank">
             <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
         </a>
+        <br/>
+        <a href="Docs/FAQs.md" target="_blank">
+            <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=FAQ&message=CHILLAX VENCORD&colorA=333333&colorB=FB5454"
+                     alt="whatever" style="border-radius: 5px"/>
+        </a>
     </div>
     <hr width="250px"/>
 </div>
@@ -18,17 +23,18 @@
 <summary>BetterDiscord</summary>
 
 To download the theme in [Better Discord](https://betterdiscord.app/theme/Chillax) Site:
+
 1. Press the download button.
 2. Open your Discord and go User Settings > Themes > Open Themes Folder.
 3. Drag the theme.css file you just downloaded into the theme folder that opened.
 4. Go back to Discord and enable the theme and VOILA you did it.
 
 To download the theme from GitHub:
+
 1. Go to [chillax.theme.css](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
 2. Press the copy raw contents button.
 3. Edit the theme.css in your Discord.
 4. Select everything and paste in the copied code.
-
 
 And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS4w"
 
@@ -38,6 +44,7 @@ And if you want a YouTube tutorial, go to this link: "https://youtu.be/U0tTENsBS
 <summary>Vencord</summary>
 
 To install and use the theme on [Vencord](https://vencord.dev/)
+
 1. Go to [chillax.theme.css](https://github.com/warrayquipsome/Chillax/blob/main/chillax.theme.css)
 2. Press the copy raw contents button.
 3. Go to your Vencord themes tab.
@@ -51,7 +58,7 @@ To install and use the theme on [Vencord](https://vencord.dev/)
 <details>
 <summary>Raw GitHub Links</summary>
 
-Raw links are also another option for using the theme and most client mod supports them,
+Raw links are also another option for using the theme, and most client mod supports them,
 but there are some inconveniences.
 For instance, when the theme gets updated,
 you will **lose all the customization** that you did on top of Chillax.
@@ -80,7 +87,7 @@ Please use them based on your own judgement._
 # What do I do if the theme is outdated?
 
 Well, it depends on how you installed the theme.
-If you used the [Better Discord Site](https://betterdiscord.app/theme/Chillax) then you 
+If you used the [Better Discord Site](https://betterdiscord.app/theme/Chillax) then you
 can go there and download the latest one and replace it with the old one.
 For other methods [described above](#Installation) you can always get
 the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Chillax).
@@ -90,7 +97,6 @@ the latest version of [Chillax from GitHub](https://github.com/warrayquipsome/Ch
 For problems installing or using the theme,
 join the support server [https://discord.gg/DrfX6286kF](https://discord.gg/DrfX6286kF)
 and ask for help.
-
 
 # Author
 
@@ -102,7 +108,8 @@ and ask for help.
 - › [LofiTurtle](https://github.com/LofiTurtle)
 - › [Inmoresentum](https://github.com/Inmoresentum)
 
-I just wanna quickly say thank you to everyone who helped, supported and used this theme. LUV ALL OF YOU!!
+I just wanna quickly say thank you to everyone who helped, supported and used this theme.
+LUV ALL OF YOU!!
 
 &#160;
 
