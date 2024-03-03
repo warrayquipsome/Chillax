@@ -110,8 +110,8 @@ That's it.
 
 * You may want to play around with them to find the right balance.
 
-**Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is
-for [hex](https://imagecolorpicker.com/).
+**Note**: `--accentcolor` is for [rgb](https://rgbcolorpicker.com/) and `--accentcolor2` is
+for [hex](https://colors-picker.com/hex-color-picker/).
 
 ### 5. How to change the theme welcome username?
 
