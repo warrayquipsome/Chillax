@@ -155,7 +155,7 @@ and you won't have to do any of the above-mentioned things.
 * We have already mentioned how you can import a custom font and
   use it [here](#how-to-changeuse-another-fonts).
 
-* Now use the below css snippet by @LofiTurtle
+* Now use the below css snippet by @LofiTurtle:
   ```css
       /* Reset groupchat name font */
       .input__321f5 {
