@@ -80,7 +80,7 @@ And Now the new fonts should be applied.
 * After click on the font file and get the **RAW** link of that.
 
 * Now just like in the previous step 7, we import the font, but this time
-  using the **RAW** GitHub link instead of Google font one.
+  use the **RAW** GitHub link instead of Google font one.
 
 ```css
    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
@@ -111,7 +111,7 @@ That's it.
 **Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is
 for [hex](https://imagecolorpicker.com/).
 
-### 4. How to change the theme welcome user name?
+### 4. How to change the theme welcome username?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
@@ -152,7 +152,8 @@ However, if you have decided to make up your mind then
 (Too many DEs, WMs & Display Protocols).*
 But using WM you can **natively add/force** translucence
 at window level
-(i.e. [hyprland](https://hyprland.org/) {**wayland warning**}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+(i.e. [hyprland](https://hyprland.org/) {**wayland warning
+**}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
 and you won't have to do any of the above-mentioned things.
 
 ### 6. How to change the font of the group chat?
@@ -214,15 +215,15 @@ This is basically an addon; to remove it:
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`
   Now the member list will always be visible instead of hover.
   See the below screenshots:
- 
+
 1.  <img src="images/addon_faqs/always_visible_member_list.png" alt="wq is loading"/>
-    
+
     * Now remove/comment out this line.
-    
+
 2.  <img src="images/addon_faqs/commented_out.png" alt="wq is loading"/>
-    
+
     * Finally, you should have something like this:
-    
+
 3.  <img src="images/addon_faqs/results.png" alt="wq is loading"/>
 
 ### 9. How to get back the old emojis?
@@ -240,10 +241,22 @@ Remove it to get back default emojis:
 
 ### 10. How to get rid of the Folder Icons and Make it like the old discord?
 
-
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * **Remove** or **comment out** the line (currently line number `34`) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
 
 * Now it should be normal like the old discord.
+
+<h1 align="center">Still Have Question(s)? 👇 </h1>
+<div align="center">
+    <a href="https://discord.gg/drfx6286kf" target="_blank">
+        <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
+    </a>
+</div>
+
+&#160;
+
+<p align="center">Copyright &copy; 2024-present 
+   <a href="https://github.com/warrayquipsome" target="_blank">Wq</a>
+</p>
