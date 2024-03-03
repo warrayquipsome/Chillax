@@ -42,6 +42,7 @@ See the below screenshots:
 6. <img src="images/font_change/font_change_6.png" alt="wq is loading">
 
     * Only copy the highlighted part.
+      In your case, the link maybe different.
 
 7. <img src="images/font_change/font_change_7.png" alt="wq is loading">
 
