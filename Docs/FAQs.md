@@ -1,5 +1,10 @@
 <h1 align="center">C H I L L A X FAQs</h1>
-<h3 align="center">Vencord Edition</h3>
+<div align="center">
+        <img align="center" src="https://media.tenor.com/bYgWUSFEfYYAAAAi/discord-vencord.gif" alt="wq is loading"/>
+    <h3 align="center">
+            Vencord Edition
+    </h3>
+</div>
 
 ### How to change the background/background image of CHILLAX?
 
@@ -130,7 +135,8 @@ However, if you have decided to make up your mind then
   OS and window manager of your OS also plays a vital role here.
   So, the below css snippet may or may does not work properly (Translucence is enabled in
   window manager level).
-  In case it does not work, it will at least make the window a bit darker.
+  In case it does not work, it will at least make the `container__037ed`
+  basically that region bit darker.
   ```css
       .container__037ed {
             background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
@@ -146,8 +152,8 @@ However, if you have decided to make up your mind then
 (Too many DEs, WMs & Display Protocols).*
 But using WM you can **natively add/force** translucence
 at window level
-(i.e. [hyprland](https://hyprland.org/) [**wayland warning
-**], [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+(i.e. [hyprland](https://hyprland.org/) {**wayland warning
+**}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
 and you won't have to do any of the above-mentioned things.
 
 ### How to change the font of the group chat?
@@ -159,19 +165,38 @@ and you won't have to do any of the above-mentioned things.
   ```css
       /* Reset groupchat name font */
       .input__321f5 {
-            font-family: var(--font-name) !important;
-            font-weight: inherit !important;
+            font-family: var(--font-name) !important; /* Write the font name here */
+            font-weight: inherit !important; /* Self explanatory */
       }
    ```
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
-### CHILLAX is leggy or slow, any fix?
+### CHILLAX is laggy or slow, very slow, any fix?
 
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
 
 * The steps are first `settings`, then `Advance` and then turn on `Hardware Acceleration`.
 
+*Almost 99% of the time this is the reason behind lag.*
+
 If you are on a system that is not older than 5 years,
 the theme should work fine without any lag.
+
+However, as a last resort you can
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `37` which
+  says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
+  See the below screenshots:
+
+  <img src="images/bg_change/edit_quick_css.png" alt="whatever"/>
+
+  <img src="images/bg_change/edit_quick_css.png" alt="whatever"/>
+  
+* This should make it a little less laggy.
+
+Consequently, you can try out OpenAsar which part
+of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
+This should give a bit more performance boost.
