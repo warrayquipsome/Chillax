@@ -250,7 +250,7 @@ Remove it to get back default emojis:
 
 * Now it should be normal like the old discord.
 
-<h1 align="center">Still Have Question(s)? 👇 </h1>
+<h1 align="center">Still Have Question(s)? 👇</h1>
 <div align="center">
     <a href="https://discord.gg/drfx6286kf" target="_blank">
         <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
