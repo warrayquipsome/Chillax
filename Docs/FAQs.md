@@ -250,6 +250,24 @@ Remove it to get back default emojis:
 
 * Now it should be normal like the old discord.
 
+
+### 12. How to get rid of the below ugly thing?
+
+<img src="images/Ugly_writing/ugly_writing.png" alt="wq is loading">
+
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* Now the use/paste below css snippet by @LofiTurtle at the very end:
+    ```css
+        /* hide message in the sidebar */
+        .theme-dark .sidebar_ded4b5 .content__23cab:after {
+            color: rgba(255, 255, 255, 0) !important;
+            text-shadow: none !important;
+        }
+    ```
+* Now it should be a bit better.
+
 <h1 align="center">Still Have Question(s)? 👇</h1>
 <div align="center">
     <a href="https://discord.gg/drfx6286kf" target="_blank">
