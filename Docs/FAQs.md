@@ -71,7 +71,7 @@ See the below screenshots:
 
     * Optionally adjust the `--font-size` if you need to.
 
-And Now the new fonts should be applied.
+And now the new fonts should be applied.
 
 #### Alternatively, if you want to use a downloaded font:
 
