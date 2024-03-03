@@ -268,8 +268,8 @@ Remove it to get back default emojis:
     ```css
         /* hide message in the sidebar */
         .theme-dark .sidebar_ded4b5 .content__23cab:after {
-            color: rgba(255, 255, 255, 0) !important;
-            text-shadow: none !important;
+               color: rgba(255, 255, 255, 0) !important;
+               text-shadow: none !important;
         }
     ```
 * Now it should be a bit better.
@@ -280,7 +280,6 @@ Remove it to get back default emojis:
         <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
     </a>
 </div>
-
 
 <p align="center">Copyright &copy; 2024-present 
    <a href="https://github.com/warrayquipsome" target="_blank">Wq</a>
