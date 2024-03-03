@@ -9,7 +9,9 @@
 ### 1. How to change the background/background image of CHILLAX?
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
-Finally, click `Edit Quick CSS` which should open [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
+Finally, click `Edit Quick CSS` which should open integrated
+(*Its already there not need for installation*) [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
+Now using this Editor, you can easily edit css with hot reloading.
 See the below-attached screenshots:
 
 1. <img src="images/bg_change/go_to_settings.png" alt="whatever"/>
@@ -27,7 +29,7 @@ See the below screenshots:
 
 <img src="images/bg_change/bg_change.png" alt="whatever"/>
 
-Now your favourite BG should be applied.
+Now your favourite background image/gif should be applied.
 
 **Note**: If you are using discord CDN, they expire after some time.
 In such cases fetch a new link.
