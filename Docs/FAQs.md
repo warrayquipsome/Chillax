@@ -152,8 +152,7 @@ However, if you have decided to make up your mind then
 (Too many DEs, WMs & Display Protocols).*
 But using WM you can **natively add/force** translucence
 at window level
-(i.e. [hyprland](https://hyprland.org/) {**wayland warning
-**}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+(i.e. [hyprland](https://hyprland.org/) {**wayland warning**}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
 and you won't have to do any of the above-mentioned things.
 
 ### 6. How to change the font of the group chat?
@@ -192,14 +191,48 @@ However, as a last resort you can
   See the below screenshots:
 
 1.  <img src="images/lag/lag_stuff_1.png" alt="whatever"/>
-    
+
     * Uncomment this line, and it should look something like the below
       screenshot:
-    
+
 2.  <img src="images/lag/lag_stuff_2.png" alt="whatever"/>
-  
+
 * This should make it a little less laggy.
 
 Consequently, you can try out OpenAsar which part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should give a bit more performance boost.
+
+### 8. How to make the member list always stay visible instead of on hover?
+
+This is basically an addon; to remove it:
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (currently line number `33`) containing
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`
+  Now the member list will always be visible instead of hover.
+  See the below screenshots:
+ 
+1.  <img src="images/addon_faqs/always_visible_member_list.png" alt="wq is loading"/>
+    
+    * Now remove/comment out this line.
+    
+2.  <img src="images/addon_faqs/commented_out.png" alt="wq is loading"/>
+    
+    * Finally, you should have something like this:
+    
+3.  <img src="images/addon_faqs/results.png" alt="wq is loading"/>
+
+### 9. How to get back the old emojis?
+
+This is also very similar to the previous [FAQ](#8-how-to-make-the-member-list-always-stay-visible-instead-of-on-hover).
+This thing is also an addon.
+Remove it to get back default emojis:
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (currently line number `29`) containing
+  `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
+
+* Now you should have the old emojis.
