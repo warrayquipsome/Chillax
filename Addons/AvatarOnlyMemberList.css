@@ -40,3 +40,15 @@ div:not(:hover)>.members__9f47b>div {
 .membersWrap__90226 {
   height: 100%;
 }
+
+/* Fix the member count addon (vencord) */
+.members__9f47b:not(:hover) > #vc-membercount > div > span:first-child {
+    display: none !important;
+}
+.members__9f47b:not(:hover) > #vc-membercount > div {
+    box-sizing: border-box !important;
+    flex: 1 0 100%;
+}
+.members__9f47b:not(:hover) > #vc-membercount {
+  flex-wrap: wrap;
+}

@@ -753,7 +753,7 @@ span:not(.spinner-item) {
     transform: rotate(0deg);
   }
   to {
-    transform: rotate(90deg);
+    transform: rotate(180deg);
   }
 }
 @keyframes Settings2 {
