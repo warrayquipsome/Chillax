@@ -8,7 +8,9 @@ Finally, click `Edit Quick CSS` which should open [Monaco](https://microsoft.git
 See the below-attached screenshots:
 
 1. <img src="images/bg_change/go_to_settings.png" alt="whatever"/>
+
 2. <img src="images/bg_change/edit_quick_css.png" alt="whatever"/>
+
 3. <img src="images/bg_change/monaco_editor.png" alt="whatever"/>
 
 Now to go to line number `46` (*at the time of writing the line number
@@ -35,10 +37,15 @@ and everything (font weights, size etc.) and then copy the css import url.
 See the below screenshots:
 
 1. <img src="images/font_change/font_change_1.png" alt="wq is loading"/>
+
 2. <img src="images/font_change/font_change_2.png" alt="wq is loading"/>
+
 3. <img src="images/font_change/font_change_3.png" alt="wq is loading"/>
+
 4. <img src="images/font_change/font_change_4.png" alt="wq is loading"/>
+
 5. <img src="images/font_change/font_change_5.png" alt="wq is loading"/>
+
 6. <img src="images/font_change/font_change_6.png" alt="wq is loading"/>
 
     * Only copy the highlighted part.
@@ -47,12 +54,14 @@ See the below screenshots:
 7. <img src="images/font_change/font_change_7.png" alt="wq is loading">
 
     * Now go to `Settings` > `Themes` > `Edit Quick CSS`.
+
     * Paste the copied link at the top just like the above screenshot and put the `;` at the end of it.
 
 8. <img src="images/font_change/font_change_8.png" alt="wq is loading">
 
     * Now change the `--font-nane` to the name of the font that you have
       just imported.
+
     * Optionally adjust the `--font-size` if you need to.
 
 And Now the new fonts should be applied.
@@ -60,8 +69,11 @@ And Now the new fonts should be applied.
 #### Alternatively, if you want to use a downloaded font:
 
 * Host the font somewhere. [GitHub](https://www.github.com) is a good place.
+
 * All you have to do it create a new repo and upload the font there.
+
 * After click on the font file and get the **RAW** link of that.
+
 * Now just like in the previous step 7, we import the font, but this time
   using the **RAW** GitHub link instead of Google font one.
 
@@ -78,6 +90,7 @@ instead, it will be
 ### How to change the font size?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
+
 * Find the css variable `--font-size` and change it to your needs.
 
 That's it.
@@ -85,27 +98,33 @@ That's it.
 ### How to change the accent color
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
+
 * Find the css variables `--accentcolor`, `--accentcolor2` and change them to your needs.
+
 * You may want to play around with them to find the right balance.
 
-**Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is for [hex](https://imagecolorpicker.com/).
+**Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is
+for [hex](https://imagecolorpicker.com/).
 
 ### How to change the theme welcome user name?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
+
 * Find the css variables `--user-name` and change it.
 
 ### How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
 
 **We recommend you to not go for that**
 
-
 However, if you have decided to make up your mind then
 
 * Go to `Settings` > `Vencord` > `Enable Window Transparency` and turn it on.
+
 * Now `Settings` > `Themes` > `Edit Quick CSS` and remove `--wallpaper` css variable
   mentioned in [here](#how-to-change-the-backgroundbackground-image-of-chillax).
+
 * Your window should now be `transparent` or `see through` etc.
+
 * Now you may want to add a bit of blur to make things readable in the `container__037ed`.
   However, discord uses electron, and we have found it to work differently on different
   OS and window manager of your OS also plays a vital role here.
@@ -122,17 +141,20 @@ However, if you have decided to make up your mind then
             box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
       }
   ```
+
 **Note**: *Linux users this may be a hit or miss due to infinite number of factors
-  (Too many DEs, WMs & Display Protocols).* 
-  But using WM you can **natively add/force** translucence
-  at window level
-  (i.e. [hyprland](https://hyprland.org/) [**wayland warning**], [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.), 
-  and you won't have to do any of the above-mentioned things.
+(Too many DEs, WMs & Display Protocols).*
+But using WM you can **natively add/force** translucence
+at window level
+(i.e. [hyprland](https://hyprland.org/) [**wayland warning
+**], [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+and you won't have to do any of the above-mentioned things.
 
 ### How to change the font of the group chat?
-   
+
 * We have already mentioned how you can import a custom font and use
   use it [here](#how-to-changeuse-another-fonts).
+
 * Now use the below css snippet by @LofiTurtle
   ```css
       /* Reset groupchat name font */
@@ -142,14 +164,14 @@ However, if you have decided to make up your mind then
       }
    ```
 * If you want, you can replace `var(--font-name)` with your custom font name
-  if you are planning on using multiple fonts at once.  
+  if you are planning on using multiple fonts at once.
 
 ### CHILLAX is leggy or slow, any fix?
 
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
-* The steps are first `settings`, then `Advance` and then turn on `Hardware Acceleration`.
 
+* The steps are first `settings`, then `Advance` and then turn on `Hardware Acceleration`.
 
 If you are on a system that is not older than 5 years,
 the theme should work fine without any lag.
