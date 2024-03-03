@@ -192,7 +192,7 @@ However, as a last resort you can
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `37` which
+* [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `37` different/or which
   says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
   See the below screenshots:
 
@@ -215,7 +215,7 @@ This is basically an addon; to remove it:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (currently line number `33`) containing
+* **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`.
   Now the member list will always be visible instead of hover.
   See the below screenshots:
@@ -238,7 +238,7 @@ Remove it to get back default emojis:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (currently line number `29`) containing
+* **Remove** or **comment out** the line (*currently line number `29` and maybe different in your case*) containing
   `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
 
 * Now you should have the old emojis.
@@ -247,7 +247,7 @@ Remove it to get back default emojis:
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
-* **Remove** or **comment out** the line (currently line number `34`) containing
+* **Remove** or **comment out** the line (*currently line number `34` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
 
 * Now it should be normal like the old discord.
