@@ -6,7 +6,7 @@
     </h3>
 </div>
 
-### How to change the background/background image of CHILLAX?
+### 1. How to change the background/background image of CHILLAX?
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
@@ -32,7 +32,7 @@ Now your favourite BG should be applied.
 **Note**: If you are using discord CDN, they expire after some time.
 In such cases fetch a new link.
 
-### How to change/use another font(s)?
+### 2. How to change/use another font(s)?
 
 First, make sure that the font you are trying to
 use is already hosted somewhere if it's not already.
@@ -100,7 +100,7 @@ instead, it will be
 
 That's it.
 
-### How to change the accent color
+### 3. How to change the accent color
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
@@ -111,13 +111,13 @@ That's it.
 **Note**: `--accentcolor` is for [rgb](https://imagecolorpicker.com/) and `--accentcolor2` is
 for [hex](https://imagecolorpicker.com/).
 
-### How to change the theme welcome user name?
+### 4. How to change the theme welcome user name?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
 * Find the css variables `--user-name` and change it.
 
-### How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
+### 5. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
 
 **We recommend you to not go for that**
 
@@ -156,7 +156,7 @@ at window level
 **}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
 and you won't have to do any of the above-mentioned things.
 
-### How to change the font of the group chat?
+### 6. How to change the font of the group chat?
 
 * We have already mentioned how you can import a custom font and
   use it [here](#how-to-changeuse-another-fonts).
@@ -172,7 +172,7 @@ and you won't have to do any of the above-mentioned things.
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
-### CHILLAX is laggy or slow, very slow, any fix?
+### 7. CHILLAX is laggy or slow, very slow, any fix?
 
 * Make sure that **Hardware Acceleration** is on.
   If not, then turn it on.
