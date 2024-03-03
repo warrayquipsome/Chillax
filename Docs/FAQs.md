@@ -191,9 +191,12 @@ However, as a last resort you can
   says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
   See the below screenshots:
 
-  <img src="images/bg_change/edit_quick_css.png" alt="whatever"/>
-
-  <img src="images/bg_change/edit_quick_css.png" alt="whatever"/>
+1.  <img src="images/lag/lag_stuff_1.png" alt="whatever"/>
+    
+    * Uncomment this line, and it should look something like the below
+      screenshot:
+    
+2.  <img src="images/lag/lag_stuff_2.png" alt="whatever"/>
   
 * This should make it a little less laggy.
 
