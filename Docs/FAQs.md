@@ -186,6 +186,7 @@ the theme should work fine without any lag.
 However, as a last resort you can
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
 * [Uncomment](https://developer.mozilla.org/en-US/docs/Web/CSS/Comments) line `37` which
   says `/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/`
   See the below screenshots:
@@ -236,3 +237,13 @@ Remove it to get back default emojis:
   `@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");`.
 
 * Now you should have the old emojis.
+
+### 10. How to get rid of the Folder Icons and Make it like the old discord?
+
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+
+* **Remove** or **comment out** the line (currently line number `34`) containing
+  `@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");`.
+
+* Now it should be normal like the old discord.
