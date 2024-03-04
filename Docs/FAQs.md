@@ -102,7 +102,7 @@ instead, it will be
 
 That's it.
 
-### 4. How to change the accent color
+### 4. How to change the accent color?
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
@@ -253,7 +253,7 @@ Remove it to get back default emojis:
 * Now it should be normal like the old discord.
 
 
-### 12. How to get rid of the below ugly thing?
+### 12. How to get rid of the below-attached ugly thing?
 
 <div align="center">
     <img src="images/Ugly_writing/ugly_writing_white_bg.png" alt="wq is loading">
