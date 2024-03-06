@@ -274,6 +274,28 @@ Remove it to get back default emojis:
     ```
 * Now it should be a bit better.
 
+### 13. How to use dark/light mode in Chillax Theme?
+
+You can enable both dark/light mode from the Settings.
+appearance
+* Now go to `Settings` > `Appearance`.
+
+* Finally, choose either light mode or dark mode based on your preference
+  and Chillax will reflect that. 
+
+### 14. After applying Chillax theme it looks funny and/or transparent/see through background is missing, what to do?
+
+Before applying the theme:
+
+* Firstly, make sure that there is **no custom** css or css snippet is/are running.
+
+* Secondly, make sure that no party plugin related to theming
+  is running (*if debugging, disable all plugins for quicker conclusion*).
+
+* Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
+* Now apply the Latest version of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
+* Now you should have Chillax with the default look and feel.
+
 <h1 align="center">Still Have Question(s)? 👇</h1>
 <div align="center">
     <a href="https://discord.gg/drfx6286kf" target="_blank">
