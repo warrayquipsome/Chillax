@@ -8,8 +8,8 @@
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://lofiturtle.github.io/Chillax/ChillaxTag.css");
-@import url("https://lofiturtle.github.io/Chillax/Addons/SettingsModalEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
 @import url("https://neodymium7.github.io/BetterDiscordStuff/CSS/AddServerDarkMode.css");
 @import url("https://dablulite.github.io/css-snippets/AccountDetailsGrid/import.css");
@@ -1816,27 +1816,27 @@ display: block;
 
 /*Custom SpotifyControl in user panel*/
 .container_6sXIoE.withTimeline_824fT_ {
-  height: var(--playerHeight);    
-  border: none!important;    
-  padding: var(--paddingSides) var(--paddingSides) 10px var(--paddingSides)!important;    
-  margin: 0;    
-  position: relative;    
-  display: flex;    
-  flex-flow: column nowrap;    
-  justify-content: space-between;    
-  overflow: hidden;    
+  height: var(--playerHeight);
+  border: none!important;
+  padding: var(--paddingSides) var(--paddingSides) 10px var(--paddingSides)!important;
+  margin: 0;
+  position: relative;
+  display: flex;
+  flex-flow: column nowrap;
+  justify-content: space-between;
+  overflow: hidden;
   z-index: 999;
 }
 
 .container_6sXIoE.withTimeline_824fT_.maximized_vv2Wr0 {
-    --albumCoverRadius: 10px!important;    
-  --paddingSides: 15px!important;    
-  --playerHeight: auto!important;    
-  padding-top: 5px!important;    
-}    
+    --albumCoverRadius: 10px!important;
+  --paddingSides: 15px!important;
+  --playerHeight: auto!important;
+  padding-top: 5px!important;
+}
 .container_6sXIoE.withTimeline_824fT_.maximized_vv2Wr0 .cover_SwJ-ck {
-  border-radius: 8px;   
-}    
+  border-radius: 8px;
+}
 .container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) {
 --paddingSides: 18px!important;
 }
@@ -1896,23 +1896,23 @@ transition: transform 50ms ease-out;
 .container_6sXIoE.withTimeline_824fT_ button:active {
 transform: translateY(2px);
 }
-  .container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) {    
-  --albumCoverRadius: 8px!important;    
-  --paddingSides: 18px!important;    
-  --playerHeight: 100px!important;    
-}    
-.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .inner_WRV6k5 {    
-  height: 35px;    
-  overflow: hidden;    
-}    
-.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .coverWrapper_YAplwJ {    
-  width: calc(100% - (var(--paddingSides) - 8px) * 2);    
-  height: calc(var(--playerHeight) - 12px);    
-  margin: 0;    
-  position: absolute;    
-  inset: 10px 0 0 10px;    
-  overflow: hidden;    
-  z-index: -1;    
+  .container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) {
+  --albumCoverRadius: 8px!important;
+  --paddingSides: 18px!important;
+  --playerHeight: 100px!important;
+}
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .inner_WRV6k5 {
+  height: 35px;
+  overflow: hidden;
+}
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .coverWrapper_YAplwJ {
+  width: calc(100% - (var(--paddingSides) - 8px) * 2);
+  height: calc(var(--playerHeight) - 12px);
+  margin: 0;
+  position: absolute;
+  inset: 10px 0 0 10px;
+  overflow: hidden;
+  z-index: -1;
 }
 
 /*custom user setting profile position*/
