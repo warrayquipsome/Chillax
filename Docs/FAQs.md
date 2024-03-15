@@ -31,8 +31,9 @@ See the below screenshots:
 
 Now your favourite background image/gif should be applied.
 
-**Note**: If you are using discord CDN, they expire after some time.
-In such cases fetch a new link.
+> [!IMPORTANT]
+> **Note**: If you are using discord CDN, they expire after some time.
+> In such cases fetch a new link.
 
 ### 2. How to change/use another font(s)?
 
@@ -110,8 +111,9 @@ That's it.
 
 * You may want to play around with them to find the right balance.
 
-**Note**: `--accentcolor` is for [rgb](https://rgbcolorpicker.com/) and `--accentcolor2` is
-for [hex](https://colors-picker.com/hex-color-picker/).
+> [!IMPORTANT]
+> **Note**: `--accentcolor` is for [rgb](https://rgbcolorpicker.com/) and `--accentcolor2` is
+> for [hex](https://colors-picker.com/hex-color-picker/).
 
 ### 5. How to change the theme welcome username?
 
@@ -150,13 +152,14 @@ However, if you have decided to make up your mind then
       }
   ```
 
-**Note**: *Linux users this may be a hit or miss due to infinite number of factors
-(Too many DEs, WMs & Display Protocols).*
-But using WM you can **natively add/force** translucence
-at window level
-(i.e. [hyprland](https://hyprland.org/) {**wayland warning
-**}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
-and you won't have to do any of the above-mentioned things.
+> [!important]
+> **Note**: *Linux users this may be a hit or miss due to infinite number of factors
+> (Too many DEs, WMs & Display Protocols).*
+> But using WM you can **natively add/force** translucence
+> at window level
+> (i.e. [hyprland](https://hyprland.org/) {**wayland warning
+> **}, [qtile](https://qtile.org/), [KWin](https://userbase.kde.org/KWin) etc.),
+> and you won't have to do any of the above-mentioned things.
 
 ### 7. How to change the font of the group chat?
 
