@@ -1,6 +1,6 @@
 <h1 align="center">C H I L L A X FAQs</h1>
 <div align="center">
-        <img align="center" src="https://media.discordapp.net/stickers/1039992459209490513.png" alt="wq is loading"/>
+        <img align="center" src="https://media.discordapp.net/stickers/1039992459209490513.png" style="height: 180px" alt="wq is loading"/>
     <h3 align="center">
             <a href="https://vencord.dev/">Vencord Edition</a>
     </h3>
