@@ -20,7 +20,7 @@ See the below-attached screenshots:
 
 3. <img src="images/bg_change/monaco_editor.png" alt="whatever"/>
 
-Now to go to line number `46` (*at the time of writing the line number
+Now to go to line number `46` (*at the time of writing, the line number
 is 46 which in a later version might change*) or where the variable `--wallpaper`
 defined and change the url that is within the single quote `''`
 to the wallpaper/gif **url** that you want to set.
@@ -103,7 +103,9 @@ instead, it will be
 
 That's it.
 
-### 4. How to change the accent color?
+### 4. How to change the accent color (*The Below **RED** things* see attached images)?
+
+<img src="images/accent_stuff/mention_stuff.png" alt="wq is loading"/>
 
 * Go to `Settings` > `Themes` > `Edit Quick CSS`.
 
@@ -112,6 +114,8 @@ That's it.
 * You may want to play around with them to find the right balance.
 
 > [!IMPORTANT]
+> Must-need to change both for it to take full effect.
+> 
 > **Note**: `--accentcolor` is for [rgb](https://rgbcolorpicker.com/) and `--accentcolor2` is
 > for [hex](https://colors-picker.com/hex-color-picker/).
 
@@ -122,25 +126,25 @@ That's it.
 * Find the css variables `--user-name` and change it.
 
 ### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
-
-**We recommend you to not go for that**
+> [!WARNING]
+> **We recommend you to not go for that**
 
 However, if you have decided to make up your mind then
 
 * Go to `Settings` > `Vencord` > `Enable Window Transparency` and turn it on.
 
 * Now `Settings` > `Themes` > `Edit Quick CSS` and remove `--wallpaper` css variable
-  mentioned in [here](#how-to-change-the-backgroundbackground-image-of-chillax).
+  mentioned in [here](#2-how-to-changeuse-another-fonts).
 
 * Your window should now be `transparent` or `see through` etc.
 
 * Now you may want to add a bit of blur to make things readable in the `container__037ed`.
   However, discord uses electron, and we have found it to work differently on different
   OS and window manager of your OS also plays a vital role here.
-  So, the below css snippet may or may does not work properly (Translucence is enabled in
+  So, the below css snippet may or may not work properly (Translucence is enabled in
   window manager level).
   In case it does not work, it will at least make the `container__037ed`
-  basically that region bit darker.
+  basically that region a bit darker.
   ```css
       .container__037ed {
             background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
@@ -167,8 +171,11 @@ However, if you have decided to make up your mind then
   use it [here](#how-to-changeuse-another-fonts).
 
 * Now use the below css snippet by @LofiTurtle:
-  * **Note:** If the below css does not work,
-    then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in the [Support Discord Server](https://discord.gg/drfx6286kf).
+>    [!NOTE]
+>     * **Note:** If the below css does not work,
+>      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
+>      the [Support Discord Server](https://discord.gg/drfx6286kf).
+
   ```css
       /* Reset groupchat name font */
       .input__321f5 {
@@ -255,36 +262,40 @@ Remove it to get back default emojis:
 
 * Now it should be normal like the old discord.
 
-
 ### 12. How to get rid of the below-attached ugly thing?
 
 <div align="center">
     <img src="images/Ugly_writing/ugly_writing_white_bg.png" alt="wq is loading">
 </div>
 
-
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
 
 * Now the use/paste below css snippet by @LofiTurtle at the very end:
-    * **Note:** If the below css does not work,
-      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in the [Support Discord Server](https://discord.gg/drfx6286kf).
-    ```css
-        /* hide message in the sidebar */
-        .theme-dark .sidebar_ded4b5 .content__23cab:after {
-               color: rgba(255, 255, 255, 0) !important;
-               text-shadow: none !important;
-        }
-    ```
+
+> [!NOTE]
+> If the below css does not work,
+> then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
+> the [Support Discord Server](https://discord.gg/drfx6286kf).
+
+```css
+  /* hide message in the sidebar */
+.theme-dark .sidebar_ded4b5 .content__23cab:after {
+    color: rgba(255, 255, 255, 0) !important;
+    text-shadow: none !important;
+}
+```
+
 * Now it should be a bit better.
 
 ### 13. How to use dark/light mode in Chillax Theme?
 
 You can enable both dark/light mode from the Settings.
 appearance
+
 * Now go to `Settings` > `Appearance`.
 
 * Finally, choose either light mode or dark mode based on your preference
-  and Chillax will reflect that. 
+  and Chillax will reflect that.
 
 ### 14. After applying Chillax theme it looks funny and/or transparent/see through background is missing, what to do?
 
@@ -296,7 +307,8 @@ Before applying the theme:
   is running (*if debugging, disable all plugins for quicker conclusion*).
 
 * Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
-* Now apply the Latest version of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
+* Now apply the Latest version
+  of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
 * Now you should have Chillax with the default look and feel.
 
 <h1 align="center">Still Have Question(s)? 👇</h1>
