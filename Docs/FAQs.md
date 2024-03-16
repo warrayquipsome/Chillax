@@ -311,6 +311,9 @@ Before applying the theme:
   of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
 * Now you should have Chillax with the default look and feel.
 
+
+&#160;
+
 <h1 align="center">Still Have Question(s)? 👇</h1>
 <div align="center">
     <a href="https://discord.gg/drfx6286kf" target="_blank">
