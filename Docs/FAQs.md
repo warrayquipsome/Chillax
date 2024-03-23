@@ -103,7 +103,7 @@ instead, it will be
 
 That's it.
 
-### 4. How to change the accent color (*The Below **RED** things* see attached screenshot)?
+### 4. How to change the accent color (*The Below **RED** thing/part* see attached screenshot)?
 
 <img src="images/accent_stuff/mention_stuff.png" alt="wq is loading"/>
 
@@ -168,11 +168,11 @@ However, if you have decided to make up your mind then
 ### 7. How to change the font of the group chat?
 
 * We have already mentioned how you can import a custom font and
-  use it [here](#how-to-changeuse-another-fonts).
+  use it [here](#2-how-to-changeuse-another-fonts).
 
-* Now use the below css snippet by @LofiTurtle:
+* Now use the below css snippet (*pate it at the **very bottom***) by @LofiTurtle:
 >    [!NOTE]
->     * **Note:** If the below css does not work,
+>      If the below css does not work,
 >      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
 >      the [Support Discord Server](https://discord.gg/drfx6286kf).
 
@@ -311,6 +311,30 @@ Before applying the theme:
   of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
 * Now you should have Chillax with the default look and feel.
 
+
+### 15. How to get rid of the mobile icon besides the avatar?
+
+* The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
+* Now use the below css snippet at the **very bottom**:
+>    [!NOTE]
+>      If the below css does not work,
+>      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
+>      the [Support Discord Server](https://discord.gg/drfx6286kf).
+
+  ```css
+        /* Remove the phone indicator beside avatar */
+        foreignObject[mask="url(#svg-mask-avatar-decoration-status-mobile-80)"]::after {
+            visibility: hidden !important;
+        }
+
+        #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile][width="80"]:after {
+            display: none !important;
+        }
+
+        #app-mount .wrapper_edb6e0 foreignObject[mask*=mobile]:after {
+            display: none !important;
+        }
+   ```
 
 &#160;
 
