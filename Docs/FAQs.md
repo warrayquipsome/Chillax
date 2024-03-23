@@ -103,7 +103,7 @@ instead, it will be
 
 That's it.
 
-### 4. How to change the accent color (*The Below **RED** things* see attached images)?
+### 4. How to change the accent color (*The Below **RED** things* see attached screenshot)?
 
 <img src="images/accent_stuff/mention_stuff.png" alt="wq is loading"/>
 
