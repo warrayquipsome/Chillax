@@ -315,7 +315,7 @@ Before applying the theme:
 ### 15. How to get rid of the mobile icon besides the avatar?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
-* Now use the below css snippet at the **very bottom**:
+* Now use/paste the below css snippet at the **very bottom**:
 >    [!NOTE]
 >      If the below css does not work,
 >      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
