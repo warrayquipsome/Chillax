@@ -125,7 +125,7 @@ That's it.
 
 * Find the css variables `--user-name` and change it.
 
-### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through
+### 6. How to make it so that desktop `wallpaper/wallpaper engine's` wallpaper is visible through?
 > [!WARNING]
 > **We recommend you to not go for that**
 
