@@ -216,7 +216,7 @@
 }
 
 /* button design*/
-.theme-dark .lookFilled__19298 {
+.theme-dark .lookFilled__950dd {
   border-radius: 45px;
   background: rgb(36, 36, 36) !important;
   color: rgb(255, 255, 255) !important;
@@ -225,7 +225,7 @@
   font-size: 12px;
   transition: 0.2s;
 }
-.theme-dark .lookFilled__19298:hover {
+.theme-dark .lookFilled__950dd:hover {
   box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
   background: rgb(0, 0, 0) !important;
   transition: 0.1s;
@@ -2707,7 +2707,7 @@ margin-bottom: 25px;
 div[class="fieldList_aab0de"] > div[class*="field__9e8e2"] {
 width: 95.5%;
 }
-div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButton_a93f59 button_afdfd9 lookFilled__19298 colorPrimary__6ed40 sizeSmall__71a98 grow__4c8a4"] {
+div[class="field__9e8e2"] > button[aria-label="Edit username"][class="fieldButton_a93f59 button_afdfd9 lookFilled__950dd colorPrimary__6ed40 sizeSmall__71a98 grow__4c8a4"] {
 width: 90%;
 position: absolute;
 bottom: -1px;
