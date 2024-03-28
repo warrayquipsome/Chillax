@@ -3163,3 +3163,14 @@ opacity: 01!important;
 .input__2a648 {
   background: transparent !important;
 }
+
+/* Semi Transparent emoji, gifs and sticker picker */
+.drawerSizingWrapper_e20f1f {
+  background: rgba(0, 0, 0, 0.4) !important;
+  border-radius: 15px !important;
+}
+
+.inspector__80c84.inspector__7b643 {
+  background: rgba(var(--accentcolor)) !important;
+  border-radius: 25px;
+}
