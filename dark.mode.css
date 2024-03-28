@@ -582,7 +582,7 @@ span[class="inner-26JK4f"]>* {
   opacity: 0;
   transform: scale(0.1, 1);
 }
-.theme-dark .wrapper__7bcde:hover {
+.theme-dark .wrapper__612a5:hover {
   animation: wave-text 1s ease-in-out infinite;
 }
 
@@ -2815,7 +2815,7 @@ transform-origin: bottom center;
 }
 
 /*channel border radius*/
-.wrapper__7bcde {
+.wrapper__612a5 {
   border-radius: 8px!important;
 }
 /*user profiles tweak*/
