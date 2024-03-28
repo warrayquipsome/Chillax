@@ -65,8 +65,10 @@
 }
 
 /* transparent role selection / browse channels / members page background */
-.container__11d72,
-.container__10dc7,
+.container__26baa,
+.container__03ec9,
+.scrollerContainer_dda72c,
+.container__6b2e5,
 .container__7590f {
   background-color: transparent !important;
 }
@@ -793,7 +795,7 @@ span:not(.spinner-item) {
 .search_ac353c:not(.open_d3ab4e):hover .icon_f50f05 {
   color: var(--text-muted);
 }
-.container__11d72.themed_b152d4 .search__07df0 {
+.container__26baa.themed_b152d4 .search__07df0 {
   order: -1 !important;
 }
 
