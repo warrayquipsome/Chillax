@@ -3174,3 +3174,8 @@ opacity: 01!important;
   background: rgba(var(--accentcolor)) !important;
   border-radius: 25px;
 }
+
+/* VC Call BG Transparent Dark Mode*/
+.callContainer__1477d.theme-dark {
+  background: transparent !important;
+}
