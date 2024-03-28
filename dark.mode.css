@@ -3157,3 +3157,8 @@ opacity: 01!important;
 .applicationStore__444b9 {
   background: transparent !important;
 }
+
+/* The pop up thingy when you press `ctr` + `k` or when you click `find a conversation`*/
+.input__2a648 {
+  background: transparent !important;
+}
