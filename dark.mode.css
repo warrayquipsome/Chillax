@@ -21,7 +21,7 @@
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
-.forumOrHome__75784{
+.forumOrHome__8b95a{
   background: transparent;
 }
 
@@ -115,7 +115,7 @@
 }
 
 /*code block*/
-.theme-dark .scrollbar_d66c5e {
+.theme-dark .scrollbar_b61b2b {
   background-color: rgba(0, 0, 0, 0.377) !important;
 }
 
@@ -184,7 +184,7 @@
 }
 
 /*forum channel*/
-.container-3wLKDe {
+.container_b92032 {
   background: transparent !important;
 }
 
@@ -265,7 +265,7 @@
 .message__80c10 {
   border-radius: 8px !important;
 }
-.mentioned__58017  {
+.mentioned_fa6fd2  {
   border-radius: 0 8px 8px 0!important
 }
 
@@ -723,17 +723,17 @@ span:not(.spinner-item) {
 }
 
 /*custom mentioned colour*/
-.theme-dark .mentioned__58017:before {
+.theme-dark .mentioned_fa6fd2:before {
   background: linear-gradient(135deg, #3b3b3b, var(--accentcolorV2)) !important;
 }
-.theme-dark .mentioned__58017 {
+.theme-dark .mentioned_fa6fd2 {
   background: linear-gradient(
     60deg,
     rgba(41, 41, 41, 0.3),
     rgba(var(--accentcolor), 0.9)
   ) !important;
 }
-.theme-dark .mentioned__58017:hover {
+.theme-dark .mentioned_fa6fd2:hover {
   background: linear-gradient(
     60deg,
     rgba(32, 32, 32, 0.5),
@@ -894,7 +894,7 @@ span:not(.spinner-item) {
   display: none;
   right: 50%;
 }
-.unreadPill__715fc {
+.unreadPill__1b4fa {
   background-color: var(--background-shading);
   color: #fb5454;
   font-size: 12px;
@@ -903,7 +903,7 @@ span:not(.spinner-item) {
   left: 50%;
   width: 30px;
 }
-.isUnread__6f880 {
+.isUnread_de09f5 {
   --divider-color: rgb(237, 0, 255);
   border: none;
   background: linear-gradient(90deg,
@@ -914,7 +914,7 @@ span:not(.spinner-item) {
       rgba(254, 0, 255, 1) 100%);
   height: 1px;
 }
-.unreadPill__715fc {
+.unreadPill__1b4fa {
   top: -6px;
 }
 
@@ -1510,7 +1510,7 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
 }
 
 /*disable and delete account button design*/
-.theme-dark .children_b15c64 .colorRed_d6b062 {
+.theme-dark .button__581d0 .colorRed__5a617 {
   width: 140px;
   height: 45px;
   font-family: "Roboto" !important;
@@ -1526,21 +1526,21 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
   cursor: pointer;
   outline: none;
 }
-.theme-dark .children_b15c64 .colorRed_d6b062:hover {
+.theme-dark .button__581d0 .colorRed__5a617:hover {
   background-color: rgb(229, 46, 46) !important;
   box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
   color: rgb(37, 37, 37) !important;
   transform: translateY(-7px);
 }
-.theme-dark .children_b15c64 .colorRed_d6b062 {
+.theme-dark .button__581d0 .colorRed__5a617 {
   font-size: 0px !important;
 }
-.theme-dark .children_b15c64 .disableButton__61514.colorRed_d6b062::before {
+.theme-dark .button__581d0 .disableButton__09342.colorRed__5a617::before {
   content: "Disable";
   position: absolute;
   font-size: 11px !important;
 }
-.theme-dark .children_b15c64 .lookOutlined__46d54.colorRed_d6b062::before {
+.theme-dark .button__581d0 .lookOutlined__014b5.colorRed__5a617::before {
   content: "Delete";
   position: absolute;
   font-size: 11px !important;
@@ -2099,7 +2099,7 @@ transform: translateY(2px);
 }
 
 /* Un-hide unread divider with date */
-.isUnread__6f880 {
+.isUnread_de09f5 {
   display: flex !important;
 }
 
@@ -3021,13 +3021,13 @@ opacity: 01!important;
 }
 
 /*forum thread overlap fix*/
-.chatTarget__0ea5e.container_def45c.floating_f021e2{
+.chatTarget_f14a03.container__694a1.floating__8f631 {
   background: rgba(26, 26, 26, 0.9)!important;
   box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 
 /*forum fix*/
-.container_b181b6 {
+.container_b92032 {
   background: transparent;
 }
 
@@ -3038,13 +3038,13 @@ opacity: 01!important;
 .theme-dark .container__99b06.isOpen__8593d {
   background-color: #181a1d70;
 }
-.forumOrHome__75784 {
+.forumOrHome__8b95a {
   background: transparent!important;
 }
 .children__32014:after{
   background: transparent!important;
 }
-.flex_fc800b .scrollbar_d66c5e {
+.flex_fc800b .scrollbar_b61b2b {
   background-color: transparent!important;
 }
 
