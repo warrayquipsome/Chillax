@@ -3149,3 +3149,11 @@ opacity: 01!important;
 .option_b5597b:after {
   background: transparent !important;
 }
+
+/* Nitro and discord shop transparent background */
+.shop_b31ed2 {
+  background: transparent !important
+}
+.applicationStore__444b9 {
+  background: transparent !important;
+}
