@@ -801,10 +801,10 @@ span:not(.spinner-item) {
 }
 
 /*channel resize*/
-.sidebar_ded4b5 .name__8d1ec {
+.sidebar_e031be .name__8d1ec {
   font-size: 14px;
 }
-.sidebar_ded4b5 .icon_eff5d4 {
+.sidebar_e031be .icon_eff5d4 {
   width: 16px;
   height: 16px;
 }
@@ -862,12 +862,12 @@ span:not(.spinner-item) {
 }
 
 /*user setting icon spin*/
-.button__4f306:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button__581d0:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
   animation: Settings 1s;
   transform-origin: center;
 }
 
-.button__4f306:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button__581d0:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
   animation: Settings2 1s;
   transform-origin: center;
 }
@@ -1484,7 +1484,7 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-.button__4f306:hover .contents-3ca1mk {
+.button__581d0:hover .contents-3ca1mk {
   animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -1752,38 +1752,38 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
   left: 0;
   right: 0;
 }
-.container_ca50b9{
-background: transparent!important;
+.container_debb33 {
+  background: transparent!important;
 }
-.sidebar_ded4b5 {
+.sidebar_e031be {
   background-color: transparent;
   position: relative;
   overflow: hidden;
 }
-.theme-dark .sidebar_ded4b5 .content__23cab:after{
-content: 'this big gap is for the floating user controls, so sry if it looks ugly';
-font-size: 13px;
-color: rgba(255, 255, 255, 0.03);
-text-align: center;
-text-shadow: 0 0 15px #000;
-margin-top: 50px;
-height: 340px;
-display: block;
+.theme-dark .sidebar_e031be .container__7e23c:after {
+  content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+  font-size: 13px;
+  color: rgba(255, 255, 255, 0.03);
+  text-align: center;
+  text-shadow: 0 0 15px #000;
+  margin-top: 50px;
+  height: 340px;
+  display: block;
 }
-.panels__58331 > .container_ca50b9 .flex_f5fbb7 > :not(:last-child) {
+.panels__58331 > .container_debb33 .flex_f18b02 > :not(:last-child) {
   opacity: 0% !important;
   width: 50px;
   transition: all 0.3s;
 }
-.theme-dark .panels__58331 > .container_ca50b9:hover .flex_f5fbb7 > :not(:last-child) {
+.theme-dark .panels__58331 > .container_debb33:hover .flex_f18b02 > :not(:last-child) {
   opacity: 100% !important;
   width: 40px;
   margin-left: 10px;
 }
-.button__4f306[aria-label="User Settings"] {
+.button__581d0[aria-label="User Settings"] {
   margin-left: 10px;
 }
-.container-6sXIoE .alignStretch_e239ef.flex__909d4 {
+.container_debb33 .alignStretch__2d62d.alignStretch__2d62d {
   max-width: 190px;
   min-width: 190px;
 }
@@ -1806,12 +1806,12 @@ display: block;
 }
 
 /* Avatar in bottom left */
-.avatarWrapper_ba5175 {
+.avatarWrapper__500a6 {
   max-width: 36px;
   min-width: 36px;
   transition: 0.3s;
 }
-.avatarWrapper_ba5175:hover {
+.avatarWrapper__500a6:hover {
   max-width: 207px;
   min-width: 207px;
   transition: 0.3s;
@@ -2115,8 +2115,8 @@ transform: translateY(2px);
 .image__0cdbe {
   content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
-.flex_f5fbb7.vertical__1e37a.gatedContent_ba8306
-  > .flex_f5fbb7.flex__909d4.horizontal__992f6.horizontal__65889.flex__909d4.directionRow__2bb0b.justifyCenter__4080c.alignCenter__84269.noWrap__5c413 {
+.flex_f18b02.vertical__1e37a.gatedContent_ba8306
+  > .flex_f18b02.flex__909d4.horizontal__992f6.horizontal__65889.flex__909d4.directionRow__2bb0b.justifyCenter__4080c.alignCenter__84269.noWrap__5c413 {
   background: transparent !important;
 }
 
