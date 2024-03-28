@@ -122,12 +122,12 @@
 }
 
 /*menu blur*/
-.theme-dark .menu_dc52c6 {
+.theme-dark .menu__088f7 {
   /*Main class*/
   background-color: rgba(0, 0, 0, 0.3);
 }
-.menu_dc52c6::before,
-.menu_dc52c6.submenu-1apzyU::before {
+.menu__088f7::before,
+.menu__088f7.submenu-1apzyU::before {
   /*Blurs the menu*/
   content: "";
   position: absolute;
@@ -139,7 +139,7 @@
   border-radius: 5px;
 }
 /* Fix blur in nested floating menu */
-.submenu_acf564.menu_dc52c6::before {
+.submenu_acf564.menu__088f7::before {
   width: calc(100% - 16px);
 }
 
