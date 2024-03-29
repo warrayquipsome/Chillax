@@ -64,13 +64,18 @@
   background: transparent !important;
 }
 
-/* transparent role selection / browse channels / members page background */
+/* transparent role selection / browse channels */
 .container__26baa,
 .container__03ec9,
 .scrollerContainer_dda72c,
 .container__6b2e5,
 .container__7590f {
   background-color: transparent !important;
+}
+
+/* members page background */
+.chat__52833.page_e5cc79 {
+  background: transparent !important;
 }
 
 /* transparent default avatar section background */
