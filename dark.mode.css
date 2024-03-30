@@ -471,22 +471,22 @@ span[class="inner-26JK4f"]>* {
 .css-1x99fvh-menu,
 .css-3vaxre-menu,
 .drawerSizingWrapper__30274,
-.layer-2aCOJ3 div[role="dialog"],
-.layer-2aCOJ3 div[role="menu"],
+.layer__6b5c3 div[role="dialog"],
+.layer__6b5c3 div[role="menu"],
 .messagesPopoutWrap_b3b384,
 .popout-1KHNAq[role="listbox"] {
   animation: animation-top 0.25s ease;
 }
 
-.layer-2aCOJ3 .animatorLeft-3yvG13 div[role="dialog"] {
+.layer__6b5c3 .animatorLeft_f985f4 div[role="dialog"] {
   position: relative;
   animation: animation-left 0.25s ease;
 }
-.layer-2aCOJ3 div[role="dialog"] .messagesPopoutWrap_b3b384 {
+.layer__6b5c3 div[role="dialog"] .messagesPopoutWrap_b3b384 {
   animation: none;
 }
 
-.layer-2aCOJ3 .animatorRight-xAUgTY .userPopoutInner_e90432 {
+.layer__6b5c3 .animatorRight_b16ad3 .userPopoutInner_e90432 {
   transform-origin: center left;
   animation: animation-right 0.25s ease;
 }
