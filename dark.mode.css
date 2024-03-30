@@ -1064,6 +1064,17 @@ span:not(.spinner-item) {
   visibility: hidden;
   margin-top: -65px !important;
 }
+
+.usernameSection_dd6196 {
+  justify-content: center !important;
+}
+
+.pronouns__8aa38  {
+  display: flex !important;
+  justify-content: center  !important;
+}
+
+
 /*remove unread with date*/ /*it causes issue with the theme*/
 .hasContent__8519e {
   display: none;
