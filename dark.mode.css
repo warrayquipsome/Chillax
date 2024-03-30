@@ -64,13 +64,18 @@
   background: transparent !important;
 }
 
-/* transparent role selection / browse channels / members page background */
+/* transparent role selection / browse channels */
 .container__26baa,
 .container__03ec9,
 .scrollerContainer_dda72c,
 .container__6b2e5,
 .container__7590f {
   background-color: transparent !important;
+}
+
+/* members page background */
+.chat__52833.page_e5cc79 {
+  background: transparent !important;
 }
 
 /* transparent default avatar section background */
@@ -80,7 +85,7 @@
 
 /**transparent part LVL II**/
 /*small profile modal*/
-.theme-dark .userPopout-2j1gM4 {
+.theme-dark .userPopoutInner_e90432 {
   background-color: rgba(0, 0, 0, 0.4);
   backdrop-filter: blur(4px);
 }
@@ -466,22 +471,22 @@ span[class="inner-26JK4f"]>* {
 .css-1x99fvh-menu,
 .css-3vaxre-menu,
 .drawerSizingWrapper__30274,
-.layer-2aCOJ3 div[role="dialog"],
-.layer-2aCOJ3 div[role="menu"],
+.layer__6b5c3 div[role="dialog"],
+.layer__6b5c3 div[role="menu"],
 .messagesPopoutWrap_b3b384,
 .popout-1KHNAq[role="listbox"] {
   animation: animation-top 0.25s ease;
 }
 
-.layer-2aCOJ3 .animatorLeft-3yvG13 div[role="dialog"] {
+.layer__6b5c3 .animatorLeft_f985f4 div[role="dialog"] {
   position: relative;
   animation: animation-left 0.25s ease;
 }
-.layer-2aCOJ3 div[role="dialog"] .messagesPopoutWrap_b3b384 {
+.layer__6b5c3 div[role="dialog"] .messagesPopoutWrap_b3b384 {
   animation: none;
 }
 
-.layer-2aCOJ3 .animatorRight-xAUgTY .userPopout-2j1gM4 {
+.layer__6b5c3 .animatorRight_b16ad3 .userPopoutInner_e90432 {
   transform-origin: center left;
   animation: animation-right 0.25s ease;
 }
@@ -1026,7 +1031,7 @@ span:not(.spinner-item) {
   top: -7px;
 }
 
-.profileBadges__7a7cb {
+.profileBadges__1f2ab {
   justify-content: center;
   position: relative;
   max-width: 100%;
@@ -1034,33 +1039,47 @@ span:not(.spinner-item) {
   top: -10px;
 }
 
-.userPopout-2j1gM4 .bannerSVGWrapper-qc0szY>mask>circle {
-  cx: 150;
-  r: 47;
-  cy: 57;
+.userPopoutInner_e90432 .bannerSVGWrapper__8a38c>mask>circle {
+  display: none;
 }
 
 /* Center profile badge, avatar and name 2*/
-.avatarPositionNormal__1797c {
+.avatarWrapperNormal__36eec {
   position: absolute;
   transform: translate(-50%);
   left: 50%;
 }
-.userText__3e8b7 {
+
+.userPopoutInner_e90432 .bannerSVGWrapper__8a38c>mask>circle {
+  display: none;
+}
+
+.userText_c26b46 {
   text-align: center;
 }
-.profileBadges__7a7cb {
+.profileBadges__1f2ab {
   max-width: 40%;
   left: -20px;
   top: 15px;
 }
-.divider__56f26 {
+.divider_d6f39c.divider__126d2 {
   display: none;
 }
-.section__6f61e.lastSection__37b97 {
+.section__62b44.lastSection__62986 {
   visibility: hidden;
   margin-top: -65px !important;
 }
+
+.usernameSection_dd6196 {
+  justify-content: center !important;
+}
+
+.pronouns__8aa38  {
+  display: flex !important;
+  justify-content: center  !important;
+}
+
+
 /*remove unread with date*/ /*it causes issue with the theme*/
 .hasContent__8519e {
   display: none;
