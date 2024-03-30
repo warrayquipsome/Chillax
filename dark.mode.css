@@ -1049,6 +1049,11 @@ span:not(.spinner-item) {
   transform: translate(-50%);
   left: 50%;
 }
+
+.userPopoutInner_e90432 .bannerSVGWrapper__8a38c>mask>circle {
+  display: none;
+}
+
 .userText_c26b46 {
   text-align: center;
 }
