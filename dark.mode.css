@@ -1079,6 +1079,10 @@ span:not(.spinner-item) {
   justify-content: center  !important;
 }
 
+/* Makes the status looks a bit nicer and consistent */
+.statusItem__24445 .description_d1e167 {
+  display: none !important;
+}
 
 /*remove unread with date*/ /*it causes issue with the theme*/
 .content__7191e {
