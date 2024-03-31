@@ -61,7 +61,7 @@
 }
 
 #app-mount .layer_f7d46a~.layer_f7d46a>div,
-#app-mount .layer_f7d46a~.layer_f7d46a .standardSidebarView__1129a {
+#app-mount .layer_f7d46a~.layer_f7d46a .standardSidebarView__12528 {
 	position: static !important;
 	border-radius: unset !important;
 	width: 100% !important;
@@ -71,32 +71,33 @@
 	overflow: hidden !important;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .sidebar__9e3e2 {
+#app-mount .layer_f7d46a~.layer_f7d46a .sidebar__02e8d {
 	width: 218px !important;
 	padding: 20px 6px 20px 20px !important;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .contentColumnDefault_c66386 {
+#app-mount .layer_f7d46a~.layer_f7d46a .contentColumnDefault__78de3 {
 	padding: 20px 40px !important;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .sidebar-3K3Z4C {
+#app-mount .layer_f7d46a~.layer_f7d46a .side_b4b3f6 {
 	height: var(--settingsmodalheight) !important;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .repoHeader-2KfNvH {
+#app-mount .layer_f7d46a~.layer_f7d46a .header__71a82 {
 	max-width: calc(var(--settingsmodalwidth) - 256px) !important;
 	;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .standardSidebarView__1129a .editor {
+/* the below one BD specific? Vencord don't seems to have it*/
+#app-mount .layer_f7d46a~.layer_f7d46a .standardSidebarView__12528 .editor {
 	height: calc(var(--settingsmodalheight) - 120px) !important;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer_f5d55d,
-#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer_f5d55d .tools_c0ff70,
-#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer_f5d55d .container_bb0c52,
-#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer_f5d55d .closeButton__34341 {
+#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad,
+#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad .tools_c0ff70,
+#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad .container__3529f,
+#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad .closeButton__8177f {
 	position: absolute !important;
 	top: 0 !important;
 	right: 0 !important;
@@ -115,7 +116,7 @@
 	cursor: default !important;
 }
 
-#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer_f5d55d {
+#app-mount .layer_f7d46a~.layer_f7d46a .toolsContainer__4e6ad {
 	position: fixed !important;
 	top: 22px !important;
 	z-index: -1 !important;
@@ -202,21 +203,27 @@
 	z-index: -1 !important;
 }
 
-.theme-dark .sidebarRegion__60457 {
+.theme-dark .sidebarRegion__36437 {
 	background: var(--sidebar-colour);
 }
 
-.theme-light .sidebarRegion__60457 {
+.theme-light .sidebarRegion__36437 {
 	background: var(--sidebar-colour);
 }
-.contentRegion__0bec1 {
+.contentRegion__08eba {
 zoom: 0.9!important;
 }
-.premiumFeatureBorder__9bbb3{
+
+/*
+ What is this one `premiumFeatureBorder__9bbb3?
+ A comment would have helped
+*/
+
+.premiumFeatureBorder__9bbb3 {
   background: linear-gradient(var(--background-primary),var(--background-primary))padding-box border-box;
 }
 
-/* Hide hover underline on selected tab */
-.selected__5711d:after {
+/* hide hover underline on selected tab */
+.selected_a523ff:after {
 	background: transparent !important;
 }
