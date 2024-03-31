@@ -899,7 +899,7 @@ span:not(.spinner-item) {
 }
 
 /*custom unread style*/
-.unreadPillCap__96b8d {
+.unreadPillCap__44e20 {
   display: none;
   right: 50%;
 }
@@ -1043,6 +1043,14 @@ span:not(.spinner-item) {
   display: none;
 }
 
+/*
+  For DMS (when you click `Show User Profile` button)
+  and the profile pops up
+*/
+.userPanelInner_f9edb8 .bannerSVGWrapper__8a38c>mask>circle {
+  display: none;
+}
+
 /* Center profile badge, avatar and name 2*/
 .avatarWrapperNormal__36eec {
   position: absolute;
@@ -1079,9 +1087,13 @@ span:not(.spinner-item) {
   justify-content: center  !important;
 }
 
+/* Makes the status looks a bit nicer and consistent */
+.statusItem__24445 .description_d1e167 {
+  display: none !important;
+}
 
 /*remove unread with date*/ /*it causes issue with the theme*/
-.hasContent__8519e {
+.content__7191e {
   display: none;
 }
 /*glow radial status*/
