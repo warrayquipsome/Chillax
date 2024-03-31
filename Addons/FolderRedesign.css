@@ -1,3 +1,6 @@
+
+/* Below code portion is to be review by WQ */
+
 /*cleaner folder group icon*/
 .folderIconWrapper-1oRIZr {
     background: url("https://i.imgur.com/IWDKX4z.png");
@@ -28,15 +31,18 @@
     filter: brightness(1.5) saturate(1.5);
 }
 
-.closedFolderIconWrapper__7321f {
+/* End of Code Portion */
+
+
+.closedFolderIconWrapper__722d5 {
     display: none;
 }
 
-.expandedFolderIconWrapper__458cf {
+.expandedFolderIconWrapper__324c1 {
     transform: none !important;
 }
 
-.folderIconWrapper__72239:not([style=""]):before, .folderIconWrapper__72239:not([style=""]):after {
+.folderIconWrapper__11165:not([style=""]):before, .folderIconWrapper__11165:not([style=""]):after {
     position: absolute;
     content: "";
     width: 24px;
@@ -49,6 +55,6 @@
     filter: brightness(1.2) saturate(1.1);
 }
 
-.theme-light .folderIconWrapper__72239 {
+.theme-light .folderIconWrapper__11165 {
     filter: brightness(0.5) saturate(3);
 }
