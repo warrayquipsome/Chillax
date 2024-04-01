@@ -1,42 +1,47 @@
-/*cleaner folder group icon*/
-.folderIconWrapper-1oRIZr {
-    background: url("https://i.imgur.com/IWDKX4z.png");
-    background-repeat: no-repeat;
-    background-blend-mode: overlay;
-    background-position: center;
-}
+/*!* Below code portion is to be review by WQ *!*/
 
-.expandedFolderIconWrapper-3RwQpD,
-.closedFolderIconWrapper-3tRb2d {
+/*!*cleaner folder group icon*!*/
+/*.folderIconWrapper-1oRIZr {*/
+/*    background: url("https://i.imgur.com/IWDKX4z.png");*/
+/*    background-repeat: no-repeat;*/
+/*    background-blend-mode: overlay;*/
+/*    background-position: center;*/
+/*}*/
+
+/*.expandedFolderIconWrapper-3RwQpD,*/
+/*.closedFolderIconWrapper-3tRb2d {*/
+/*    display: none;*/
+/*}*/
+
+/*.folderIconWrapper-1oRIZr:not([style=""])::before {*/
+/*    position: absolute;*/
+/*    content: "";*/
+/*    width: 18px;*/
+/*    height: 18px;*/
+/*    top: 0;*/
+/*    left: 0;*/
+/*    right: 0;*/
+/*    bottom: 0;*/
+/*    margin: auto;*/
+/*    background-color: inherit;*/
+/*    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;*/
+/*    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;*/
+/*    transform: scale(1.3335);*/
+/*    filter: brightness(1.5) saturate(1.5);*/
+/*}*/
+
+/* End of Code Portion */
+
+
+.closedFolderIconWrapper__722d5 {
     display: none;
 }
 
-.folderIconWrapper-1oRIZr:not([style=""])::before {
-    position: absolute;
-    content: "";
-    width: 18px;
-    height: 18px;
-    top: 0;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    margin: auto;
-    background-color: inherit;
-    -webkit-mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
-    mask: url(https://capnkitten.github.io/BetterDiscord/Themes/Material-Discord/files/icons/solid/folder.svg) no-repeat;
-    transform: scale(1.3335);
-    filter: brightness(1.5) saturate(1.5);
-}
-
-.closedFolderIconWrapper__7321f {
-    display: none;
-}
-
-.expandedFolderIconWrapper__458cf {
+.expandedFolderIconWrapper__324c1 {
     transform: none !important;
 }
 
-.folderIconWrapper__72239:not([style=""]):before, .folderIconWrapper__72239:not([style=""]):after {
+.folderIconWrapper__11165:not([style=""]):before, .folderIconWrapper__11165:not([style=""]):after {
     position: absolute;
     content: "";
     width: 24px;
@@ -49,6 +54,6 @@
     filter: brightness(1.2) saturate(1.1);
 }
 
-.theme-light .folderIconWrapper__72239 {
+.theme-light .folderIconWrapper__11165 {
     filter: brightness(0.5) saturate(3);
 }
