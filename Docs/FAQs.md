@@ -279,7 +279,7 @@ Remove it to get back default emojis:
 
 ```css
   /* hide message in the sidebar */
-.theme-dark .sidebar_e031be .container__7e23c:after {
+.theme-dark .sidebar_e031be .scroller__1f498:after {
     color: rgba(255, 255, 255, 0) !important;
     text-shadow: none !important;
 }
