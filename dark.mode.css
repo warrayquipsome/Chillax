@@ -1792,7 +1792,21 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
   position: relative;
   overflow: hidden;
 }
-.theme-dark .sidebar_e031be .container__7e23c:after {
+
+/* I like this one better. Anyway commenting out this one as people don't seems to like this */
+/*.theme-dark .sidebar_e031be .container__7e23c:after {*/
+/*  content: 'this big gap is for the floating user controls, so sry if it looks ugly';*/
+/*  font-size: 13px;*/
+/*  color: rgba(255, 255, 255, 0.03);*/
+/*  text-align: center;*/
+/*  text-shadow: 0 0 15px #000;*/
+/*  margin-top: 50px;*/
+/*  height: 340px;*/
+/*  display: block;*/
+/*}*/
+
+
+.theme-dark .sidebar_e031be .scroller__1f498:after {
   content: 'this big gap is for the floating user controls, so sry if it looks ugly';
   font-size: 13px;
   color: rgba(255, 255, 255, 0.03);
@@ -1802,6 +1816,7 @@ div[class*="wrapper_edb6e0"][aria-label*="Online"]
   height: 340px;
   display: block;
 }
+
 .panels__58331 > .container_debb33 .flex_f18b02 > :not(:last-child) {
   opacity: 0% !important;
   width: 50px;
