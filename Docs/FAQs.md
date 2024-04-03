@@ -178,10 +178,10 @@ However, if you have decided to make up your mind then
 
   ```css
       /* Reset groupchat name font */
-      .input__321f5 {
-            font-family: var(--font-name) !important; /* Write the font name here */
-            font-weight: inherit !important; /* Self explanatory */
-      }
+    .input__723c9 {
+        font-family: var(--font-name) !important; /* Write the font name here */
+        font-weight: inherit !important; /* Self explanatory */
+    }
    ```
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
