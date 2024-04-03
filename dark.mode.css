@@ -2173,16 +2173,16 @@ transform: translateY(2px);
 }
 
 /*custom reactions*/
-.reactionMe_bf6909 {
+.reactionMe__0fffc {
   border-radius: 50px !important;
   background: var(--accentcolorV2) !important;
   border: 1px solid transparent !important;
 }
-.reactionMe_bf6909:hover,
-.reaction_b90ab0:hover {
+.reactionMe__0fffc:hover,
+.reaction__4a43f:hover {
   border: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
-.theme-dark .reaction_b90ab0 {
+.theme-dark .reaction__4a43f {
   border-radius: 50px !important;
   background: rgba(255, 255, 255, 0.3);
 }
@@ -2586,6 +2586,15 @@ li.row-uezxzk {
 .theme-dark .reactionMe__98f57 .reactionCount_b49901 {
   color: #EEE !important;
 }
+
+/* There are quite a few classes regarding reactions. Some are used and some are not. IDK */
+
+/* Just making the reactions count text color white */
+
+.theme-dark .reactionCount__2c34d {
+  color: #eeeeee !important;
+}
+
 
 .messageCountBox-XEP63e:hover * {
   color: var(--interactive-hover);
