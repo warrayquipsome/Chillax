@@ -3214,6 +3214,7 @@ opacity: 01!important;
 .drawerSizingWrapper_e20f1f {
   background: rgba(0, 0, 0, 0.4) !important;
   border-radius: 15px !important;
+  backdrop-filter: blur(5px);
 }
 
 .inspector__80c84.inspector__7b643 {
