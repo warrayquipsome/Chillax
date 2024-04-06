@@ -277,9 +277,20 @@ Remove it to get back default emojis:
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
 > the [Support Discord Server](https://discord.gg/drfx6286kf).
 
+If you are using dark mode, then the below css snippet
 ```css
-  /* hide message in the sidebar */
-.theme-dark .sidebar_e031be .scroller__1f498:after {
+  /* hide message in the sidebar when using dark mode */
+.theme-dark .sidebar_e031be .content__690c5:after {
+    color: rgba(255, 255, 255, 0) !important;
+    text-shadow: none !important;
+}
+```
+
+Or, if you are using light mode, then the below css snippet
+
+```css
+  /* hide message in the sidebar when using light mode */
+.theme-light .sidebar_e031be .content__690c5:after {
     color: rgba(255, 255, 255, 0) !important;
     text-shadow: none !important;
 }
