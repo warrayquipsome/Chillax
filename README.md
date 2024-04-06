@@ -5,7 +5,7 @@
 <div align="center">
     <hr width="250px"/>
     <div align="center">
-        <a href="https://discord.gg/drfx6286kf" target="_blank">
+        <a href="https://discord.com/invite/DrfX6286kF" target="_blank">
             <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
         </a>
         <br/>
