@@ -174,7 +174,7 @@ However, if you have decided to make up your mind then
 >    [!NOTE]
 >      If the below css does not work,
 >      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
->      the [Support Discord Server](https://discord.gg/drfx6286kf).
+>      the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
   ```css
       /* Reset groupchat name font */
@@ -275,7 +275,7 @@ Remove it to get back default emojis:
 > [!NOTE]
 > If the below css does not work,
 > then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
-> the [Support Discord Server](https://discord.gg/drfx6286kf).
+> the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
 If you are using dark mode, then the below css snippet
 ```css
@@ -330,7 +330,7 @@ Before applying the theme:
 >    [!NOTE]
 >      If the below css does not work,
 >      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
->      the [Support Discord Server](https://discord.gg/drfx6286kf).
+>      the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
   ```css
         /* Remove the phone indicator beside avatar */
@@ -351,7 +351,7 @@ Before applying the theme:
 
 <h1 align="center">Still Have Question(s)? 👇</h1>
 <div align="center">
-    <a href="https://discord.gg/drfx6286kf" target="_blank">
+    <a href="https://discord.gg/DrfX6286kF" target="_blank">
         <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
     </a>
 </div>
