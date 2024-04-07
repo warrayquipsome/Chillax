@@ -1874,6 +1874,44 @@ svg {
     transition: 0.3s;
 }
 
+
+/* Fix for Vencord Game Activity Toggle Plugin */
+
+.container_debb33:has(button[aria-label='Enable Game Activity']) > :first-child {
+    min-width: 36px !important;
+}
+
+.container_debb33:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
+    min-width: 207px !important;
+}
+
+.panels__58331 > .container_debb33:has(button[aria-label='Enable Game Activity']) .flex_f18b02 > :not(:last-child) {
+    width: 38px !important;
+}
+
+.theme-light .panels__58331 > .container_debb33:has(button[aria-label='Enable Game Activity']):hover .flex_f18b02 > :not(:last-child) {
+    margin-left: 0px !important;
+}
+
+.container_debb33:has(button[aria-label='Disable Game Activity']) > :first-child {
+    min-width: 36px !important;
+}
+
+.container_debb33:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
+    min-width: 207px !important;
+}
+
+.panels__58331 > .container_debb33:has(button[aria-label='Disable Game Activity']) .flex_f18b02 > :not(:last-child) {
+    width: 38px !important;
+}
+
+.theme-light .panels__58331 > .container_debb33:has(button[aria-label='Disable Game Activity']):hover .flex_f18b02 > :not(:last-child) {
+    margin-left: 0px !important;
+}
+
+/* End of the if*/
+
+
 /*Custom SpotifyControl in user panel*/
 .container_6sXIoE.withTimeline_824fT_ {
     height: var(--playerHeight);

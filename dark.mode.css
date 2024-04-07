@@ -1937,7 +1937,7 @@ svg {
   width: 38px !important;
 }
 
-.panels__58331 > .container_debb33:has(button[aria-label='Enable Game Activity']):hover .flex_f18b02 > :not(:last-child) {
+.theme-dark .panels__58331 > .container_debb33:has(button[aria-label='Enable Game Activity']):hover .flex_f18b02 > :not(:last-child) {
   margin-left: 0px !important;
 }
 
@@ -1953,7 +1953,7 @@ svg {
   width: 38px !important;
 }
 
-.panels__58331 > .container_debb33:has(button[aria-label='Disable Game Activity']):hover .flex_f18b02 > :not(:last-child) {
+.theme-dark .panels__58331 > .container_debb33:has(button[aria-label='Disable Game Activity']):hover .flex_f18b02 > :not(:last-child) {
   margin-left: 0px !important;
 }
 
