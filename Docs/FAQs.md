@@ -215,7 +215,7 @@ However, as a last resort you can
 
 * This should make it a little less laggy.
 
-Consequently, you can try out OpenAsar which part
+Consequently, you can try out [OpenAsar](https://openasar.dev/) which part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should give a bit more performance boost.
 
