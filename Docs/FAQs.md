@@ -312,7 +312,7 @@ appearance
 
 Before applying the theme:
 
-* Firstly, make sure that there is **no custom** css or css snippet is/are running.
+* Firstly, make sure that there is **no custom** css or css snippet(s) is/are running.
 
 * Secondly, make sure that no party plugin related to theming
   is running (*if debugging, disable all plugins for quicker conclusion*).
