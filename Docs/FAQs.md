@@ -227,7 +227,7 @@ This is basically an addon; to remove it:
 
 * **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`.
-  Now the member list will always be visible instead of hover.
+  Now the member list will always be visible instead of on hover.
   See the below screenshots:
 
 1.  <img src="images/addon_faqs/always_visible_member_list.png" alt="wq is loading"/>
