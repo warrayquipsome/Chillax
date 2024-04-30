@@ -318,34 +318,25 @@ Before applying the theme:
   is running (*if debugging, disable all plugins for quicker conclusion*).
 
 * Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
+
 * Now apply the Latest version
   of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
+
 * Now you should have Chillax with the default look and feel.
 
 
 ### 15. How to get rid of the mobile icon besides the avatar?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
-* Now use/paste the below css snippet at the **very bottom**:
->    [!NOTE]
->      If the below css does not work,
->      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
->      the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
-  ```css
-        /* Remove the phone indicator beside avatar */
-        foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
-            visibility: hidden !important;
-        }
+* Now to the line `92` or find the line that says `--rs-phone-visible: block;` and
+  change this line to the below line:
 
-        #app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
-            display: none;
-        }
-
-        #app-mount .wrapper__3ed10 foreignObject[mask*=mobile][width="80"]:after {
-            display: none;
-        }
-   ```
+    ```css
+        --rs-phone-visible: none;
+    ```
+  
+* Now mobile icon or phone icon should be gone.
 
 &#160;
 
