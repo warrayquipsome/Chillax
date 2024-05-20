@@ -10,7 +10,8 @@
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open integrated
-(*Its already there not need for installation*) [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
+[Monaco](https://microsoft.github.io/monaco-editor/) (*Its already there not need
+for installation as this is part of the Vencord itself*) code editor.
 Now using this Editor, you can easily edit css with hot reloading.
 See the below-attached screenshots:
 
