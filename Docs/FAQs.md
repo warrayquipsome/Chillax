@@ -87,16 +87,16 @@ And now the new fonts should be applied.
   use the **RAW** GitHub link instead of the Google font approach.
 
 ```css
-   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 ```
 
 instead, it will be
 
 ```css
-@font-face {
-    font-family: "Font Name"; /* Replace with the name of the font here */
-    src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
-}
+    @font-face {
+        font-family: "Font Name"; /* Replace with the name of the font here */
+        src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
+    }
 ```
 
 ### 3. How to change the font size?
@@ -150,14 +150,14 @@ However, if you have decided to make up your mind then
   In case it does not work, it will at least make the `container__037ed`
   basically that region a bit darker.
   ```css
-      .container__037ed {
-            background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
-            /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
-            backdrop-filter: blur(1px) !important; /*Blur the background*/
-            border-radius: 10px; /* Rounded corners */
-            /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
-      }
+    .container__037ed {
+          background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
+          /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
+          backdrop-filter: blur(1px) !important; /*Blur the background*/
+          border-radius: 10px; /* Rounded corners */
+          /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
+    }
   ```
 
 > [!important]
@@ -181,12 +181,12 @@ However, if you have decided to make up your mind then
 >      the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
   ```css
-      /* Reset groupchat name font */
+    /* Reset groupchat name font */
     .input__723c9 {
         font-family: var(--font-name) !important; /* Write the font name here */
         font-weight: inherit !important; /* Self explanatory */
     }
-   ```
+  ```
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
@@ -283,21 +283,21 @@ Remove it to get back default emojis:
 
 If you are using dark mode, then the below css snippet
 ```css
-  /* hide message in the sidebar when using dark mode */
-.theme-dark .sidebar_e031be .content__690c5:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
+    /* hide message in the sidebar when using dark mode */
+    .theme-dark .sidebar_e031be .content__690c5:after {
+        color: rgba(255, 255, 255, 0) !important;
+        text-shadow: none !important;
+    }
 ```
 
 Or, if you are using light mode, then the below css snippet
 
 ```css
-  /* hide message in the sidebar when using light mode */
-.theme-light .sidebar_e031be .content__690c5:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
+    /* hide message in the sidebar when using light mode */
+    .theme-light .sidebar_e031be .content__690c5:after {
+        color: rgba(255, 255, 255, 0) !important;
+        text-shadow: none !important;
+    }
 ```
 
 * Now it should be a bit better.
