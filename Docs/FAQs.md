@@ -10,7 +10,8 @@
 
 The steps are first `settings`, then go to the `VENCORD` Section and then `Themes`.
 Finally, click `Edit Quick CSS` which should open integrated
-(*Its already there not need for installation*) [Monaco](https://microsoft.github.io/monaco-editor/) code editor.
+[Monaco](https://microsoft.github.io/monaco-editor/) (*Its already there not need
+for installation as this is part of the Vencord itself*) code editor.
 Now using this Editor, you can easily edit css with hot reloading.
 See the below-attached screenshots:
 
@@ -80,19 +81,22 @@ And now the new fonts should be applied.
 
 * For GitHub, all you have to do is create a new repo and upload the font there.
 
-* After click on the font file and get the **RAW** link of that.
+* After clicking on the font file and get the **RAW** link of that.
 
 * Now just like in the previous step 7, we import the font, but this time
-  use the **RAW** GitHub link instead of Google font one.
+  use the **RAW** GitHub link instead of the Google font approach.
 
 ```css
-   @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+    @import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
 ```
 
 instead, it will be
 
 ```css
-   @import url('RAW LINK'); /* Replace `RAW LINK` with the GitHub raw url/link */
+    @font-face {
+        font-family: "Font Name"; /* Replace with the name of the font here */
+        src: url("RAW GitHub Link"); /* Replace with the hosted github raw link*/
+    }
 ```
 
 ### 3. How to change the font size?
@@ -146,14 +150,14 @@ However, if you have decided to make up your mind then
   In case it does not work, it will at least make the `container__037ed`
   basically that region a bit darker.
   ```css
-      .container__037ed {
-            background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
-            /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
-            backdrop-filter: blur(1px) !important; /*Blur the background*/
-            border-radius: 10px; /* Rounded corners */
-            /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
-            box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
-      }
+    .container__037ed {
+          background-color: rgba(255, 255, 255, 0) !important; /* Semi-transparent white for light theme */
+          /* Or use this for dark theme: background-color: rgba(0, 0, 0, 0.1); */
+          backdrop-filter: blur(1px) !important; /*Blur the background*/
+          border-radius: 10px; /* Rounded corners */
+          /* Or use this for dark theme: border: 1px solid rgba(0, 0, 0, 0.2); */
+          box-shadow: 0 8px 32px 0 rgba(31, 38, 135, 0.37) !important; /* Optional: Add a box shadow for depth */
+    }
   ```
 
 > [!important]
@@ -177,12 +181,12 @@ However, if you have decided to make up your mind then
 >      the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
   ```css
-      /* Reset groupchat name font */
+    /* Reset groupchat name font */
     .input__723c9 {
         font-family: var(--font-name) !important; /* Write the font name here */
         font-weight: inherit !important; /* Self explanatory */
     }
-   ```
+  ```
 * If you want, you can replace `var(--font-name)` with your custom font name
   if you are planning on using multiple fonts at once.
 
@@ -215,7 +219,7 @@ However, as a last resort you can
 
 * This should make it a little less laggy.
 
-Consequently, you can try out OpenAsar which part
+Consequently, you can try out [OpenAsar](https://openasar.dev/) which is part
 of the [Vencord installer](https://github.com/Vencord/Installer/issues/11).
 This should give a bit more performance boost.
 
@@ -227,7 +231,7 @@ This is basically an addon; to remove it:
 
 * **Remove** or **comment out** the line (*currently line number `33` and maybe different in your case*) containing
   `@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");`.
-  Now the member list will always be visible instead of hover.
+  Now the member list will always be visible instead of on hover.
   See the below screenshots:
 
 1.  <img src="images/addon_faqs/always_visible_member_list.png" alt="wq is loading"/>
@@ -279,21 +283,21 @@ Remove it to get back default emojis:
 
 If you are using dark mode, then the below css snippet
 ```css
-  /* hide message in the sidebar when using dark mode */
-.theme-dark .sidebar_e031be .content__690c5:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
+    /* hide message in the sidebar when using dark mode */
+    .theme-dark .sidebar_e031be .content__690c5:after {
+        color: rgba(255, 255, 255, 0) !important;
+        text-shadow: none !important;
+    }
 ```
 
 Or, if you are using light mode, then the below css snippet
 
 ```css
-  /* hide message in the sidebar when using light mode */
-.theme-light .sidebar_e031be .content__690c5:after {
-    color: rgba(255, 255, 255, 0) !important;
-    text-shadow: none !important;
-}
+    /* hide message in the sidebar when using light mode */
+    .theme-light .sidebar_e031be .content__690c5:after {
+        color: rgba(255, 255, 255, 0) !important;
+        text-shadow: none !important;
+    }
 ```
 
 * Now it should be a bit better.
@@ -312,40 +316,31 @@ appearance
 
 Before applying the theme:
 
-* Firstly, make sure that there is **no custom** css or css snippet is/are running.
+* Firstly, make sure that there is **no custom** css or css snippet(s) is/are running.
 
 * Secondly, make sure that no party plugin related to theming
   is running (*if debugging, disable all plugins for quicker conclusion*).
 
 * Thirdly, `Settings` > `Appearance` is set to either Dark or light mode.
+
 * Now apply the Latest version
   of [Chillax](https://raw.githubusercontent.com/warrayquipsome/Chillax/main/chillax.theme.css).
+
 * Now you should have Chillax with the default look and feel.
 
 
 ### 15. How to get rid of the mobile icon besides the avatar?
 
 * The steps are first `Settings`, then go to the `Themes` Section and then `Edit Quick CSS`.
-* Now use/paste the below css snippet at the **very bottom**:
->    [!NOTE]
->      If the below css does not work,
->      then please create an [Issue](https://github.com/warrayquipsome/Chillax/issues) or report in
->      the [Support Discord Server](https://discord.gg/DrfX6286kF).
 
-  ```css
-        /* Remove the phone indicator beside avatar */
-        foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
-            visibility: hidden !important;
-        }
+* Now to the line `92` or find the line that says `--rs-phone-visible: block;` and
+  change this line to the below line:
 
-        #app-mount .wrapper__3ed10 foreignObject[mask*=mobile]:after {
-            display: none;
-        }
-
-        #app-mount .wrapper__3ed10 foreignObject[mask*=mobile][width="80"]:after {
-            display: none;
-        }
-   ```
+    ```css
+        --rs-phone-visible: none;
+    ```
+  
+* Now mobile icon or phone icon should be gone.
 
 &#160;
 
