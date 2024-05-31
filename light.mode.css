@@ -283,6 +283,7 @@ span[class="inner-26JK4f"]:after {
     width: 32px;
     height: 32px;
     content: "";
+    opacity: var(--background-image-opacity);
 }
 
 span[class="inner-26JK4f"] > * {
