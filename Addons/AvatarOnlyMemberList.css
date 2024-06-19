@@ -1,56 +1,56 @@
 /*avatar only memberlist*/
-.membersWrap__5ca6b {
+.membersWrap_cbd271 {
     min-width: unset;
 }
 
-.members__573eb {
+.members_cbd271 {
     max-width: 65px;
     min-width: 65px;
     transition: 0.5s ease;
 }
 
-.members__573eb:hover {
+.members_cbd271:hover {
     max-width: 240px;
     min-width: 240px;
 }
 
-div:not(:hover) > .members__573eb > div {
+div:not(:hover) > .members_cbd271 > div {
     padding-top: 10px;
 }
 
 /* Fix alignment issues with the members list */
-.container_b2ce9c,
-.membersWrap__5ca6b {
+.container_cbd271,
+.membersWrap_cbd271 {
     width: 65px;
 }
 
 /* Make the member list expand on top of the chat instead of shifting it */
-.members__573eb {
+.members_cbd271 {
     margin-left: 0px;
     background-color: #0000;
     transition: 0.5s ease;
 }
 
-.members__573eb:hover {
+.members_cbd271:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
 }
 
 /* Make the list fill the window height */
-.membersWrap__5ca6b {
+.membersWrap_cbd271 {
     height: 100%;
 }
 
 /* Fix the member count addon (vencord) */
-.members__573eb:not(:hover) > #vc-membercount > div > span:first-child {
+.members_cbd271:not(:hover) > #vc-membercount > div > span:first-child {
     display: none !important;
 }
 
-.members__573eb:not(:hover) > #vc-membercount > div {
+.members_cbd271:not(:hover) > #vc-membercount > div {
     box-sizing: border-box !important;
     flex: 1 0 100%;
 }
 
-.members__573eb:not(:hover) > #vc-membercount {
+.members_cbd271:not(:hover) > #vc-membercount {
     flex-wrap: wrap;
 }
