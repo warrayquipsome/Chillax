@@ -119,7 +119,7 @@ That's it.
 
 > [!IMPORTANT]
 > Must-need to change both for it to take full effect.
-> 
+>
 > **Note**: `--accentcolor` is for [rgb](https://rgbcolorpicker.com/) and `--accentcolor2` is
 > for [hex](https://colors-picker.com/hex-color-picker/).
 
@@ -182,7 +182,7 @@ However, if you have decided to make up your mind then
 
   ```css
     /* Reset groupchat name font */
-    .input__723c9 {
+    .input_f8b740 {
         font-family: var(--font-name) !important; /* Write the font name here */
         font-weight: inherit !important; /* Self explanatory */
     }
@@ -284,7 +284,7 @@ Remove it to get back default emojis:
 If you are using dark mode, then the below css snippet
 ```css
     /* hide message in the sidebar when using dark mode */
-    .theme-dark .sidebar_e031be .content__690c5:after {
+    .theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
         color: rgba(255, 255, 255, 0) !important;
         text-shadow: none !important;
     }
@@ -294,7 +294,7 @@ Or, if you are using light mode, then the below css snippet
 
 ```css
     /* hide message in the sidebar when using light mode */
-    .theme-light .sidebar_e031be .content__690c5:after {
+    .theme-light .sidebar_a4d4d9 .content_eed6a8:after {
         color: rgba(255, 255, 255, 0) !important;
         text-shadow: none !important;
     }
@@ -339,7 +339,7 @@ Before applying the theme:
     ```css
         --rs-phone-visible: none;
     ```
-  
+
 * Now mobile icon or phone icon should be gone.
 
 &#160;
