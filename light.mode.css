@@ -2842,7 +2842,7 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
     padding: 15px;
     display: inline-block;
     margin-right: 10px;
-    margin-top: 10pximportant;
+    margin-top: 10px !important;
     position: relative;
     overflow-y: scroll;
     height: 150px;
