@@ -2823,9 +2823,9 @@ button {
     margin-right: 0 !important;
 }
 
-div[class="fieldList_b69b77"] > div[class*="field_b69b77"] {
-    width: 95.5%;
-}
+/*div[class="fieldList_b69b77"] > div[class*="field_b69b77"] {*/
+/*    width: 95.5%;*/
+/*}*/
 
 div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButton_b69b77 button_dd4f85 lookFilled_dd4f85 colorPrimary_dd4f85 sizeSmall_dd4f85 grow_dd4f85"] {
     width: 90%;
