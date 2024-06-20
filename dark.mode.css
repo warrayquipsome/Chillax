@@ -3441,3 +3441,8 @@ html .channelTabs-newTab {
 .option_b0286e:after {
     background: transparent !important;
 }
+
+/* Fix for radial status shadow cropping (friend list and stuff) */
+.wrapper_c51b4e.avatar_f3939d {
+    padding: 5px !important;
+}
