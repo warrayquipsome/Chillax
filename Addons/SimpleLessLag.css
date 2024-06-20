@@ -1,9 +1,11 @@
 * {
-  animation: none!important;
+    animation: none !important;
 }
+
 * {
-  backdrop-filter: unset!important;
+    backdrop-filter: unset !important;
 }
+
 * {
-  transition: none!important;
+    transition: none !important;
 }

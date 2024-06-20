@@ -1,217 +1,217 @@
 #app-mount .baseLayer_d4b6c5 {
-	opacity: 1 !important;
-	transform: unset !important;
-	will-change: unset !important;
+    opacity: 1 !important;
+    transform: unset !important;
+    will-change: unset !important;
 }
 
 #app-mount .stop-animations * {
-	transition-property: inherit !important;
-	animation: inherit !important;
+    transition-property: inherit !important;
+    animation: inherit !important;
 }
 
 #app-mount .layer_d4b6c5.stop-animations:first-child::after {
-	content: "" !important;
-	position: fixed !important;
-	background: rgb(0, 0, 0) !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	opacity: 0.85 !important;
-	z-index: 999 !important;
-	pointer-events: none !important;
+    content: "" !important;
+    position: fixed !important;
+    background: rgb(0, 0, 0) !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0.85 !important;
+    z-index: 999 !important;
+    pointer-events: none !important;
 }
 
-.theme-light #app-mount .layer_d4b6c5~.layer_d4b6c5 {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: var(--themelightsettingsmodalbackground) !important;
-	border-radius: 5px !important;
-	box-shadow: var(--elevation-high) !important;
-	width: var(--settingsmodalwidth) !important;
-	height: var(--settingsmodalheight) !important;
-	margin: auto !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	contain: unset !important;
-	z-index: 1000 !important;
+.theme-light #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--themelightsettingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
 }
 
-.theme-dark #app-mount .layer_d4b6c5~.layer_d4b6c5 {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: var(--themedarksettingsmodalbackground) !important;
-	border-radius: 5px !important;
-	box-shadow: var(--elevation-high) !important;
-	width: var(--settingsmodalwidth) !important;
-	height: var(--settingsmodalheight) !important;
-	margin: auto !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	contain: unset !important;
-	z-index: 1000 !important;
+.theme-dark #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--themedarksettingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5>div,
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .standardSidebarView_c25c6d {
-	position: static !important;
-	border-radius: unset !important;
-	width: 100% !important;
-	height: 100% !important;
-	margin: unset !important;
-	padding: unset !important;
-	overflow: hidden !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 > div,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d {
+    position: static !important;
+    border-radius: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: unset !important;
+    padding: unset !important;
+    overflow: hidden !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .sidebar_c25c6d {
-	width: 218px !important;
-	padding: 20px 6px 20px 20px !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar_c25c6d {
+    width: 218px !important;
+    padding: 20px 6px 20px 20px !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .contentColumnDefault_c25c6d {
-	padding: 20px 40px !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .contentColumnDefault_c25c6d {
+    padding: 20px 40px !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .side_a0 {
-	height: var(--settingsmodalheight) !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .side_a0 {
+    height: var(--settingsmodalheight) !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .header_a0 {
-	max-width: calc(var(--settingsmodalwidth) - 256px) !important;
-	;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .header_a0 {
+    max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 
 /* the below one BD specific? Vencord don't seems to have it*/
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .standardSidebarView_c25c6d .editor {
-	height: calc(var(--settingsmodalheight) - 120px) !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d .editor {
+    height: calc(var(--settingsmodalheight) - 120px) !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .toolsContainer_c25c6d,
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .toolsContainer_c25c6d .tools_c25c6d,
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .toolsContainer_c25c6d .container_df5532,
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .toolsContainer_c25c6d .closeButton_df5532 {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: transparent !important;
-	border: none !important;
-	border-radius: 0 !important;
-	width: 100% !important;
-	max-width: unset !important;
-	height: 100% !important;
-	max-height: unset !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	opacity: 0 !important;
-	cursor: default !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .tools_c25c6d,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .container_df5532,
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .closeButton_df5532 {
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    max-height: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .toolsContainer_c25c6d {
-	position: fixed !important;
-	top: 22px !important;
-	z-index: -1 !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d {
+    position: fixed !important;
+    top: 22px !important;
+    z-index: -1 !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .toolbar_e44302 {
-	display: none !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolbar_e44302 {
+    display: none !important;
 }
 
-#app-mount .layer_d4b6c5~.layer_d4b6c5 .header_a0 {
-	max-width: calc(var(--settingsmodalwidth) - 730px) !important;
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .header_a0 {
+    max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
 #app-mount .root_f906dd {
-	position: fixed !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: var(--settingsmodalbackground) !important;
-	border-radius: 5px !important;
-	box-shadow: var(--elevation-high) !important;
-	width: var(--settingsmodalwidth) !important;
-	height: var(--settingsmodalheight) !important;
-	margin: auto !important;
-	padding: 0 !important;
-	overflow: hidden !important;
-	contain: unset !important;
-	z-index: 1000 !important;
+    position: fixed !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: var(--settingsmodalbackground) !important;
+    border-radius: 5px !important;
+    box-shadow: var(--elevation-high) !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
+    padding: 0 !important;
+    overflow: hidden !important;
+    contain: unset !important;
+    z-index: 1000 !important;
 }
 
 #app-mount .root_f906dd.enterDone_f906dd {
-	transform: unset !important;
+    transform: unset !important;
 }
 
 #app-mount .perksModal-CLcR1c {
-	position: static !important;
-	border-radius: unset !important;
-	width: 100% !important;
-	height: 100% !important;
-	margin: unset !important;
-	padding: unset !important;
+    position: static !important;
+    border-radius: unset !important;
+    width: 100% !important;
+    height: 100% !important;
+    margin: unset !important;
+    padding: unset !important;
 }
 
 #app-mount .perksModal-CLcR1c::before {
-	width: var(--settingsmodalwidth) !important;
-	height: var(--settingsmodalheight) !important;
-	margin: auto !important;
+    width: var(--settingsmodalwidth) !important;
+    height: var(--settingsmodalheight) !important;
+    margin: auto !important;
 }
 
 #app-mount .perksModalContentWrapper-3RHugb {
-	padding: 10px 0 10px !important;
+    padding: 10px 0 10px !important;
 }
 
 #app-mount .root_f906dd .perksModal-CLcR1c .carousel-3dvee9 {
-	margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
+    margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
 }
 
 #app-mount .root_f906dd .closeWrapper-9ScmSq,
 #app-mount .root_f906dd .closeWrapper-9ScmSq .closeContent-I3JbQJ,
 #app-mount .root_f906dd .closeWrapper-9ScmSq .container_df5532,
 #app-mount .root_f906dd .closeWrapper-9ScmSq .closeButton_df5532 {
-	position: absolute !important;
-	top: 0 !important;
-	right: 0 !important;
-	bottom: 0 !important;
-	left: 0 !important;
-	background: transparent !important;
-	border: none !important;
-	border-radius: 0 !important;
-	width: 100% !important;
-	max-width: unset !important;
-	height: 100% !important;
-	max-height: unset !important;
-	margin: 0 !important;
-	padding: 0 !important;
-	opacity: 0 !important;
-	cursor: default !important;
+    position: absolute !important;
+    top: 0 !important;
+    right: 0 !important;
+    bottom: 0 !important;
+    left: 0 !important;
+    background: transparent !important;
+    border: none !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    max-width: unset !important;
+    height: 100% !important;
+    max-height: unset !important;
+    margin: 0 !important;
+    padding: 0 !important;
+    opacity: 0 !important;
+    cursor: default !important;
 }
 
 #app-mount .root_f906dd .closeWrapper-9ScmSq {
-	position: fixed !important;
-	top: 22px !important;
-	z-index: -1 !important;
+    position: fixed !important;
+    top: 22px !important;
+    z-index: -1 !important;
 }
 
 .theme-dark .sidebarRegion_c25c6d {
-	background: var(--sidebar-colour);
+    background: var(--sidebar-colour);
 }
 
 .theme-light .sidebarRegion_c25c6d {
-	background: var(--sidebar-colour);
+    background: var(--sidebar-colour);
 }
+
 .contentRegion_c25c6d {
-zoom: 0.9!important;
+    zoom: 0.9 !important;
 }
 
 /*
@@ -220,10 +220,10 @@ zoom: 0.9!important;
 */
 
 .premiumFeatureBorder_c6d722 {
-  background: linear-gradient(var(--background-primary),var(--background-primary))padding-box border-box;
+    background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box border-box;
 }
 
 /* hide hover underline on selected tab */
 .selected_a0:after {
-	background: transparent !important;
+    background: transparent !important;
 }
