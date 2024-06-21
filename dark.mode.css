@@ -3446,3 +3446,54 @@ html .channelTabs-newTab {
 .wrapper_c51b4e.avatar_f3939d {
     padding: 5px !important;
 }
+
+/* Adding support for Vencord summary plugin */
+
+/* summaries container */
+.theme-dark .topicsPillContainer_cf58b5 {
+    border-radius: 5px !important;
+    background-color: var(--accentcolorV2);
+    z-index: 5;
+}
+
+/* new unread */
+.theme-dark .newTopicsBarContainer_cf58b5 {
+    border-radius: 5px !important;
+    z-index: 5;
+}
+
+.theme-dark .topicsDropdownBase_cf58b5::before {
+    content: "";
+    position: absolute;
+    -webkit-backdrop-filter: blur(5px);
+    backdrop-filter: blur(5px);
+    inset: 0;
+    border-radius: 15px;
+    z-index: -1;
+}
+
+.theme-dark .topicsDropdownBase_cf58b5 {
+    background-color: rgba(15, 12, 12, 0.219);
+    border-radius: 15px;
+    padding: 15px;
+    position: absolute;
+    z-index: 5;
+}
+
+.theme-dark .topicsScroller_cf58b5 > * {
+    background-color: rgba(0, 0, 0, 0.6);
+    transition: all 0.2s ease;
+    border-radius: 15px;
+}
+
+.theme-dark .topicsScroller_cf58b5 > *:hover {
+    background-color: rgb(0, 0, 0.9);
+    transform: translateY(-2px);
+    border-radius: 15px;
+}
+
+.theme-dark .container_faef22 {
+    border-radius: 15px;
+}
+
+/* End of Vencord summary plugin stuff */
