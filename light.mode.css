@@ -2835,6 +2835,8 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
 }
 
 .theme-light .field_b69b77 {
+    /* Note needed anymore as per the suggestions as dom calculates the size now */
+    /*width: calc((100% / 2.2) - ((-45 / 3) * 1px));*/
     border-radius: 8px;
     background-color: #e4e4e4;
     max-height: none;
@@ -2842,6 +2844,8 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
     padding: 15px;
     display: inline-block;
     margin-right: 10px;
+    /* not needed anymore as dom calculates the size now */
+    /*margin-top: 10px !important;*/
     position: relative;
     overflow-y: scroll;
     height: 150px;
