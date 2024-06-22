@@ -244,6 +244,17 @@
     border-radius: 20px;
 }
 
+/* Fix so that the unread button/container always stays visible
+ on top of other stuff like spotify controls etc */
+
+.unreadBottom_c43953 {
+    z-index: 9999 !important;
+}
+
+.container_eba0ba.bottom_eba0ba {
+    z-index: 9999 !important;
+}
+
 /*spotify gradient thing*/
 .theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
     background: linear-gradient(135deg, #2b2b2b, var(--accentcolorV2));
