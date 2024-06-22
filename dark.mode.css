@@ -2263,7 +2263,7 @@ svg {
 /*custom new unreads*/
 .bar_eba0ba {
     padding: 14px 50px;
-    margin-bottom: 85px;
+    /*margin-bottom: 85px;*/ /* This causes issues and won't let near by channel to be click able */
 }
 
 .unreadIcon_eba0ba {
