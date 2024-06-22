@@ -2917,6 +2917,7 @@ button {
 .fieldList_b69b77 {
     margin-left: 10px;
     margin-bottom: 25px;
+    grid-gap: 15px;
 }
 
 .field_b69b77:last-child {
@@ -2942,7 +2943,6 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
 }
 
 .theme-dark .field_b69b77 {
-    width: calc((100% / 2.2) - ((-45 / 3) * 1px));
     border-radius: 8px;
     background-color: #333135;
     max-height: none;
@@ -2950,7 +2950,6 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
     padding: 15px;
     display: inline-block;
     margin-right: 10px;
-    margin-top: 10px !important;
     position: relative;
     overflow-y: scroll;
     height: 150px;
