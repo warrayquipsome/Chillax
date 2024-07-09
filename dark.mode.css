@@ -974,7 +974,7 @@ span:not(.spinner-item) {
     font-size: var(--font-size) !important;
 }
 
-.messageContent_ec86aa,
+.messageContent_f9f2ca,
 .contents_ec86aa {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
@@ -2263,7 +2263,11 @@ svg {
 /*custom new unreads*/
 .bar_eba0ba {
     padding: 14px 50px;
-    /*margin-bottom: 85px;*/ /* This causes issues and won't let near by channel to be click able */
+}
+
+/* Fixes position of unreads at the bottom of the channel list */
+.bottom_eba0ba {
+  transform: translateY(-85px);
 }
 
 .unreadIcon_eba0ba {
@@ -2283,18 +2287,18 @@ svg {
 }
 
 /* remove date divider */
-.hasContent_d5deea {
-    display: none;
+.hasContent_c2654d {
+  display: none;
 }
 
 /* Un-hide unread divider with date */
-.isUnread_fc5f50 {
-    display: flex !important;
+.isUnread_c2654d {
+  display: flex !important;
 }
 
 /* Hide date in unread divider */
-.content_fc5f50 {
-    display: none;
+.content_c2654d {
+  display: none;
 }
 
 /*custom nsfw warning*/
