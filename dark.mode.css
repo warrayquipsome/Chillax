@@ -980,6 +980,10 @@ span:not(.spinner-item) {
     font-size: var(--font-size) !important;
 }
 
+.markup_f8f345 h1, .markup_f8f345 h2, .markup_f8f345 h3, .markup_f8f345 h4, .markup_f8f345 h5, .markup_f8f345 h6 {
+    font-family: var(--font-name);
+}
+
 /*custom public servers and create server buttons*/
 .theme-dark .guilds_a4d4d9 .scroller_fea3ef .circleIconButton_db6521 {
     border-radius: 50px;
