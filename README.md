@@ -9,8 +9,8 @@
             <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
         </a>
         <br/>
-        <a href="Docs/FAQs.md" target="_blank">
-            <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=FAQ&message=CHILLAX VENCORD&colorA=333333&colorB=FB5454"
+        <a href="https://chillax-org.github.io/chillaxdocs/" target="_blank">
+            <img src="https://img.shields.io/static/v1.svg?style=for-the-badge&label=DOCS&message=CHILLAX&colorA=333333&colorB=FB5454"
                      alt="whatever" style="border-radius: 5px"/>
         </a>
     </div>
@@ -108,7 +108,7 @@ and ask for help.
 - › [LofiTurtle](https://github.com/LofiTurtle)
 - › [Inmoresentum](https://github.com/Inmoresentum)
 
-I just wanna quickly say thank you to everyone who helped, supported and used this theme.
+I just wanna quickly say thank you to everyone who helped, supported, and used this theme.
 LUV ALL OF YOU!!
 
 &#160;
