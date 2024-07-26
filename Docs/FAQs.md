@@ -1,3 +1,10 @@
+> [!warning]
+> <h1 align="center">
+>    !! This faqs is old and they have been deprecated.
+>    Please use this <a href="https://chillax-org.github.io/chillaxdocs/vencordfaq.html">link</a>
+>    to find the latest docs and faqs!!
+> </h1>
+
 <h1 align="center">C H I L L A X FAQs</h1>
 <div align="center">
         <img align="center" src="https://media.discordapp.net/stickers/1039992459209490513.png" style="height: 180px" alt="wq is loading"/>
