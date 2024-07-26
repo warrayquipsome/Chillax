@@ -2154,6 +2154,7 @@ svg {
     overflow: hidden;
     transition: height 0.2s ease;
     order: 1;
+    z-index: 1;
 }
 
 #vc-spotify-player:hover .vc-spotify-button-row {
@@ -2162,6 +2163,7 @@ svg {
 
 #vc-spotify-progress-bar {
     order: 2;
+    z-index: 1;
 }
 
 .vc-spotify-button {
