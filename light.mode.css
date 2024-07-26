@@ -2047,6 +2047,8 @@ svg {
 
 /* Custom Spotify controls for Vencord */
 #vc-spotify-player {
+    display: flex;
+    flex-direction: column;
     position: relative;
     overflow: hidden;
     border-radius: 8px;
@@ -2075,15 +2077,6 @@ svg {
     z-index: 0;
 }
 
-#vc-spotify-player > * {
-    position: relative;
-    z-index: 1;
-}
-
-#vc-spotify-album-image {
-    display: none;
-}
-
 #vc-spotify-info-wrapper {
     height: auto;
 }
@@ -2107,6 +2100,23 @@ svg {
 .vc-spotify-artist,
 .vc-spotify-album {
     font-size: 14px;
+}
+
+.vc-spotify-button-row {
+    width: fit-content;
+    align-self: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    order: 1;
+}
+
+#vc-spotify-player:hover .vc-spotify-button-row {
+    height: 32px;
+}
+
+#vc-spotify-progress-bar {
+    order: 2;
 }
 
 .vc-spotify-button {
@@ -2135,6 +2145,50 @@ svg {
     margin-left: -16px;
     inset: 3px 0 0 0px;
     box-shadow: none;
+}
+
+/* Transparent album image to preserve onClick functionality */
+#vc-spotify-album-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#vc-spotify-info-wrapper {
+    position: static
+}
+
+#vc-spotify-titles > * {
+    z-index: 2;
+    max-width: 100%;
+    width: auto;
+}
+
+/* Handle expanded album image */
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper > #vc-spotify-album-image {
+    opacity: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
+    margin-top: auto;
 }
 
 /*custom user setting profile position*/
