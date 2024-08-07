@@ -290,13 +290,13 @@ span[class="inner-26JK4f"] > * {
 }
 
 /* member list and friend DMs hover effect */
-.clickable_e9f61e:hover,
+.clickable_d808b0:hover,
 .interactive-1vLZ_I:hover {
     transform: scale(1.1);
     transition: all 0.2s;
 }
 
-.clickable_e9f61e,
+.clickable_d808b0,
 .interactive-1vLZ_I {
     transition: all 0.3s;
 }
@@ -794,7 +794,7 @@ span:not(.spinner-item) {
     color: var(--text-muted);
 }
 
-.container_e44302.themed_e44302 .search_ff5f90 {
+.container_fc4f04.themed_fc4f04 .search_ff5f90 {
     order: -1 !important;
 }
 
@@ -862,13 +862,13 @@ span:not(.spinner-item) {
 }
 
 /*user setting icon spin*/
-.button_f67531:nth-last-child(1):hover
+.button_adca65:nth-last-child(1):hover
 path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"] {
     animation: Settings 1s;
     transform-origin: center;
 }
 
-.button_f67531:nth-last-child(1)
+.button_adca65:nth-last-child(1)
 path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18 20L16.565 18.564C15.797 19.099 14.932 19.498 14 19.738V22H10V19.738C9.069 19.498 8.203 19.099 7.436 18.564L6 20L4 18L5.436 16.564C4.901 15.799 4.502 14.932 4.262 14H2V10H4.262C4.502 9.068 4.9 8.202 5.436 7.436L4 6L6 4L7.436 5.436C8.202 4.9 9.068 4.502 10 4.262V2H14V4.261C14.932 4.502 15.797 4.9 16.565 5.435L18 3.999L20 5.999L18.564 7.436C19.099 8.202 19.498 9.069 19.738 10ZM12 16C14.2091 16 16 14.2091 16 12C16 9.79086 14.2091 8 12 8C9.79086 8 8 9.79086 8 12C8 14.2091 9.79086 16 12 16Z"] {
     animation: Settings2 1s;
     transform-origin: center;
@@ -893,12 +893,12 @@ path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18
 }
 
 /*custom unread style*/
-.unreadPillCap_fc5f50 {
+.unreadPillCap_c2654d {
     display: none;
     right: 50%;
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     background-color: var(--background-shading);
     color: #fb5454;
     font-size: 12px;
@@ -908,7 +908,7 @@ path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18
     width: 30px;
 }
 
-.isUnread_fc5f50 {
+.isUnread_c2654d {
     --divider-color: rgb(237, 0, 255);
     border: none;
     background: linear-gradient(
@@ -922,7 +922,7 @@ path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18
     height: 1px;
 }
 
-.unreadPill_fc5f50 {
+.unreadPill_c2654d {
     top: -6px;
 }
 
@@ -932,8 +932,8 @@ path[d="M19.738 10H22V14H19.739C19.498 14.931 19.1 15.798 18.565 16.564L20 18L18
     font-size: var(--font-size) !important;
 }
 
-.messageContent_ec86aa,
-.contents_ec86aa {
+.messageContent_f9f2ca,
+.contents_f9f2ca {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
@@ -1475,12 +1475,12 @@ svg {
     --embed-border-radius: 5px;
 }
 
-.theme-light .embed_ad0b71 {
+.theme-light .embed_b0068a {
     border-radius: var(--embed-border-radius);
     z-index: 2;
 }
 
-.theme-light .embed_ad0b71 code {
+.theme-light .embed_b0068a code {
     background: rgb(221, 221, 221);
 }
 
@@ -1488,25 +1488,25 @@ svg {
     --embed-line-width: 300px;
 }
 
-.theme-light .embedFull_ad0b71 {
+.theme-light .embedFull_b0068a {
     border-top: none;
     border-right: none;
     border-bottom: none;
 }
 
-.theme-light .embedFull_ad0b71 {
+.theme-light .embedFull_b0068a {
     border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
     background: rgb(221, 221, 221);
     box-shadow: 2px 2px 8px rgb(199, 199, 199);
 }
 
-.theme-light .grid_ad0b71 {
+.theme-light .grid_b0068a {
     margin-left: calc(-1 * var(--embed-line-width));
     z-index: 1;
 }
 
-.theme-light .embedFull_ad0b71:after,
-.embedFull_ad0b71:before {
+.theme-light .embedFull_b0068a:after,
+.embedFull_b0068a:before {
     content: "";
     height: 100%;
     width: var(--embed-line-width);
@@ -1515,19 +1515,19 @@ svg {
     left: calc(-1 * var(--embed-line-width));
 }
 
-.theme-light .embedFull_ad0b71:after {
+.theme-light .embedFull_b0068a:after {
     background: linear-gradient(to right, transparent, rgb(221, 221, 221));
     z-index: -3;
 }
 
-.theme-light .embedFull_ad0b71:before {
+.theme-light .embedFull_b0068a:before {
     background: rgb(221, 221, 221);
     opacity: 0.8;
     z-index: -1;
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-.button_f67531:hover .contents-3ca1mk {
+.button_adca65:hover .contents-3ca1mk {
     animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -1544,7 +1544,7 @@ svg {
 }
 
 /*guild pills glow*/
-.theme-light .item_fd07a3 {
+.theme-light .item_c4cd66 {
     box-shadow: 0 0 3px rgb(0, 0, 0);
 }
 
@@ -1828,19 +1828,19 @@ svg {
     display: block;
 }
 
-.panels_a4d4d9 > .container_b2ca13 .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
     opacity: 0% !important;
     width: 50px;
     transition: all 0.3s;
 }
 
-.panels_a4d4d9 > .container_b2ca13:hover .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
     opacity: 100% !important;
     width: 32px;
     margin-left: 10px;
 }
 
-.button_f67531[aria-label="User Settings"] {
+.button_adca65[aria-label="User Settings"] {
     margin-left: 10px;
 }
 
@@ -1889,11 +1889,11 @@ svg {
     min-width: 207px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_dc333f > :not(:last-child) {
     width: 38px !important;
 }
 
-.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_bba380 > :not(:last-child) {
+.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
     margin-left: 0px !important;
 }
 
@@ -1905,11 +1905,11 @@ svg {
     min-width: 207px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_bba380 > :not(:last-child) {
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_dc333f > :not(:last-child) {
     width: 38px !important;
 }
 
-.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_bba380 > :not(:last-child) {
+.theme-light .panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
     margin-left: 0px !important;
 }
 
@@ -2369,17 +2369,17 @@ svg {
 }
 
 /*custom nsfw warning*/
-.image_b9693a {
+.image_def860 {
     content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
 
-.flex_bba380.vertical_ec1a20.gatedContent_b9693a
-> .flex_bba380.flex_ec1a20.horizontal_bba380.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyCenter_ec1a20.alignCenter_ec1a20.noWrap_ec1a20 {
+.flex_dc333f.vertical_ec1a20.gatedContent_def860
+> .flex_dc333f.flex_ec1a20.horizontal_dc333f.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyCenter_ec1a20.alignCenter_ec1a20.noWrap_ec1a20 {
     background: transparent !important;
 }
 
 /*message hover small buttons fix*/
-.theme-light .wrapper_ef319f {
+.theme-light .wrapper_f7e168 {
     background: rgb(243, 243, 243) !important;
 }
 
@@ -2485,7 +2485,7 @@ svg {
     unicode-range: U+2014;
 }
 
-.blockedSystemMessage_c09d0f .iconContainer_e62b38 {
+.blockedSystemMessage_c09d0f .iconContainer_d76df7 {
     display: none;
 }
 
@@ -2502,7 +2502,7 @@ svg {
     margin-right: -3px;
 }
 
-.blockedSystemMessage_c09d0f .content_e62b38 {
+.blockedSystemMessage_c09d0f .content_d76df7 {
     font-size: 12px !important;
     font-weight: 500;
     padding: 1px 0;
@@ -2810,7 +2810,7 @@ li.row-uezxzk {
     padding-left: unset;
 }
 
-.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .header_ec86aa {
+.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .header_f9f2ca {
     margin-left: 72px;
     padding-bottom: 20px;
     margin-bottom: 16px;
@@ -2820,21 +2820,21 @@ li.row-uezxzk {
 .chat_d6c7e0
 .scrollerInner_e2e187
 > li:nth-child(3)
-:is(.messageContent_ec86aa, .container_b558d0) {
+:is(.messageContent_f9f2ca, .container_b558d0) {
     margin-left: 16px;
     font-size: 23px;
     line-height: 28px;
     padding-left: unset;
 }
 
-.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .timestampInline_ec86aa {
+.chat_d6c7e0 .scrollerInner_e2e187 > li:nth-child(3) .timestampInline_f9f2ca {
     font-size: 0;
 }
 
 .chat_d6c7e0
 .scrollerInner_e2e187
 > li:nth-child(3)
-.timestampInline_ec86aa
+.timestampInline_f9f2ca
 > time::after {
     position: absolute;
     left: 0;
@@ -3079,7 +3079,7 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
 }
 
 /*animated chat name hover*/
-.username_ec86aa:after {
+.username_f9f2ca:after {
     content: "";
     position: absolute;
     width: 100%;
@@ -3092,11 +3092,11 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
     transition: transform .1s;
 }
 
-.username_ec86aa:hover {
+.username_f9f2ca:hover {
     text-decoration: none !important;
 }
 
-.username_ec86aa:hover:after {
+.username_f9f2ca:hover:after {
     transform: scaleX(1);
     transform-origin: bottom center;
 }
@@ -3268,7 +3268,7 @@ html .channelTabs-newTab {
 }
 
 /* Re-round Spotify Status Images */
-.assetsLargeImageSpotify_d5089b {
+.assetsLargeImageSpotify_c1d9fd {
     border-radius: 10px;
 }
 
@@ -3351,7 +3351,7 @@ html .channelTabs-newTab {
     opacity: 01 !important;
 }
 
-.gameIcon_f394e5 {
+.gameIcon_a9e62c {
     color: transparent;
 }
 
@@ -3366,7 +3366,7 @@ html .channelTabs-newTab {
     background: transparent !important;
 }
 
-.children_e44302:after {
+.children_fc4f04:after {
     background: transparent !important;
 }
 
@@ -3387,12 +3387,12 @@ html .channelTabs-newTab {
 }
 
 /*custom edited icon*/
-.edited_ec86aa {
+.edited_f9f2ca {
     color: transparent
 }
 
 /*Render the original edited text invisible*/
-.edited_ec86aa::before {
+.edited_f9f2ca::before {
     content: "(" var(--edited-message) ")"; /*Put the edited icon before the original edited text.*/
     color: var(--text-muted); /*Give it the same muted color at the edited text.*/
     font-size: 10px;

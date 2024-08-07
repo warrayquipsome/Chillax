@@ -121,7 +121,7 @@
     z-index: -1 !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolbar_e44302 {
+#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolbar_fc4f04 {
     display: none !important;
 }
 
@@ -129,7 +129,7 @@
     max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
-#app-mount .root_f906dd {
+#app-mount .root_fccaa9 {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -147,7 +147,7 @@
     z-index: 1000 !important;
 }
 
-#app-mount .root_f906dd.enterDone_f906dd {
+#app-mount .root_fccaa9.enterDone_fccaa9 {
     transform: unset !important;
 }
 
@@ -170,14 +170,14 @@
     padding: 10px 0 10px !important;
 }
 
-#app-mount .root_f906dd .perksModal-CLcR1c .carousel-3dvee9 {
+#app-mount .root_fccaa9 .perksModal-CLcR1c .carousel-3dvee9 {
     margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
 }
 
-#app-mount .root_f906dd .closeWrapper-9ScmSq,
-#app-mount .root_f906dd .closeWrapper-9ScmSq .closeContent-I3JbQJ,
-#app-mount .root_f906dd .closeWrapper-9ScmSq .container_df5532,
-#app-mount .root_f906dd .closeWrapper-9ScmSq .closeButton_df5532 {
+#app-mount .root_fccaa9 .closeWrapper-9ScmSq,
+#app-mount .root_fccaa9 .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root_fccaa9 .closeWrapper-9ScmSq .container_df5532,
+#app-mount .root_fccaa9 .closeWrapper-9ScmSq .closeButton_df5532 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -196,7 +196,7 @@
     cursor: default !important;
 }
 
-#app-mount .root_f906dd .closeWrapper-9ScmSq {
+#app-mount .root_fccaa9 .closeWrapper-9ScmSq {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
