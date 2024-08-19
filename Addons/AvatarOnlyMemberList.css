@@ -33,6 +33,7 @@ div:not(:hover) > .members_cbd271 > div {
 
 /* overwrite black stuff for member list */
 .theme-light .members_cbd271:hover {
+    margin-left: -175px;
     background-color: rgba(255, 255, 255, 0.87);
 }
 
