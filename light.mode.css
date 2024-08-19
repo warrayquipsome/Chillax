@@ -3361,6 +3361,10 @@ html .channelTabs-newTab {
     box-shadow: 0 0 15px rgb(0, 0, 0);
 }
 
+.theme-light .quickswitcher_f4e139 {
+  background: rgba(255, 255, 255, 0.6);
+}
+
 /*forum fix*/
 .forumOrHome_ff5f90 {
     background: transparent !important;
