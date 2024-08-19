@@ -31,7 +31,12 @@ div:not(:hover) > .members_cbd271 > div {
     transition: 0.5s ease;
 }
 
-.members_cbd271:hover {
+/* overwrite black stuff for member list */
+.theme-light .members_cbd271:hover {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+.theme-dark .members_cbd271:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
 }
