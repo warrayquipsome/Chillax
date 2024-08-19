@@ -3477,7 +3477,7 @@ html .channelTabs-newTab {
 }
 
 /*forum thread overlap fix*/
-.chatTarget_d1c246.container_d1c246.floating_d1c246 {
+.theme-dark .chatTarget_d1c246.container_d1c246.floating_d1c246 {
     background: rgba(26, 26, 26, 0.9) !important;
     box-shadow: 0 0 15px rgb(0, 0, 0);
 }
