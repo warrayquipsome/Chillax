@@ -3360,9 +3360,29 @@ html .channelTabs-newTab {
     background: rgba(255, 255, 255, 0.9) !important;
     box-shadow: 0 0 15px rgb(0, 0, 0);
 }
-
+/* quickswitch light theme fix*/
 .theme-light .quickswitcher_f4e139 {
   background: rgba(255, 255, 255, 0.6);
+}
+
+/*popup light theme fix*/
+.theme-light .root_f9a4c9 {
+  background: rgba(255, 255, 255, 0.6);
+}
+
+/*recent activity memberlist popout light theme fix*/
+.theme-light .popout_a35965 {
+   background: rgba(255, 255, 255, 0.6);
+}
+
+/* patch text color */
+.theme-light .popout_a35965 .contents_dd4f85 > div {
+   color: #000 !important;
+}
+
+/* patch sound logo svg stuff*/
+.theme-light .popout_a35965 .contents_dd4f85 > svg > path {
+   fill: var(--black) !important;
 }
 
 /*forum fix*/
