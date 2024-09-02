@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 1.0.1
+ * @version 1.5.1
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -31,6 +31,7 @@
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
@@ -40,6 +41,7 @@
 :root {
     /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
     /*bg dev suggestions*/
     --wallpaper: url('https://wallpaperaccess.com/full/2799204.jpg');
     /*modern background selection*/

@@ -7,7 +7,6 @@
 
 /****ADDONS****/
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/BlurpleRecolor/BlurpleRecolor.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://warrayquipsome.github.io/Chillax/ChillaxTag.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/SettingsModalEdited.css");
 @import url("https://crearts-community.github.io/Friends-Grid/theme.css");
@@ -1162,6 +1161,7 @@ div[class*="wrapper_c51b4e"][aria-label*="Online"]
 /*theme background image*/
 .bg_d4b6c5 {
     background-image: var(--background-image);
+    opacity: var(--bg-opacity);
     background-attachment: var(--background-attachment, fixed);
     background-size: var(--background-size, cover);
     background-position: var(--background-position, center);
