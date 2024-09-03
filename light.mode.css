@@ -44,7 +44,7 @@
 ::-webkit-scrollbar-thumb {
     border: none !important;
     background-clip: content-box !important;
-    background: transparent !important;
+    background: var(--chillax-scroller-color) !important;
 }
 
 /*transparent call background*/

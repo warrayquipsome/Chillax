@@ -123,6 +123,8 @@
     --chillax-input-typing-indicator-one-person: "is smashing some buttons";
     --chillax-input-typing-indicator-many-person: "are smashing some buttons";
 
+    /* scroller (by default transparent) */
+    --chillax-scroller-color: transparent; /* change `transparent` to some other hex color */
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
