@@ -297,11 +297,16 @@
 }
 
 .theme-dark .placeholder_a552a6::before {
-    content: "Life is so much easier when you just take a moment to chill";
+    content: var(--chillax-input-field);
     color: rgba(255, 255, 255, 0.2);
     font-family: "Poppins";
     font-size: 13px;
     visibility: visible !important;
+}
+
+/* Change the message in the messagebox when you're restricted from sending messages in that channel. */
+.theme-dark .innerDisabled_d0696b .placeholder_a552a6::before {
+    content: var(--chillax-input-field-locked) !important;
 }
 
 /* Fix slight scroll when text box is empty */
@@ -3338,29 +3343,29 @@ html .channelTabs-newTab {
 }
 
 /* user typing... but its edited*/
-.dots-1BwzZQ {
+.theme-dark .dots-1BwzZQ {
     margin-right: 5px;
 }
 
-.base_d7ebeb .text_d7ebeb {
+.theme-dark .base_d7ebeb .text_d7ebeb {
     display: flex;
     align-items: center;
 }
 
-.typing_d7ebeb {
+.theme-dark .typing_d7ebeb {
     font-size: 0;
 }
 
-.typing_d7ebeb strong {
+.theme-dark .typing_d7ebeb strong {
     font-size: 12px;
 }
 
-.typing_d7ebeb strong:after {
+.theme-dark .typing_d7ebeb strong:after {
     content: ',';
     margin-right: 4px;
 }
 
-.typing_d7ebeb strong:nth-last-child(2)::after {
+.theme-dark .typing_d7ebeb strong:nth-last-child(2)::after {
     content: 'and';
     margin: 0 4px;
     color: rgba(255, 255, 255, 0.8);
@@ -3368,16 +3373,16 @@ html .channelTabs-newTab {
     margin-top: -5px;
 }
 
-.typing_d7ebeb strong:last-child::after {
-    content: 'is smashing some buttons';
+.theme-dark .typing_d7ebeb strong:last-child::after {
+    content: var(--chillax-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     margin-top: -5px;
     margin-left: 4px;
 }
 
-.typing_d7ebeb strong:nth-last-child()::after {
-    content: 'are smashing some buttons';
+.theme-dark .typing_d7ebeb strong:nth-last-child()::after {
+    content: var(--chillax-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     margin-top: -5px;

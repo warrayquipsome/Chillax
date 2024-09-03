@@ -267,11 +267,16 @@
 }
 
 .theme-light .placeholder_a552a6::before {
-    content: "Life is so much easier when you just take a time to chill";
+    content: var(--chillax-input-field);
     color: rgba(0, 0, 0, 0.2);
     font-family: "Poppins";
     font-size: 13px;
     visibility: visible !important;
+}
+
+/* Change the message in the messagebox when you're restricted from sending messages in that channel. */
+.theme-light .innerDisabled_d0696b .placeholder_a552a6::before {
+    content: var(--chillax-input-field-locked) !important;
 }
 
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
@@ -3206,29 +3211,29 @@ html .channelTabs-newTab {
 }
 
 /* user typing... but its edited*/
-.dots-1BwzZQ {
+.theme-light .dots-1BwzZQ {
     margin-right: 5px;
 }
 
-.base_d7ebeb .text_d7ebeb {
+.theme-light .base_d7ebeb .text_d7ebeb {
     display: flex;
     align-items: center;
 }
 
-.typing_d7ebeb {
+.theme-light .typing_d7ebeb {
     font-size: 0;
 }
 
-.typing_d7ebeb strong {
+.theme-light .typing_d7ebeb strong {
     font-size: 12px;
 }
 
-.typing_d7ebeb strong:after {
+.theme-light .typing_d7ebeb strong:after {
     content: ',';
     margin-right: 4px;
 }
 
-.typing_d7ebeb strong:nth-last-child(2)::after {
+.theme-light .typing_d7ebeb strong:nth-last-child(2)::after {
     content: 'and';
     margin: 0 4px;
     color: rgba(255, 255, 255, 0.8);
@@ -3236,16 +3241,16 @@ html .channelTabs-newTab {
     margin-top: -5px;
 }
 
-.typing_d7ebeb strong:last-child::after {
-    content: 'is smashing some buttons';
+.theme-light .typing_d7ebeb strong:last-child::after {
+    content: var(--chillax-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     margin-top: -5px;
     margin-left: 4px;
 }
 
-.typing_d7ebeb strong:nth-last-child()::after {
-    content: 'are smashing some buttons';
+.theme-light .typing_d7ebeb strong:nth-last-child()::after {
+    content: var(--chillax-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
     margin-top: -5px;
@@ -3300,7 +3305,7 @@ html .channelTabs-newTab {
     background-color: transparent;
 }
 
-/*user profile in dms fix*/
+/* user profile in dms fix */
 .mutualGuildsList_b433b4 > .collapseBtn_ce1058, .mutualFriendsList_b433b4 > .collapseBtn_ce1058 {
     background: transparent !important;
     box-shadow: none !important;
@@ -3343,7 +3348,7 @@ html .channelTabs-newTab {
     padding: 0;
 }
 
-/*custom unknown game icon*/
+/* custom unknown game icon */
 .theme-light [d="M21.226 30v-4.154h-3.755V30h3.755zm-.512-8.62c3.67-1.337 5.718-2.959 5.718-6.145 0-3.272-2.36-5.235-6.088-5.235-2.589 0-4.637.825-6.344 2.048l.484 3.3c1.621-1.251 3.47-2.162 5.49-2.162 1.707 0 2.845.854 2.845 2.305 0 1.593-1.08 2.475-3.812 3.442l-.882.342.342 4.523 2.076-.455.171-1.963z"] {
     d: path("M11.354 4.646a.5.5 0 0 1 0 .708l-6 6a.5.5 0 0 1-.708-.708l6-6a.5.5 0 0 1 .708 0zM0 3a3 3 0 0 1 3-3h10a3 3 0 0 1 3 3v10a3 3 0 0 1-3 3H3a3 3 0 0 1-3-3V3zm5.5 1a1.5 1.5 0 1 0-3 0 1.5 1.5 0 0 0 3 0zm6.5 9.5a1.5 1.5 0 1 0 0-3 1.5 1.5 0 0 0 0 3z");
     color: rgb(0, 0, 0) !important;

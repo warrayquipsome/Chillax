@@ -50,7 +50,6 @@
     --bg-opacity: 100%;
     /*bg dev suggestions*/
     --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
-    --memberlist-border-radius: 25px;
     /*modern background selection*/
     --modern-dark-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Wallpapers/modern-dark-bg.png");
     --modern-light-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Wallpapers/modern-light-bg.png");
@@ -113,6 +112,19 @@
     --themedarksettingsmodalbackground: rgb(51, 49, 53);
     --settingsmodalwidth: 960px;
     --settingsmodalheight: 80vh;
+
+    /* avatar only member list */
+    --memberlist-border-radius: 25px;
+
+    /* placeholder texts/values */
+    /* input fields */
+    --chillax-input-field: "Life is so much easier when you just take a moment to chill";
+    /* input fields  when the channel is locked*/
+    --chillax-input-field-locked: "Chill! This channel is read only";
+    /* typing indicator: when a single person is typing */
+    --chillax-input-typing-indicator-one-person: "is smashing some buttons";
+    --chillax-input-typing-indicator-many-person: "are smashing some buttons";
+
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
