@@ -35,14 +35,12 @@ div:not(:hover) > .members_cbd271 > div {
 .theme-light .members_cbd271:hover {
     margin-left: -175px;
     background-color: rgba(255, 255, 255, 0.87);
+    border-radius: var(--memberlist-border-radius);
 }
 
 .theme-dark .members_cbd271:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
-}
-
-.membersWrap_cbd271:hover {
     border-radius: var(--memberlist-border-radius);
 }
 
