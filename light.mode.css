@@ -1845,19 +1845,19 @@ svg {
     display: block;
 }
 
-.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+.theme-light .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
     opacity: 0% !important;
     width: 50px;
     transition: all 0.3s;
 }
 
-.panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
+.theme-light .panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
     opacity: 100% !important;
-    width: 32px;
+    width: 40px;
     margin-left: 10px;
 }
 
-.button_adca65[aria-label="User Settings"] {
+.theme-light .button_adca65[aria-label="User Settings"] {
     margin-left: 10px;
 }
 

@@ -1911,7 +1911,7 @@ svg {
     margin-left: 10px;
 }
 
-.button_adca65[aria-label="User Settings"] {
+.theme-dark .button_adca65[aria-label="User Settings"] {
     margin-left: 10px;
 }
 
@@ -1952,6 +1952,8 @@ svg {
 
 
 /* Fix for Vencord Game Activity Toggle Plugin */
+/* Duplicate Stuff */
+/* We should have a common file and then import them there instead of duplicating them */
 
 .container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child {
     min-width: 36px !important;
