@@ -2129,7 +2129,7 @@ svg {
 .vc-spotify-button {
     --interactive-normal: #FFFFFF;
     --interactive-hover: #FFFFFF;
-    filter: drop-shadow( 0px 1px 4px rgba(0, 0, 0, 0.6));
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
 }
 
 .vc-spotify-button:hover {
@@ -2141,7 +2141,7 @@ svg {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-#vc-spotify-progress-bar>[class^=slider] [class^=grabber] {
+#vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
     width: 25px !important;
     height: 25px !important;
     background-color: transparent;
@@ -3365,29 +3365,30 @@ html .channelTabs-newTab {
     background: rgba(255, 255, 255, 0.9) !important;
     box-shadow: 0 0 15px rgb(0, 0, 0);
 }
+
 /* quickswitch light theme fix*/
 .theme-light .quickswitcher_f4e139 {
-  background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 }
 
 /*popup light theme fix*/
 .theme-light .root_f9a4c9 {
-  background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 }
 
 /*recent activity memberlist popout light theme fix*/
 .theme-light .popout_a35965 {
-   background: rgba(255, 255, 255, 0.6);
+    background: rgba(255, 255, 255, 0.6);
 }
 
 /* patch text color */
 .theme-light .popout_a35965 .contents_dd4f85 > div {
-   color: #000 !important;
+    color: #000 !important;
 }
 
 /* patch sound logo svg stuff*/
 .theme-light .popout_a35965 .contents_dd4f85 > svg > path {
-   fill: var(--black) !important;
+    fill: var(--black) !important;
 }
 
 /*forum fix*/
@@ -3442,6 +3443,7 @@ html .channelTabs-newTab {
 .edited_f9f2ca:not(.message-translate-indicator) {
     display: none;
 }
+
 /* End to time stamp */
 
 /*sidebar server name border radius fix*/

@@ -83,7 +83,7 @@
 /* ║ Light                    ║ Here you can make settings for the Light Theme.                                         ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-.theme-light  {
+.theme-light {
     --FG-search-background: var(--background-tertiary);
 
     --FG-cards-background-normal: var(--background-secondary);
@@ -106,7 +106,6 @@
     --FG-cards-button-background-normal: rgba(255, 255, 255, 0.3);
     --FG-cards-button-background-hover: rgba(255, 255, 255, 0.6);
 }
-
 
 
 .peopleColumn_c2739c .title_a1cafe {
@@ -132,7 +131,7 @@
     top: 24px
 }
 
-.peopleColumn_c2739c .peopleList_e0840f>div {
+.peopleColumn_c2739c .peopleList_e0840f > div {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-column-gap: 12px;
@@ -192,7 +191,7 @@
 }
 
 .info-1sUqUG .size12-oc4dx4:last-child::after {
-    content: "\a""Friends-Grid "var(--FA-version) !important;
+    content: "\a" "Friends-Grid " var(--FA-version) !important;
     text-transform: none;
     white-space: pre;
     -webkit-user-select: all;
@@ -201,56 +200,56 @@
 }
 
 @media screen and (min-width: 0px)and (max-width: 6000px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         height: auto !important;
         margin-right: 60vw
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 5000px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         height: auto !important;
         margin-right: 50vw
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 4000px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         height: auto !important;
         margin-right: 40vw
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 3000px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         height: auto !important;
         margin-right: 30vw
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 2600px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         height: auto !important;
         margin-right: 0vw
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 2000px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         grid-template-columns: var(--FG-row);
         height: auto !important
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 1600px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         grid-template-columns: 1fr 1fr;
         height: auto !important
     }
 }
 
 @media screen and (min-width: 0px)and (max-width: 1000px) {
-    .peopleColumn_c2739c .peopleList_e0840f>div {
+    .peopleColumn_c2739c .peopleList_e0840f > div {
         grid-template-columns: 1fr;
         height: auto !important
     }
