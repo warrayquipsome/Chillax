@@ -1656,6 +1656,14 @@ svg {
     font-size: 11px !important;
 }
 
+/* For Logout from all devices button */
+
+.theme-dark  .children_a6ae9b .logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
+    content: "Logout" !important;
+    position: absolute;
+    font-size: 11px !important;
+}
+
 /*seperator in settings*/
 .theme-dark .separator-2wx7h6 {
     background: rgb(185, 185, 185);
