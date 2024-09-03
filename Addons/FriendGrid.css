@@ -1,3 +1,114 @@
+:root {
+    --FA-version: "v1.0.10";
+
+    --FG-row: 1fr 1fr 1fr;
+
+    --FG-search-radius: 8px;
+
+    --FG-cards-radius: 8px;
+    --FG-cards-height: 180px;
+    --FG-cards-banner-background: var(--brand-experiment);
+    --FG-cards-margin-bottom: 26px;
+    --FG-cards-banner-height: 20px;
+    --FG-cards-border-width: 1px;
+
+    --FG-avatar-margin-top: 46px;
+    --FG-avatar-margin-left: 20px;
+    --FG-text-margin-left: 20px;
+
+    --FG-cards-banner-opacity-normal: 1.0;
+    --FG-cards-banner-opacity-hover: 1.0;
+    --FG-cards-banner-opacity-active: 1.0;
+
+    --FG-cards-avatar-opacity-normal: 1.0;
+    --FG-cards-avatar-opacity-hover: 1.0;
+    --FG-cards-avatar-opacity-active: 1.0;
+
+    --FG-cards-username-opacity-normal: 1.0;
+    --FG-cards-username-opacity-hover: 1.0;
+    --FG-cards-username-opacity-active: 1.0;
+
+    --FG-cards-discriminator-opacity-normal: 1.0;
+    --FG-cards-discriminator-opacity-hover: 1.0;
+    --FG-cards-discriminator-opacity-active: 1.0;
+
+    --FG-cards-status-opacity-normal: 1.0;
+    --FG-cards-status-opacity-hover: 1.0;
+    --FG-cards-status-opacity-active: 1.0;
+
+    --FG-cards-button-opacity-normal: 0.0;
+    --FG-cards-button-opacity-hover: 1.0;
+    --FG-cards-button-opacity-active: 0.0;
+
+    --FG-mutal-guilds-normal: 0.0;
+    --FG-mutal-guilds-hover: 1.0;
+    --FG-mutal-guilds-active: 1.0;
+
+    --FG-avatar-shape: 50%;
+
+    --FG-transition: all 0.4s ease;
+
+    --user-accent-color: var(--FG-cards-banner-background);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Dark                     ║ Here you can make settings for the Dark Theme.                                          ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-dark {
+    --FG-search-background: var(--background-tertiary);
+
+    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-hover: var(--activity-card-background);
+
+    --FG-cards-background-active: var(--activity-card-background);
+
+    --FG-cards-border-color-normal: var(--background-modifier-accent);
+    --FG-cards-border-color-hover: var(--background-modifier-accent);
+
+    --FG-cards-username-normal: var(--header-primary);
+    --FG-cards-username-hover: var(--header-primary);
+    --FG-cards-discriminator-normal: var(--header-secondary);
+    --FG-cards-discriminator-hover: var(--header-secondary);
+    --FG-cards-status-normal: var(--header-secondary);
+    --FG-cards-status-hover: var(--header-secondary);
+
+    --FG-cards-button-icon-normal: var(--interactive-active);
+    --FG-cards-button-icon-hover: var(--activity-card-background);
+    --FG-cards-button-background-normal: rgba(0, 0, 0, 0.3);
+    --FG-cards-button-background-hover: rgba(0, 0, 0, 0.6);
+}
+
+/* ╔══════════════════════════╦═════════════════════════════════════════════════════════════════════════════[─]═[□]═[×]═╗ */
+/* ║ Light                    ║ Here you can make settings for the Light Theme.                                         ║ */
+/* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
+
+.theme-light  {
+    --FG-search-background: var(--background-tertiary);
+
+    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-hover: var(--activity-card-background);
+
+    --FG-cards-background-active: var(--activity-card-background);
+
+    --FG-cards-border-color-normal: var(--background-modifier-accent);
+    --FG-cards-border-color-hover: var(--background-modifier-accent);
+
+    --FG-cards-username-normal: var(--header-primary);
+    --FG-cards-username-hover: var(--header-primary);
+    --FG-cards-discriminator-normal: var(--header-secondary);
+    --FG-cards-discriminator-hover: var(--header-secondary);
+    --FG-cards-status-normal: var(--header-secondary);
+    --FG-cards-status-hover: var(--header-secondary);
+
+    --FG-cards-button-icon-normal: var(--interactive-active);
+    --FG-cards-button-icon-hover: var(--activity-card-background);
+    --FG-cards-button-background-normal: rgba(255, 255, 255, 0.3);
+    --FG-cards-button-background-hover: rgba(255, 255, 255, 0.6);
+}
+
+
+
 .peopleColumn_c2739c .title_a1cafe {
     position: relative;
     top: -66px;

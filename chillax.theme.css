@@ -167,14 +167,14 @@
     --deprecated-panel-background: transparent;
 }
 
-/*friends grid banner colour*/
-.theme-dark {
-    --FG-cards-banner-background: transparent !important;
-}
+/*!*friends grid banner colour*!*/
+/*.theme-dark {*/
+/*    --FG-cards-banner-background: transparent !important;*/
+/*}*/
 
-.theme-light {
-    --FG-cards-banner-background: transparent !important;
-}
+/*.theme-light {*/
+/*    --FG-cards-banner-background: transparent !important;*/
+/*}*/
 
 
 /*Permissions*/
