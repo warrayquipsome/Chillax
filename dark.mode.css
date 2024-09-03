@@ -1658,7 +1658,7 @@ svg {
 
 /* For Logout from all devices button */
 
-.theme-dark  .children_a6ae9b .logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
+.theme-dark .children_a6ae9b .logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
     content: "Logout" !important;
     position: absolute;
     font-size: 11px !important;
@@ -3615,7 +3615,7 @@ html .channelTabs-newTab {
 }
 
 /* Search autocomplete background */
-.popout_c5b389, .container_eedf95 {
+.theme-dark .popout_c5b389, .container_eedf95 {
     background-color: #181a1da6 !important;
     backdrop-filter: blur(15px) !important;
 }

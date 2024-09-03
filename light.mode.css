@@ -305,10 +305,17 @@ span[class="inner-26JK4f"] > * {
     transition: all 0.3s;
 }
 
+/* Search autocomplete background */
+.theme-dark .popout_c5b389, .container_eedf95 {
+    background-color: #181a1da6 !important;
+    backdrop-filter: blur(15px) !important;
+}
+
 /*recolor search*/
 .theme-light .container_eedf95 {
     -webkit-box-shadow: var(--elevation-high) !important;
     box-shadow: var(--elevation-high) !important;
+    background-color: rgba(240, 240, 240, 0.2);
 }
 
 .theme-light .elevationBorderHigh_ff8688 {
@@ -1600,7 +1607,7 @@ svg {
 }
 
 /* For Logout from all devices button */
-.theme-light  .children_a6ae9b .logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
+.theme-light .children_a6ae9b .logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
     content: "Logout" !important;
 }
 
