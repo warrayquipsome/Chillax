@@ -1264,14 +1264,14 @@ svg {
 }
 
 /*chillax squad font and colour change*/
-[href="https\:\/\/github.com/warrayquipsome/Chillax#author"] {
+[href="https\:\/\/github.com/warrayquipsome/Chillax#Authors"] {
     font-family: "Libre Barcode 128 Text";
     color: rgb(255, 161, 161) !important;
     font-weight: 400;
     font-size: 25px;
 }
 
-[href="https\:\/\/github.com/warrayquipsome/Chillax#author"]:hover {
+[href="https\:\/\/github.com/warrayquipsome/Chillax#Authors"]:hover {
     font-family: "Libre Barcode 128";
     color: rgb(255, 161, 161) !important;
     font-weight: 400;
