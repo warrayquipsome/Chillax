@@ -306,8 +306,8 @@ span[class="inner-26JK4f"] > * {
 }
 
 /* Search autocomplete background */
-.theme-dark .popout_c5b389, .container_eedf95 {
-    background-color: #181a1da6 !important;
+.theme-light .popout_c5b389, .container_eedf95 {
+    background-color: rgba(255, 255, 255, 0.2) !important;
     backdrop-filter: blur(15px) !important;
 }
 
@@ -2905,7 +2905,7 @@ button {
     margin-left: 15px;
 }
 
-.theme-dark #Chillax-card .bd-meta {
+.theme-light #Chillax-card .bd-meta {
     margin-left: 15px;
     bottom: 25px;
     color: rgb(226, 226, 226);
@@ -2929,11 +2929,11 @@ button {
     display: none;
 }
 
-.theme-dark #Chillax-card [href='https\:\/\/github.com/warrayquipsome/Chillax'] {
+.theme-light #Chillax-card [href='https\:\/\/github.com/warrayquipsome/Chillax'] {
     color: #fff !important;
 }
 
-.theme-dark #Chillax-card [href='DrfX6286kF'] {
+.theme-light #Chillax-card [href='DrfX6286kF'] {
     color: #fff !important;
 }
 
