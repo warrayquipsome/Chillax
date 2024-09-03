@@ -1,6 +1,7 @@
 /*avatar only memberlist*/
 .membersWrap_cbd271 {
     min-width: unset;
+    border-radius: var(--memberlist-border-radius);
 }
 
 .members_cbd271 {
