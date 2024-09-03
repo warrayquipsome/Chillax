@@ -3429,6 +3429,21 @@ html .channelTabs-newTab {
     line-height: 1;
 }
 
+/* adds time stamps besides edited messages */
+.timestamp_f9f2ca:not(.timestampInline_f9f2ca, .timestampVisibleOnHover_f9f2ca) time::after {
+    content: " (" attr(aria-label) ")";
+    color: var(--text-muted);
+    font-size: 0.625rem;
+    font-weight: 400;
+    line-height: 1;
+    /* text-transform: lowercase; */
+}
+
+.edited_f9f2ca:not(.message-translate-indicator) {
+    display: none;
+}
+/* End to time stamp */
+
 /*sidebar server name border radius fix*/
 .sidebar_a4d4d9 {
     border-radius: 0px !important;
