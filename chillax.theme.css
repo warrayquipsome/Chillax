@@ -52,8 +52,8 @@
     --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
     --memberlist-border-radius: 25px;
     /*modern background selection*/
-    --modern-dark-bg: url("https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096");
-    --modern-light-bg: url("https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096");
+    --modern-dark-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Wallpapers/modern-light-bg.png");
 }
 
 
@@ -98,17 +98,17 @@
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: block;
+    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
     --rs-phone-color: var(--rs-online-color);
 
-
-    /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    /* For accent color to take full effect must need to change both */
+    /* chillax colours rgb */
     --accentcolor: 251, 84, 84;
-    /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    /* chillax colours hex */
     --accentcolorV2: #fb5454;
 
 
-    /*settings modal root*/
+    /* settings modal root */
     --themelightsettingsmodalbackground: rgb(223, 223, 223);
     --themedarksettingsmodalbackground: rgb(51, 49, 53);
     --settingsmodalwidth: 960px;
