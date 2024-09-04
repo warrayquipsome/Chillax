@@ -3617,14 +3617,9 @@ html.theme-dark .backdrop__1a911 {
 }
 
 /* Search autocomplete background */
-.popout_c5b389, .container_eedf95 {
+html.theme-dark .popout_c5b389, .container_eedf95 {
     background-color: #181a1da6 !important;
     backdrop-filter: blur(15px) !important;
-}
-
-/* tyring out temp fix */
-html.theme-dark .container_eedf95 {
-    background-color: #181a1da6 !important;
 }
 
 
