@@ -3617,7 +3617,7 @@ html .channelTabs-newTab {
 }
 
 /* Search autocomplete background */
-.theme-dark .popout_c5b389, .container_eedf95 {
+.popout_c5b389, .container_eedf95 {
     background-color: #181a1da6 !important;
     backdrop-filter: blur(15px) !important;
 }
