@@ -3622,6 +3622,12 @@ html .channelTabs-newTab {
     backdrop-filter: blur(15px) !important;
 }
 
+/* tyring out temp fix */
+.theme-dark .theme-dark.container_eedf95 {
+    background-color: #181a1da6 !important;
+}
+
+
 /* Remove weird shadow */
 .option_b0286e:after {
     background: transparent !important;
