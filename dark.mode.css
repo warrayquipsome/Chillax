@@ -3683,3 +3683,13 @@ html.theme-dark .container_faef22 {
 }
 
 /* End of Vencord summary plugin stuff */
+
+/* For dm side bar */
+/*We can customize it (*light or dark mode*) if we want*/
+html.theme-light .overlay_a8795b {
+    background: transparent !important; /* change accordinly */
+}
+
+html.theme-light .overlay_a8795b .lookFilled_dd4f85 {
+    box-shadow: none !important; /* gets rid of the shadow */
+}
