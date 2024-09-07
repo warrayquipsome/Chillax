@@ -1288,7 +1288,7 @@ svg {
 /*custom group font*/
 .input_f8b740 {
     overflow: visible !important;
-    font-family: "Monoton" !important;
+    font-family: var(--group-chat-font) !important;
     font-weight: 200 !important;
     font-size: 25px;
     letter-spacing: 0.2px;
