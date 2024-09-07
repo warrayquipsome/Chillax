@@ -3476,3 +3476,8 @@ html.theme-light .overlay_a8795b {
 html.theme-light .overlay_a8795b .lookFilled_dd4f85 {
     box-shadow: none !important; /* gets rid of the shadow */
 }
+
+/*Fix for the user mask in Settings*/
+html.theme-light .mask_c3e427 mask circle {
+    visibility: hidden;
+}

@@ -3693,3 +3693,8 @@ html.theme-dark .overlay_a8795b {
 html.theme-dark .overlay_a8795b .lookFilled_dd4f85 {
     box-shadow: none !important; /* gets rid of the shadow */
 }
+
+/*Fix for the user mask in Settings*/
+html.theme-dark .mask_c3e427 mask circle {
+    visibility: hidden;
+}
