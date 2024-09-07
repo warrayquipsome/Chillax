@@ -98,15 +98,20 @@ For problems installing or using the theme,
 join the support server [https://discord.gg/DrfX6286kF](https://discord.gg/DrfX6286kF)
 and ask for help.
 
-# Author
+# Authors
+
+## Owner
 
 - › [Wq](https://github.com/warrayquipsome)
 
-# Helper:
+## Maintainers and Dev
 
-- › [Demented Elmo](https://github.com/Demented-Elmo)
 - › [LofiTurtle](https://github.com/LofiTurtle)
 - › [Inmoresentum](https://github.com/Inmoresentum)
+
+## Helper
+
+- › [Demented Elmo](https://github.com/Demented-Elmo)
 
 I just wanna quickly say thank you to everyone who helped, supported, and used this theme.
 LUV ALL OF YOU!!

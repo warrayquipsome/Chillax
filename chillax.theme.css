@@ -1,8 +1,8 @@
 /**
  * @name Chillax
  * @author Chillax Squad
- * @authorLink https://github.com/warrayquipsome/Chillax#author
- * @version 1.0.1
+ * @authorLink https://github.com/warrayquipsome/Chillax#Authors
+ * @version 1.5.3
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -11,26 +11,27 @@
 /*
      ⸙  ────     ────     ───── ❝ 𝐚𝐥𝐥 𝐫𝐢𝐠𝐡𝐭 𝐡𝐞𝐫𝐞 ❞ ─────    ────     ────  ⸙
   ╭─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻🂡༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╮
-          █████╗   ██╗  ██╗  ██╗  ██╗      ██╗       █████╗   ██╗  ██╗       
-         ██╔══██╗  ██║  ██║  ██║  ██║      ██║      ██╔══██╗  ╚██╗██╔╝       
+          █████╗   ██╗  ██╗  ██╗  ██╗      ██╗       █████╗   ██╗  ██╗
+         ██╔══██╗  ██║  ██║  ██║  ██║      ██║      ██╔══██╗  ╚██╗██╔╝
   ||     ██║  ╚═╝  ███████║  ██║  ██║      ██║      ███████║   ╚███╔╝      ||
-         ██║  ██╗  ██╔══██║  ██║  ██║      ██║      ██╔══██║   ██╔██╗        
-         ╚█████╔╝  ██║  ██║  ██║  ███████╗ ███████╗ ██║  ██║  ██╔╝╚██╗       
-          ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝       
+         ██║  ██╗  ██╔══██║  ██║  ██║      ██║      ██╔══██║   ██╔██╗
+         ╚█████╔╝  ██║  ██║  ██║  ███████╗ ███████╗ ██║  ██║  ██╔╝╚██╗
+          ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
-
 */
 
-/*chillax*/
-@import url('https://warrayquipsome.github.io/Chillax/chillax.css');
+/* CHILLAX theme entry point */
+@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
-/*removable addons*/
+/* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
-@import url('https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css');
-@import url('https://nyri4.github.io/Discolored/main.css');
+@import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
+@import url("https://nyri4.github.io/Discolored/main.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
@@ -40,11 +41,12 @@
 :root {
     /*background image*/ /*(replace the link to use)*/
     --background-image: var(--wallpaper);
+    --bg-opacity: 100%;
     /*bg dev suggestions*/
-    --wallpaper: url('https://wallpaperaccess.com/full/2799204.jpg');
+    --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
     /*modern background selection*/
-    --modern-dark-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640530071572/97EAEB95-54C2-4AF3-B70B-5E94A851409.jpeg?size=4096');
-    --modern-light-bg: url('https://cdn.discordapp.com/attachments/879158025087234098/1015856640760754216/E98F8123-8B98-4961-90D7-DCC497A26E4.jpeg?size=4096');
+    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
 }
 
 
@@ -73,6 +75,7 @@
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
+    --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
@@ -89,21 +92,37 @@
     --rs-offline-color: #636b75;
     --rs-streaming-color: #643da7;
     --rs-invisible-color: #636b75;
-    --rs-phone-visible: block;
+    --rs-phone-visible: block; /* change it to `none` to disable mobile icon */
     --rs-phone-color: var(--rs-online-color);
 
-
-    /*chillax colours rgb*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    /* For accent color to take full effect must need to change both */
+    /* chillax colours rgb */
     --accentcolor: 251, 84, 84;
-    /*chillax colours hex*/ /* Google RGB Picker: https://g.co/kgs/NoY83h */
+    /* chillax colours hex */
     --accentcolorV2: #fb5454;
 
 
-    /*settings modal root*/
+    /* settings modal root */
     --themelightsettingsmodalbackground: rgb(223, 223, 223);
     --themedarksettingsmodalbackground: rgb(51, 49, 53);
     --settingsmodalwidth: 960px;
     --settingsmodalheight: 80vh;
+
+    /* avatar only member list */
+    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
+
+    /* placeholder texts/values */
+    /* input fields */
+    --chillax-input-field: "Life is so much easier when you just take a moment to chill";
+    /* input fields  when the channel is locked*/
+    --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
+    /* typing indicator: when a single person is typing */
+    --chillax-input-typing-indicator-one-person: "is smashing some buttons";
+    /* typing indicator: when more than one person is typing */
+    --chillax-input-typing-indicator-many-person: "are smashing some buttons";
+
+    /* scroller (by default transparent) */
+    --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
@@ -146,28 +165,30 @@
     --deprecated-panel-background: transparent;
 }
 
-/*friends grid banner colour*/
-.theme-dark {
-    --FG-cards-banner-background: transparent !important;
-}
+/*!*friends grid banner colour*!*/
+/*.theme-dark {*/
+/*    --FG-cards-banner-background: transparent !important;*/
+/*}*/
 
-.theme-light {
-    --FG-cards-banner-background: transparent !important;
-}
+/*.theme-light {*/
+/*    --FG-cards-banner-background: transparent !important;*/
+/*}*/
 
 
 /*Permissions*/
 /*
--You do not have the rights to use our theme name Chillax™ on other projects 
--You do not have the rights to remove our theme watermark in the theme
--You do not have the rights to change this theme author name to anyone
+- You do not have the rights to use our theme name Chillax™ on other projects
+- You do not have the rights to remove our theme watermark in the theme
+- You do not have the rights to change this theme author/dev/maintainer name to anyone
 */
 
 /*credits*/
 /*
 ========================= Chillax Squad =========================
- Wq                                       Author
- Demented_Elmo                            Co-Author
+ Wq                                       Owner & Dev
+ LofiTurtle                               Dev & Maintainer
+ Inmoresentum                             Dev & Maintainer
+ Demented_Elmo                            Dev
 =================================================================
  Embeds                                   by Alexis WyvernZu
  Active Now CSS                           by Cedrick

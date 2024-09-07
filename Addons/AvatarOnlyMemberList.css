@@ -34,12 +34,14 @@ div:not(:hover) > .members_cbd271 > div {
 /* overwrite black stuff for member list */
 .theme-light .members_cbd271:hover {
     margin-left: -175px;
-    background-color: rgba(255, 255, 255, 0.87);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
+    border-radius: var(--memberlist-border-radius);
 }
 
 .theme-dark .members_cbd271:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
+    border-radius: var(--memberlist-border-radius);
 }
 
 /* Make the list fill the window height */
@@ -59,4 +61,17 @@ div:not(:hover) > .members_cbd271 > div {
 
 .members_cbd271:not(:hover) > #vc-membercount {
     flex-wrap: wrap;
+}
+
+/* Avatar only member list activity section visual improvement */
+.members_cbd271:not(:hover) .badgesContainer_d60c6d {
+    display: none;
+}
+
+.members_cbd271:not(:hover) .userSection_c64476 {
+    display: none;
+}
+
+.members_cbd271:not(:hover) .container_c64476 {
+    margin-left: -5px;
 }
