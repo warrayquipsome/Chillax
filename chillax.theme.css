@@ -19,26 +19,22 @@
           ╚════╝   ╚═╝  ╚═╝  ╚═╝  ╚══════╝ ╚══════╝ ╚═╝  ╚═╝  ╚═╝  ╚═╝       
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
 
-*/
-/*
-    Not yet ready!! Need to adjust more.
- */
 
 /* chilla theme entry point */
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/chillax.css");
+@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Addons/IconPackEdited.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Addons/AvatarOnlyMemberList.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Addons/FolderRedesign.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Addons/FriendGrid.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
-/*@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Addons/SimpleLessLag.css");*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
 
 
 /*Chillax Roots*/
@@ -49,8 +45,8 @@
     /*bg dev suggestions*/
     --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
     /*modern background selection*/
-    --modern-dark-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Wallpapers/modern-dark-bg.png");
-    --modern-light-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/release-candidate-1.5/Wallpapers/modern-light-bg.png");
+    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
 }
 
 
