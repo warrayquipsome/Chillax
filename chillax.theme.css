@@ -75,7 +75,7 @@
     --edited-message: " EDITED ✎ ";
     --font-name: Poppins;
     --font-size: 13px;
-    --group-chat-font: "Monoton";
+    --group-chat-font: "Monoton"; /* change this to change the group chat's default font */
 
 
     /*glow radial status*/ /*must end in px*/
@@ -109,7 +109,7 @@
     --settingsmodalheight: 80vh;
 
     /* avatar only member list */
-    --memberlist-border-radius: 25px;
+    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
 
     /* placeholder texts/values */
     /* input fields */
@@ -118,6 +118,7 @@
     --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
     /* typing indicator: when a single person is typing */
     --chillax-input-typing-indicator-one-person: "is smashing some buttons";
+    /* typing indicator: when more than one person is typing */
     --chillax-input-typing-indicator-many-person: "are smashing some buttons";
 
     /* scroller (by default transparent) */
