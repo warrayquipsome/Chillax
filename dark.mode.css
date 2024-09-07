@@ -3698,3 +3698,14 @@ html.theme-dark .overlay_a8795b .lookFilled_dd4f85 {
 html.theme-dark .mask_c3e427 mask circle {
     visibility: hidden;
 }
+
+/* Make unread DM's highlighted based on accent color */
+html.theme-dark .link_c91bad:has(.highlighted_f9647d) {
+    border-left: 2px solid rgba(var(--accentcolor), 0.8);
+    background: linear-gradient(
+            90deg,
+            rgba(var(--accentcolor), 0.3),
+            rgba(var(--accentcolor), 0.2),
+            transparent
+    );
+}
