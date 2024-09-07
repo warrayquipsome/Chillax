@@ -20,7 +20,7 @@
   ╰─ ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ -ˋˏ ༻-༺ ˎˊ- ━━━━━━━━━ ━━━━━━━ ━━━━━━━━━ ─╯
 
 
-/* chilla theme entry point */
+/* CHILLAX theme entry point */
 @import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
 /* removable addons */
@@ -114,13 +114,13 @@
     /* input fields */
     --chillax-input-field: "Life is so much easier when you just take a moment to chill";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "Chill! This channel is read only";
+    --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
     /* typing indicator: when a single person is typing */
     --chillax-input-typing-indicator-one-person: "is smashing some buttons";
     --chillax-input-typing-indicator-many-person: "are smashing some buttons";
 
     /* scroller (by default transparent) */
-    --chillax-scroller-color: transparent; /* change `transparent` to some other hex color */
+    --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
 }
 
 /*discord transparency*//*roots*/ /*theme dark*/
