@@ -34,7 +34,7 @@ div:not(:hover) > .members_cbd271 > div {
 /* overwrite black stuff for member list */
 .theme-light .members_cbd271:hover {
     margin-left: -175px;
-    background-color: rgba(255, 255, 255, 0.87);
+    background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
     border-radius: var(--memberlist-border-radius);
 }
 
