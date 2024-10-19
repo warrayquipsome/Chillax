@@ -3492,3 +3492,10 @@ html.theme-light .link_c91bad:has(.highlighted_f9647d) {
             transparent
     );
 }
+
+/* fix for the blur on image popup that are on images */
+.menu_d90b3d[aria-label="Image Actions"] {
+    background: rgba(12, 12, 12, 0.267) !important;
+    backdrop-filter: blur(15px) !important;
+    border-radius: 5px !important;
+}
