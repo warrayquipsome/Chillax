@@ -3128,14 +3128,14 @@ html.theme-light .field_b69b77 {
     display: none;
 }
 
-.banner_c3e427.popoutBanner_c3e427 {
+.banner_d5fdb1.popoutBanner_c3e427 {
     border-radius: 8px;
     margin: 7px;
     width: 95.5%;
     height: 53px;
 }
 
-.banner_c3e427.profileBanner_f0f36c {
+.banner_d5fdb1.profileBanner_f0f36c {
     border-radius: 8px;
     margin: 12px;
     width: 96%;
@@ -3157,7 +3157,7 @@ html.theme-light .nameTag-35jqbZ {
     width: fit-content;
 }
 
-html.theme-light .connectedAccountContainer_f3eb60 {
+html.theme-light .connectedAccountContainer_ab12c6 {
     border-radius: 8px;
     background-color: var(--profile-gradient-secondary-color);
 
@@ -3165,11 +3165,11 @@ html.theme-light .connectedAccountContainer_f3eb60 {
     width: 97%;
 }
 
-.connectedAccounts_f3eb60.userInfoSection-2u2hir {
+.connectedAccounts_ab12c6.userInfoSection-2u2hir {
     margin-top: 15px;
 }
 
-.connectedAccountsColumn_f3eb60 {
+.connectedAccountsColumn_ab12c6 {
     width: calc((100% / 2) - 15px);
 }
 
@@ -3318,13 +3318,13 @@ html.theme-light .typing_d7ebeb strong:nth-last-child()::after {
 }
 
 /* user profile in dms fix */
-.mutualGuildsList_b433b4 > .collapseBtn_ce1058, .mutualFriendsList_b433b4 > .collapseBtn_ce1058 {
+.mutualGuildsList_b433b4 > .collapseBtn_a4a127, .mutualFriendsList_b433b4 > .collapseBtn_a4a127 {
     background: transparent !important;
     box-shadow: none !important;
     border-radius: 0px !important;
 }
 
-html.theme-light .mutualGuildsList_b433b4 > .collapseBtn_ce1058:hover, html.theme-light .mutualFriendsList_b433b4 > .collapseBtn_ce1058:hover {
+html.theme-light .mutualGuildsList_b433b4 > .collapseBtn_a4a127:hover, html.theme-light .mutualFriendsList_b433b4 > .collapseBtn_a4a127:hover {
     background: rgba(0, 0, 0, 0.1) !important;
 }
 
@@ -3483,7 +3483,7 @@ html.theme-light .mask_d5fdb1 mask circle {
 }
 
 /* Make unread DM's highlighted based on accent color */
-html.theme-light .link_c91bad:has(.highlighted_f9647d) {
+html.theme-light .link_c91bad:has(.highlighted_ec8679) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,

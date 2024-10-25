@@ -2283,7 +2283,7 @@ html.theme-dark #vc-spotify-player {
     margin-bottom: 2px;
 }
 
-.layer_d4b6c5 .accountProfileCard_b69b77 .userInfo_b69b77 .container_e5a42d {
+.layer_d4b6c5 .accountProfileCard_b69b77 .userInfo_b69b77 .container_b64375 {
     justify-content: center;
     width: 100%;
     margin-bottom: 25px;
@@ -3253,14 +3253,14 @@ html.theme-dark .fieldSpacerBottom_b69b77 {
     display: none;
 }
 
-.banner_c3e427.popoutBanner_c3e427 {
+.banner_d5fdb1.popoutBanner_c3e427 {
     border-radius: 8px;
     margin: 7px;
     width: 95.5%;
     height: 53px;
 }
 
-.banner_c3e427.profileBanner_f0f36c {
+.banner_d5fdb1.profileBanner_f0f36c {
     border-radius: 8px;
     margin: 12px;
     width: 96%;
@@ -3282,7 +3282,7 @@ html.theme-dark .nameTag-35jqbZ {
     width: fit-content;
 }
 
-html.theme-dark .connectedAccountContainer_f3eb60 {
+html.theme-dark .connectedAccountContainer_ab12c6 {
     border-radius: 8px;
     background-color: var(--profile-gradient-secondary-color);
 
@@ -3295,11 +3295,11 @@ html.theme-dark .connectedAccountContainer_f3eb60 {
     display: none;
 }
 
-.connectedAccounts_f3eb60.userInfoSection-2u2hir {
+.connectedAccounts_ab12c6.userInfoSection-2u2hir {
     margin-top: 15px;
 }
 
-.connectedAccountsColumn_f3eb60 {
+.connectedAccountsColumn_ab12c6 {
     width: calc((100% / 2) - 15px);
 }
 
@@ -3437,13 +3437,13 @@ html.theme-dark .typing_d7ebeb strong:nth-last-child()::after {
 }
 
 /*user profile in dms fix*/
-.mutualGuildsList_b433b4 > .collapseBtn_ce1058, .mutualFriendsList_b433b4 > .collapseBtn_ce1058 {
+.mutualGuildsList_b433b4 > .collapseBtn_a4a127, .mutualFriendsList_b433b4 > .collapseBtn_a4a127 {
     background: transparent !important;
     box-shadow: none !important;
     border-radius: 0px !important;
 }
 
-html.theme-dark .mutualGuildsList_b433b4 > .collapseBtn_ce1058:hover, html.theme-dark .mutualFriendsList_b433b4 > .collapseBtn_ce1058:hover {
+html.theme-dark .mutualGuildsList_b433b4 > .collapseBtn_a4a127:hover, html.theme-dark .mutualFriendsList_b433b4 > .collapseBtn_a4a127:hover {
     background: rgba(255, 255, 255, 0.1) !important;
 }
 
@@ -3700,7 +3700,7 @@ html.theme-dark .mask_d5fdb1 mask circle {
 }
 
 /* Make unread DM's highlighted based on accent color */
-html.theme-dark .link_c91bad:has(.highlighted_f9647d) {
+html.theme-dark .link_c91bad:has(.highlighted_ec8679) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,
