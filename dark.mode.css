@@ -261,24 +261,24 @@ html.theme-dark .timeline-UWmgAx:hover .barFill-Dhkah7 {
 
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
     background-color: transparent !important;
     transition: background-color 0.2s ease, border-color 0.2s ease;
     outline: none;
 }
 
-.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_bdf0de {
     color: transparent !important;
 }
 
 html.theme-dark .input-2g-os5:hover,
-html.theme-dark .scrollableContainer_d0696b:hover {
+html.theme-dark .scrollableContainer_bdf0de:hover {
     background-color: #00000023 !important;
 }
 
 /* attachedBars is the reply bar */
 html.theme-dark .input-2g-os5:focus-within,
-html.theme-dark .scrollableContainer_d0696b:focus-within {
+html.theme-dark .scrollableContainer_bdf0de:focus-within {
     background-color: #181a1d !important;
     box-shadow: 0px 8px 18px rgba(0, 0, 0, 0.2);
 }
@@ -310,7 +310,7 @@ html.theme-dark .innerDisabled_d0696b .placeholder_a552a6::before {
 }
 
 /* Fix slight scroll when text box is empty */
-.inner_d0696b {
+.inner_bdf0de {
     overflow: hidden !important;
 }
 
@@ -3341,11 +3341,11 @@ html .channelTabs-newTab {
 }
 
 /*chat box reply fix*/
-.hasConnectedBar_d0696b {
+.hasStackedBar_bdf0de {
     border-radius: 8px;
 }
 
-html.theme-dark .attachedBars_d0696b {
+html.theme-dark .stackedBars_bdf0de {
     padding: 10px;
     margin: 20px 20px 10px 20px;
     background: #181a1d;

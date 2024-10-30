@@ -232,23 +232,23 @@ html.theme-light .timeline-UWmgAx:hover .barFill-Dhkah7 {
 
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer_d0696b {
+.scrollableContainer_bdf0de {
     background-color: transparent !important;
     transition: background-color 0.2s ease, border-color 0.2s ease;
     outline: none;
 }
 
-.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_d0696b {
+.placeholder_a552a6.slateTextArea_e52116.fontSize16Padding_bdf0de {
     color: transparent !important;
 }
 
 html.theme-light .input-2g-os5:hover,
-html.theme-light .scrollableContainer_d0696b:hover {
+html.theme-light .scrollableContainer_bdf0de:hover {
     background-color: #ffffff23 !important;
 }
 
 html.theme-light .input-2g-os5:focus-within,
-html.theme-light .scrollableContainer_d0696b:focus-within {
+html.theme-light .scrollableContainer_bdf0de:focus-within {
     background-color: #e4e4e4 !important;
     box-shadow: 0px 8px 18px rgba(255, 255, 255, 0.2);
 }
@@ -3211,11 +3211,11 @@ html .channelTabs-newTab {
 }
 
 /*chat box reply fix*/
-.hasConnectedBar_d0696b {
+.hasStackedBar_bdf0de {
     border-radius: 8px;
 }
 
-html.theme-light .attachedBars_d0696b {
+html.theme-light .stackedBars_bdf0de {
     padding: 10px;
     margin: 20px 20px 10px 20px;
     background: #e4e4e4;
