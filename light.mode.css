@@ -2544,7 +2544,7 @@ html.theme-light .blockedSystemMessage_c09d0f {
     left: 0;
     bottom: 0;
     color: rgba(0, 0, 0, 0%) !important;
-    z-index: -1;
+    z-index: 1;
 }
 
 .blockedSystemMessage_c09d0f:hover {
@@ -2552,7 +2552,7 @@ html.theme-light .blockedSystemMessage_c09d0f {
 }
 
 html.theme-light .blockedSystemMessage_c09d0f:hover .blockedAction_c09d0f {
-    background: rgb(216, 216, 216);
+    background: rgb(216, 216, 216, .4) !important;
 }
 
 .groupStart_d5deea.expanded_c09d0f .blockedSystemMessage_c09d0f {
