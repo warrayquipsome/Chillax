@@ -3709,3 +3709,8 @@ html.theme-dark .link_c91bad:has(.highlighted_ec8679) {
             transparent
     );
 }
+
+/* Custom server icons */
+html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
+    content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
+}
