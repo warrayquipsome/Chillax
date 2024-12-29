@@ -1157,19 +1157,6 @@ html.theme-light {
     transition: all 0.4s;
 }
 
-html.theme-dark .circleIconButton_db6521 {
-    background: rgba(255, 255, 255, 0.1);
-    color: rgb(255, 255, 255);
-    /* TODO dashed border in dark mode? */
-    border: none;
-}
-
-html.theme-light .circleIconButton_db6521 {
-    background: rgba(0, 0, 0, 0.1);
-    color: rgb(0, 0, 0);
-    border: dashed 1px rgba(0, 0, 0, 0.4);
-}
-
 .circleIconButton_db6521:hover {
     background: transparent;
 }
