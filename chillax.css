@@ -1157,16 +1157,24 @@ html.theme-light {
     transition: all 0.4s;
 }
 
-.circleIconButton_db6521:hover {
-    background: transparent;
+html.theme-dark .circleIconButton_db6521 {
+    background: rgba(255, 255, 255, 0.1);
+    color: rgb(255, 255, 255);
+}
+
+html.theme-light .circleIconButton_db6521 {
+    background: rgba(0, 0, 0, 0.1);
+    color: rgb(0, 0, 0);
 }
 
 html.theme-dark .circleIconButton_db6521:hover {
     color: #ffffff;
+    background: transparent;
 }
 
 html.theme-light .circleIconButton_db6521:hover {
     color: #000000;
+    background: transparent;
 }
 
 .pill_db6521 {
@@ -1817,7 +1825,7 @@ html.theme-light .inline {
 }
 
 /*disable and delete account button design*/
-.colorRed_dd4f85 {
+.children_a6ae9b .colorRed_dd4f85 {
     width: 140px;
     height: 45px;
     font-family: "Roboto" !important;
@@ -1832,49 +1840,49 @@ html.theme-light .inline {
     outline: none;
 }
 
-html.theme-dark .colorRed_dd4f85 {
+html.theme-dark .children_a6ae9b .colorRed_dd4f85 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-light .colorRed_dd4f85 {
+html.theme-light .children_a6ae9b .colorRed_dd4f85 {
     color: rgb(0, 0, 0) !important;
     background-color: rgb(255, 255, 255) !important;
 }
 
-.colorRed_dd4f85:hover {
+.children_a6ae9b .colorRed_dd4f85:hover {
     box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
     transform: translateY(-7px);
 }
 
-html.theme-dark .colorRed_dd4f85:hover {
+html.theme-dark .children_a6ae9b .colorRed_dd4f85:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
 }
 
-html.theme-light .colorRed_dd4f85:hover {
+html.theme-light .children_a6ae9b .colorRed_dd4f85:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-.colorRed_dd4f85 {
+.children_a6ae9b .colorRed_dd4f85 {
     font-size: 0px !important;
 }
 
-.disableButton_adabdf.colorRed_dd4f85::before {
+.children_a6ae9b .disableButton_adabdf.colorRed_dd4f85::before {
     content: "Disable";
     position: absolute;
     font-size: 11px !important;
 }
 
-.lookOutlined_dd4f85.colorRed_dd4f85::before {
+.children_a6ae9b .lookOutlined_dd4f85.colorRed_dd4f85::before {
     content: "Delete";
     position: absolute;
     font-size: 11px !important;
 }
 
 /* For Logout from all devices button */
-.logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
+.children_a6ae9b .logOutAllButton_c7a2c0.lookOutlined_dd4f85.colorRed_dd4f85::before {
     content: "Logout" !important;
     position: absolute;
     font-size: 11px !important;
@@ -2147,7 +2155,7 @@ html.theme-light .panels_a4d4d9 {
     overflow: hidden;
 }
 
-.content_eed6a8:after {
+.sidebar_a4d4d9 .content_eed6a8:after {
     content: 'this big gap is for the floating user controls, so sry if it looks ugly';
     font-size: 13px;
     text-align: center;
@@ -2156,12 +2164,12 @@ html.theme-light .panels_a4d4d9 {
     display: block;
 }
 
-html.theme-dark .content_eed6a8:after {
+html.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;
 }
 
-html.theme-light .content_eed6a8:after {
+html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
     color: rgba(0, 0, 0, 0.1);
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
