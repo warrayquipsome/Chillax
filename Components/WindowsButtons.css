@@ -1,0 +1,61 @@
+/*custom min max close button*/
+html.theme-dark .winButtonClose_a934d8,
+html.theme-dark .winButtonMinMax_a934d8:nth-child(3),
+html.theme-dark .winButtonMinMax_a934d8:nth-child(2n),
+html.theme-light .winButtonClose_a934d8,
+html.theme-light .winButtonMinMax_a934d8:nth-child(3),
+html.theme-light .winButtonMinMax_a934d8:nth-child(2n) {
+    top: -3.5px;
+    padding: 5px;
+    margin: 5px;
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    transition: 0.2s;
+}
+
+.winButtonClose_a934d8 {
+    right: 20px;
+    border-radius: 0px 5px 5px 0px;
+}
+
+.winButtonMinMax_a934d8:nth-child(3) {
+    right: 10px;
+    border-radius: 0px;
+}
+
+.winButtonMinMax_a934d8:nth-child(2n) {
+    right: 0px;
+    border-radius: 5px 0px 0px 5px;
+}
+
+html.theme-dark .winButtonClose_a934d8,
+html.theme-dark .winButtonMinMax_a934d8:nth-child(2n),
+html.theme-dark .winButtonMinMax_a934d8:nth-child(3) {
+    color: #fff;
+}
+
+html.theme-light .winButtonClose_a934d8,
+html.theme-light .winButtonMinMax_a934d8:nth-child(2n),
+html.theme-light .winButtonMinMax_a934d8:nth-child(3) {
+    color: rgb(0, 0, 0);
+}
+
+html.theme-dark .winButtonClose_a934d8:hover,
+html.theme-dark .winButtonMinMax_a934d8:nth-child(3):hover,
+html.theme-dark .winButtonMinMax_a934d8:nth-child(2n):hover,
+html.theme-light .winButtonClose_a934d8:hover,
+html.theme-light .winButtonMinMax_a934d8:nth-child(3):hover,
+html.theme-light .winButtonMinMax_a934d8:nth-child(2n):hover {
+    background: transparent;
+    transition: 0.1s;
+    backdrop-filter: none;
+}
+
+/* Avoid moving the button hitbox by rotating just the svg */
+.winButton_a934d8 > svg {
+  transition: 0.1s;
+}
+
+.winButton_a934d8:hover > svg {
+  transform: rotate(45deg);
+}
