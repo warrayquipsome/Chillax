@@ -109,7 +109,7 @@
     --settingsmodalheight: 80vh;
 
     /* avatar only member list */
-    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
+    --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
 
     /* placeholder texts/values */
     /* input fields */
