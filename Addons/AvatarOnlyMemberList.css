@@ -50,16 +50,17 @@ div:not(:hover) > .members_cbd271 > div {
 }
 
 /* Fix the member count addon (vencord) */
-.members_cbd271:not(:hover) > #vc-membercount > div > span:first-child {
+.members_cbd271:not(:hover) .vc-membercount-online-dot,
+.members_cbd271:not(:hover) .vc-membercount-total-dot {
     display: none !important;
 }
 
-.members_cbd271:not(:hover) > #vc-membercount > div {
+.members_cbd271:not(:hover) > .vc-membercount-member-list > div {
     box-sizing: border-box !important;
     flex: 1 0 100%;
 }
 
-.members_cbd271:not(:hover) > #vc-membercount {
+.members_cbd271:not(:hover) > .vc-membercount-member-list {
     flex-wrap: wrap;
 }
 
