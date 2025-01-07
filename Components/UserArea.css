@@ -1,0 +1,457 @@
+/*floating user controls*/
+.panels_a4d4d9 {
+    border-radius: 12px;
+    margin: 10px 10px 23px;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+}
+
+html.theme-dark .panels_a4d4d9 {
+    background: #181a1d !important;
+    box-shadow: 0 5px 8px #15171a;
+}
+
+html.theme-light .panels_a4d4d9 {
+    background: #e4e4e4 !important;
+    box-shadow: 0 5px 8px #d6d6d6;
+}
+
+.sidebar_a4d4d9 {
+    background-color: transparent;
+    position: relative;
+    overflow: hidden;
+}
+
+.sidebar_a4d4d9 .content_eed6a8:after {
+    content: 'this big gap is for the floating user controls, so sry if it looks ugly';
+    font-size: 13px;
+    text-align: center;
+    margin-top: 50px;
+    height: 340px;
+    display: block;
+}
+
+html.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+    color: rgba(255, 255, 255, 0.03);
+    text-shadow: 0 0 15px #000;
+}
+
+html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+    color: rgba(0, 0, 0, 0.1);
+    text-shadow: 0 0 15px rgb(255, 255, 255);
+}
+
+.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+    opacity: 0% !important;
+    width: 50px;
+    transition: all 0.3s;
+}
+
+.panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
+    opacity: 100% !important;
+    width: 40px;
+    margin-left: 10px;
+}
+
+.button_adca65[aria-label="User Settings"] {
+    margin-left: 10px;
+}
+
+.container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
+    max-width: 190px;
+    min-width: 190px;
+}
+
+.details-ntX2k5 {
+    max-width: 805px !important;
+    min-width: 805px !important;
+}
+
+.maximized-vv2Wr0 .details-ntX2k5 {
+    max-width: 190px !important;
+    min-width: 190px !important;
+    position: relative;
+    display: block;
+    left: 0px;
+}
+
+.maximized-vv2Wr0 .cover-SwJ-ck {
+    border-radius: 8px 8px 0px 0px;
+}
+
+/* Avatar in bottom left */
+.avatarWrapper_b2ca13 {
+    max-width: 36px;
+    min-width: 36px;
+    transition: 0.3s;
+}
+
+.avatarWrapper_b2ca13:hover {
+    max-width: 207px;
+    min-width: 207px;
+    transition: 0.3s;
+}
+
+
+/* Fix for Vencord Game Activity Toggle Plugin */
+
+.container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child {
+    min-width: 36px !important;
+}
+
+.container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
+    min-width: 207px !important;
+}
+
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_dc333f > :not(:last-child) {
+    width: 38px !important;
+}
+
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+    margin-left: 0px !important;
+}
+
+.container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child {
+    min-width: 36px !important;
+}
+
+.container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
+    min-width: 207px !important;
+}
+
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_dc333f > :not(:last-child) {
+    width: 38px !important;
+}
+
+.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+    margin-left: 0 !important;
+}
+
+/* End of the if*/
+
+
+/*Custom SpotifyControl in user panel for BetterDiscord*/
+.container_6sXIoE.withTimeline_824fT_ {
+    height: var(--playerHeight);
+    border: none !important;
+    padding: var(--paddingSides) var(--paddingSides) 10px var(--paddingSides) !important;
+    margin: 0;
+    position: relative;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;
+    overflow: hidden;
+    z-index: 999;
+}
+
+.container_6sXIoE.withTimeline_824fT_.maximized_vv2Wr0 {
+    --albumCoverRadius: 10px !important;
+    --paddingSides: 15px !important;
+    --playerHeight: auto !important;
+    padding-top: 5px !important;
+}
+
+.container_6sXIoE.withTimeline_824fT_.maximized_vv2Wr0 .cover_SwJ-ck {
+    border-radius: 8px;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) {
+    --paddingSides: 18px !important;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .coverWrapper_YAplwJ {
+    width: calc(100% - ((var(--paddingSides) - 8px) * 2));
+    height: 75px;
+    margin: 0;
+    position: absolute;
+    inset: 10px 0 0 10px;
+    overflow: hidden;
+    z-index: -1;
+    transition: none;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .cover_SwJ-ck {
+    --extraExpansion: 20px;
+    width: calc(100% + var(--extraExpansion));
+    height: calc(100% + var(--extraExpansion));
+    position: relative;
+    inset: calc((var(--extraExpansion) / 2) * -1) 0 0 calc((var(--extraExpansion) / 2) * -1);
+    filter: blur(2px);
+    opacity: 0.5;
+    pointer-events: none;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .maximizer_RVu85p {
+    width: 150%;
+    height: 10px;
+    left: -38px;
+    background-color: rgba(0, 0, 0, 0.2);
+    border-radius: 0;
+    padding: 0;
+    transform: none;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .maximizer_RVu85p > * {
+    transform: rotate(90deg);
+}
+
+.container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .bar_g2ZMIm:before, .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .bar_g2ZMIm:after {
+    content: "";
+    width: 100%;
+    height: 100%;
+    border-radius: 5px;
+    position: absolute;
+    inset: 0 auto auto 0;
+    transition: opacity 50ms ease-out;
+}
+
+.container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .bar_g2ZMIm:before {
+    opacity: 0.4;
+    z-index: -1;
+}
+
+html.theme-dark .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .bar_g2ZMIm:before {
+    background-color: rgba(255, 255, 255, 0.6);
+}
+
+html.theme-light .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .bar_g2ZMIm:before {
+    background-color: rgba(0, 0, 0, 0.6);
+}
+
+html.theme-dark .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill_Dhkah7 {
+    background: rgb(255, 255, 255) !important;
+}
+
+html.theme-light .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill_Dhkah7 {
+    background: rgb(0, 0, 0) !important;
+}
+
+.container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .grabber_7sd5f5 {
+    width: 25px;
+    height: 25px;
+    background-color: transparent;
+    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-size: cover;
+    transform: rotate(90deg);
+    border-radius: 0;
+    margin-left: -24px;
+    position: absolute;
+    inset: -8px 0 0 0;
+    display: block !important;
+}
+
+.container_6sXIoE.withTimeline_824fT_ button {
+    margin: 0 !important;
+    transition: transform 50ms ease-out;
+}
+
+.container_6sXIoE.withTimeline_824fT_ button:active {
+    transform: translateY(2px);
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) {
+    --albumCoverRadius: 8px !important;
+    --paddingSides: 18px !important;
+    --playerHeight: 100px !important;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .inner_WRV6k5 {
+    height: 35px;
+    overflow: hidden;
+}
+
+.container_6sXIoE.withTimeline_824fT_:not(.maximized_vv2Wr0) .coverWrapper_YAplwJ {
+    width: calc(100% - (var(--paddingSides) - 8px) * 2);
+    height: calc(var(--playerHeight) - 12px);
+    margin: 0;
+    position: absolute;
+    inset: 10px 0 0 10px;
+    overflow: hidden;
+    z-index: -1;
+}
+
+/* Custom Spotify controls for Vencord */
+#vc-spotify-player {
+    display: flex;
+    flex-direction: column;
+    position: relative;
+    overflow: hidden;
+    border-radius: 8px;
+    margin: 8px;
+    padding: 8px;
+    border-bottom-color: transparent;
+    --vc-spotify-green: var(--accentcolorV2);
+}
+
+html.theme-dark #vc-spotify-player {
+    background-color: #181a1d !important;
+}
+
+html.theme-light #vc-spotify-player {
+    background-color: #e4e4e4 !important;
+}
+
+#vc-spotify-player::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-image: var(--vc-spotify-track-image);
+    background-size: cover;
+    background-position: center;
+    filter: blur(8px);
+    opacity: .6;
+    z-index: 0;
+}
+
+#vc-spotify-info-wrapper {
+    height: auto;
+}
+
+#vc-spotify-titles {
+    padding: 0;
+}
+
+#vc-spotify-song-title,
+.vc-spotify-artist,
+.vc-spotify-album {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#vc-spotify-song-title {
+    font-size: 18px;
+    margin-bottom: 4px;
+}
+
+.vc-spotify-artist,
+.vc-spotify-album {
+    font-size: 14px;
+}
+
+.vc-spotify-button-row {
+    width: fit-content;
+    align-self: center;
+    height: 0;
+    overflow: hidden;
+    transition: height 0.2s ease;
+    order: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:hover .vc-spotify-button-row {
+    height: 32px;
+}
+
+#vc-spotify-progress-bar {
+    order: 2;
+    z-index: 1;
+}
+
+.vc-spotify-button {
+    --interactive-normal: #FFFFFF;
+    --interactive-hover: #FFFFFF;
+    filter: drop-shadow(0px 1px 4px rgba(0, 0, 0, 0.6));
+}
+
+.vc-spotify-button:hover {
+    background-color: rgba(255, 255, 255, 0.1);
+}
+
+.vc-spotify-progress-time {
+    color: #ffffff;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+}
+
+#vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
+    width: 25px !important;
+    height: 25px !important;
+    background-color: transparent;
+    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-size: cover;
+    border: none;
+    transform: rotate(90deg);
+    margin-left: -16px;
+    inset: 3px 0 0 0px;
+    box-shadow: none;
+}
+
+/* Transparent album image to preserve onClick functionality */
+#vc-spotify-album-image {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+}
+
+#vc-spotify-info-wrapper {
+    position: static
+}
+
+#vc-spotify-titles > * {
+    z-index: 2;
+    max-width: 100%;
+    width: auto;
+}
+
+/* Handle expanded album image */
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) {
+    position: relative;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    aspect-ratio: 1/1;
+}
+
+#vc-spotify-album-expanded-wrapper > #vc-spotify-album-image {
+    opacity: 1;
+    z-index: 1;
+}
+
+#vc-spotify-player:has(#vc-spotify-album-expanded-wrapper) .vc-spotify-button-row {
+    margin-top: auto;
+}
+
+/* Re-order elements to put spotify player at the top */
+.panels_a4d4d9 {
+  display: flex;
+  flex-direction: column;
+}
+
+#vc-spotify-player {
+  order: 1;
+}
+
+/* TODO BetterDiscord player */
+
+.panel_bf1a22 {
+  /* Game activity */
+  order: 2;
+  background-color: #181a1d !important;
+}
+
+.wrapper_adcaac {
+  /* Voice chat controls */
+  order: 3;
+}
+
+.container_adcaac {
+  background-color: #181a1d !important;
+}
+
+.container_b2ca13 {
+  /* Profile */
+  order: 10;
+}
