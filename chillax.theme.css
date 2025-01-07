@@ -21,7 +21,8 @@
 */
 
 /* CHILLAX theme entry point */
-@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
+/* TODO update links before release */
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
