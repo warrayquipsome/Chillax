@@ -5,11 +5,7 @@
 
 .panels_a4d4d9 {
     border-radius: 12px;
-    margin: 10px 10px 23px;
-    position: absolute;
-    bottom: 0;
-    left: 0;
-    right: 0;
+    margin-bottom: 10px;
 }
 
 html.theme-dark .panels_a4d4d9 {
@@ -28,15 +24,6 @@ html.theme-light .panels_a4d4d9 {
     overflow: hidden;
 }
 
-.sidebar_a4d4d9 .content_eed6a8:after {
-    content: 'this big gap is for the floating user controls, so sry if it looks ugly';
-    font-size: 13px;
-    text-align: center;
-    margin-top: 50px;
-    height: 340px;
-    display: block;
-}
-
 html.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;
@@ -48,7 +35,7 @@ html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
 }
 
 .panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
-    opacity: 0% !important;
+    opacity: 0 !important;
     width: 50px;
     transition: all 0.3s;
 }
@@ -78,7 +65,7 @@ html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
     min-width: 190px !important;
     position: relative;
     display: block;
-    left: 0px;
+    left: 0;
 }
 
 .maximized-vv2Wr0 .cover-SwJ-ck {
