@@ -1194,68 +1194,6 @@ html.theme-light .circleIconButton_db6521:hover {
     display: none;
 }
 
-/* colored links */
-/* YouTube */
-[href*="youtu.be"],
-[href*="youtube.com"] {
-    color: #c4302b !important;
-}
-
-/* Twitch */
-[href*="twitch.tv"] {
-    color: #b700ff !important;
-}
-
-/* Discord */
-[href*="discord.com/channels/"] {
-    color: #7289da !important;
-}
-
-[href*="discord.com/channels/"]::before {
-    color: #603cff;
-}
-
-[href*="betterdiscord.app/"],
-[href*="discord.gg/"],
-[href*="discord.com/"],
-[href*="media.discordapp.net/"],
-[href*="cdn.discordapp.com/"] {
-    color: #7289da !important;
-}
-
-/* Twitter */
-[href*="twitter.com/"] {
-    color: #00acee !important;
-}
-
-/* GitHub */
-[href*="github.com"] {
-    color: #00f0a8 !important;
-}
-
-/* Imgur */
-[href*="i.imgur.com"] {
-    color: #89c623 !important;
-}
-
-/* Steam */
-[href*="store.steampowered.com"],
-[href*="https://s.team"],
-[href*="steamcommunity.com/"] {
-    color: #1b2838 !important;
-}
-
-/* Spotify */
-[href*="spotify.com"],
-[href*="open.spotify.com"] {
-    color: #13b94a !important;
-}
-
-/* SoundCloud */
-[href*="soundcloud.com"] {
-    color: #ff5500 !important;
-}
-
 /* Center profile badge, avatar and name */
 .avatarWrapperNormal_f89da9 {
     position: absolute;
