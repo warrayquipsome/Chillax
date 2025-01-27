@@ -85,7 +85,7 @@ div:not(:hover) > .members_cbd271 > div {
 .outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) {
   /* Main transform */
   transform: translate(275px);
-  margin-left: -265px;
+  margin-left: -275px;
 }
 
 .outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b),
@@ -117,7 +117,8 @@ div:not(:hover) > .members_cbd271 > div {
   transform: none;
 }
 
-.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .none_c49869 {
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .none_c49869,
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .inner_c69a7b {
   /* Disable scrolling to allow profile to overflow the outer element */
   overflow: visible !important;
 }
