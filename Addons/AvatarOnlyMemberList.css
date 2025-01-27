@@ -33,16 +33,18 @@ div:not(:hover) > .members_cbd271 > div {
 }
 
 /* overwrite black stuff for member list */
+.members_cbd271:hover {
+    border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
+}
+
 .theme-light .members_cbd271:hover {
     margin-left: -175px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
-    border-radius: var(--memberlist-border-radius);
 }
 
 .theme-dark .members_cbd271:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
-    border-radius: var(--memberlist-border-radius);
 }
 
 /* Make the list fill the window height */
@@ -76,4 +78,57 @@ div:not(:hover) > .members_cbd271 > div {
 
 .members_cbd271:not(:hover) .container_c64476 {
     margin-left: -5px;
+}
+
+/* Avatar-only DM profile */
+/* .outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) is the only way to select just the DM profile area */
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) {
+  /* Main transform */
+  transform: translate(275px);
+  margin-left: -265px;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b),
+.inner_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) {
+  transition: transform 0.5s ease, border-radius 0.5s ease;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b):hover,
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b):hover .inner_c69a7b {
+  transform: none;
+  border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .banner_d5fdb1 {
+  transition: border-radius 0.5s ease;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b):hover .banner_d5fdb1 {
+  border-top-left-radius: var(--memberlist-border-radius);
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .avatar_f94206 {
+  /* Move profile picture out to still be visible when collapsed */
+  transform: translate(-56px);
+  transition: transform 0.5s ease;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b):hover .avatar_f94206 {
+  transform: none;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .none_c49869 {
+  /* Disable scrolling to allow profile to overflow the outer element */
+  overflow: visible !important;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .body_a972fe,
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) .overlay_c69a7b {
+  opacity: 0;
+  transition: opacity 0.5s ease;
+}
+
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b):hover .body_a972fe,
+.outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b):hover .overlay_c69a7b {
+  opacity: 1;
 }
