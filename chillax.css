@@ -146,33 +146,6 @@ html.theme-light .scrollbar_c858ce {
     background-color: rgba(255, 255, 255, 0.377) !important;
 }
 
-/*menu blur*/
-html.theme-dark .menu_d90b3d {
-    background-color: rgba(0, 0, 0, 0.3);
-}
-
-html.theme-light .menu_d90b3d {
-    background-color: rgba(255, 255, 255, 0.3);
-}
-
-.menu_d90b3d::before,
-.menu_d90b3d.submenu-1apzyU::before {
-    /*Blurs the menu*/
-    content: "";
-    position: absolute;
-    height: 100%;
-    width: 100%;
-    -webkit-backdrop-filter: blur(5px);
-    backdrop-filter: blur(15px);
-    z-index: -1;
-    border-radius: 5px;
-}
-
-/* Fix blur in nested floating menu */
-.submenu_d90b3d.menu_d90b3d::before {
-    width: calc(100% - 16px);
-}
-
 /*all in settings*/
 .messagesPopoutWrap_ac90a2,
 .drawerSizingWrapper_af5dbb {
