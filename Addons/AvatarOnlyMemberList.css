@@ -4,15 +4,13 @@
 }
 
 .members_cbd271 {
-    max-width: 65px;
-    min-width: 65px;
-    transition: 0.5s ease;
+    transition: transform 0.5s ease;
+    transform: translate(-175px);
     z-index: 1;
 }
 
 .members_cbd271:hover {
-    max-width: 240px;
-    min-width: 240px;
+    transform: none;
 }
 
 div:not(:hover) > .members_cbd271 > div {
@@ -27,23 +25,19 @@ div:not(:hover) > .members_cbd271 > div {
 
 /* Make the member list expand on top of the chat instead of shifting it */
 .members_cbd271 {
-    margin-left: 0px;
     background-color: #0000;
     transition: 0.5s ease;
 }
 
-/* overwrite black stuff for member list */
 .members_cbd271:hover {
     border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
 }
 
 .theme-light .members_cbd271:hover {
-    margin-left: -175px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
 }
 
 .theme-dark .members_cbd271:hover {
-    margin-left: -175px;
     background-color: #181a1ddd;
 }
 
