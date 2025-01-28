@@ -21,6 +21,7 @@
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/UserArea.css');
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/Embeds.css');
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/ChatArea.css');
+@import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/ChannelHeader.css');
 
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
@@ -983,43 +984,6 @@ html.theme-light .mentioned_d5deea:hover {
     max-height: unset;
 }
 
-/* Minified search bar */
-:root {
-    --transitionspeed: 0.25s;
-}
-
-.search_a46bef:not(.open_a46bef) .searchBar_a46bef {
-    width: 20px;
-    transition: var(--transitionspeed);
-    background-color: transparent;
-}
-
-.search_a46bef:not(.open_a46bef):hover .searchBar_a46bef {
-    width: 240px;
-    background-color: var(--background-tertiary);
-}
-
-.search_a46bef:not(.open_a46bef) .iconContainer_effbe2 {
-    transform: scale(1.3);
-    transition: var(--transitionspeed);
-}
-
-.search_a46bef:not(.open_a46bef):hover .iconContainer_effbe2 {
-    transform: scale(1);
-}
-
-.search_a46bef:not(.open_a46bef) .icon_effbe2 {
-    color: var(--text-normal);
-}
-
-.search_a46bef:not(.open_a46bef):hover .icon_effbe2 {
-    color: var(--text-muted);
-}
-
-.container_fc4f04.themed_fc4f04 .search_ff5f90 {
-    order: -1 !important;
-}
-
 /*about me clamp*/
 .clamped-2ZePhX {
     -webkit-line-clamp: 190;
@@ -1369,32 +1333,6 @@ svg {
     font-weight: 200 !important;
     font-size: 25px;
     letter-spacing: 0.2px;
-}
-
-/*user setting channel hover effect*/
-.selected-g-kMVV:after {
-    background: none repeat scroll 0 0 transparent;
-    bottom: 0;
-    content: "";
-    display: block;
-    height: 2px;
-    left: 50%;
-    position: absolute;
-    transition: width 0.3s ease 0s, left 0.3s ease 0s;
-    width: 0;
-}
-
-html.theme-dark .selected-g-kMVV:after {
-    background: #fff;
-}
-
-html.theme-light .selected-g-kMVV:after {
-    background: rgb(0, 0, 0);
-}
-
-.selected-g-kMVV:hover:after {
-    width: 100%;
-    left: 0;
 }
 
 /*Connection Issue Let Me Be*/
@@ -1786,24 +1724,6 @@ html.theme-light .withTagAsButton_b2ca13:hover {
     background-repeat: no-repeat !important;
 }
 
-/*threads background fix*/
-.container_e664f3 {
-    backdrop-filter: blur(15px) !important;
-}
-
-html.theme-dark .container_e664f3 {
-    background: #181a1da6 !important;
-}
-
-html.theme-light .container_e664f3 {
-    background: rgb(223, 223, 223);
-}
-
-/* threads item hover */
-.container_acb8b3:hover {
-    background-color: #181a1d99;
-}
-
 /*toolbar fix [the bar when u double click ur unsent text]*/
 .toolbar_de3e42 .inactive__6ec5e {
     background: transparent !important;
@@ -1897,36 +1817,6 @@ html.theme-light .itemCard_f02fcf.wrapper_cd82a7:hover {
 
 .section_cd82a7 {
     background: transparent;
-}
-
-/*pins inbox background fix*/
-.messagesPopoutWrap_ac90a2,
-.recentMentionsPopout_ddb5b4,
-.drawerSizingWrapper_af5dbb {
-    backdrop-filter: blur(15px) !important;
-}
-
-html.theme-dark .messagesPopoutWrap_ac90a2,
-html.theme-dark .recentMentionsPopout_ddb5b4,
-html.theme-dark .drawerSizingWrapper_af5dbb {
-    background: #181a1da6 !important;
-}
-
-html.theme-light .messagesPopoutWrap_ac90a2,
-html.theme-light .recentMentionsPopout_ddb5b4,
-html.theme-light .drawerSizingWrapper_af5dbb {
-    background: rgb(223, 223, 223) !important;
-}
-
-/* Inbox alignment fix */
-.container_ddb5b4 {
-    padding-left: 16px;
-}
-
-/* Inbox channel item background */
-.channelHeader_f3978e {
-    background-color: rgb(51, 49, 53) !important;
-    border-radius: 8px;
 }
 
 /*custom nsfw warning*/
