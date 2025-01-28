@@ -19,6 +19,7 @@
 /* TODO update links before release */
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/WindowsButtons.css');
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/UserArea.css');
+@import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/Embeds.css');
 
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
@@ -1627,88 +1628,6 @@ html.theme-light .selected-g-kMVV:after {
         transform: none;
         opacity: 1;
     }
-}
-
-/*Embeds*/
-:root {
-    --embed-border-radius: 5px;
-}
-
-.embed_b0068a {
-    border-radius: var(--embed-border-radius);
-    z-index: 2;
-}
-
-html.theme-dark .embed_b0068a code {
-    background: rgb(51, 50, 53);
-}
-
-html.theme-light .embed_b0068a code {
-    background: rgb(221, 221, 221);
-}
-
-:root {
-    --embed-line-width: 300px;
-}
-
-.embedFull_b0068a {
-    border-top: none;
-    border-right: none;
-    border-bottom: none;
-}
-
-.embedFull_b0068a {
-    border-left: calc(4px + var(--embed-line-width)) solid var(--background-accent);
-}
-
-html.theme-dark .embedFull_b0068a {
-    background: rgb(51, 50, 53);
-    box-shadow: 2px 2px 8px rgb(42, 42, 46);
-}
-
-html.theme-light .embedFull_b0068a {
-    background: rgb(221, 221, 221);
-    box-shadow: 2px 2px 8px rgb(199, 199, 199);
-}
-
-.grid_b0068a {
-    margin-left: calc(-1 * var(--embed-line-width));
-    z-index: 1;
-}
-
-.embedFull_b0068a:after,
-.embedFull_b0068a:before {
-    content: "";
-    height: 100%;
-    width: var(--embed-line-width);
-    position: absolute;
-    top: 0;
-    left: calc(-1 * var(--embed-line-width));
-}
-
-.embedFull_b0068a:after {
-    z-index: -3;
-}
-
-html.theme-dark .embedFull_b0068a:after {
-    background: linear-gradient(to right, transparent, rgb(51, 50, 53));
-}
-
-html.theme-light .embedFull_b0068a:after {
-    background: linear-gradient(to right, transparent, rgb(221, 221, 221));
-}
-
-.embedFull_b0068a:before {
-    opacity: 0.8;
-    z-index: -1;
-}
-
-html.theme-dark .embedFull_b0068a:before {
-    background: rgb(51, 50, 53);
-}
-
-html.theme-light .embedFull_b0068a:before {
-    background: rgb(221, 221, 221);
 }
 
 /*guild pills glow*/
