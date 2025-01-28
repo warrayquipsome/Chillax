@@ -16,14 +16,9 @@
     font-family: var(--font-name);
 }
 
-/*custom new unreads*/
+/*custom "new unreads" button*/
 .bar_eba0ba {
     padding: 14px 50px;
-}
-
-/* Fixes position of unreads at the bottom of the channel list */
-.bottom_eba0ba {
-    transform: translateY(-85px);
 }
 
 .unreadIcon_eba0ba {
@@ -62,7 +57,7 @@
     display: none;
 }
 
-/*custom unread style*/
+/*custom unread divider style*/
 .unreadPillCap_c2654d {
     display: none;
     right: 50%;
