@@ -114,3 +114,108 @@ html.theme-light .wrapper_f7e168 {
     width: 16px;
     height: 16px;
 }
+
+/* Video player controls */
+.videoControls_f72aac {
+    width: auto;
+    margin: 15px;
+    padding-bottom: 0px;
+    border-radius: 8px;
+    background-color: #000000f1;
+    transform: none !important;
+    transition: 0.2s;
+}
+
+.wrapperControlsHidden_f72aac .videoControls_f72aac {
+    margin-bottom: -30px;
+}
+
+/* user typing... but its edited*/
+.dots-1BwzZQ {
+    margin-right: 5px;
+}
+
+.base_d7ebeb .text_d7ebeb {
+    display: flex;
+    align-items: center;
+}
+
+.typing_d7ebeb {
+    font-size: 0;
+}
+
+.typing_d7ebeb strong {
+    font-size: 12px;
+}
+
+.typing_d7ebeb strong:after {
+    content: ',';
+    margin-right: 4px;
+}
+
+.typing_d7ebeb strong:nth-last-child(2)::after {
+    content: 'and';
+    margin: 0 4px;
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top: -5px;
+}
+
+.typing_d7ebeb strong:last-child::after {
+    content: var(--chillax-input-typing-indicator-one-person);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+.typing_d7ebeb strong:nth-last-child()::after {
+    content: var(--chillax-input-typing-indicator-many-person);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+/* Background in list of people who reacted to a message */
+.container_f2bfbb,
+.reactors_f2bfbb {
+    background-color: #181a1db7;
+}
+
+html.theme-dark .container_d331f1.isOpen_d331f1 {
+    background-color: #181a1d;
+}
+
+html.theme-dark .container-2qVG6q:hover {
+    background-color: #181a1db7;
+}
+
+html.theme-dark .container_d331f1.isOpen_d331f1 {
+    background-color: #181a1d;
+}
+
+.scroller_f2bfbb {
+    background-color: #00000050;
+}
+
+/* Remove slowmode message */
+.cooldownWrapper_d7ebeb {
+    font-size: 0px;
+}
+
+/* Increase visibility of message highlight */
+.backgroundFlash_d5deea[style*="background-color: rgba(148, 156, 247, 0)"] {
+    --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
+}
+
+/* Make unread DM's highlighted based on accent color */
+.link_c91bad:has(.highlighted_ec8679) {
+    border-left: 2px solid rgba(var(--accentcolor), 0.8);
+    background: linear-gradient(
+            90deg,
+            rgba(var(--accentcolor), 0.3),
+            rgba(var(--accentcolor), 0.2),
+            transparent
+    );
+}
