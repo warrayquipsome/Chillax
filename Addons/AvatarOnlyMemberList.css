@@ -1,26 +1,21 @@
 /*avatar only memberlist*/
+
 .membersWrap_cbd271 {
-    min-width: unset;
+    transition: transform 0.5s ease;
+    margin-left: -180px;
+    transform: translate(180px);
+}
+
+.membersWrap_cbd271:hover {
+    transform: none;
 }
 
 .members_cbd271 {
-    transition: transform 0.5s ease;
-    transform: translate(-175px);
     z-index: 1;
-}
-
-.members_cbd271:hover {
-    transform: none;
 }
 
 div:not(:hover) > .members_cbd271 > div {
     padding-top: 10px;
-}
-
-/* Fix alignment issues with the members list */
-.container_cbd271,
-.membersWrap_cbd271 {
-    width: 65px;
 }
 
 /* Make the member list expand on top of the chat instead of shifting it */
