@@ -20,6 +20,7 @@
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/WindowsButtons.css');
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/UserArea.css');
 @import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/Embeds.css');
+@import url('https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Components/ChatArea.css');
 
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
@@ -1019,16 +1020,6 @@ html.theme-light .mentioned_d5deea:hover {
     order: -1 !important;
 }
 
-/*channel resize*/
-.sidebar_a4d4d9 .name_d8bfb3 {
-    font-size: 14px;
-}
-
-.sidebar_a4d4d9 .icon_d8bfb3 {
-    width: 16px;
-    height: 16px;
-}
-
 /*about me clamp*/
 .clamped-2ZePhX {
     -webkit-line-clamp: 190;
@@ -1084,56 +1075,6 @@ html.theme-light {
     border-radius: var(--window-border-radius);
     background: var(--window-colour);
     backdrop-filter: blur(var(--window-blur)) !important;
-}
-
-/*custom unread style*/
-.unreadPillCap_c2654d {
-    display: none;
-    right: 50%;
-}
-
-.unreadPill_c2654d {
-    background-color: var(--background-shading);
-    color: #fb5454;
-    font-size: 12px;
-    letter-spacing: 20px;
-    right: 50%;
-    left: 50%;
-    width: 30px;
-}
-
-.isUnread_c2654d {
-    --divider-color: rgb(237, 0, 255);
-    border: none;
-    background: linear-gradient(
-            90deg,
-            rgba(237, 0, 255, 1) 0%,
-            #fb5454 25%,
-            rgba(0, 0, 0, 0) 50%,
-            #fb5454 75%,
-            rgba(254, 0, 255, 1) 100%
-    );
-    height: 1px;
-}
-
-.unreadPill_c2654d {
-    top: -6px;
-}
-
-/*custom channel and text area font and size*/
-.title_fc4f04 {
-    font-family: var(--font-name);
-    font-size: var(--font-size) !important;
-}
-
-.messageContent_f9f2ca,
-.contents_f9f2ca {
-    font-family: var(--font-name);
-    font-size: var(--font-size) !important;
-}
-
-.markup_f8f345 h1, .markup_f8f345 h2, .markup_f8f345 h3, .markup_f8f345 h4, .markup_f8f345 h5, .markup_f8f345 h6 {
-    font-family: var(--font-name);
 }
 
 /*custom public servers and create server buttons*/
@@ -1228,11 +1169,6 @@ html.theme-light .circleIconButton_db6521:hover {
 .pronouns_c9ccf6 {
     display: flex !important;
     justify-content: center !important;
-}
-
-/*remove unread with date*/ /*it causes issue with the theme*/
-.hasContent_d5deea {
-    display: none;
 }
 
 /*glow radial status*/
@@ -1993,47 +1929,6 @@ html.theme-light .drawerSizingWrapper_af5dbb {
     border-radius: 8px;
 }
 
-/*custom new unreads*/
-.bar_eba0ba {
-    padding: 14px 50px;
-}
-
-/* Fixes position of unreads at the bottom of the channel list */
-.bottom_eba0ba {
-    transform: translateY(-85px);
-}
-
-.unreadIcon_eba0ba {
-    display: none;
-}
-
-.text-xs-medium-2LRpEj {
-    margin-left: 5px !important;
-}
-
-.text-xs-medium-2LRpEj:before {
-    content: "▸ ";
-}
-
-.text-xs-medium-2LRpEj:after {
-    content: " ◂";
-}
-
-/* remove date divider */
-.hasContent_c2654d {
-    display: none;
-}
-
-/* Un-hide unread divider with date */
-.isUnread_c2654d {
-    display: flex !important;
-}
-
-/* Hide date in unread divider */
-.content_c2654d {
-    display: none;
-}
-
 /*custom nsfw warning*/
 .image_def860 {
     content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
@@ -2042,15 +1937,6 @@ html.theme-light .drawerSizingWrapper_af5dbb {
 .flex_dc333f.vertical_ec1a20.gatedContent_def860
 > .flex_dc333f.flex_ec1a20.horizontal_dc333f.horizontal_ec1a20.flex_ec1a20.directionRow__65900.justifyCenter_ec1a20.alignCenter_ec1a20.noWrap_ec1a20 {
     background: transparent !important;
-}
-
-/*message hover small buttons fix*/
-html.theme-dark .wrapper_f7e168 {
-    background: rgb(51, 49, 53) !important;
-}
-
-html.theme-light .wrapper_f7e168 {
-    background: rgb(243, 243, 243) !important;
 }
 
 /*custom reactions*/
