@@ -227,3 +227,8 @@
 .selected_a0:after {
     background: transparent !important;
 }
+
+.side_a0 .item_a0::after {
+    /* Fix the double icon when hovering */
+    display: none !important;
+}
