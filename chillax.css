@@ -333,16 +333,16 @@ html.theme-light .placeholder_a552a6::before {
 
 /* Apps button next to text box */
 .button_df39bd {
-  background-color: transparent;
-  transition: background-color 0.2s ease;
+    background-color: transparent;
+    transition: background-color 0.2s ease;
 }
 
 .button_df39bd:hover {
-  background-color: #00000023;
+    background-color: #00000023;
 }
 
 .buttonActive_df39bd {
-  background-color: #181a1d;
+    background-color: #181a1d;
 }
 
 /* Replace Wandering Cubes Spinner/loading discord image with gif*/
@@ -2656,8 +2656,8 @@ html.theme-light .container_d331f1.isOpen_d331f1 {
 }
 
 div.mainCard_a6d69a div.channelTextAreaInner_c1668f.scrollableContainer_bdf0de.themedBackground_bdf0de {
-  background-color: transparent !important;
-  box-shadow: none !important;
+    background-color: transparent !important;
+    box-shadow: none !important;
 }
 
 /*custom edited icon*/

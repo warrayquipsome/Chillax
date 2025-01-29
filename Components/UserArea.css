@@ -463,32 +463,32 @@ html.theme-light #vc-spotify-player {
 
 /* Re-order elements to put spotify player at the top */
 .panels_a4d4d9 {
-  display: flex;
-  flex-direction: column;
+    display: flex;
+    flex-direction: column;
 }
 
 #vc-spotify-player {
-  order: 1;
+    order: 1;
 }
 
 /* TODO BetterDiscord player */
 
 .panel_bf1a22 {
-  /* Game activity */
-  order: 2;
-  background-color: #181a1d !important;
+    /* Game activity */
+    order: 2;
+    background-color: #181a1d !important;
 }
 
 .wrapper_adcaac {
-  /* Voice chat controls */
-  order: 3;
+    /* Voice chat controls */
+    order: 3;
 }
 
 .container_adcaac {
-  background-color: #181a1d !important;
+    background-color: #181a1d !important;
 }
 
 .container_b2ca13 {
-  /* Profile */
-  order: 10;
+    /* Profile */
+    order: 10;
 }

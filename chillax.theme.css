@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
- * @version 1.5.3
+ * @version 2.0.0
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -33,11 +33,13 @@
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/FolderRedesign.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/FriendGrid.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/HideAnnoyingElements.css");
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
+/*use the below css if you are experiencing lag (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+/* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
+/*@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/HideAnnoyingElements.css");*/
 
 
 /*Chillax Roots*/
