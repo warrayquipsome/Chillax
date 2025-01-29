@@ -1,3 +1,37 @@
+/*discord wordmark*/
+.wordmark_a934d8 path {
+    display: none !important;
+}
+
+.wordmark_a934d8::before {
+    content: "‏‏‎ c h i l l a x";
+    font-size: 12px;
+    font-weight: 900;
+    font-family: "Poiret one" !important;
+    position: fixed;
+    background: var(--window-colour);
+    backdrop-filter: blur(var(--window-blur));
+    border-radius: 5px;
+    padding: 7px 11px 7px 7px;
+    margin-left: 20px;
+    margin-top: 5px;
+    pointer-events: all;
+    transition: 0.5s ease-in-out;
+}
+
+html.theme-dark .wordmark_a934d8::before {
+    color: rgb(255, 255, 255);
+}
+
+html.theme-light .wordmark_a934d8::before {
+    color: rgb(0, 0, 0);
+}
+
+.wordmark_a934d8:hover:before {
+    content: "‏‏‎ c h i l l a x";
+    letter-spacing: 2px;
+}
+
 /*custom min max close button*/
 html.theme-dark .winButtonClose_a934d8,
 html.theme-dark .winButtonMinMax_a934d8:nth-child(3),
