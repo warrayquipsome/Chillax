@@ -41,7 +41,37 @@ div:not(:hover) > .members_cbd271 > div {
     height: 100%;
 }
 
+/* Realign headers to be more visible when collapsed */
+.membersGroup_cbd271 {
+  transition: padding 0.5s ease;
+}
+
+.membersWrap_cbd271:not(:hover) .membersGroup_cbd271 {
+  padding-left: 0;
+}
+
+/* Member list activity widget */
+.contentImage_dc67b6 {
+  transition: transform 0.5s ease;
+}
+
+.membersWrap_cbd271:not(:hover) .contentImage_dc67b6 {
+  transform: translate(-168px)
+}
+
+.infoSection_c64476 {
+  transition: opacity 0.5s ease;
+}
+
+.membersWrap_cbd271:not(:hover) .infoSection_c64476 {
+  opacity: 0;
+}
+
 /* Fix the member count addon (vencord) */
+.members_cbd271:not(:hover) .vc-membercount-widget {
+  margin-bottom: -16px;
+}
+
 .members_cbd271:not(:hover) .vc-membercount-online-dot,
 .members_cbd271:not(:hover) .vc-membercount-total-dot {
     display: none !important;
