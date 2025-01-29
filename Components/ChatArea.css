@@ -16,7 +16,11 @@
     font-family: var(--font-name);
 }
 
-/*custom "new unreads" button*/
+/* custom "new unreads" pill */
+.container_eba0ba.bottom_eba0ba {
+    z-index: 9999 !important;
+}
+
 .bar_eba0ba {
     padding: 14px 50px;
 }
@@ -25,6 +29,7 @@
     display: none;
 }
 
+/* Unread divider */
 .text-xs-medium-2LRpEj {
     margin-left: 5px !important;
 }

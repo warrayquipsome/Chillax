@@ -219,8 +219,6 @@ html.theme-light .bd-addon-card {
     background: transparent !important;
 }
 
-/*--FANCY CSS CODES--*/
-
 /* button design*/
 .lookFilled_dd4f85 {
     border-radius: 45px;
@@ -251,23 +249,6 @@ html.theme-dark .lookFilled_dd4f85:hover {
 
 html.theme-light .lookFilled_dd4f85:hover {
     box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
-}
-
-/*channel unread pill*/
-.unread_d8bfb3 {
-    margin-left: 4px;
-    border-radius: 20px;
-}
-
-/* Fix so that the unread button/container always stays visible
- on top of other stuff like spotify controls etc */
-
-.unreadBottom_c43953 {
-    z-index: 9999 !important;
-}
-
-.container_eba0ba.bottom_eba0ba {
-    z-index: 9999 !important;
 }
 
 /*spotify gradient thing*/
