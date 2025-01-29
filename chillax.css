@@ -324,7 +324,7 @@ html.theme-light .placeholder_a552a6::before {
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled_d0696b .placeholder_a552a6::before {
+.innerDisabled_bdf0de .placeholder_a552a6::before {
     content: var(--chillax-input-field-locked) !important;
 }
 

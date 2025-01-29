@@ -118,7 +118,7 @@
     /* input fields */
     --chillax-input-field: "Life is so much easier when you just take a moment to chill";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
+    --chillax-input-field-locked: "Unfortunately, you can't chill in this channel";
     /* typing indicator: when a single person is typing */
     --chillax-input-typing-indicator-one-person: "is smashing some buttons";
     /* typing indicator: when more than one person is typing */
