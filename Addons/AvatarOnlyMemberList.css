@@ -56,19 +56,6 @@ div:not(:hover) > .members_cbd271 > div {
     flex-wrap: wrap;
 }
 
-/* Avatar only member list activity section visual improvement */
-.members_cbd271:not(:hover) .badgesContainer_d60c6d {
-    display: none;
-}
-
-.members_cbd271:not(:hover) .userSection_c64476 {
-    display: none;
-}
-
-.members_cbd271:not(:hover) .container_c64476 {
-    margin-left: -5px;
-}
-
 /* Avatar-only DM profile */
 /* .outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) is the only way to select just the DM profile area */
 .outer_c69a7b:not(.fullSize_c69a7b):not(.biteSize_c69a7b) {
