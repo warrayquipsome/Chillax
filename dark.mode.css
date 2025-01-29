@@ -901,7 +901,7 @@ html.theme-dark {
 }
 
 /*custom popout window*/
-html.theme-dark #app-mount .layers_d4b6c5 {
+html.theme-dark #app-mount .layers__960e4 {
     margin: var(--window-margin);
     overflow: hidden;
     border-radius: var(--window-border-radius);
@@ -1164,7 +1164,7 @@ div[class*="wrapper_c51b4e"][aria-label*="Online"]
 }
 
 /*theme background image*/
-.bg_d4b6c5 {
+.bg__960e4 {
     background-image: var(--background-image);
     opacity: var(--bg-opacity);
     background-attachment: var(--background-attachment, fixed);
@@ -3578,7 +3578,7 @@ html.theme-dark .container_d331f1.isOpen_d331f1 {
 }
 
 /* Remove slowmode message */
-.cooldownWrapper_d7ebeb {
+.cooldownWrapper_f85cd6 {
     font-size: 0px;
 }
 
@@ -3611,7 +3611,7 @@ html.theme-dark .backdrop__1a911 {
 }
 
 /* File attachment */
-.attachment_b52bef {
+.fileWrapper_f46c86 {
     border-color: transparent;
     background-color: #181a1d99;
 }
