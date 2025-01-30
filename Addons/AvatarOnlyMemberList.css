@@ -1,77 +1,77 @@
 /*avatar only memberlist*/
-.membersWrap_cbd271 {
+.membersWrap_c8ffbb {
     min-width: unset;
 }
 
-.members_cbd271 {
+.members_c8ffbb {
     max-width: 65px;
     min-width: 65px;
     transition: 0.5s ease;
 }
 
-.members_cbd271:hover {
+.members_c8ffbb:hover {
     max-width: 240px;
     min-width: 240px;
 }
 
-div:not(:hover) > .members_cbd271 > div {
+div:not(:hover) > .members_c8ffbb > div {
     padding-top: 10px;
 }
 
 /* Fix alignment issues with the members list */
-.container_cbd271,
-.membersWrap_cbd271 {
+.container_c8ffbb,
+.membersWrap_c8ffbb {
     width: 65px;
 }
 
 /* Make the member list expand on top of the chat instead of shifting it */
-.members_cbd271 {
+.members_c8ffbb {
     margin-left: 0px;
     background-color: #0000;
     transition: 0.5s ease;
 }
 
 /* overwrite black stuff for member list */
-.theme-light .members_cbd271:hover {
+.theme-light .members_c8ffbb:hover {
     margin-left: -175px;
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
     border-radius: var(--memberlist-border-radius);
 }
 
-.theme-dark .members_cbd271:hover {
+.theme-dark .members_c8ffbb:hover {
     margin-left: -175px;
     background-color: #181a1ddd;
     border-radius: var(--memberlist-border-radius);
 }
 
 /* Make the list fill the window height */
-.membersWrap_cbd271 {
+.membersWrap_c8ffbb {
     height: 100%;
 }
 
 /* Fix the member count addon (vencord) */
-.members_cbd271:not(:hover) > #vc-membercount > div > span:first-child {
+.members_c8ffbb:not(:hover) > #vc-membercount > div > span:first-child {
     display: none !important;
 }
 
-.members_cbd271:not(:hover) > #vc-membercount > div {
+.members_c8ffbb:not(:hover) > #vc-membercount > div {
     box-sizing: border-box !important;
     flex: 1 0 100%;
 }
 
-.members_cbd271:not(:hover) > #vc-membercount {
+.members_c8ffbb:not(:hover) > #vc-membercount {
     flex-wrap: wrap;
 }
 
 /* Avatar only member list activity section visual improvement */
-.members_cbd271:not(:hover) .badgesContainer_d60c6d {
+.members_c8ffbb:not(:hover) .badgesContainer__635ed {
     display: none;
 }
 
-.members_cbd271:not(:hover) .userSection_c64476 {
+.members_c8ffbb:not(:hover) .userSection__0f2e8 {
     display: none;
 }
 
-.members_cbd271:not(:hover) .container_c64476 {
+.members_c8ffbb:not(:hover) .container__0f2e8 {
     margin-left: -5px;
 }

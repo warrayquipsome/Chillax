@@ -1,4 +1,4 @@
-#app-mount .baseLayer_d4b6c5 {
+#app-mount .baseLayer__960e4 {
     opacity: 1 !important;
     transform: unset !important;
     will-change: unset !important;
@@ -9,7 +9,7 @@
     animation: inherit !important;
 }
 
-#app-mount .layer_d4b6c5.stop-animations:first-child::after {
+#app-mount .layer__960e4.stop-animations:first-child::after {
     content: "" !important;
     position: fixed !important;
     background: rgb(0, 0, 0) !important;
@@ -24,7 +24,7 @@
     pointer-events: none !important;
 }
 
-.theme-light #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+.theme-light #app-mount .layer__960e4 ~ .layer__960e4 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -42,7 +42,7 @@
     z-index: 1000 !important;
 }
 
-.theme-dark #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+.theme-dark #app-mount .layer__960e4 ~ .layer__960e4 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -60,8 +60,8 @@
     z-index: 1000 !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 > div,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 > div,
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b {
     position: static !important;
     border-radius: unset !important;
     width: 100% !important;
@@ -71,32 +71,32 @@
     overflow: hidden !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar__23e6b {
     width: 218px !important;
     padding: 20px 6px 20px 20px !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .contentColumnDefault_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnDefault__23e6b {
     padding: 20px 40px !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .side_a0 {
+#app-mount .layer__960e4 ~ .layer__960e4 .side_b3f026 {
     height: var(--settingsmodalheight) !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .header_a0 {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
     max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 
 /* the below one BD specific? Vencord don't seems to have it*/
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d .editor {
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b .editor {
     height: calc(var(--settingsmodalheight) - 120px) !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .tools_c25c6d,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .container_df5532,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .closeButton_df5532 {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .tools__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .container_c2b141,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -115,21 +115,21 @@
     cursor: default !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolbar_fc4f04 {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolbar__9293f {
     display: none !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .header_a0 {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
     max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
-#app-mount .root_fccaa9 {
+#app-mount .root__5c9fc {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -147,7 +147,7 @@
     z-index: 1000 !important;
 }
 
-#app-mount .root_fccaa9.enterDone_fccaa9 {
+#app-mount .root__5c9fc.enterDone__5c9fc {
     transform: unset !important;
 }
 
@@ -170,14 +170,14 @@
     padding: 10px 0 10px !important;
 }
 
-#app-mount .root_fccaa9 .perksModal-CLcR1c .carousel-3dvee9 {
+#app-mount .root__5c9fc .perksModal-CLcR1c .carousel-3dvee9 {
     margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
 }
 
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq,
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq .closeContent-I3JbQJ,
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq .container_df5532,
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq .closeButton_df5532 {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .container_c2b141,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -196,34 +196,34 @@
     cursor: default !important;
 }
 
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-.theme-dark .sidebarRegion_c25c6d {
+.theme-dark .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-.theme-light .sidebarRegion_c25c6d {
+.theme-light .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-.contentRegion_c25c6d {
+.contentRegion__23e6b {
     zoom: 0.9 !important;
 }
 
 /*
- What is this one `premiumFeatureBorder_c6d722?
+ What is this one `premiumFeatureBorder__65c15?
  A comment would have helped
 */
 
-.premiumFeatureBorder_c6d722 {
+.premiumFeatureBorder__65c15 {
     background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box border-box;
 }
 
 /* hide hover underline on selected tab */
-.selected_a0:after {
+.selected_b3f026:after {
     background: transparent !important;
 }
