@@ -18,7 +18,6 @@ div:not(:hover) > .members_c8ffbb > div {
     padding-top: 10px;
 }
 
-/* Make the member list expand on top of the chat instead of shifting it */
 .members_c8ffbb {
     background-color: #0000;
     transition: 0.5s ease;
