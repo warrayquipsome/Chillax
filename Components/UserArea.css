@@ -1,56 +1,56 @@
 /*floating user controls*/
-.container_b2ca13 {
+.container__37e49 {
     background: transparent !important;
 }
 
-.panels_a4d4d9 {
+.panels_c48ade {
     border-radius: 12px;
     margin: 10px;
 }
 
-html.theme-dark .panels_a4d4d9 {
+html.theme-dark .panels_c48ade {
     background: #181a1d !important;
     box-shadow: 0 5px 8px #15171a;
 }
 
-html.theme-light .panels_a4d4d9 {
+html.theme-light .panels_c48ade {
     background: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
-.sidebar_a4d4d9 {
+.sidebar_c48ade {
     background-color: transparent;
     position: relative;
     overflow: hidden;
 }
 
-html.theme-dark .sidebar_a4d4d9 .content_eed6a8:after {
+html.theme-dark .sidebar_c48ade .content__99f8c:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;
 }
 
-html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
+html.theme-light .sidebar_c48ade .content__99f8c:after {
     color: rgba(0, 0, 0, 0.1);
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
-.panels_a4d4d9 > .container_b2ca13 .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {
     opacity: 0 !important;
     width: 50px;
     transition: all 0.3s;
 }
 
-.panels_a4d4d9 > .container_b2ca13:hover .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {
     opacity: 100% !important;
     width: 40px;
     margin-left: 10px;
 }
 
-.button_adca65[aria-label="User Settings"] {
+.button__67645[aria-label="User Settings"] {
     margin-left: 10px;
 }
 
-.container-6sXIoE .alignStretch_ec1a20.flex_ec1a20 {
+.container-6sXIoE .alignStretch_abf706.flex_abf706 {
     max-width: 190px;
     min-width: 190px;
 }
@@ -73,13 +73,13 @@ html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
 }
 
 /* Avatar in bottom left */
-.avatarWrapper_b2ca13 {
+.avatarWrapper__37e49 {
     max-width: 36px;
     min-width: 36px;
     transition: 0.3s;
 }
 
-.avatarWrapper_b2ca13:hover {
+.avatarWrapper__37e49:hover {
     max-width: 207px;
     min-width: 207px;
     transition: 0.3s;
@@ -88,53 +88,53 @@ html.theme-light .sidebar_a4d4d9 .content_eed6a8:after {
 
 /* Fix for Vencord Game Activity Toggle Plugin */
 
-.container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child {
+.container__37e49:has(button[aria-label='Enable Game Activity']) > :first-child {
     min-width: 36px !important;
 }
 
-.container_b2ca13:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
+.container__37e49:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
     min-width: 207px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']) .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49:has(button[aria-label='Enable Game Activity']) .flex__7c0ba > :not(:last-child) {
     width: 38px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Enable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
     margin-left: 0px !important;
 }
 
-.container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child {
+.container__37e49:has(button[aria-label='Disable Game Activity']) > :first-child {
     min-width: 36px !important;
 }
 
-.container_b2ca13:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
+.container__37e49:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
     min-width: 207px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']) .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49:has(button[aria-label='Disable Game Activity']) .flex__7c0ba > :not(:last-child) {
     width: 38px !important;
 }
 
-.panels_a4d4d9 > .container_b2ca13:has(button[aria-label='Disable Game Activity']):hover .flex_dc333f > :not(:last-child) {
+.panels_c48ade > .container__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
     margin-left: 0 !important;
 }
 
 /* End of the if*/
 
 /*user setting icon spin*/
-.button_adca65:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button__67645:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
     animation: Settings 1s;
     transform-origin: center;
 }
 
-.button_adca65:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+.button__67645:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
     animation: Settings2 1s;
     transform-origin: center;
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-.button_adca65:hover .contents_dd4f85 {
+.button__67645:hover .contents__201d5 {
     animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -462,7 +462,7 @@ html.theme-light #vc-spotify-player {
 }
 
 /* Re-order elements to put spotify player at the top */
-.panels_a4d4d9 {
+.panels_c48ade {
     display: flex;
     flex-direction: column;
 }
@@ -473,22 +473,22 @@ html.theme-light #vc-spotify-player {
 
 /* TODO BetterDiscord player */
 
-.panel_bf1a22 {
+.panel__5dec7 {
     /* Game activity */
     order: 2;
     background-color: #181a1d !important;
 }
 
-.wrapper_adcaac {
+.wrapper_e131a9 {
     /* Voice chat controls */
     order: 3;
 }
 
-.container_adcaac {
+.container_e131a9 {
     background-color: #181a1d !important;
 }
 
-.container_b2ca13 {
+.container__37e49 {
     /* Profile */
     order: 10;
 }

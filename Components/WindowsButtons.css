@@ -1,9 +1,9 @@
 /*discord wordmark*/
-.wordmark_a934d8 path {
+.wordmark__421ed path {
     display: none !important;
 }
 
-.wordmark_a934d8::before {
+.wordmark__421ed::before {
     content: "‏‏‎ c h i l l a x";
     font-size: 12px;
     font-weight: 900;
@@ -19,26 +19,26 @@
     transition: 0.5s ease-in-out;
 }
 
-html.theme-dark .wordmark_a934d8::before {
+html.theme-dark .wordmark__421ed::before {
     color: rgb(255, 255, 255);
 }
 
-html.theme-light .wordmark_a934d8::before {
+html.theme-light .wordmark__421ed::before {
     color: rgb(0, 0, 0);
 }
 
-.wordmark_a934d8:hover:before {
+.wordmark__421ed:hover:before {
     content: "‏‏‎ c h i l l a x";
     letter-spacing: 2px;
 }
 
 /*custom min max close button*/
-html.theme-dark .winButtonClose_a934d8,
-html.theme-dark .winButtonMinMax_a934d8:nth-child(3),
-html.theme-dark .winButtonMinMax_a934d8:nth-child(2n),
-html.theme-light .winButtonClose_a934d8,
-html.theme-light .winButtonMinMax_a934d8:nth-child(3),
-html.theme-light .winButtonMinMax_a934d8:nth-child(2n) {
+html.theme-dark .winButtonClose__421ed,
+html.theme-dark .winButtonMinMax__421ed:nth-child(3),
+html.theme-dark .winButtonMinMax__421ed:nth-child(2n),
+html.theme-light .winButtonClose__421ed,
+html.theme-light .winButtonMinMax__421ed:nth-child(3),
+html.theme-light .winButtonMinMax__421ed:nth-child(2n) {
     top: -3.5px;
     padding: 5px;
     margin: 5px;
@@ -47,49 +47,49 @@ html.theme-light .winButtonMinMax_a934d8:nth-child(2n) {
     transition: 0.2s;
 }
 
-.winButtonClose_a934d8 {
+.winButtonClose__421ed {
     right: 20px;
     border-radius: 0px 5px 5px 0px;
 }
 
-.winButtonMinMax_a934d8:nth-child(3) {
+.winButtonMinMax__421ed:nth-child(3) {
     right: 10px;
     border-radius: 0px;
 }
 
-.winButtonMinMax_a934d8:nth-child(2n) {
+.winButtonMinMax__421ed:nth-child(2n) {
     right: 0px;
     border-radius: 5px 0px 0px 5px;
 }
 
-html.theme-dark .winButtonClose_a934d8,
-html.theme-dark .winButtonMinMax_a934d8:nth-child(2n),
-html.theme-dark .winButtonMinMax_a934d8:nth-child(3) {
+html.theme-dark .winButtonClose__421ed,
+html.theme-dark .winButtonMinMax__421ed:nth-child(2n),
+html.theme-dark .winButtonMinMax__421ed:nth-child(3) {
     color: #fff;
 }
 
-html.theme-light .winButtonClose_a934d8,
-html.theme-light .winButtonMinMax_a934d8:nth-child(2n),
-html.theme-light .winButtonMinMax_a934d8:nth-child(3) {
+html.theme-light .winButtonClose__421ed,
+html.theme-light .winButtonMinMax__421ed:nth-child(2n),
+html.theme-light .winButtonMinMax__421ed:nth-child(3) {
     color: rgb(0, 0, 0);
 }
 
-html.theme-dark .winButtonClose_a934d8:hover,
-html.theme-dark .winButtonMinMax_a934d8:nth-child(3):hover,
-html.theme-dark .winButtonMinMax_a934d8:nth-child(2n):hover,
-html.theme-light .winButtonClose_a934d8:hover,
-html.theme-light .winButtonMinMax_a934d8:nth-child(3):hover,
-html.theme-light .winButtonMinMax_a934d8:nth-child(2n):hover {
+html.theme-dark .winButtonClose__421ed:hover,
+html.theme-dark .winButtonMinMax__421ed:nth-child(3):hover,
+html.theme-dark .winButtonMinMax__421ed:nth-child(2n):hover,
+html.theme-light .winButtonClose__421ed:hover,
+html.theme-light .winButtonMinMax__421ed:nth-child(3):hover,
+html.theme-light .winButtonMinMax__421ed:nth-child(2n):hover {
     background: transparent;
     transition: 0.1s;
     backdrop-filter: none;
 }
 
 /* Avoid moving the button hitbox by rotating just the svg */
-.winButton_a934d8 > svg {
+.winButton__421ed > svg {
     transition: 0.1s;
 }
 
-.winButton_a934d8:hover > svg {
+.winButton__421ed:hover > svg {
     transform: rotate(45deg);
 }

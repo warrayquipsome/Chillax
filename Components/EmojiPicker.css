@@ -1,43 +1,43 @@
 /*emoji/gif/sticker tab fix, and right-click reaction menu*/
-.drawerSizingWrapper_af5dbb,
-.wrapper_c6ee36 {
+.drawerSizingWrapper__08434,
+.wrapper_c0e32c {
     backdrop-filter: blur(15px) !important;
     border-radius: 5px;
 }
 
-html.theme-dark .drawerSizingWrapper_af5dbb,
-html.theme-dark .wrapper_c6ee36 {
+html.theme-dark .drawerSizingWrapper__08434,
+html.theme-dark .wrapper_c0e32c {
     background: #18191ba6 !important;
 }
 
-html.theme-light .drawerSizingWrapper_af5dbb,
-html.theme-light .wrapper_c6ee36 {
+html.theme-light .drawerSizingWrapper__08434,
+html.theme-light .wrapper_c0e32c {
     background: #d4def1a6 !important;
 }
 
 /* Disable double background in emoji/gif/sticker tab menu */
-.drawerSizingWrapper_af5dbb .wrapper_c6ee36 {
+.drawerSizingWrapper__08434 .wrapper_c0e32c {
     background: transparent !important;
     backdrop-filter: none !important;
     border-radius: 0;
 }
 
-html.theme-dark .unicodeShortcut_dfa278,
-html.theme-dark .standardStickerShortcut_a7a485 {
+html.theme-dark .unicodeShortcut_b9ee0c,
+html.theme-dark .standardStickerShortcut__3ad28 {
     background: #292b2f;
 }
 
-html.theme-light .unicodeShortcut_dfa278,
-html.theme-light .standardStickerShortcut_a7a485 {
+html.theme-light .unicodeShortcut_b9ee0c,
+html.theme-light .standardStickerShortcut__3ad28 {
     background: #ebedef;
 }
 
-.emojiItem_fbfedd.emojiItemSelected_fbfedd {
+.emojiItem_fc7141.emojiItemSelected_fc7141 {
     background-color: #18191b90;
 }
 
 /*emoji tab design n fix*/
-.nav_af5dbb > .navList_af5dbb > button {
+.nav__08434 > .navList__08434 > button {
     flex: auto;
     bottom: 20px;
     line-height: 45px;
@@ -45,21 +45,21 @@ html.theme-light .standardStickerShortcut_a7a485 {
     border-radius: 0;
 }
 
-html.theme-dark .nav_af5dbb > .navList_af5dbb > button {
+html.theme-dark .nav__08434 > .navList__08434 > button {
     background: #333135;
 }
 
-html.theme-light .nav_af5dbb > .navList_af5dbb > button {
+html.theme-light .nav__08434 > .navList__08434 > button {
     background: #ebedef;
 }
 
-.inspector_c6ee36 {
+.inspector_c0e32c {
     border-radius: 8px;
     margin: 10px;
     width: 95%
 }
 
-.unicodeShortcut_dfa278 {
+.unicodeShortcut_b9ee0c {
     border-radius: 8px;
     margin: 12px;
     margin-left: 5px;
@@ -67,14 +67,14 @@ html.theme-light .nav_af5dbb > .navList_af5dbb > button {
     width: 85%;
 }
 
-html.theme-dark .nav_af5dbb > .navList_af5dbb > button:hover {
+html.theme-dark .nav__08434 > .navList__08434 > button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 
-html.theme-light .nav_af5dbb > .navList_af5dbb > button:hover {
+html.theme-light .nav__08434 > .navList__08434 > button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 
-.nav_af5dbb {
+.nav__08434 {
     padding: 0;
 }

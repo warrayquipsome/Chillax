@@ -1,5 +1,5 @@
 /* Hide the "Play Again" section in DMs */
-.container_e5a9ed {
+.container__675e5 {
     display: none !important;
 }
 
@@ -28,21 +28,21 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     visibility: hidden !important;
 }
 
-#app-mount .wrapper_c51b4e foreignObject[mask*=mobile]:after {
+#app-mount .wrapper__44b0c foreignObject[mask*=mobile]:after {
     display: none;
 }
 
 /* Hide nitro section of friends list */
-.link_c91bad[href="/store"] {
+.link__972a0[href="/store"] {
     display: none;
 }
 
 /* Hide shop section of friends list */
-.link_c91bad[href="/shop"] {
+.link__972a0[href="/shop"] {
     display: none;
 }
 
 /* Hide "Quest" advertisements */
-.mask_c721cc {
+.mask__0d616 {
     display: none;
 }

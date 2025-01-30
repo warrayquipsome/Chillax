@@ -1,4 +1,4 @@
-#app-mount .baseLayer_d4b6c5 {
+#app-mount .baseLayer__960e4 {
     opacity: 1 !important;
     transform: unset !important;
     will-change: unset !important;
@@ -9,7 +9,7 @@
     animation: inherit !important;
 }
 
-#app-mount .layer_d4b6c5.stop-animations:first-child::after {
+#app-mount .layer__960e4.stop-animations:first-child::after {
     content: "" !important;
     position: fixed !important;
     background: rgb(0, 0, 0) !important;
@@ -24,7 +24,7 @@
     pointer-events: none !important;
 }
 
-.theme-light #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+.theme-light #app-mount .layer__960e4 ~ .layer__960e4 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -42,7 +42,7 @@
     z-index: 1000 !important;
 }
 
-.theme-dark #app-mount .layer_d4b6c5 ~ .layer_d4b6c5 {
+.theme-dark #app-mount .layer__960e4 ~ .layer__960e4 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -60,8 +60,8 @@
     z-index: 1000 !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 > div,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 > div,
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b {
     position: static !important;
     border-radius: unset !important;
     width: 100% !important;
@@ -71,32 +71,32 @@
     overflow: hidden !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .sidebar_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar__23e6b {
     width: 218px !important;
     padding: 20px 6px 20px 20px !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .contentColumnDefault_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnDefault__23e6b {
     padding: 20px 40px !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .side_a0 {
+#app-mount .layer__960e4 ~ .layer__960e4 .side_b3f026 {
     height: var(--settingsmodalheight) !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .header_a0 {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
     max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 
 /* the below one BD specific? Vencord don't seems to have it*/
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .standardSidebarView_c25c6d .editor {
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b .editor {
     height: calc(var(--settingsmodalheight) - 120px) !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .tools_c25c6d,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .container_df5532,
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d .closeButton_df5532 {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .tools__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .container_c2b141,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -115,21 +115,21 @@
     cursor: default !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolsContainer_c25c6d {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .toolbar_fc4f04 {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolbar__9293f {
     display: none !important;
 }
 
-#app-mount .layer_d4b6c5 ~ .layer_d4b6c5 .header_a0 {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
     max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
-#app-mount .root_fccaa9 {
+#app-mount .root__5c9fc {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -147,7 +147,7 @@
     z-index: 1000 !important;
 }
 
-#app-mount .root_fccaa9.enterDone_fccaa9 {
+#app-mount .root__5c9fc.enterDone__5c9fc {
     transform: unset !important;
 }
 
@@ -170,14 +170,14 @@
     padding: 10px 0 10px !important;
 }
 
-#app-mount .root_fccaa9 .perksModal-CLcR1c .carousel-3dvee9 {
+#app-mount .root__5c9fc .perksModal-CLcR1c .carousel-3dvee9 {
     margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
 }
 
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq,
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq .closeContent-I3JbQJ,
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq .container_df5532,
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq .closeButton_df5532 {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .container_c2b141,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -196,115 +196,115 @@
     cursor: default !important;
 }
 
-#app-mount .root_fccaa9 .closeWrapper-9ScmSq {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-.theme-dark .sidebarRegion_c25c6d {
+.theme-dark .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-.theme-light .sidebarRegion_c25c6d {
+.theme-light .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-.contentRegion_c25c6d {
+.contentRegion__23e6b {
     zoom: 0.9 !important;
 }
 
 /*
- What is this one `premiumFeatureBorder_c6d722?
+ What is this one `premiumFeatureBorder__65c15?
  A comment would have helped
 */
 
-.premiumFeatureBorder_c6d722 {
+.premiumFeatureBorder__65c15 {
     background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box border-box;
 }
 
 /* hide hover underline on selected tab */
-.selected_a0:after {
+.selected_b3f026:after {
     background: transparent !important;
 }
 
-.side_a0 .item_a0::after {
+.side_b3f026 .item_b3f026::after {
     /* Fix the double icon when hovering */
     display: none !important;
 }
 
 /*user setting redesign*/
-.fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     font-family: "Roboto";
     font-size: 12px;
     transition: 0.2s;
 }
 
-html.theme-dark .fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"] {
+html.theme-dark .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-html.theme-light .fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"] {
+html.theme-light .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
     background: #fff !important;
     color: #000 !important;
 }
 
-.fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"]:hover {
+.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
     box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
     transition: 0.1s;
 }
 
-html.theme-dark .fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"]:hover {
+html.theme-dark .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
     background: rgb(229, 46, 46) !important;
     color: #000 !important;
 }
 
-html.theme-light .fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"]:hover {
+html.theme-light .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-.badgeList_b69b77 {
+.badgeList__1fed1 {
     border-radius: 8px;
     margin-top: 5px;
     padding: 2px;
 }
 
-html.theme-dark .badgeList_b69b77 {
+html.theme-dark .badgeList__1fed1 {
     background-color: #333135;
 }
 
-html.theme-light .badgeList_b69b77 {
+html.theme-light .badgeList__1fed1 {
     background-color: #e4e4e4;
 }
 
-.fieldList_b69b77 {
+.fieldList__1fed1 {
     margin-left: 10px;
     margin-bottom: 25px;
     grid-gap: 15px;
 }
 
-.field_b69b77:last-child {
+.field__1fed1:last-child {
     margin-right: 0 !important;
 }
 
-div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButton_b69b77 button_dd4f85 lookFilled_dd4f85 colorPrimary_dd4f85 sizeSmall_dd4f85 grow_dd4f85"] {
+div[class="field__1fed1"] > button[aria-label="Edit username"][class="fieldButton__1fed1 button__201d5 lookFilled__201d5 colorPrimary__201d5 sizeSmall__201d5 grow__201d5"] {
     width: 90%;
     position: absolute;
     bottom: -1px;
 }
 
-.field_b69b77 > button {
+.field__1fed1 > button {
     width: 90%;
 }
 
-.fieldButtonList_b69b77 > button {
+.fieldButtonList__1fed1 > button {
     width: 100%;
 }
 
-.field_b69b77 {
+.field__1fed1 {
     border-radius: 8px;
     max-height: none;
     flex-flow: column;
@@ -316,47 +316,47 @@ div[class="field_b69b77"] > button[aria-label="Edit username"][class="fieldButto
     height: 150px;
 }
 
-html.theme-dark .field_b69b77 {
+html.theme-dark .field__1fed1 {
     background-color: #333135;
 }
 
-html.theme-light .field_b69b77 {
+html.theme-light .field__1fed1 {
     background-color: #e4e4e4;
 }
 
-html.theme-dark .fieldSpacerBottom_b69b77 {
+html.theme-dark .fieldSpacerBottom__1fed1 {
     margin-bottom: 0;
 }
 
-.field_b69b77::-webkit-scrollbar {
+.field__1fed1::-webkit-scrollbar {
     width: 0;
 }
 
-.constrainedRow_b69b77 {
+.constrainedRow__1fed1 {
     overflow: visible;
 }
 
-.fieldButton_b69b77.button_dd4f85[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button__201d5[aria-label="Edit phone number"] {
     top: 30px !important;
     border-radius: 8px;
 }
 
-.fieldButton_b69b77.button_dd4f85[aria-label="Edit username"] {
+.fieldButton__1fed1.button__201d5[aria-label="Edit username"] {
     top: 50px;
     border-radius: 8px;
 }
 
-.fieldButton_b69b77.removeButton_b69b77 {
+.fieldButton__1fed1.removeButton__1fed1 {
     top: 30px !important;
     font-size: 12.7px;
 }
 
-.fieldButton_b69b77.button_dd4f85 {
+.fieldButton__1fed1.button__201d5 {
     top: 30px;
     border-radius: 8px;
 }
 
-.background_b69b77 {
+.background__1fed1 {
     background: transparent !important;
 }
 
@@ -368,16 +368,16 @@ html.theme-dark .fieldSpacerBottom_b69b77 {
     transform: scale(0.98) translateX(-17px);
 }
 
-.fieldButton_b69b77.button_dd4f85[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button__201d5[aria-label="Edit phone number"] {
     top: 50px;
     border-radius: 8px;
 }
 
-.fieldButton_b69b77.button_dd4f85[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
     top: 30px !important;
 }
 
-.layer_d4b6c5 .accountProfileCard_b69b77 .userInfo_b69b77 {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 {
     align-items: center;
     justify-content: center;
     width: calc(100% - 34px);
@@ -385,7 +385,7 @@ html.theme-dark .fieldSpacerBottom_b69b77 {
     padding: 50px 0 9px;
 }
 
-.layer_d4b6c5 .accountProfileCard_b69b77 .userInfo_b69b77 .button_dd4f85 {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5 {
     position: absolute;
     top: 52.5px !important;
     right: 294.5px;

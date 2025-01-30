@@ -1,31 +1,31 @@
 /* Styles for the main chat area as well as the channel list */
 
 /*custom channel and text area font and size*/
-.title_fc4f04 {
+.title__9293f {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.messageContent_f9f2ca,
-.contents_f9f2ca {
+.messageContent_c19a55,
+.contents_c19a55 {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.markup_f8f345 h1, .markup_f8f345 h2, .markup_f8f345 h3, .markup_f8f345 h4, .markup_f8f345 h5, .markup_f8f345 h6 {
+.markup__75297 h1, .markup__75297 h2, .markup__75297 h3, .markup__75297 h4, .markup__75297 h5, .markup__75297 h6 {
     font-family: var(--font-name);
 }
 
 /* custom "new unreads" pill */
-.container_eba0ba.bottom_eba0ba {
+.container__7aaec.bottom__7aaec {
     z-index: 9999 !important;
 }
 
-.bar_eba0ba {
+.bar__7aaec {
     padding: 14px 50px;
 }
 
-.unreadIcon_eba0ba {
+.unreadIcon__7aaec {
     display: none;
 }
 
@@ -43,32 +43,32 @@
 }
 
 /*remove unread with date*/ /*it causes issue with the theme*/
-.hasContent_d5deea {
+.hasContent__5126c {
     display: none;
 }
 
 /* remove date divider */
-.hasContent_c2654d {
+.hasContent__908e2 {
     display: none;
 }
 
 /* Un-hide unread divider with date */
-.isUnread_c2654d {
+.isUnread__908e2 {
     display: flex !important;
 }
 
 /* Hide date in unread divider */
-.content_c2654d {
+.content__908e2 {
     display: none;
 }
 
 /*custom unread divider style*/
-.unreadPillCap_c2654d {
+.unreadPillCap__908e2 {
     display: none;
     right: 50%;
 }
 
-.unreadPill_c2654d {
+.unreadPill__908e2 {
     background-color: var(--background-shading);
     color: #fb5454;
     font-size: 12px;
@@ -78,7 +78,7 @@
     width: 30px;
 }
 
-.isUnread_c2654d {
+.isUnread__908e2 {
     --divider-color: rgb(237, 0, 255);
     border: none;
     background: linear-gradient(
@@ -92,31 +92,31 @@
     height: 1px;
 }
 
-.unreadPill_c2654d {
+.unreadPill__908e2 {
     top: -6px;
 }
 
 /*message hover small buttons fix*/
-html.theme-dark .wrapper_f7e168 {
+html.theme-dark .wrapper_f7ecac {
     background: rgb(51, 49, 53) !important;
 }
 
-html.theme-light .wrapper_f7e168 {
+html.theme-light .wrapper_f7ecac {
     background: rgb(243, 243, 243) !important;
 }
 
 /*channel resize*/
-.sidebar_a4d4d9 .name_d8bfb3 {
+.sidebar_c48ade .name__2ea32 {
     font-size: 14px;
 }
 
-.sidebar_a4d4d9 .icon_d8bfb3 {
+.sidebar_c48ade .icon__2ea32 {
     width: 16px;
     height: 16px;
 }
 
 /* Video player controls */
-.videoControls_f72aac {
+.videoControls_cf09d8 {
     width: auto;
     margin: 15px;
     padding-bottom: 0px;
@@ -126,7 +126,7 @@ html.theme-light .wrapper_f7e168 {
     transition: 0.2s;
 }
 
-.wrapperControlsHidden_f72aac .videoControls_f72aac {
+.wrapperControlsHidden_cf09d8 .videoControls_cf09d8 {
     margin-bottom: -30px;
 }
 
@@ -135,25 +135,25 @@ html.theme-light .wrapper_f7e168 {
     margin-right: 5px;
 }
 
-.base_d7ebeb .text_d7ebeb {
+.base_b88801 .text_b88801 {
     display: flex;
     align-items: center;
 }
 
-.typing_d7ebeb {
+.typing_b88801 {
     font-size: 0;
 }
 
-.typing_d7ebeb strong {
+.typing_b88801 strong {
     font-size: 12px;
 }
 
-.typing_d7ebeb strong:after {
+.typing_b88801 strong:after {
     content: ',';
     margin-right: 4px;
 }
 
-.typing_d7ebeb strong:nth-last-child(2)::after {
+.typing_b88801 strong:nth-last-child(2)::after {
     content: 'and';
     margin: 0 4px;
     color: rgba(255, 255, 255, 0.8);
@@ -161,7 +161,7 @@ html.theme-light .wrapper_f7e168 {
     margin-top: -5px;
 }
 
-.typing_d7ebeb strong:last-child::after {
+.typing_b88801 strong:last-child::after {
     content: var(--chillax-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -169,7 +169,7 @@ html.theme-light .wrapper_f7e168 {
     margin-left: 4px;
 }
 
-.typing_d7ebeb strong:nth-last-child()::after {
+.typing_b88801 strong:nth-last-child()::after {
     content: var(--chillax-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -178,12 +178,12 @@ html.theme-light .wrapper_f7e168 {
 }
 
 /* Background in list of people who reacted to a message */
-.container_f2bfbb,
-.reactors_f2bfbb {
+.container_cc2dff,
+.reactors_cc2dff {
     background-color: #181a1db7;
 }
 
-html.theme-dark .container_d331f1.isOpen_d331f1 {
+html.theme-dark .container_faa96b.isOpen_faa96b {
     background-color: #181a1d;
 }
 
@@ -191,26 +191,26 @@ html.theme-dark .container-2qVG6q:hover {
     background-color: #181a1db7;
 }
 
-html.theme-dark .container_d331f1.isOpen_d331f1 {
+html.theme-dark .container_faa96b.isOpen_faa96b {
     background-color: #181a1d;
 }
 
-.scroller_f2bfbb {
+.scroller_cc2dff {
     background-color: #00000050;
 }
 
 /* Remove slowmode message */
-.cooldownWrapper_d7ebeb {
+.cooldownWrapper_b21699 {
     font-size: 0px;
 }
 
 /* Increase visibility of message highlight */
-.backgroundFlash_d5deea[style*="background-color: rgba(148, 156, 247, 0)"] {
+.backgroundFlash__5126c[style*="background-color: rgba(148, 156, 247, 0)"] {
     --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link_c91bad:has(.highlighted_ec8679) {
+.link__972a0:has(.highlighted__20a53) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,
@@ -221,16 +221,16 @@ html.theme-dark .container_d331f1.isOpen_d331f1 {
 }
 
 /* Right click menu blur */
-html.theme-dark .menu_d90b3d {
+html.theme-dark .menu_c1e9c4 {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-html.theme-light .menu_d90b3d {
+html.theme-light .menu_c1e9c4 {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu_d90b3d::before,
-.menu_d90b3d.submenu-1apzyU::before {
+.menu_c1e9c4::before,
+.menu_c1e9c4.submenu-1apzyU::before {
     /*Blurs the menu*/
     content: "";
     position: absolute;
@@ -243,6 +243,6 @@ html.theme-light .menu_d90b3d {
 }
 
 /* Fix blur in nested floating menu */
-.submenu_d90b3d.menu_d90b3d::before {
+.submenu_c1e9c4.menu_c1e9c4::before {
     width: calc(100% - 16px);
 }
