@@ -21,25 +21,24 @@
 */
 
 /* CHILLAX theme entry point */
-/* TODO update links before release */
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/chillax.css");
+@import url("https://warrayquipsome.github.io/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/IconPackEdited.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/AvatarOnlyMemberList.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/FolderRedesign.css");
+@import url("https://warrayquipsome.github.io/Addons/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Addons/AvatarOnlyMemberList.css");
+@import url("https://warrayquipsome.github.io/Addons/FolderRedesign.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/FriendGrid.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/ColoredLinks.css");
+@import url("https://warrayquipsome.github.io/Addons/FriendGrid.css");
+@import url("https://warrayquipsome.github.io/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*use the below css if you are experiencing lag (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
 /* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
-/*@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/2.0-rewrite/Addons/HideAnnoyingElements.css");*/
+/*@import url("https://warrayquipsome.github.io/Addons/HideAnnoyingElements.css");*/
 
 
 /*Chillax Roots*/
