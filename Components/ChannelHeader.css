@@ -1,0 +1,86 @@
+/* Header with channel name, search bar, and other icons */
+
+/* Minified search bar */
+:root {
+    --transitionspeed: 0.25s;
+}
+
+.search__97492:not(.open__97492) .searchBar__97492 {
+    width: 20px;
+    transition: var(--transitionspeed);
+    background-color: transparent;
+}
+
+.search__97492:not(.open__97492):hover .searchBar__97492 {
+    width: 240px;
+    background-color: var(--background-tertiary);
+}
+
+.search__97492:not(.open__97492) .iconContainer_fea832 {
+    transform: scale(1.3);
+    transition: var(--transitionspeed);
+}
+
+.search__97492:not(.open__97492):hover .iconContainer_fea832 {
+    transform: scale(1);
+}
+
+.search__97492:not(.open__97492) .icon_fea832 {
+    color: var(--text-normal);
+}
+
+.search__97492:not(.open__97492):hover .icon_fea832 {
+    color: var(--text-muted);
+}
+
+.container__9293f.themed__9293f .search__49676 {
+    order: -1 !important;
+}
+
+/*threads background fix*/
+.container_d9c882 {
+    backdrop-filter: blur(15px) !important;
+}
+
+html.theme-dark .container_d9c882 {
+    background: #181a1da6 !important;
+}
+
+html.theme-light .container_d9c882 {
+    background: rgb(223, 223, 223);
+}
+
+/* threads item hover */
+.container__6764b:hover {
+    background-color: #181a1d99;
+}
+
+/*pins / inbox background fix*/
+.messagesPopoutWrap__45690,
+.recentMentionsPopout__95796,
+.drawerSizingWrapper__08434 {
+    backdrop-filter: blur(15px) !important;
+}
+
+html.theme-dark .messagesPopoutWrap__45690,
+html.theme-dark .recentMentionsPopout__95796,
+html.theme-dark .drawerSizingWrapper__08434 {
+    background: #181a1da6 !important;
+}
+
+html.theme-light .messagesPopoutWrap__45690,
+html.theme-light .recentMentionsPopout__95796,
+html.theme-light .drawerSizingWrapper__08434 {
+    background: rgb(223, 223, 223) !important;
+}
+
+/* Inbox alignment fix */
+.container__95796 {
+    padding-left: 16px;
+}
+
+/* Inbox channel item background */
+.channelHeader__35a7e {
+    background-color: rgb(51, 49, 53) !important;
+    border-radius: 8px;
+}

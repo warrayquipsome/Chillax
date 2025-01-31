@@ -227,3 +227,176 @@
 .selected_b3f026:after {
     background: transparent !important;
 }
+
+.side_b3f026 .item_b3f026::after {
+    /* Fix the double icon when hovering */
+    display: none !important;
+}
+
+/*user setting redesign*/
+.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+html.theme-dark .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+    background: rgb(36, 36, 36) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+html.theme-light .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
+    box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
+    transition: 0.1s;
+}
+
+html.theme-dark .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
+    background: rgb(229, 46, 46) !important;
+    color: #000 !important;
+}
+
+html.theme-light .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
+    background-color: rgb(255, 129, 129) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+.badgeList__1fed1 {
+    border-radius: 8px;
+    margin-top: 5px;
+    padding: 2px;
+}
+
+html.theme-dark .badgeList__1fed1 {
+    background-color: #333135;
+}
+
+html.theme-light .badgeList__1fed1 {
+    background-color: #e4e4e4;
+}
+
+.fieldList__1fed1 {
+    margin-left: 10px;
+    margin-bottom: 25px;
+    grid-gap: 15px;
+}
+
+.field__1fed1:last-child {
+    margin-right: 0 !important;
+}
+
+div[class="field__1fed1"] > button[aria-label="Edit username"][class="fieldButton__1fed1 button__201d5 lookFilled__201d5 colorPrimary__201d5 sizeSmall__201d5 grow__201d5"] {
+    width: 90%;
+    position: absolute;
+    bottom: -1px;
+}
+
+.field__1fed1 > button {
+    width: 90%;
+}
+
+.fieldButtonList__1fed1 > button {
+    width: 100%;
+}
+
+.field__1fed1 {
+    border-radius: 8px;
+    max-height: none;
+    flex-flow: column;
+    padding: 15px;
+    display: inline-block;
+    margin-right: 10px;
+    position: relative;
+    overflow-y: scroll;
+    height: 150px;
+}
+
+html.theme-dark .field__1fed1 {
+    background-color: #333135;
+}
+
+html.theme-light .field__1fed1 {
+    background-color: #e4e4e4;
+}
+
+html.theme-dark .fieldSpacerBottom__1fed1 {
+    margin-bottom: 0;
+}
+
+.field__1fed1::-webkit-scrollbar {
+    width: 0;
+}
+
+.constrainedRow__1fed1 {
+    overflow: visible;
+}
+
+.fieldButton__1fed1.button__201d5[aria-label="Edit phone number"] {
+    top: 30px !important;
+    border-radius: 8px;
+}
+
+.fieldButton__1fed1.button__201d5[aria-label="Edit username"] {
+    top: 50px;
+    border-radius: 8px;
+}
+
+.fieldButton__1fed1.removeButton__1fed1 {
+    top: 30px !important;
+    font-size: 12.7px;
+}
+
+.fieldButton__1fed1.button__201d5 {
+    top: 30px;
+    border-radius: 8px;
+}
+
+.background__1fed1 {
+    background: transparent !important;
+}
+
+.settingsBanner-2E5fAp {
+    border-radius: 8px;
+}
+
+#my-account-tab {
+    transform: scale(0.98) translateX(-17px);
+}
+
+.fieldButton__1fed1.button__201d5[aria-label="Edit phone number"] {
+    top: 50px;
+    border-radius: 8px;
+}
+
+.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+    top: 30px !important;
+}
+
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 {
+    align-items: center;
+    justify-content: center;
+    width: calc(100% - 34px);
+    margin-left: 17px;
+    padding: 50px 0 9px;
+}
+
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5 {
+    position: absolute;
+    top: 52.5px !important;
+    right: 294.5px;
+    width: 77px;
+    height: 77px;
+    min-width: unset;
+    min-height: unset;
+    padding: 0;
+    border-radius: 50px;
+    background-color: transparent !important;
+    font-size: 0;
+    border: none !important;
+    box-shadow: none;
+}

@@ -1,0 +1,48 @@
+/* Hide the "Play Again" section in DMs */
+.container__675e5 {
+    display: none !important;
+}
+
+/* Hide Nitro gift button */
+button[aria-label="Send a gift"] {
+    display: none;
+}
+
+/* Hide sticker picker button */
+button[aria-label="Open sticker picker"] {
+    display: none;
+}
+
+/* Hide super reaction button */
+div[aria-label="Add Super Reaction"] {
+    display: none;
+}
+
+/* Hide super reaction tab in emoji picker */
+button[id="super-reaction-picker-tab"] {
+    display: none;
+}
+
+/* Remove mobile icon */
+foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
+    visibility: hidden !important;
+}
+
+#app-mount .wrapper__44b0c foreignObject[mask*=mobile]:after {
+    display: none;
+}
+
+/* Hide nitro section of friends list */
+.link__972a0[href="/store"] {
+    display: none;
+}
+
+/* Hide shop section of friends list */
+.link__972a0[href="/shop"] {
+    display: none;
+}
+
+/* Hide "Quest" advertisements */
+.mask__0d616 {
+    display: none;
+}

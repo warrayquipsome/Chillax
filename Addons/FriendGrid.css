@@ -128,7 +128,7 @@
     margin: 0px;
     width: 100%;
     border-radius: var(--FG-search-radius);
-    top: 24px
+    padding: 5px;
 }
 
 .peopleColumn__133bf .peopleList__5ec2f > div {

@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
- * @version 1.5.3
+ * @version 2.0.0
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -32,9 +32,13 @@
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
 @import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
 @import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
+/*use the below css if you are experiencing lag (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+/* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
 
 
 /*Chillax Roots*/
@@ -109,13 +113,13 @@
     --settingsmodalheight: 80vh;
 
     /* avatar only member list */
-    --memberlist-border-radius: 25px; /* can be in `px`, `rem`, `em` */
+    --memberlist-border-radius: 10px; /* can be in `px`, `rem`, `em` */
 
     /* placeholder texts/values */
     /* input fields */
     --chillax-input-field: "Life is so much easier when you just take a moment to chill";
     /* input fields  when the channel is locked*/
-    --chillax-input-field-locked: "Life is so much easier when you just take a moment to chill";
+    --chillax-input-field-locked: "Unfortunately, you can't chill in this channel";
     /* typing indicator: when a single person is typing */
     --chillax-input-typing-indicator-one-person: "is smashing some buttons";
     /* typing indicator: when more than one person is typing */

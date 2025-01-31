@@ -1,0 +1,80 @@
+/*emoji/gif/sticker tab fix, and right-click reaction menu*/
+.drawerSizingWrapper__08434,
+.wrapper_c0e32c {
+    backdrop-filter: blur(15px) !important;
+    border-radius: 5px;
+}
+
+html.theme-dark .drawerSizingWrapper__08434,
+html.theme-dark .wrapper_c0e32c {
+    background: #18191ba6 !important;
+}
+
+html.theme-light .drawerSizingWrapper__08434,
+html.theme-light .wrapper_c0e32c {
+    background: #d4def1a6 !important;
+}
+
+/* Disable double background in emoji/gif/sticker tab menu */
+.drawerSizingWrapper__08434 .wrapper_c0e32c {
+    background: transparent !important;
+    backdrop-filter: none !important;
+    border-radius: 0;
+}
+
+html.theme-dark .unicodeShortcut_b9ee0c,
+html.theme-dark .standardStickerShortcut__3ad28 {
+    background: #292b2f;
+}
+
+html.theme-light .unicodeShortcut_b9ee0c,
+html.theme-light .standardStickerShortcut__3ad28 {
+    background: #ebedef;
+}
+
+.emojiItem_fc7141.emojiItemSelected_fc7141 {
+    background-color: #18191b90;
+}
+
+/*emoji tab design n fix*/
+.nav__08434 > .navList__08434 > button {
+    flex: auto;
+    bottom: 20px;
+    line-height: 45px;
+    margin: 0;
+    border-radius: 0;
+}
+
+html.theme-dark .nav__08434 > .navList__08434 > button {
+    background: #333135;
+}
+
+html.theme-light .nav__08434 > .navList__08434 > button {
+    background: #ebedef;
+}
+
+.inspector_c0e32c {
+    border-radius: 8px;
+    margin: 10px;
+    width: 95%
+}
+
+.unicodeShortcut_b9ee0c {
+    border-radius: 8px;
+    margin: 12px;
+    margin-left: 5px;
+    top: 330px !important;
+    width: 85%;
+}
+
+html.theme-dark .nav__08434 > .navList__08434 > button:hover {
+    background: rgba(255, 255, 255, 0.2);
+}
+
+html.theme-light .nav__08434 > .navList__08434 > button:hover {
+    background: rgba(0, 0, 0, 0.2);
+}
+
+.nav__08434 {
+    padding: 0;
+}
