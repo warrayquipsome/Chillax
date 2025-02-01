@@ -42,10 +42,16 @@
 }
 
 /* Steam */
-[href*="store.steampowered.com"],
-[href*="https://s.team"],
-[href*="steamcommunity.com/"] {
+html.theme-dark [href*="store.steampowered.com"],
+html.theme-dark [href*="https://s.team"],
+html.theme-dark [href*="steamcommunity.com/"] {
     color: #899db6 !important;
+}
+
+html.theme-light [href*="store.steampowered.com"],
+html.theme-light [href*="https://s.team"],
+html.theme-light [href*="steamcommunity.com/"] {
+    color: #5c6979 !important;
 }
 
 /* Spotify */
