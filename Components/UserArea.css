@@ -465,6 +465,7 @@ html.theme-light #vc-spotify-player {
 .panels_c48ade {
     display: flex;
     flex-direction: column;
+    margin-top: 0;
 }
 
 #vc-spotify-player {
