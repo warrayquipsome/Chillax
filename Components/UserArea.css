@@ -477,7 +477,7 @@ html.theme-light #vc-spotify-player {
 .panel__5dec7 {
     /* Game activity */
     order: 2;
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .wrapper_e131a9 {
@@ -487,7 +487,7 @@ html.theme-light #vc-spotify-player {
 
 .container_e131a9 {
     /* Voice chat controls */
-    background-color: transparent;
+    background-color: transparent !important;
 }
 
 .container__37e49 {
