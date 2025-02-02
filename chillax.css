@@ -2790,3 +2790,62 @@ html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d4
 html.theme-light img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
     content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/whitelogo.png");
 }
+
+/* Fix colors due to `.theme-dark` custom properties being applied in light mode */
+html.theme-light .container__37e49 {
+  /* Button color in floating user controls */
+  color: #3a3a3a;
+}
+
+html.theme-light .container__37e49 .lottieIcon__5eb9b path {
+  /* Settings icon  */
+  fill: #3a3a3a !important;
+}
+
+html.theme-light .contents__201d5 {
+  /* Vencord game activity toggle */
+  color: #3a3a3a;
+}
+
+html.theme-light .defaultColor__4bd52,
+html.theme-light .headerChildren_f37cb1 {
+  color: #303030;
+}
+
+html.theme-light .childWrapper__6e9f8 {
+  color: #303030;
+}
+
+html.theme-light .brand_b3f026.item_b3f026,
+html.theme-light .themed_b3f026.item_b3f026 {
+  /* Items and tabs in settings */
+  color: #3a3a3a;
+}
+
+html.theme-light .header_b3f026 {
+  /* Headers in settings */
+  color: #585b5e;
+}
+
+html.theme-light .input_fea832 {
+  /* Search box in settings */
+  color: #303030;
+}
+
+html.theme-light .name__2ea32,
+html.theme-light .container__13cf1 {
+  /* Channels */
+  color: #585b5e;
+}
+
+html.theme-light .modeMuted__2ea32:hover .name__2ea32,
+html.theme-light .wrapper__2ea32:hover .name__2ea32,
+html.theme-light .wrapper__29444:hover .name__29444 {
+  /* Channels hover */
+  color: #333333;
+}
+
+html.theme-light .modeSelected__2ea32 .name__2ea32 {
+  /* Channels active */
+  color: black;
+}
