@@ -1,5 +1,6 @@
 /*floating user controls*/
-.container__37e49 {
+.container__37e49,
+.content__37e49{
     background: transparent !important;
 }
 
@@ -88,35 +89,23 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
 
 /* Fix for Vencord Game Activity Toggle Plugin */
 
-.container__37e49:has(button[aria-label='Enable Game Activity']) > :first-child {
+.content__37e49:has(button[aria-label='Enable Game Activity']) > :first-child,
+.content__37e49:has(button[aria-label='Disable Game Activity']) > :first-child{
     min-width: 36px !important;
 }
 
-.container__37e49:has(button[aria-label='Enable Game Activity']) > :first-child:hover {
+.content__37e49:has(button[aria-label='Enable Game Activity']) > :first-child:hover,
+.content__37e49:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
     min-width: 207px !important;
 }
 
-.panels_c48ade > .container__37e49:has(button[aria-label='Enable Game Activity']) .flex__7c0ba > :not(:last-child) {
+.content__37e49:has(button[aria-label='Enable Game Activity']) .flex__7c0ba > :not(:last-child),
+.content__37e49:has(button[aria-label='Disable Game Activity']) .flex__7c0ba > :not(:last-child) {
     width: 38px !important;
 }
 
-.panels_c48ade > .container__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
-    margin-left: 0px !important;
-}
-
-.container__37e49:has(button[aria-label='Disable Game Activity']) > :first-child {
-    min-width: 36px !important;
-}
-
-.container__37e49:has(button[aria-label='Disable Game Activity']) > :first-child:hover {
-    min-width: 207px !important;
-}
-
-.panels_c48ade > .container__37e49:has(button[aria-label='Disable Game Activity']) .flex__7c0ba > :not(:last-child) {
-    width: 38px !important;
-}
-
-.panels_c48ade > .container__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
+.content__37e49:has(button[aria-label='Enable Game Activity']):hover .flex__7c0ba > :not(:last-child),
+.content__37e49:has(button[aria-label='Disable Game Activity']):hover .flex__7c0ba > :not(:last-child) {
     margin-left: 0 !important;
 }
 
