@@ -416,8 +416,8 @@ html.theme-light #vc-spotify-player {
 }
 
 #vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
-    width: var(--chillax-spotify-control-squid-width);
-    height: var(--chillax-spotify-control-squid-height);
+    width: var(--chillax-spotify-control-squid-width) !important;
+    height: var(--chillax-spotify-control-squid-height) !important;
     background-color: transparent;
     background-image: var(--chillax-spotify-control-squid-gif-url);
     background-size: cover;
