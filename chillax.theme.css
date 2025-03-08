@@ -128,8 +128,11 @@
     /* scroller (by default transparent) */
     --chillax-scroller-color: transparent; /* change `transparent` to some other hex color to make it visible */
 
-    /* Spotify Player Control Squid Adjustments */
+    /* Spotify Player Control Squid GIF Adjustments */
+
+    /* Change the ulr in the `--chillax-spotify-control-squid-gif-url` css var to your liking */
     --chillax-spotify-control-squid-gif-url: "https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif";
+    /* adjust the height and width accordingly */
     --chillax-spotify-control-squid-width: 25px;
     --chillax-spotify-control-squid-height: 25px;
 
