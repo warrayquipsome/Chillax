@@ -277,10 +277,10 @@ html.theme-light .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill
 }
 
 .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .grabber_7sd5f5 {
-    width: 25px;
-    height: 25px;
+    width: var(--chillax-spotify-control-squid-width);
+    height: var(--chillax-spotify-control-squid-height);
     background-color: transparent;
-    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-image: var(--chillax-spotify-control-squid-gif-url);
     background-size: cover;
     transform: rotate(90deg);
     border-radius: 0;
@@ -416,10 +416,10 @@ html.theme-light #vc-spotify-player {
 }
 
 #vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
-    width: 25px !important;
-    height: 25px !important;
+    width: var(--chillax-spotify-control-squid-width);
+    height: var(--chillax-spotify-control-squid-height);
     background-color: transparent;
-    background-image: url("https://static.wikia.nocookie.net/minecraft_gamepedia/images/0/0c/Glow_Squid_BE1.gif");
+    background-image: var(--chillax-spotify-control-squid-gif-url);
     background-size: cover;
     border: none;
     transform: rotate(90deg);
