@@ -1,5 +1,3 @@
-/*avatar only memberlist*/
-
 .membersWrap_c8ffbb {
     transition: transform 0.5s ease;
     margin-left: -180px;
@@ -46,7 +44,7 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .membersWrap_c8ffbb:not(:hover) .membersGroup_c8ffbb {
-    padding-left: 0;
+    padding-left: 2px;
 }
 
 /* Member list activity widget */
@@ -58,11 +56,29 @@ div:not(:hover) > .members_c8ffbb > div {
     transform: translate(-168px)
 }
 
+.container__0f2e8 {
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.membersWrap_c8ffbb:not(:hover) .container__0f2e8 {
+    background-color: transparent;
+    border-color: transparent;
+}
+
 .infoSection__0f2e8 {
     transition: opacity 0.5s ease;
 }
 
 .membersWrap_c8ffbb:not(:hover) .infoSection__0f2e8 {
+    opacity: 0;
+}
+
+/* Fade out usernames when collapsed */
+.content__91a9d {
+    transition: opacity 0.5s ease;
+}
+
+.membersWrap_c8ffbb:not(:hover) .content__91a9d {
     opacity: 0;
 }
 
