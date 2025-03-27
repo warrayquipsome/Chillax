@@ -177,6 +177,33 @@ html.theme-light .wrapper_f7ecac {
     margin-left: 4px;
 }
 
+/* Place typing indicator on top of message input box */
+.form_f75fb0 {
+    display: flex;
+    flex-direction: column;
+}
+
+.channelBottomBarArea_f75fb0 {
+    /* Input box order */
+    order: 2;
+}
+
+.channelTextArea_f75fb0 {
+    /* Remove margin for original typing indicator position */
+    margin-bottom: calc(var(--space-8) - 2px);
+}
+
+.form_f75fb0:has(.base_b88801) .form_f75fb0 {
+    /* Add margin to the top when typing/slowmode indicator is active */
+    margin-top: var(--custom-chat-input-margin-bottom);
+}
+
+.base_b88801 {
+    /* Indicator order */
+    position: static;
+    order: 1;
+}
+
 /* Background in list of people who reacted to a message */
 .container_cc2dff,
 .reactors_cc2dff {
