@@ -169,7 +169,7 @@ html.theme-light .wrapper_f7ecac {
     margin-left: 4px;
 }
 
-.typing_b88801 strong:nth-last-child()::after {
+.typing_b88801 strong:last-child::after {
     content: var(--chillax-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
