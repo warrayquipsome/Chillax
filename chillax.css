@@ -43,6 +43,10 @@
     background-color: transparent !important;
 }
 
+.sidebarListRounded_c48ade {
+    backdrop-filter: none !important;
+}
+
 /* Main chat area */
 .chat_f75fb0 {
     background-color: transparent !important;
