@@ -62,6 +62,12 @@
     background-color: transparent !important;
 }
 
+/* Placeholder for unloaded messages */
+.wrapper_d852db,
+.wrapper_fc8177 {
+    background-color: transparent !important;
+}
+
 /* Hide borders */
 .sidebarList_c48ade,
 .container_c8ffbb,
