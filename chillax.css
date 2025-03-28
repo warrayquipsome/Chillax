@@ -33,10 +33,39 @@
     background: transparent !important;
 }
 
-/*friends tab*/
-.content_c48ade > div,
-.panels_c48ade {
-    background: transparent !important;
+/* Server list */
+.wrapper_ef3116 {
+    background-color: transparent !important;
+}
+
+/* Channel list */
+.container__2637a {
+    background-color: transparent !important;
+}
+
+/* Main chat area */
+.chat_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Chat message area */
+.chatContent_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Member list */
+.container_c8ffbb {
+    background-color: transparent !important;
+}
+
+/* Hide borders */
+.sidebarList_c48ade,
+.container_c8ffbb,
+.chat_f75fb0,
+.chatContent_f75fb0,
+.container__9293f,
+.channelTextArea_f75fb0 {
+    border-color: transparent !important;
 }
 
 /*transparent scrollbar*/
