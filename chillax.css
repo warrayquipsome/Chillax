@@ -1047,7 +1047,7 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
 
 /*theme background image*/
 .bg__960e4 {
-    background-image: var(--background-image);
+    background-image: var(--background-image) !important;
     opacity: var(--bg-opacity);
     background-attachment: var(--background-attachment, fixed);
     background-size: var(--background-size, cover);
