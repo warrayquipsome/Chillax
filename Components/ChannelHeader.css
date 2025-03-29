@@ -6,7 +6,7 @@
 }
 
 .searchBar__97492 {
-    border: none;
+    border: none !important;
 }
 
 .search__97492:not(.open__97492) .searchBar__97492 {
