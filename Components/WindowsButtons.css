@@ -37,7 +37,7 @@
 }
 
 .recentsIcon_c99c29,
-.anchor_edefb8,
+.trailing_c38106 > .anchor_edefb8,
 .winButtons_c38106 > div {
     height: var(--space-32);
     background: var(--window-colour);
@@ -47,7 +47,7 @@
 }
 
 .recentsIcon_c99c29:hover,
-.anchor_edefb8:hover,
+.trailing_c38106 > .anchor_edefb8:hover,
 .winButtons_c38106 > div:hover {
     background: transparent;
     transition: 0.1s;
