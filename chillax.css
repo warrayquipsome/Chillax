@@ -923,8 +923,10 @@ html.theme-light {
 }
 
 /*custom popout window*/
-#app-mount .layers__960e4 {
+.content_c48ade {
     margin: var(--window-margin);
+    /* Leave space for title bar's padding */
+    margin-top: 4px;
     overflow: hidden;
     border-radius: var(--window-border-radius);
     background: var(--window-colour);
@@ -1673,7 +1675,6 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 
 .scroller_ef3116 > div[aria-label="Servers"] {
     overflow: hidden auto;
-    margin: 10px 0;
 }
 
 .scroller_ef3116 > div[aria-label="Servers"]::-webkit-scrollbar {
