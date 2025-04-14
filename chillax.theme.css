@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
- * @version 2.0.0
+ * @version 2.1.0-beta
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -30,7 +30,7 @@
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/IconPackEdited.css");
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/AvatarOnlyMemberList.css");
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/FolderRedesign.css");
-@import url("https://discordstyles.github.io/RadialStatus/dist/RadialStatus.css");
+@import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/FriendGrid.css");
 @import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/ColoredLinks.css");
 
