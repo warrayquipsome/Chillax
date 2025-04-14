@@ -2932,3 +2932,8 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .tutorialContainer__1f388:first-child {
     padding-top: 5px;
 }
+
+/* Fix for VC call items bg */
+.buttonSection__1405b {
+    background: none !important;
+}
