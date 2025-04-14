@@ -21,24 +21,24 @@
 */
 
 /* CHILLAX theme entry point */
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/chillax.css");
+@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
-@import url("https://nyri4.github.io/Discolored/main.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/IconPackEdited.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/AvatarOnlyMemberList.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/FolderRedesign.css");
+@import url("https://chillax-org.github.io/Discolored/main.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/FriendGrid.css");
-@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/ColoredLinks.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
+@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 /*use the below css if you are experiencing lag (remove the both * to use)*/
-/*@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/SimpleLessLag.css");*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
 /* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
-/*@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Addons/HideAnnoyingElements.css");*/
+/*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
 
 
 /*Chillax Roots*/
@@ -49,8 +49,8 @@
     /*bg dev suggestions*/
     --wallpaper: url("https://wallpaperaccess.com/full/2799204.jpg");
     /*modern background selection*/
-    --modern-dark-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Wallpapers/modern-dark-bg.png");
-    --modern-light-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/discord-new-ui/Wallpapers/modern-light-bg.png");
+    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
 }
 
 
