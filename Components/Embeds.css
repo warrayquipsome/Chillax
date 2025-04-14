@@ -40,7 +40,7 @@ html.theme-light .embedFull__623de {
 }
 
 .grid__623de {
-    margin-left: calc(-1 * var(--embed-line-width));
+    /*margin-left: calc(-1 * var(--embed-line-width));*/
     z-index: 1;
 }
 
@@ -51,7 +51,7 @@ html.theme-light .embedFull__623de {
     width: var(--embed-line-width);
     position: absolute;
     top: 0;
-    left: calc(-1 * var(--embed-line-width));
+    /*left: calc(-1 * var(--embed-line-width));*/
 }
 
 .embedFull__623de:after {
