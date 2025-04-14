@@ -2256,6 +2256,15 @@ button {
     font-size: 0;
 }
 
+/* Fixing the transparency issue for forum issue initial headers */
+.header__34c2c {
+    background: transparent !important;
+}
+
+.container__34c2c {
+    background: transparent !important;
+}
+
 /*radial status small circle fix*/
 .wrapper-1VLyxH > .svg-2azL_l circle {
     opacity: 0 !important;
