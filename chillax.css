@@ -2909,3 +2909,12 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .tabBody__133bf {
     background: transparent !important;
 }
+
+/* Friend Tab Activity section transparent background fix */
+.nowPlayingColumn__133bf {
+    background: transparent !important;
+}
+
+.container__7d20c {
+    background: transparent !important;
+}
