@@ -73,6 +73,11 @@ div:not(:hover) > .members_c8ffbb > div {
     border-color: transparent;
 }
 
+.container__7641b {
+    background: transparent !important;
+    border: none !important;
+}
+
 .infoSection__0f2e8 {
     transition: opacity 0.5s ease;
 }
