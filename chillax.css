@@ -2900,3 +2900,12 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .scroller__99e7c {
     background: transparent !important;
 }
+
+/* fix for friend tab transparency */
+.container__133bf {
+    background: transparent !important;
+}
+
+.tabBody__133bf {
+    background: transparent !important;
+}
