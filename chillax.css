@@ -2889,3 +2889,14 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
   /* Channels active */
   color: black;
 }
+
+/* Side bar transparency fix */
+/* Maybe a temp fix but I don't have much
+ time to look into in details */
+.privateChannels__35e86 {
+    background: transparent !important;
+}
+
+.scroller__99e7c {
+    background: transparent !important;
+}
