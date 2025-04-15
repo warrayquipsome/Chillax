@@ -24,6 +24,10 @@ html.theme-light .panels_c48ade {
     overflow: hidden;
 }
 
+.sidebar_c48ade:after {
+    background: transparent !important;
+}
+
 html.theme-dark .sidebar_c48ade .content__99f8c:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;

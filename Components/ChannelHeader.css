@@ -5,8 +5,12 @@
     --transitionspeed: 0.25s;
 }
 
+.visual-refresh .searchBar__97492 {
+    border: none !important;
+}
+
 .search__97492:not(.open__97492) .searchBar__97492 {
-    width: 20px;
+    width: 30px;
     transition: var(--transitionspeed);
     background-color: transparent;
 }
@@ -17,7 +21,7 @@
 }
 
 .search__97492:not(.open__97492) .iconContainer_fea832 {
-    transform: scale(1.3);
+    transform: scale(1.1);
     transition: var(--transitionspeed);
 }
 

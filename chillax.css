@@ -33,10 +33,49 @@
     background: transparent !important;
 }
 
-/*friends tab*/
-.content_c48ade > div,
-.panels_c48ade {
-    background: transparent !important;
+/* Server list */
+.wrapper_ef3116 {
+    background-color: transparent !important;
+}
+
+/* Channel list */
+.container__2637a {
+    background-color: transparent !important;
+}
+
+.sidebarListRounded_c48ade {
+    backdrop-filter: none !important;
+}
+
+/* Main chat area */
+.chat_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Chat message area */
+.chatContent_f75fb0 {
+    background-color: transparent !important;
+}
+
+/* Member list */
+.container_c8ffbb {
+    background-color: transparent !important;
+}
+
+/* Placeholder for unloaded messages */
+.wrapper_d852db,
+.wrapper_fc8177 {
+    background-color: transparent !important;
+}
+
+/* Hide borders */
+.sidebarList_c48ade,
+.container_c8ffbb,
+.chat_f75fb0,
+.chatContent_f75fb0,
+.container__9293f,
+.channelTextArea_f75fb0 {
+    border-color: transparent !important;
 }
 
 /*transparent scrollbar*/
@@ -884,8 +923,10 @@ html.theme-light {
 }
 
 /*custom popout window*/
-#app-mount .layers__960e4 {
+.content_c48ade {
     margin: var(--window-margin);
+    /* Leave space for title bar's padding */
+    margin-top: 4px;
     overflow: hidden;
     border-radius: var(--window-border-radius);
     background: var(--window-colour);
@@ -1014,11 +1055,11 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
 
 /*theme background image*/
 .bg__960e4 {
-    background-image: var(--background-image);
-    opacity: var(--bg-opacity);
-    background-attachment: var(--background-attachment, fixed);
-    background-size: var(--background-size, cover);
-    background-position: var(--background-position, center);
+    background-image: var(--background-image) !important;
+    opacity: var(--bg-opacity) !important;
+    background-attachment: var(--background-attachment, fixed) !important;
+    background-size: var(--background-size, cover) !important;
+    background-position: var(--background-position, center) !important;
 }
 
 /*remove those annoying shadow on top of the chats*/
@@ -1548,7 +1589,7 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 .layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .container__8061a {
     justify-content: center;
     width: 100%;
-    margin-bottom: 57px;
+    /*margin-bottom: 57px;*/
 }
 
 .layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5 {
@@ -1634,7 +1675,6 @@ html.theme-light .withTagAsButton_b2ca13:hover {
 
 .scroller_ef3116 > div[aria-label="Servers"] {
     overflow: hidden auto;
-    margin: 10px 0;
 }
 
 .scroller_ef3116 > div[aria-label="Servers"]::-webkit-scrollbar {
@@ -2214,6 +2254,15 @@ html.theme-light .reactionMe__23977 .reactionCount__23977 {
 .buttons__34c2c
 button {
     font-size: 0;
+}
+
+/* Fixing the transparency issue for forum issue initial headers */
+.header__34c2c {
+    background: transparent !important;
+}
+
+.container__34c2c {
+    background: transparent !important;
 }
 
 /*radial status small circle fix*/
@@ -2850,4 +2899,43 @@ html.theme-light .wrapper__29444:hover .name__29444 {
 html.theme-light .modeSelected__2ea32 .name__2ea32 {
   /* Channels active */
   color: black;
+}
+
+/* Side bar transparency fix */
+/* Maybe a temp fix but I don't have much
+ time to look into in details */
+.privateChannels__35e86 {
+    background: transparent !important;
+}
+
+.scroller__99e7c {
+    background: transparent !important;
+}
+
+/* fix for friend tab transparency */
+.container__133bf {
+    background: transparent !important;
+}
+
+.tabBody__133bf {
+    background: transparent !important;
+}
+
+/* Friend Tab Activity section transparent background fix */
+.nowPlayingColumn__133bf {
+    background: transparent !important;
+}
+
+.container__7d20c {
+    background: transparent !important;
+}
+
+/* adding padding between discord logo and top */
+.tutorialContainer__1f388:first-child {
+    padding-top: 5px;
+}
+
+/* Fix for VC call items bg */
+.buttonSection__1405b {
+    background: none !important;
 }

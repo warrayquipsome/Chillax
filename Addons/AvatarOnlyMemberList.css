@@ -1,9 +1,10 @@
-/*avatar only memberlist*/
-
 .membersWrap_c8ffbb {
     transition: transform 0.5s ease;
-    margin-left: -180px;
-    transform: translate(180px);
+    /* Shrink width by avatar width plus various padding (8px + 8px + XS space) */
+    --member-list-collapsed-width: calc(32px + 2 * (16px + var(--space-xs)));
+    --member-list-collapsed-transform: calc((var(--custom-member-list-width) - var(--member-list-collapsed-width)));
+    margin-left: calc(-1 * var(--member-list-collapsed-transform));
+    transform: translateX(var(--member-list-collapsed-transform));
 }
 
 .membersWrap_c8ffbb:hover {
@@ -46,7 +47,11 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .membersWrap_c8ffbb:not(:hover) .membersGroup_c8ffbb {
-    padding-left: 0;
+    padding-left: 2px;
+}
+
+.member__5d473 {
+    background-color: transparent;
 }
 
 /* Member list activity widget */
@@ -55,7 +60,22 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .membersWrap_c8ffbb:not(:hover) .contentImage__42bf5 {
-    transform: translate(-168px)
+    /* Undo expanded spacing and normal list width, then apply collapsed list width and necessary spacing to center the icon */
+    transform: translateX(calc(18px - var(--custom-member-list-width) + var(--member-list-collapsed-width) - ((var(--member-list-collapsed-width) - 48px) / 2)));
+}
+
+.container__0f2e8 {
+    transition: background-color 0.5s ease, border-color 0.5s ease;
+}
+
+.membersWrap_c8ffbb:not(:hover) .container__0f2e8 {
+    background-color: transparent;
+    border-color: transparent;
+}
+
+.container__7641b {
+    background: transparent !important;
+    border: none !important;
 }
 
 .infoSection__0f2e8 {
@@ -63,6 +83,15 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .membersWrap_c8ffbb:not(:hover) .infoSection__0f2e8 {
+    opacity: 0;
+}
+
+/* Fade out usernames when collapsed */
+.content__91a9d {
+    transition: opacity 0.5s ease;
+}
+
+.membersWrap_c8ffbb:not(:hover) .content__91a9d {
     opacity: 0;
 }
 
