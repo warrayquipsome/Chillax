@@ -2632,6 +2632,11 @@ html.theme-light .container_faa96b.isOpen_faa96b {
     background: transparent !important;
 }
 
+.resizeHandle__01ae2,
+.container__01ae2 {
+    background: transparent !important;
+}
+
 /* Forum channel text input fixes */
 .flex__7aff3 textarea.scrollbar__506b3 {
     background-color: transparent !important;
