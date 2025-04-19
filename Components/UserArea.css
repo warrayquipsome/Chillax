@@ -4,8 +4,7 @@
 }
 
 .panels_c48ade {
-    border-radius: 12px;
-    margin: 10px;
+    border: none !important;
 }
 
 html.theme-dark .panels_c48ade {
@@ -282,7 +281,8 @@ html.theme-light .container_6sXIoE.withTimeline_824fT_ .timeline_UWmgAx .barFill
     flex-direction: column;
     position: relative;
     overflow: hidden;
-    border-radius: 8px;
+    /* 1px smaller to avoid aliasing issues */
+    border-radius: calc(var(--radius-sm) - 1px) !important;
     margin: 8px;
     padding: 8px;
     border-bottom-color: transparent;
