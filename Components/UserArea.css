@@ -337,20 +337,6 @@ html.theme-light #vc-spotify-player {
     font-size: 14px;
 }
 
-.vc-spotify-button-row {
-    width: fit-content;
-    align-self: center;
-    height: 0;
-    overflow: hidden;
-    transition: height 0.2s ease;
-    order: 1;
-    z-index: 1;
-}
-
-#vc-spotify-player:hover .vc-spotify-button-row {
-    height: 32px;
-}
-
 #vc-spotify-progress-bar {
     order: 2;
     z-index: 1;
@@ -371,7 +357,7 @@ html.theme-light #vc-spotify-player {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-#vc-spotify-progress-bar > [class^=slider] [class^=grabber] {
+/* #vc-spotify-progress-bar .grabber_a562c8 {
     width: var(--chillax-spotify-control-squid-width) !important;
     height: var(--chillax-spotify-control-squid-height) !important;
     background-color: transparent;
@@ -382,7 +368,7 @@ html.theme-light #vc-spotify-player {
     margin-left: -16px;
     inset: 3px 0 0 0px;
     box-shadow: none;
-}
+} */
 
 /* Transparent album image to preserve onClick functionality */
 #vc-spotify-album-image {
