@@ -81,3 +81,12 @@
 .winButton_c38106:hover > svg {
     transform: rotate(45deg);
 }
+
+/* Keep some spacing between the edge when window margin is close to 0px */
+.trailing_c38106 {
+    margin-right: calc(max(var(--window-margin), 4px));
+}
+
+.leading_c38106::before {
+    margin-left: calc(max(var(--window-margin), 4px));
+}
