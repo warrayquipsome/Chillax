@@ -33,7 +33,7 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 .theme-dark .members_c8ffbb:hover {
-    background-color: #181a1ddd;
+    background-color: #181a1ddd !important;
 }
 
 /* Make the list fill the window height */
