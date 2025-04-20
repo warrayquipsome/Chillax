@@ -2565,11 +2565,13 @@ html.theme-light [d="M21.226 30v-4.154h-3.755V30h3.755zm-.512-8.62c3.67-1.337 5.
 }
 
 html.theme-dark .container__01ae2 {
+    /*todo: extract this a var and give users to set the color however they want*/
     background: rgba(26, 26, 26) !important;
     z-index: 1000;
 }
 
 html.theme-light .container__01ae2 {
+    /*todo: extract this a var and give users to set the color however they want*/
     background: rgba(255, 255, 255) !important;
     z-index: 1000;
 }
