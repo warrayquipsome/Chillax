@@ -130,6 +130,21 @@
     background: radial-gradient(130.66% 324.98% at -3.95% 0, #b41010 0, rgba(15, 28, 143, 0.8) 35.73%, rgba(8, 175, 16, 0) 100%), #000;
 }
 
+/* Transparent background for the shop, nitro page */
+.visual-refresh .shop__6db1d,
+.shopScroll__6db1d,
+.shop__08415,
+.pageWrapper__6db1d,
+.applicationStore_f07d62,
+.visual-refresh .homeWrapper__0920e,
+.allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
+    background: transparent !important;
+}
+
+.headerArtV2__3ce43 {
+    border-radius: 15px;
+}
+
 /**transparent part LVL II**/
 /*small profile modal*/
 .userPopout-2j1gM4 {
