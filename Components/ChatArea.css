@@ -193,6 +193,11 @@ html.theme-light .wrapper_f7ecac {
     margin-bottom: calc(var(--space-8) - 2px);
 }
 
+/* When not focused, input box is transparent */
+.visual-refresh .channelTextArea_f75fb0 {
+    background: transparent !important;
+}
+
 .form_f75fb0:has(.base_b88801) .form_f75fb0 {
     /* Add margin to the top when typing/slowmode indicator is active */
     margin-top: var(--custom-chat-input-margin-bottom);
