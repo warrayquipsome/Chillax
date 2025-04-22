@@ -111,7 +111,12 @@
 /* transparent role selection / browse channels / members page background */
 .container__9293f,
 .container__0b563,
-.container_c2efea {
+.container_c2efea,
+.visual-refresh .page_c791b2,
+.visual-refresh .mainTableContainer__09a38,
+.visual-refresh .container__0b563, .visual-refresh .header__0b563,
+.visual-refresh .pageBody__41ed7,
+.visual-refresh .channelRow_e4503a {
     background-color: transparent !important;
 }
 
