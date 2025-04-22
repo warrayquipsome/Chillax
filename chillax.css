@@ -120,6 +120,16 @@
     background-color: transparent !important;
 }
 
+/* discover server section transparent background */
+.visual-refresh .container__551b0,
+.visual-refresh .scroller__23746 {
+    background-color: transparent !important;
+}
+
+.theme-dark .gradient_e9ef78 {
+    background: radial-gradient(130.66% 324.98% at -3.95% 0, #b41010 0, rgba(15, 28, 143, 0.8) 35.73%, rgba(8, 175, 16, 0) 100%), #000;
+}
+
 /**transparent part LVL II**/
 /*small profile modal*/
 .userPopout-2j1gM4 {
