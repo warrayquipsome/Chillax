@@ -157,13 +157,13 @@ div:not(:hover) > .members_c8ffbb > div {
     overflow: visible !important;
 }
 
-.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .body__747b1,
+.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .body__486c9,
 .outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0) .overlay_c0bea0 {
     opacity: 0;
     transition: opacity 0.5s ease;
 }
 
-.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .body__747b1,
+.outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .body__486c9,
 .outer_c0bea0:not(.fullSize_c0bea0):not(.biteSize_c0bea0):hover .overlay_c0bea0 {
     opacity: 1;
 }
