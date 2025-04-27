@@ -26,14 +26,17 @@ div:not(:hover) > .members_c8ffbb > div {
 
 .members_c8ffbb:hover {
     border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
+    margin-right: 15px;
+    margin-bottom: 15px;
 }
 
+/*We could for instance let user control the color via a css var*/
 .theme-light .members_c8ffbb:hover {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
 }
 
 .theme-dark .members_c8ffbb:hover {
-    background-color: #181a1ddd !important;
+    background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
 }
 
 /* Make the list fill the window height */
