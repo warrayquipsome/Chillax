@@ -17,6 +17,13 @@ html.theme-light .panels_c48ade {
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
+/* Re adjusting the position and width for new UI */
+html.theme-light .panels_c48ade, html.theme-dark .panels_c48ade {
+    max-width: 280px;
+    left: 85px;
+    border-radius: 15px;
+}
+
 .sidebar_c48ade {
     background-color: transparent;
     position: relative;
@@ -37,16 +44,32 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
-.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {
-    opacity: 0 !important;
-    width: 50px;
+/*.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {*/
+/*    opacity: 0 !important;*/
+/*    width: 50px;*/
+/*    transition: all 0.3s;*/
+/*}*/
+
+/*.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {*/
+/*    opacity: 100% !important;*/
+/*    width: 40px;*/
+/*    margin-left: 10px;*/
+/*}*/
+
+/* Hide all immediate children */
+.panels_c48ade .buttons__37e49 > * {
+    opacity: 0;
     transition: all 0.3s;
 }
 
-.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {
-    opacity: 100% !important;
-    width: 40px;
-    margin-left: 10px;
+/* Make the last child (settings icon) visible by default */
+.panels_c48ade .buttons__37e49 > :nth-last-child(2) {
+    opacity: 1;
+}
+
+/* When hovering over the container, show all children */
+.panels_c48ade .buttons__37e49:hover > * {
+    opacity: 1;
 }
 
 .button__67645[aria-label="User Settings"] {
@@ -83,8 +106,8 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
 }
 
 .avatarWrapper__37e49:hover {
-    max-width: 207px;
-    min-width: 207px;
+    min-width: 270px;
+    max-width: 270px;
     transition: 0.3s;
 }
 
