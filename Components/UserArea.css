@@ -101,12 +101,12 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
 /* Avatar in bottom left */
 .avatarWrapper__37e49 {
     max-width: 36px;
-    min-width: 36px;
+    min-width: 36px !important;
     transition: 0.3s;
 }
 
 .avatarWrapper__37e49:hover {
-    min-width: 270px;
+    min-width: 270px !important;
     max-width: 270px;
     transition: 0.3s;
 }
