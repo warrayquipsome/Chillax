@@ -17,11 +17,25 @@ html.theme-light .panels_c48ade {
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
-/* Re adjusting the position and width for new UI */
-html.theme-light .panels_c48ade, html.theme-dark .panels_c48ade {
-    max-width: 280px;
-    left: 85px;
+/* Dynamically re adjusting the position and width for new UI based on sidebar width */
+.sidebar_c48ade {
+    /* Value is 1000px if sidebar is wider than 375px, 0px otherwise */
+    /* Use it to toggle pixel values with: clamp(0px, var(--is-wide), var(--value-when-wide)) */
+    /* Or to invert it: clamp(0px, (var(--is-wide) * -1) + 1000px, var(--value-when-narrow)) */
+    --is-wide: calc(max(min(100 * (var(--custom-guild-sidebar-width) - 375px), 1px), 0px) * 1000);
+}
+
+.panels_c48ade {
+    /* Set max width and shift to the right if the sidebar is wide */
+    max-width: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, 1000px) + clamp(0px, var(--is-wide), 280px)) !important;
+    left: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-panels-spacing)) + clamp(0px, var(--is-wide), 85px)) !important;
     border-radius: 15px;
+}
+
+.wrapper_ef3116 {
+    /* If user area was shifted over, remove margin and allow channel list to go all the way down */
+    /* Otherwise, use app panel / user area height as margin */
+    margin-bottom: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-app-panels-height, 0) + var(--space-xs)) + clamp(0px, var(--is-wide), var(--space-xs))) !important;
 }
 
 .sidebar_c48ade {
