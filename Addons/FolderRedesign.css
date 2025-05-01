@@ -1,4 +1,4 @@
-.closedFolderIconWrapper__48112 {
+.folderPreview__48112 {
     display: none;
 }
 
@@ -6,7 +6,7 @@
     transform: none !important;
 }
 
-.folderIconWrapper__48112:not([style=""]):before, .folderIconWrapper__48112:not([style=""]):after {
+.folderPreviewWrapper__48112:not([style=""]):before, .folderPreviewWrapper__48112:not([style=""]):after {
     position: absolute;
     content: "";
     width: 24px;
@@ -19,6 +19,6 @@
     filter: brightness(1.2) saturate(1.1);
 }
 
-.theme-light .folderIconWrapper__48112 {
+.theme-light .folderPreviewWrapper__48112 {
     filter: brightness(0.5) saturate(3);
 }
