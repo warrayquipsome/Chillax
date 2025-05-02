@@ -26,7 +26,7 @@ div:not(:hover) > .members_c8ffbb > div {
 
 .members_c8ffbb:hover {
     border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
-    margin-right: 15px;
+    /*margin-right: 15px;*/
     margin-bottom: 15px;
 }
 
