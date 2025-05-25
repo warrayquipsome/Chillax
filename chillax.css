@@ -2750,7 +2750,7 @@ html.theme-light .fieldSpacerBottom__1fed1 {
 }
 
 /* Remove descriptions from status selector menu */
-.description_af7fb7 {
+.description_ce8328 {
     display: none;
     width: 10px !important;
 }
@@ -2854,11 +2854,11 @@ html.theme-dark .container__0a12b {
 
 /* For dm side bar */
 /*We can customize it (*light or dark mode*) if we want*/
-.overlay__325ce {
+.overlay__3b260 {
     background: transparent !important; /* change accordinly */
 }
 
-.overlay__325ce .lookFilled__201d5 {
+.overlay__3b260 .lookFilled__201d5 {
     box-shadow: none !important; /* gets rid of the shadow */
 }
 
@@ -2899,7 +2899,7 @@ html.theme-light .contents__201d5 {
     color: #3a3a3a;
 }
 
-html.theme-light .defaultColor__4bd52,
+html.theme-light .defaultColor_b717a1,
 html.theme-light .headerChildren_f37cb1 {
     color: #303030;
 }
