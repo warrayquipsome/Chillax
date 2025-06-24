@@ -86,8 +86,9 @@ html.theme-light .sidebar_c48ade .content__99f8c:after {
     opacity: 1;
 }
 
-.button__67645[aria-label="User Settings"] {
-    margin-left: 10px;
+.buttons__37e49 {
+    width: 100%;
+    justify-content: space-evenly;
 }
 
 .container-6sXIoE .alignStretch_abf706.flex_abf706 {
