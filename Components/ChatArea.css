@@ -161,7 +161,15 @@ html.theme-light .wrapper_f7ecac {
     margin-top: -5px;
 }
 
-.typing_b88801 strong:last-child::after {
+.typing_b88801 strong:last-of-type::after {
+    content: var(--chillax-input-typing-indicator-many-person);
+    color: rgba(255, 255, 255, 0.8);
+    font-weight: 400;
+    margin-top: -5px;
+    margin-left: 4px;
+}
+
+.typing_b88801 strong:only-of-type::after {
     content: var(--chillax-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -169,12 +177,92 @@ html.theme-light .wrapper_f7ecac {
     margin-left: 4px;
 }
 
-.typing_b88801 strong:last-child::after {
-    content: var(--chillax-input-typing-indicator-many-person);
-    color: rgba(255, 255, 255, 0.8);
-    font-weight: 400;
-    margin-top: -5px;
-    margin-left: 4px;
+/*chatbox recolour*/
+.input-2g-os5,
+.scrollableContainer__74017 {
+    background-color: transparent !important;
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+    outline: none;
+    border-radius: 15px;
+}
+
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017 {
+    color: transparent !important;
+}
+
+html.theme-dark .input-2g-os5:hover,
+html.theme-dark .scrollableContainer__74017:hover {
+    background-color: #00000023 !important;
+}
+
+html.theme-light .input-2g-os5:hover,
+html.theme-light .scrollableContainer__74017:hover {
+    background-color: #ffffff23 !important;
+}
+
+/* attachedBars is the reply bar */
+html.theme-dark .input-2g-os5:focus-within,
+html.theme-dark .scrollableContainer__74017:focus-within {
+    background-color: #181a1d !important;
+    box-shadow: 0 5px 8px #15171a;
+}
+
+html.theme-light .input-2g-os5:focus-within,
+html.theme-light .scrollableContainer__74017:focus-within {
+    background-color: #e4e4e4 !important;
+    box-shadow: 0 5px 8px #d6d6d6;
+}
+
+.message__5126c {
+    border-radius: 8px !important;
+}
+
+.mentioned__5126c {
+    border-radius: 0 8px 8px 0 !important
+}
+
+/*Textbox Text*/
+.placeholder__1b31f {
+    visibility: hidden !important;
+}
+
+.placeholder__1b31f::before {
+    content: var(--chillax-input-field);
+    font-family: "Poppins";
+    font-size: 13px;
+    visibility: visible !important;
+}
+
+html.theme-dark .placeholder__1b31f::before {
+    color: rgba(255, 255, 255, 0.2);
+}
+
+html.theme-light .placeholder__1b31f::before {
+    color: rgba(0, 0, 0, 0.2);
+}
+
+/* Change the message in the messagebox when you're restricted from sending messages in that channel. */
+.innerDisabled__74017 .placeholder__1b31f::before {
+    content: var(--chillax-input-field-locked) !important;
+}
+
+/* Fix slight scroll when text box is empty */
+.inner__74017 {
+    overflow: hidden !important;
+}
+
+/* Apps button next to text box */
+.button_e6e74f {
+    background-color: transparent;
+    transition: background-color 0.2s ease;
+}
+
+.button_e6e74f:hover {
+    background-color: #00000023;
+}
+
+.buttonActive_e6e74f {
+    background-color: #181a1d;
 }
 
 /* Place typing indicator on top of message input box */
@@ -183,7 +271,7 @@ html.theme-light .wrapper_f7ecac {
     flex-direction: column;
 }
 
-.channelBottomBarArea_f75fb0 {
+.form_f75fb0 > div:first-child {
     /* Input box order */
     order: 2;
 }
