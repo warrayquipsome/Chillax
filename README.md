@@ -6,7 +6,7 @@
     <hr width="250px"/>
     <div align="center">
         <a href="https://discord.com/invite/DrfX6286kF" target="_blank">
-            <img src="https://dcbadge.vercel.app/api/server/DrfX6286kF?theme=discord-inverted" alt="wq"/>
+            <img src="https://img.shields.io/discord/881453188509753384?logo=discord&style=for-the-badge&logoColor=red&logoSize=auto&label=CHILLAX Support" alt="wq"/>
         </a>
         <br/>
         <a href="https://chillax-org.github.io/chillaxdocs/" target="_blank">
