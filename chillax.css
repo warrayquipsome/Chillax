@@ -2892,3 +2892,16 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .buttonSection__1405b {
     background: none !important;
 }
+
+/* transparent background fix for new `Boost Goal Page` */
+.container__89463 {
+    background-color: transparent !important;
+}
+
+.contentContainer__89463{
+    background-color: transparent !important;
+}
+
+.sidebarContainer__89463 {
+    background-color: transparent !important;
+}
