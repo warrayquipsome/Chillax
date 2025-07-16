@@ -234,34 +234,34 @@
 }
 
 /*user setting redesign*/
-.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     font-family: "Roboto";
     font-size: 12px;
     transition: 0.2s;
 }
 
-html.theme-dark .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+html.theme-dark .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-html.theme-light .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+html.theme-light .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
     background: #fff !important;
     color: #000 !important;
 }
 
-.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
+.fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"]:hover {
     box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
     transition: 0.1s;
 }
 
-html.theme-dark .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
+html.theme-dark .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"]:hover {
     background: rgb(229, 46, 46) !important;
     color: #000 !important;
 }
 
-html.theme-light .fieldButton__1fed1.button__201d5[aria-label="Remove phone number"]:hover {
+html.theme-light .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"]:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
 }
@@ -290,7 +290,7 @@ html.theme-light .badgeList__1fed1 {
     margin-right: 0 !important;
 }
 
-div[class="field__1fed1"] > button[aria-label="Edit username"][class="fieldButton__1fed1 button__201d5 lookFilled__201d5 colorPrimary__201d5 sizeSmall__201d5 grow__201d5"] {
+div[class="field__1fed1"] > button[aria-label="Edit username"][class="button__6af3a sm__6af3a secondary__6af3a hasText__6af3a"] {
     width: 90%;
     position: absolute;
     bottom: -1px;
@@ -336,12 +336,12 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     overflow: visible;
 }
 
-.fieldButton__1fed1.button__201d5[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button__6af3a[aria-label="Edit phone number"] {
     top: 30px !important;
     border-radius: 8px;
 }
 
-.fieldButton__1fed1.button__201d5[aria-label="Edit username"] {
+.fieldButton__1fed1.button__6af3a[aria-label="Edit username"] {
     top: 50px;
     border-radius: 8px;
 }
@@ -351,7 +351,7 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     font-size: 12.7px;
 }
 
-.fieldButton__1fed1.button__201d5 {
+.fieldButton__1fed1.button__6af3a {
     top: 30px;
     border-radius: 8px;
 }
@@ -368,12 +368,12 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     transform: scale(0.98) translateX(-17px);
 }
 
-.fieldButton__1fed1.button__201d5[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button__6af3a[aria-label="Edit phone number"] {
     top: 50px;
     border-radius: 8px;
 }
 
-.fieldButton__1fed1.button__201d5[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
     top: 30px !important;
 }
 
@@ -385,7 +385,7 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     padding: 50px 0 9px;
 }
 
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__201d5 {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__6af3a {
     position: absolute;
     top: 52.5px !important;
     right: 294.5px;
@@ -399,4 +399,42 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     font-size: 0;
     border: none !important;
     box-shadow: none;
+}
+
+
+
+.button__6af3a {
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    font-family: "Roboto";
+    font-size: 12px;
+    transition: 0.2s;
+}
+
+html.theme-dark .button__6af3a {
+    background: rgb(36, 36, 36) !important;
+    color: rgb(255, 255, 255) !important;
+}
+
+
+html.theme-light .button__6af3a {
+    background: #fff !important;
+    color: #000 !important;
+}
+
+.button__6af3a:hover {
+    background: rgb(0, 0, 0) !important;
+    transition: 0.1s;
+}
+
+html.theme-dark .button__6af3a:hover {
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
+}
+
+html.theme-light .button__6af3a:hover {
+    box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
+}
+
+.overlay__3b260 .button__6af3a {
+    box-shadow: none !important; /* gets rid of the shadow */
 }
