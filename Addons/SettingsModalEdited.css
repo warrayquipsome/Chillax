@@ -327,6 +327,10 @@ div[class="field__1fed1"] > button[aria-label="Edit username"][class="button__6a
     height: 150px;
 }
 
+.field__1fed1 .fieldButton__1fed1 {
+    background: transparent !important;
+}
+
 html.theme-dark .field__1fed1 {
     background-color: #333135;
 }
