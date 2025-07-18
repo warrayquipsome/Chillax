@@ -246,6 +246,7 @@
     transition: 0.2s;
 }
 
+
 html.theme-dark .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
@@ -309,12 +310,17 @@ div[class="field__1fed1"] > button[aria-label="Edit username"][class="button__6a
     width: 100%;
 }
 
+/* This now actually targets the button and makes it takes the whole space */
+.fieldButton__1fed1 > button {
+    width: 100% !important;
+}
+
 .field__1fed1 {
+    display: flex;
     border-radius: 8px;
     max-height: none;
     flex-flow: column;
     padding: 15px;
-    display: inline-block;
     margin-right: 10px;
     position: relative;
     overflow-y: scroll;
@@ -405,8 +411,6 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     border: none !important;
     box-shadow: none;
 }
-
-
 
 
 .button__6af3a {
