@@ -315,8 +315,14 @@ div[class="field__1fed1"] > button[aria-label="Edit username"][class="button__6a
     width: 100% !important;
 }
 
+/*
+    Fixed the blur issues of the `field__1fed1` items.
+    Issue was not having enough height(was being
+    overridden by a 3rd party AccountDetailsGrid addon).
+    However, the repository got so I forked the addon
+    to our repo for now.
+ */
 .field__1fed1 {
-    display: flex;
     border-radius: 8px;
     max-height: none;
     flex-flow: column;
@@ -324,7 +330,7 @@ div[class="field__1fed1"] > button[aria-label="Edit username"][class="button__6a
     margin-right: 10px;
     position: relative;
     overflow-y: scroll;
-    height: 150px;
+    height: 150px !important;
 }
 
 .field__1fed1 .fieldButton__1fed1 {
