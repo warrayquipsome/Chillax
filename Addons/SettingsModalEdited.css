@@ -430,7 +430,6 @@ html.theme-dark .button__6af3a {
     color: rgb(255, 255, 255) !important;
 }
 
-
 html.theme-light .button__6af3a {
     background: #fff !important;
     color: #000 !important;
@@ -452,3 +451,76 @@ html.theme-light .button__6af3a:hover {
 .overlay__3b260 .button__6af3a {
     box-shadow: none !important; /* gets rid of the shadow */
 }
+
+/* fix for the newly added classes for the disable and Delete account button */
+.children__7bffb .critical-primary__6af3a, .children__7bffb .critical-secondary__6af3a {
+    padding: 25px;
+    height: 45px;
+    font-family: "Roboto" !important;
+    text-transform: uppercase;
+    letter-spacing: 2.5px;
+    font-weight: 500;
+    border: none;
+    border-radius: 45px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
+    transition: all 0.3s ease 0s;
+    cursor: pointer;
+    outline: none;
+}
+
+.children__7bffb .critical-primary__6af3a .buttonChildrenWrapper__6af3a span, .children__7bffb .critical-secondary__6af3a span {
+    /* font-size: 0px !important; */
+    visibility: hidden;
+}
+
+.children__7bffb .critical-primary__6af3a::before {
+    content: "Disable";
+    position: absolute;
+    font-size: 14px !important;
+}
+
+.children__7bffb .critical-secondary__6af3a::before {
+    content: "Delete";
+    position: absolute;
+    font-size: 14px !important;
+}
+
+
+html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(58, 58, 58) !important;
+}
+
+html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a {
+    color: rgb(255, 255, 255) !important;
+    background-color: rgb(58, 58, 58) !important;
+}
+
+html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a:hover {
+    background-color: rgb(229, 46, 46) !important;
+    color: rgb(37, 37, 37) !important;
+    transform: translateY(-7px);
+}
+
+html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a:hover {
+    background-color: rgb(229, 46, 46) !important;
+    color: rgb(37, 37, 37) !important;
+    transform: translateY(-7px);
+}
+
+html.theme-light .children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a:hover {
+    background-color: rgb(255, 129, 129) !important;
+    color: rgb(255, 255, 255) !important;
+    transform: translateY(-7px);
+}
+
+html.theme-light .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a:hover {
+    background-color: rgb(255, 129, 129) !important;
+    color: rgb(255, 255, 255) !important;
+    transform: translateY(-7px);
+}
+
+.children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a:hover, .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a:hover {
+    box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
+}
+/* Done */
