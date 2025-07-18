@@ -1362,7 +1362,7 @@ html.theme-light .inline {
 
 /*disable and delete account button design*/
 .children__7bffb .colorRed__201d5 {
-    width: 140px;
+    /*width: 140px;*/
     height: 45px;
     font-family: "Roboto" !important;
     text-transform: uppercase;
@@ -1401,9 +1401,9 @@ html.theme-light .children__7bffb .colorRed__201d5:hover {
     color: rgb(255, 255, 255) !important;
 }
 
-.children__7bffb .colorRed__201d5 {
-    font-size: 0px !important;
-}
+/*.children__7bffb .colorRed__201d5 {*/
+/*    font-size: 0px !important;*/
+/*}*/
 
 .children__7bffb .disableButton_d286c5.colorRed__201d5::before {
     content: "Disable";
