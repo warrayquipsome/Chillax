@@ -2,7 +2,7 @@
  * @name Chillax
  * @author Chillax Squad
  * @authorLink https://github.com/warrayquipsome/Chillax#Authors
- * @version 2.1.1
+ * @version 2.1.2
  * @invite DrfX6286kF
  * @description The theme where calm meets customization.
  * @source https://github.com/warrayquipsome/Chillax
@@ -35,8 +35,7 @@
 @import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
-/*use the below css if you are experiencing lag (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/SimpleLessLag.css");*/
+
 /* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
 /*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
 
