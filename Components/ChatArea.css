@@ -142,6 +142,8 @@ html.theme-light .wrapper_f7ecac {
 
 .typing_b88801 {
     font-size: 0;
+    /* Stop the chat messages from shifting when typing starts/stops */
+    margin-top: -24px;
 }
 
 .typing_b88801 strong {
