@@ -146,6 +146,11 @@ html.theme-light .wrapper_f7ecac {
     margin-top: -24px;
 }
 
+.scrollerSpacer__36d07 {
+    /* Fix the typing indicator spacing */
+    height: calc(var(--space-16) + 16px);
+}
+
 .typing_b88801 strong {
     font-size: 12px;
 }
