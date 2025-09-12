@@ -2898,10 +2898,16 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
     background-color: transparent !important;
 }
 
-.contentContainer__89463{
+.contentContainer__89463 {
     background-color: transparent !important;
 }
 
 .sidebarContainer__89463 {
     background-color: transparent !important;
+}
+
+/* Transparency fix for 'chatGradient' area newly introduced by Discord */
+
+.chatGradient__36d07 {
+    background: transparent !important
 }
