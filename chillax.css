@@ -2911,3 +2911,12 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
 .chatGradient__36d07 {
     background: transparent !important
 }
+
+.chatTypingGradientAtBottom__36d07 {
+    display: none !important;
+}
+
+.chatTypingGradientNotAtBottom__36d07.chatGradientBase__36d07 {
+    display: none !important;
+}
+
