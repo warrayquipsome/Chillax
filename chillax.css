@@ -2906,6 +2906,11 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
     background-color: transparent !important;
 }
 
+/* transparency fix for discord store, shop, collections, etc */
+.page__1feb0, .shopScroll__08415, .shopScroll__1feb0, .filterBar__11877 {
+    background: transparent !important;
+}
+
 /* Transparency fix for 'chatGradient' area newly introduced by Discord */
 
 .chatGradient__36d07 {
