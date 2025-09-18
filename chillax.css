@@ -2623,11 +2623,6 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
     font-size: 0; /* hide the original text */
 }
 
-.edited_c19a55:not(.message-translate-indicator) {
-    display: none;
-}
-
-
 /* End to time stamp */
 
 /*sidebar server name border radius fix*/
