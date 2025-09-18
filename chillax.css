@@ -2596,9 +2596,9 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
 }
 
 /*custom edited icon*/
-.edited_c19a55 {
-    color: transparent
-}
+/*.edited_c19a55 {*/
+/*    color: transparent*/
+/*}*/
 
 /*Render the original edited text invisible*/
 .edited_c19a55::before {
