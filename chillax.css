@@ -2610,8 +2610,8 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
 }
 
 /* adds time stamps besides edited messages */
-.messageContent_c19a55 .timestamp_c19a55:not(.timestampInline_c19a55, .timestampVisibleOnHover_c19a55, .vc-reply-timestamp) time::after {
-    content: " (" attr(aria-label) ")";
+.messageContent_c19a55 .timestamp_c19a55:not(.timestampInline_c19a55, .timestampVisibleOnHover_c19a55, .vc-reply-timestamp) time::before {
+    content: " (" attr(aria-label) ") ";
     color: var(--text-muted);
     font-size: 0.625rem;
     font-weight: 400;
@@ -2619,8 +2619,13 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
     /* text-transform: lowercase; */
 }
 
-.edited_c19a55:not(.message-translate-indicator) {
-    display: none;
+.messagelogger-edit-marker.edited_c19a55 {
+    font-size: 0; /* hide the original text */
+}
+
+.messagelogger-edit-marker.edited_c19a55::after {
+    content: "(open edits)";
+    font-size: 12px;
 }
 
 /* End to time stamp */
