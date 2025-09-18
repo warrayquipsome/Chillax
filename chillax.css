@@ -2623,10 +2623,10 @@ div.mainCard_f369db div.channelTextAreaInner_d9be46.scrollableContainer__74017.t
     font-size: 0; /* hide the original text */
 }
 
-.messagelogger-edit-marker.edited_c19a55::after {
-    content: "(open edits)";
-    font-size: 12px;
+.edited_c19a55:not(.message-translate-indicator) {
+    display: none;
 }
+
 
 /* End to time stamp */
 
