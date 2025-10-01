@@ -63,7 +63,7 @@
 }
 
 /* Placeholder for unloaded messages */
-.wrapper_d852db,
+.wrapper_f61d60,
 .wrapper_fc8177 {
     background-color: transparent !important;
 }
@@ -99,7 +99,7 @@
     background: none !important;
 }
 
-.root_f555ee,
+.root_af8192,
 .tile__90dc5 {
     background: none;
 }
@@ -997,6 +997,11 @@ div[class*="wrapper__44b0c"][aria-label*="Idle"]
 div[class*="wrapper__44b0c"][aria-label*="Online"]
 > svg[class="mask__44b0c svg__44b0c"] {
     filter: drop-shadow(0 0 3px var(--rs-online-color)) !important;
+}
+
+/* transparency fix for base (main) window */
+.appMount__51fd7, body, .app__160d8, .theme-light, .theme-dark {
+    background: transparent;
 }
 
 /*theme background image*/
@@ -2564,7 +2569,7 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
     background: transparent !important;
 }
 
-.flex__7aff3 textarea.scrollbar__506b3 {
+.flex__89a34 textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2586,7 +2591,7 @@ html.theme-light .container_faa96b.isOpen_faa96b {
 }
 
 /* Forum channel text input fixes */
-.flex__7aff3 textarea.scrollbar__506b3 {
+.flex__89a34 textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2811,7 +2816,7 @@ html.theme-light .contents__201d5 {
     color: #3a3a3a;
 }
 
-html.theme-light .defaultColor_b717a1,
+html.theme-light .defaultColor__4bd52,
 html.theme-light .headerChildren_f37cb1 {
     color: #303030;
 }
