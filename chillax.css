@@ -99,7 +99,7 @@
     background: none !important;
 }
 
-.root_af8192,
+.root_f555ee,
 .tile__90dc5 {
     background: none;
 }
@@ -2569,7 +2569,7 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
     background: transparent !important;
 }
 
-.flex__89a34 textarea.scrollbar__506b3 {
+.flex__7aff3 textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2591,7 +2591,7 @@ html.theme-light .container_faa96b.isOpen_faa96b {
 }
 
 /* Forum channel text input fixes */
-.flex__89a34 textarea.scrollbar__506b3 {
+.flex__7aff3 textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2816,7 +2816,7 @@ html.theme-light .contents__201d5 {
     color: #3a3a3a;
 }
 
-html.theme-light .defaultColor__4bd52,
+html.theme-light .defaultColor_b717a1,
 html.theme-light .headerChildren_f37cb1 {
     color: #303030;
 }
