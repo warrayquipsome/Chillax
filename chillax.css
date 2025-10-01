@@ -999,11 +999,6 @@ div[class*="wrapper__44b0c"][aria-label*="Online"]
     filter: drop-shadow(0 0 3px var(--rs-online-color)) !important;
 }
 
-/* transparency fix for base (main) window */
-.appMount__51fd7, body, .app__160d8, .theme-light, .theme-dark {
-    background: transparent !important;
-}
-
 /*theme background image*/
 .bg__960e4 {
     background-image: var(--background-image) !important;
