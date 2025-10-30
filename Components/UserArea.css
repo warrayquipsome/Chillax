@@ -3,29 +3,29 @@
     background: transparent !important;
 }
 
-.panels_c48ade {
+.panels__5e434 {
     border: none !important;
 }
 
-html.theme-dark .panels_c48ade {
+html.theme-dark .panels__5e434 {
     background: #181a1d !important;
     box-shadow: 0 5px 8px #15171a;
 }
 
-html.theme-light .panels_c48ade {
+html.theme-light .panels__5e434 {
     background: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
 /* Dynamically re adjusting the position and width for new UI based on sidebar width */
-.sidebar_c48ade {
+.sidebar__5e434 {
     /* Value is 1000px if sidebar is wider than 375px, 0px otherwise */
     /* Use it to toggle pixel values with: clamp(0px, var(--is-wide), var(--value-when-wide)) */
     /* Or to invert it: clamp(0px, (var(--is-wide) * -1) + 1000px, var(--value-when-narrow)) */
     --is-wide: calc(max(min(100 * (var(--custom-guild-sidebar-width) - 375px), 1px), 0px) * 1000);
 }
 
-.panels_c48ade {
+.panels__5e434 {
     /* Set max width and shift to the right if the sidebar is wide */
     max-width: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, 1000px) + clamp(0px, var(--is-wide), 280px)) !important;
     left: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-panels-spacing)) + clamp(0px, var(--is-wide), 85px)) !important;
@@ -38,51 +38,51 @@ html.theme-light .panels_c48ade {
     margin-bottom: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-app-panels-height, 0) + var(--space-xs)) + clamp(0px, var(--is-wide), var(--space-xs))) !important;
 }
 
-.sidebar_c48ade {
+.sidebar__5e434 {
     background-color: transparent;
     position: relative;
     overflow: hidden;
 }
 
-.sidebar_c48ade:after {
+.sidebar__5e434:after {
     background: transparent !important;
 }
 
-html.theme-dark .sidebar_c48ade .content__99f8c:after {
+html.theme-dark .sidebar__5e434 .content__99f8c:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;
 }
 
-html.theme-light .sidebar_c48ade .content__99f8c:after {
+html.theme-light .sidebar__5e434 .content__99f8c:after {
     color: rgba(0, 0, 0, 0.1);
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
-/*.panels_c48ade > .container__37e49 .flex__7c0ba > :not(:last-child) {*/
+/*.panels__5e434 > .container__37e49 .flex__7c0ba > :not(:last-child) {*/
 /*    opacity: 0 !important;*/
 /*    width: 50px;*/
 /*    transition: all 0.3s;*/
 /*}*/
 
-/*.panels_c48ade > .container__37e49:hover .flex__7c0ba > :not(:last-child) {*/
+/*.panels__5e434 > .container__37e49:hover .flex__7c0ba > :not(:last-child) {*/
 /*    opacity: 100% !important;*/
 /*    width: 40px;*/
 /*    margin-left: 10px;*/
 /*}*/
 
 /* Hide all immediate children */
-.panels_c48ade .buttons__37e49 > * {
+.panels__5e434 .buttons__37e49 > * {
     opacity: 0;
     transition: all 0.3s;
 }
 
 /* Make the last child (settings icon) visible by default */
-.panels_c48ade .buttons__37e49 > :nth-last-child(2) {
+.panels__5e434 .buttons__37e49 > :nth-last-child(2) {
     opacity: 1;
 }
 
 /* When hovering over the container, show all children */
-.panels_c48ade .buttons__37e49:hover > * {
+.panels__5e434 .buttons__37e49:hover > * {
     opacity: 1;
 }
 
@@ -453,7 +453,7 @@ html.theme-light #vc-spotify-player {
 }
 
 /* Re-order elements to put spotify player at the top */
-.panels_c48ade {
+.panels__5e434 {
     display: flex;
     flex-direction: column;
     margin-top: 0;
