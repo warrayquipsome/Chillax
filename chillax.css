@@ -43,7 +43,7 @@
     background-color: transparent !important;
 }
 
-.sidebarListRounded_c48ade {
+.sidebarListRounded__5e434 {
     backdrop-filter: none !important;
 }
 
@@ -869,7 +869,7 @@ html.theme-light {
 }
 
 /*custom popout window*/
-.content_c48ade {
+.content__5e434 {
     margin: var(--window-margin);
     /* Leave space for title bar's padding */
     margin-top: 4px;
