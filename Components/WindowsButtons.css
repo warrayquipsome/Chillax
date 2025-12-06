@@ -15,7 +15,7 @@
     margin-left: var(--window-margin);
     pointer-events: all;
     transition: 0.5s ease-in-out;
-    color: var(--text-primary);
+    color: var(--text-normal);
 }
 
 .leading_c38106:hover::before {
