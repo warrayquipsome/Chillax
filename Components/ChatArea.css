@@ -305,8 +305,8 @@ html.theme-light .placeholder__1b31f::before {
 }
 
 /* Background in list of people who reacted to a message */
-.container_cc2dff,
-.reactors_cc2dff {
+.container_b7f4b4,
+.reactors_b7f4b4 {
     background-color: #181a1db7;
 }
 
@@ -322,7 +322,7 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
     background-color: #181a1d;
 }
 
-.scroller_cc2dff {
+.scroller_b7f4b4 {
     background-color: #00000050;
 }
 
