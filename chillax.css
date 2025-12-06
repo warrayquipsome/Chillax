@@ -63,7 +63,7 @@
 }
 
 /* Placeholder for unloaded messages */
-.wrapper_d852db,
+.wrapper__6c798,
 .wrapper_fc8177 {
     background-color: transparent !important;
 }
@@ -99,7 +99,7 @@
     background: none !important;
 }
 
-.root_f555ee,
+.root_af8192,
 .tile__90dc5 {
     background: none;
 }
@@ -460,7 +460,7 @@ html.theme-light .elevationBorderHigh__2b2f1 {
 .drawerSizingWrapper__08434,
 .layer-2aCOJ3 div[role="dialog"],
 .layer-2aCOJ3 div[role="menu"],
-.messagesPopoutWrap__45690,
+.messagesPopoutWrap_e8b59c,
 .popout-1KHNAq[role="listbox"] {
     animation: animation-top 0.25s ease;
 }
@@ -470,7 +470,7 @@ html.theme-light .elevationBorderHigh__2b2f1 {
     animation: animation-left 0.25s ease;
 }
 
-.layer-2aCOJ3 div[role="dialog"] .messagesPopoutWrap__45690 {
+.layer-2aCOJ3 div[role="dialog"] .messagesPopoutWrap_e8b59c {
     animation: none;
 }
 
@@ -1280,7 +1280,7 @@ svg {
     transform-origin: 50% 100%;
 }
 
-.tooltip-14MtrL.tooltipBottom__382e7 {
+.tooltip-14MtrL.tooltipBottom_c36707 {
     -webkit-animation: cl-tooltip-animation-1 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
     animation: cl-tooltip-animation-1 0.2s cubic-bezier(0.2, 0.6, 0.5, 1.1);
     transform-origin: 50% 0;
@@ -1425,12 +1425,12 @@ html.theme-light .children__7bffb .colorRed__201d5:hover {
 }
 
 /*flickering user setting icons*/
-.sidebar__23e6b .item_b3f026:hover:before {
+.sidebar__23e6b .item_aa8da2:hover:before {
     transition: all 0.2s;
     transform: rotateY(180deg);
 }
 
-.sidebar__23e6b .item_b3f026:before {
+.sidebar__23e6b .item_aa8da2:before {
     transition: all 0.2s;
 }
 
@@ -2564,7 +2564,7 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
     background: transparent !important;
 }
 
-.flex__7aff3 textarea.scrollbar__506b3 {
+.flex__89a34 textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2586,7 +2586,7 @@ html.theme-light .container_faa96b.isOpen_faa96b {
 }
 
 /* Forum channel text input fixes */
-.flex__7aff3 textarea.scrollbar__506b3 {
+.flex__89a34 textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2811,7 +2811,7 @@ html.theme-light .contents__201d5 {
     color: #3a3a3a;
 }
 
-html.theme-light .defaultColor_b717a1,
+html.theme-light .defaultColor__4bd52,
 html.theme-light .headerChildren_f37cb1 {
     color: #303030;
 }
@@ -2820,13 +2820,13 @@ html.theme-light .childWrapper__6e9f8 {
     color: #303030;
 }
 
-html.theme-light .brand_b3f026.item_b3f026,
-html.theme-light .themed_b3f026.item_b3f026 {
+html.theme-light .brand_aa8da2.item_aa8da2,
+html.theme-light .themed_aa8da2.item_aa8da2 {
     /* Items and tabs in settings */
     color: #3a3a3a;
 }
 
-html.theme-light .header_b3f026 {
+html.theme-light .header_aa8da2 {
     /* Headers in settings */
     color: #585b5e;
 }

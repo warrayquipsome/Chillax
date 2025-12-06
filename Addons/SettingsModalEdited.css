@@ -80,11 +80,11 @@
     padding: 20px 40px !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 .side_b3f026 {
+#app-mount .layer__960e4 ~ .layer__960e4 .side_aa8da2 {
     height: var(--settingsmodalheight) !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_aa8da2 {
     max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 
@@ -125,7 +125,7 @@
     display: none !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 .header_b3f026 {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_aa8da2 {
     max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
@@ -224,22 +224,22 @@
 }
 
 /* hide hover underline on selected tab */
-.selected_b3f026:after {
+.selected_aa8da2:after {
     background: transparent !important;
 }
 
-.side_b3f026 .item_b3f026::after {
+.side_aa8da2 .item_aa8da2::after {
     /* Fix the double icon when hovering */
     display: none !important;
 }
 
 /* Gets rid of the annoying profile button ref */
-.userInfo__1fed1 .button__6af3a.sm__6af3a {
+.userInfo__1fed1 .button_a22cb0.sm_a22cb0 {
     display: none !important;
 }
 
 /*user setting redesign*/
-.fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     font-family: "Roboto";
     font-size: 12px;
@@ -247,27 +247,27 @@
 }
 
 
-html.theme-dark .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
+html.theme-dark .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-html.theme-light .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
+html.theme-light .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     background: #fff !important;
     color: #000 !important;
 }
 
-.fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"]:hover {
+.fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"]:hover {
     box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
     transition: 0.1s;
 }
 
-html.theme-dark .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"]:hover {
+html.theme-dark .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"]:hover {
     background: rgb(229, 46, 46) !important;
     color: #000 !important;
 }
 
-html.theme-light .fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"]:hover {
+html.theme-light .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"]:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
 }
@@ -296,7 +296,7 @@ html.theme-light .badgeList__1fed1 {
     margin-right: 0 !important;
 }
 
-div[class="field__1fed1"] > button[aria-label="Edit username"][class="button__6af3a sm__6af3a secondary__6af3a hasText__6af3a"] {
+div[class="field__1fed1"] > button[aria-label="Edit username"][class="button_a22cb0 sm_a22cb0 secondary_a22cb0 hasText_a22cb0"] {
     width: 90%;
     position: absolute;
     bottom: -1px;
@@ -357,12 +357,12 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     overflow: visible;
 }
 
-.fieldButton__1fed1.button__6af3a[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Edit phone number"] {
     top: 30px !important;
     border-radius: 8px;
 }
 
-.fieldButton__1fed1.button__6af3a[aria-label="Edit username"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Edit username"] {
     top: 50px;
     border-radius: 8px;
 }
@@ -372,7 +372,7 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     font-size: 12.7px;
 }
 
-.fieldButton__1fed1.button__6af3a {
+.fieldButton__1fed1.button_a22cb0 {
     top: 30px;
     border-radius: 8px;
 }
@@ -389,12 +389,12 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     transform: scale(0.98) translateX(-17px);
 }
 
-.fieldButton__1fed1.button__6af3a[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Edit phone number"] {
     top: 50px;
     border-radius: 8px;
 }
 
-.fieldButton__1fed1.button__6af3a[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     top: 30px !important;
 }
 
@@ -406,7 +406,7 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     padding: 50px 0 9px;
 }
 
-.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button__6af3a {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button_a22cb0 {
     position: absolute;
     top: 52.5px !important;
     right: 294.5px;
@@ -422,7 +422,7 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     box-shadow: none;
 }
 
-.button__6af3a {
+.button_a22cb0 {
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     font-family: "Roboto";
@@ -430,35 +430,35 @@ html.theme-dark .fieldSpacerBottom__1fed1 {
     transition: 0.2s;
 }
 
-html.theme-dark .button__6af3a {
+html.theme-dark .button_a22cb0 {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-html.theme-light .button__6af3a {
+html.theme-light .button_a22cb0 {
     background: #fff !important;
     color: #000 !important;
 }
 
-.button__6af3a:hover {
+.button_a22cb0:hover {
     background: rgb(0, 0, 0) !important;
     transition: 0.1s;
 }
 
-html.theme-dark .button__6af3a:hover {
+html.theme-dark .button_a22cb0:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 }
 
-html.theme-light .button__6af3a:hover {
+html.theme-light .button_a22cb0:hover {
     box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
 }
 
-.overlay__3b260 .button__6af3a {
+.overlay__3b260 .button_a22cb0 {
     box-shadow: none !important; /* gets rid of the shadow */
 }
 
 /* fix for the newly added classes for the disable and Delete account button */
-.children__7bffb .critical-primary__6af3a, .children__7bffb .critical-secondary__6af3a {
+.children__7bffb .critical-primary_a22cb0, .children__7bffb .critical-secondary_a22cb0 {
     padding: 25px;
     height: 45px;
     font-family: "Roboto" !important;
@@ -473,59 +473,60 @@ html.theme-light .button__6af3a:hover {
     outline: none;
 }
 
-.children__7bffb .critical-primary__6af3a .buttonChildrenWrapper__6af3a span, .children__7bffb .critical-secondary__6af3a span {
+.children__7bffb .critical-primary_a22cb0 .buttonChildrenWrapper_a22cb0 span, .children__7bffb .critical-secondary_a22cb0 span {
     /* font-size: 0px !important; */
     visibility: hidden;
 }
 
-.children__7bffb .critical-primary__6af3a::before {
+.children__7bffb .critical-primary_a22cb0::before {
     content: "Disable";
     position: absolute;
     font-size: 14px !important;
 }
 
-.children__7bffb .critical-secondary__6af3a::before {
+.children__7bffb .critical-secondary_a22cb0::before {
     content: "Delete";
     position: absolute;
     font-size: 14px !important;
 }
 
 
-html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a:hover {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
     transform: translateY(-7px);
 }
 
-html.theme-dark .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a:hover {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
     transform: translateY(-7px);
 }
 
-html.theme-light .children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a:hover {
+html.theme-light .children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
     transform: translateY(-7px);
 }
 
-html.theme-light .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a:hover {
+html.theme-light .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
     transform: translateY(-7px);
 }
 
-.children__7bffb .buttonContainer_d286c5 .critical-primary__6af3a:hover, .children__7bffb .buttonContainer_d286c5 .critical-secondary__6af3a:hover {
+.children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0:hover, .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
 }
+
 /* Done */
