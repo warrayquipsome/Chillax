@@ -530,3 +530,12 @@ html.theme-light .children__7bffb .buttonContainer__6ca73 .critical-secondary_a2
 }
 
 /* Done */
+
+/* For discord checkpoint stuff */
+#app-mount .layerContainer__59d0d .root__5c9fc {
+    contain: strict !important;
+    border-radius: 0 !important;
+    width: 100% !important;
+    height: 100% !important;
+    overflow: unset !important
+}
