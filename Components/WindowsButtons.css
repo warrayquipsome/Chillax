@@ -37,7 +37,9 @@
 }
 
 .recentsIcon_c99c29,
-.trailing_c38106 > .anchor_edefb8,
+.trailing_c38106 > .anchor_edefb8,  /* Help button */
+.trailing_c38106 > .clickable_c99c29,  /* Inbox button */
+.trailing_c38106 > .clickable__9293f,  /* Snapshot button */
 .winButtons_c38106 > div {
     height: var(--space-32);
     background: var(--window-colour);
@@ -47,7 +49,9 @@
 }
 
 .recentsIcon_c99c29:hover,
-.trailing_c38106 > .anchor_edefb8:hover,
+.trailing_c38106 > .anchor_edefb8:hover,  /* Help button */
+.trailing_c38106 > .clickable_c99c29:hover,  /* Inbox button */
+.trailing_c38106 > .clickable__9293f:hover,  /* Snapshot button */
 .winButtons_c38106 > div:hover {
     background: transparent;
     transition: 0.1s;
