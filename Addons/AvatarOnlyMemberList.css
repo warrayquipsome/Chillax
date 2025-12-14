@@ -99,12 +99,16 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 /* Fix the member count addon (vencord) */
-.members_c8ffbb:not(:hover) .vc-membercount-widget {
-    margin-bottom: -16px;
+.members_c8ffbb:hover .vc-membercount-widget {
+    height: 40px;  /* 52px non-hover height minus 12px non-hover margin */
 }
 
-.members_c8ffbb:not(:hover) .vc-membercount-online-dot,
-.members_c8ffbb:not(:hover) .vc-membercount-total-dot {
+.members_c8ffbb:not(:hover) .vc-membercount-widget {
+    margin-bottom: -12px;
+}
+
+.members_c8ffbb:not(:hover) .vc-membercount-online-count,
+.members_c8ffbb:not(:hover) .vc-membercount-total-count {
     display: none !important;
 }
 
