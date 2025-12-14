@@ -2786,11 +2786,11 @@ html.theme-dark .container__0a12b {
 }
 
 /* Custom server icons */
-html.theme-dark img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
+html.theme-dark div[data-list-item-id="guildsnav___881453188509753384"] img {
     content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/blacklogo.png");
 }
 
-html.theme-light img[src="https://cdn.discordapp.com/icons/881453188509753384/0d46710d71eba9f9303890383d636489.webp?size=96"] {
+html.theme-light div[data-list-item-id="guildsnav___881453188509753384"] img {
     content: url("https://raw.githubusercontent.com/Chillax-ORG/Images/refs/heads/main/whitelogo.png");
 }
 
