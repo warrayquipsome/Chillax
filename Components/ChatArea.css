@@ -68,7 +68,7 @@
     right: 50%;
 }
 
-.unreadPill__908e2 {
+._908e20001ad67812-unreadPill {
     background-color: var(--background-shading);
     color: #fb5454;
     font-size: 12px;
@@ -92,7 +92,7 @@
     height: 1px;
 }
 
-.unreadPill__908e2 {
+._908e20001ad67812-unreadPill {
     top: -6px;
 }
 
@@ -126,7 +126,7 @@ html.theme-light .f7ecaca5c80dbf3a-wrapper {
     transition: 0.2s;
 }
 
-.wrapperControlsHidden_cf09d8 .cf09d85aafe7e124-videoControls {
+.cf09d85aafe7e124-wrapperControlsHidden .cf09d85aafe7e124-videoControls {
     margin-bottom: -30px;
 }
 
@@ -140,22 +140,22 @@ html.theme-light .f7ecaca5c80dbf3a-wrapper {
     align-items: center;
 }
 
-.typing_b88801 {
+.b8880176888cc928-typing {
     font-size: 0;
     /* Stop the chat messages from shifting when typing starts/stops */
     margin-top: -24px;
 }
 
-.typing_b88801 strong {
+.b8880176888cc928-typing strong {
     font-size: 12px;
 }
 
-.typing_b88801 strong:after {
+.b8880176888cc928-typing strong:after {
     content: ',';
     margin-right: 4px;
 }
 
-.typing_b88801 strong:nth-last-child(2)::after {
+.b8880176888cc928-typing strong:nth-last-child(2)::after {
     content: 'and';
     margin: 0 4px;
     color: rgba(255, 255, 255, 0.8);
@@ -163,7 +163,7 @@ html.theme-light .f7ecaca5c80dbf3a-wrapper {
     margin-top: -5px;
 }
 
-.typing_b88801 strong:last-of-type::after {
+.b8880176888cc928-typing strong:last-of-type::after {
     content: var(--chillax-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -171,7 +171,7 @@ html.theme-light .f7ecaca5c80dbf3a-wrapper {
     margin-left: 4px;
 }
 
-.typing_b88801 strong:only-of-type::after {
+.b8880176888cc928-typing strong:only-of-type::after {
     content: var(--chillax-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -244,7 +244,7 @@ html.theme-light ._1b31f471f0bb10ab-placeholder::before {
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled__74017 ._1b31f471f0bb10ab-placeholder::before {
+._740174f3d6a2c8fe-innerDisabled ._1b31f471f0bb10ab-placeholder::before {
     content: var(--chillax-input-field-locked) !important;
 }
 
