@@ -19,3 +19,4 @@ jobs:
         with:
           files: "**/*.css"
           follow-symbolic-links: false
+          commit-message: "fix: update broken class names"
