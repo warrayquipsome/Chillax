@@ -18,3 +18,4 @@ jobs:
         uses: fedeericodl/discord-update-classnames@main
         with:
           files: "**/*.css"
+          follow-symbolic-links: false
