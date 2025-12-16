@@ -1,97 +1,97 @@
 /*floating user controls*/
-.container__37e49 {
+._37e49614b9f110a9-container {
     background: transparent !important;
 }
 
-.panels__5e434 {
+._5e434347c823b592-panels {
     border: none !important;
 }
 
-html.theme-dark .panels__5e434 {
+html.theme-dark ._5e434347c823b592-panels {
     background: #181a1d !important;
     box-shadow: 0 5px 8px #15171a;
 }
 
-html.theme-light .panels__5e434 {
+html.theme-light ._5e434347c823b592-panels {
     background: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
 /* Dynamically re adjusting the position and width for new UI based on sidebar width */
-.sidebar__5e434 {
+._5e434347c823b592-sidebar {
     /* Value is 1000px if sidebar is wider than 375px, 0px otherwise */
     /* Use it to toggle pixel values with: clamp(0px, var(--is-wide), var(--value-when-wide)) */
     /* Or to invert it: clamp(0px, (var(--is-wide) * -1) + 1000px, var(--value-when-narrow)) */
     --is-wide: calc(max(min(100 * (var(--custom-guild-sidebar-width) - 375px), 1px), 0px) * 1000);
 }
 
-.panels__5e434 {
+._5e434347c823b592-panels {
     /* Set max width and shift to the right if the sidebar is wide */
     max-width: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, 1000px) + clamp(0px, var(--is-wide), 280px)) !important;
     left: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-panels-spacing)) + clamp(0px, var(--is-wide), 85px)) !important;
     border-radius: 15px;
 }
 
-.wrapper_ef3116 {
+.ef3116c2da186559-wrapper {
     /* If user area was shifted over, remove margin and allow channel list to go all the way down */
     /* Otherwise, use app panel / user area height as margin */
     margin-bottom: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-app-panels-height, 0) + var(--space-xs)) + clamp(0px, var(--is-wide), var(--space-xs))) !important;
 }
 
-.sidebar__5e434 {
+._5e434347c823b592-sidebar {
     background-color: transparent;
     position: relative;
     overflow: hidden;
 }
 
-.sidebar__5e434:after {
+._5e434347c823b592-sidebar:after {
     background: transparent !important;
 }
 
-html.theme-dark .sidebar__5e434 .content__99f8c:after {
+html.theme-dark ._5e434347c823b592-sidebar ._99f8cc7ad4790ce9-content:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;
 }
 
-html.theme-light .sidebar__5e434 .content__99f8c:after {
+html.theme-light ._5e434347c823b592-sidebar ._99f8cc7ad4790ce9-content:after {
     color: rgba(0, 0, 0, 0.1);
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
-/*.panels__5e434 > .container__37e49 .flex__7c0ba > :not(:last-child) {*/
+/*._5e434347c823b592-panels > ._37e49614b9f110a9-container ._7c0bae9243151ddd-flex > :not(:last-child) {*/
 /*    opacity: 0 !important;*/
 /*    width: 50px;*/
 /*    transition: all 0.3s;*/
 /*}*/
 
-/*.panels__5e434 > .container__37e49:hover .flex__7c0ba > :not(:last-child) {*/
+/*._5e434347c823b592-panels > ._37e49614b9f110a9-container:hover ._7c0bae9243151ddd-flex > :not(:last-child) {*/
 /*    opacity: 100% !important;*/
 /*    width: 40px;*/
 /*    margin-left: 10px;*/
 /*}*/
 
 /* Hide all immediate children */
-.panels__5e434 .buttons__37e49 > * {
+._5e434347c823b592-panels ._37e49614b9f110a9-buttons > * {
     opacity: 0;
     transition: all 0.3s;
 }
 
 /* Make the last child (settings icon) visible by default */
-.panels__5e434 .buttons__37e49 > :nth-last-child(2) {
+._5e434347c823b592-panels ._37e49614b9f110a9-buttons > :nth-last-child(2) {
     opacity: 1;
 }
 
 /* When hovering over the container, show all children */
-.panels__5e434 .buttons__37e49:hover > * {
+._5e434347c823b592-panels ._37e49614b9f110a9-buttons:hover > * {
     opacity: 1;
 }
 
-.buttons__37e49 {
+._37e49614b9f110a9-buttons {
     width: 100%;
     justify-content: space-evenly;
 }
 
-.container-6sXIoE .alignStretch_abf706.flex_abf706 {
+.container-6sXIoE .abf7060e6f2beabe-alignStretch.abf7060e6f2beabe-flex {
     max-width: 190px;
     min-width: 190px;
 }
@@ -114,31 +114,31 @@ html.theme-light .sidebar__5e434 .content__99f8c:after {
 }
 
 /* Avatar in bottom left */
-.avatarWrapper__37e49 {
+._37e49614b9f110a9-avatarWrapper {
     max-width: 36px;
     min-width: 36px !important;
     transition: 0.3s;
 }
 
-.avatarWrapper__37e49:hover {
+._37e49614b9f110a9-avatarWrapper:hover {
     min-width: 270px !important;
     max-width: 270px;
     transition: 0.3s;
 }
 
 /*user setting icon spin*/
-.button__67645:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+._67645e1530f1195d-button:last-child:hover path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
     animation: Settings 1s;
     transform-origin: center;
 }
 
-.button__67645:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
+._67645e1530f1195d-button:last-child path[d="M10.56 1.1c-.46.05-.7.53-.64.98.18 1.16-.19 2.2-.98 2.53-.8.33-1.79-.15-2.49-1.1-.27-.36-.78-.52-1.14-.24-.77.59-1.45 1.27-2.04 2.04-.28.36-.12.87.24 1.14.96.7 1.43 1.7 1.1 2.49-.33.8-1.37 1.16-2.53.98-.45-.07-.93.18-.99.64a11.1 11.1 0 0 0 0 2.88c.06.46.54.7.99.64 1.16-.18 2.2.19 2.53.98.33.8-.14 1.79-1.1 2.49-.36.27-.52.78-.24 1.14.59.77 1.27 1.45 2.04 2.04.36.28.87.12 1.14-.24.7-.95 1.7-1.43 2.49-1.1.8.33 1.16 1.37.98 2.53-.07.45.18.93.64.99a11.1 11.1 0 0 0 2.88 0c.46-.06.7-.54.64-.99-.18-1.16.19-2.2.98-2.53.8-.33 1.79.14 2.49 1.1.27.36.78.52 1.14.24.77-.59 1.45-1.27 2.04-2.04.28-.36.12-.87-.24-1.14-.96-.7-1.43-1.7-1.1-2.49.33-.8 1.37-1.16 2.53-.98.45.07.93-.18.99-.64a11.1 11.1 0 0 0 0-2.88c-.06-.46-.54-.7-.99-.64-1.16.18-2.2-.19-2.53-.98-.33-.8.14-1.79 1.1-2.49.36-.27.52-.78.24-1.14a11.07 11.07 0 0 0-2.04-2.04c-.36-.28-.87-.12-1.14.24-.7.96-1.7 1.43-2.49 1.1-.8-.33-1.16-1.37-.98-2.53.07-.45-.18-.93-.64-.99a11.1 11.1 0 0 0-2.88 0ZM16 12a4 4 0 1 1-8 0 4 4 0 0 1 8 0Z"] {
     animation: Settings2 1s;
     transform-origin: center;
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-.button__67645:hover .contents__201d5 {
+._67645e1530f1195d-button:hover ._201d5e8a3c09670a-contents {
     animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -395,7 +395,7 @@ html.theme-light #vc-spotify-player {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* #vc-spotify-progress-bar .grabber_a562c8 {
+/* #vc-spotify-progress-bar .a562c840daab72a7-grabber {
     width: var(--chillax-spotify-control-squid-width) !important;
     height: var(--chillax-spotify-control-squid-height) !important;
     background-color: transparent;
@@ -453,7 +453,7 @@ html.theme-light #vc-spotify-player {
 }
 
 /* Re-order elements to put spotify player at the top */
-.panels__5e434 {
+._5e434347c823b592-panels {
     display: flex;
     flex-direction: column;
     margin-top: 0;
@@ -465,23 +465,23 @@ html.theme-light #vc-spotify-player {
 
 /* TODO BetterDiscord player */
 
-.panel__5dec7 {
+._5dec784a68542d60-panel {
     /* Game activity */
     order: 2;
     background-color: transparent !important;
 }
 
-.wrapper_e131a9 {
+.e131a99484292a19-wrapper {
     /* Voice chat controls */
     order: 3;
 }
 
-.container_e131a9 {
+.e131a99484292a19-container {
     /* Voice chat controls */
     background-color: transparent !important;
 }
 
-.container__37e49 {
+._37e49614b9f110a9-container {
     /* Profile */
     order: 10;
 }

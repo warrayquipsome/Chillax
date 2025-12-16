@@ -18,21 +18,21 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     visibility: hidden !important;
 }
 
-#app-mount .wrapper__44b0c foreignObject[mask*=mobile]:after {
+#app-mount ._44b0c28be7879b7b-wrapper foreignObject[mask*=mobile]:after {
     display: none;
 }
 
 /* Hide nitro section of friends list */
-.link__972a0[href="/store"] {
+._972a0d22c8afa7f0-link[href="/store"] {
     display: none;
 }
 
 /* Hide shop section of friends list */
-.link__972a0[href="/shop"] {
+._972a0d22c8afa7f0-link[href="/shop"] {
     display: none;
 }
 
 /* Hide "Quest" advertisements */
-.mask__0d616 {
+._0d6162a4e6a4b802-mask {
     display: none;
 }

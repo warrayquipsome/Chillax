@@ -1,31 +1,31 @@
 /* Styles for the main chat area as well as the channel list */
 
 /*custom channel and text area font and size*/
-.title__9293f {
+._9293f6b2fc12398a-title {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.messageContent_c19a55,
-.contents_c19a55 {
+.c19a557985eb7793-messageContent,
+.c19a557985eb7793-contents {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.markup__75297 h1, .markup__75297 h2, .markup__75297 h3, .markup__75297 h4, .markup__75297 h5, .markup__75297 h6 {
+._752971923a1e6683-markup h1, ._752971923a1e6683-markup h2, ._752971923a1e6683-markup h3, ._752971923a1e6683-markup h4, ._752971923a1e6683-markup h5, ._752971923a1e6683-markup h6 {
     font-family: var(--font-name);
 }
 
 /* custom "new unreads" pill */
-.container__7aaec.bottom__7aaec {
+._7aaec78b97ff00f7-container._7aaec78b97ff00f7-bottom {
     z-index: 9999 !important;
 }
 
-.bar__7aaec {
+._7aaec78b97ff00f7-bar {
     padding: 14px 50px;
 }
 
-.unreadIcon__7aaec {
+._7aaec78b97ff00f7-unreadIcon {
     display: none;
 }
 
@@ -43,27 +43,27 @@
 }
 
 /*remove unread with date*/ /*it causes issue with the theme*/
-.hasContent__5126c {
+._5126c0cd07f243a0-hasContent {
     display: none;
 }
 
 /* remove date divider */
-.hasContent__908e2 {
+._908e20001ad67812-hasContent {
     display: none;
 }
 
 /* Un-hide unread divider with date */
-.isUnread__908e2 {
+._908e20001ad67812-isUnread {
     display: flex !important;
 }
 
 /* Hide date in unread divider */
-.content__908e2 {
+._908e20001ad67812-content {
     display: none;
 }
 
 /*custom unread divider style*/
-.unreadPillCap__908e2 {
+._908e20001ad67812-unreadPillCap {
     display: none;
     right: 50%;
 }
@@ -78,7 +78,7 @@
     width: 30px;
 }
 
-.isUnread__908e2 {
+._908e20001ad67812-isUnread {
     --divider-color: rgb(237, 0, 255);
     border: none;
     background: linear-gradient(
@@ -97,26 +97,26 @@
 }
 
 /*message hover small buttons fix*/
-html.theme-dark .wrapper_f7ecac {
+html.theme-dark .f7ecaca5c80dbf3a-wrapper {
     background: rgb(51, 49, 53) !important;
 }
 
-html.theme-light .wrapper_f7ecac {
+html.theme-light .f7ecaca5c80dbf3a-wrapper {
     background: rgb(243, 243, 243) !important;
 }
 
 /*channel resize*/
-.sidebar__5e434 .name__2ea32 {
+._5e434347c823b592-sidebar ._2ea32c412048f708-name {
     font-size: 14px;
 }
 
-.sidebar__5e434 .icon__2ea32 {
+._5e434347c823b592-sidebar ._2ea32c412048f708-icon {
     width: 16px;
     height: 16px;
 }
 
 /* Video player controls */
-.videoControls_cf09d8 {
+.cf09d85aafe7e124-videoControls {
     width: auto;
     margin: 15px;
     padding-bottom: 0px;
@@ -126,7 +126,7 @@ html.theme-light .wrapper_f7ecac {
     transition: 0.2s;
 }
 
-.wrapperControlsHidden_cf09d8 .videoControls_cf09d8 {
+.wrapperControlsHidden_cf09d8 .cf09d85aafe7e124-videoControls {
     margin-bottom: -30px;
 }
 
@@ -135,7 +135,7 @@ html.theme-light .wrapper_f7ecac {
     margin-right: 5px;
 }
 
-.base_b88801 .text_b88801 {
+.b8880176888cc928-base .b8880176888cc928-text {
     display: flex;
     align-items: center;
 }
@@ -181,131 +181,131 @@ html.theme-light .wrapper_f7ecac {
 
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer__74017 {
+._740174f3d6a2c8fe-scrollableContainer {
     background-color: transparent !important;
     transition: background-color 0.2s ease, border-color 0.2s ease;
     outline: none;
     border-radius: 15px;
 }
 
-.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017 {
+._1b31f471f0bb10ab-placeholder.ec4baf0360ff3578-slateTextArea.fontSize16Padding__74017 {
     color: transparent !important;
 }
 
 html.theme-dark .input-2g-os5:hover,
-html.theme-dark .scrollableContainer__74017:hover {
+html.theme-dark ._740174f3d6a2c8fe-scrollableContainer:hover {
     background-color: #00000023 !important;
 }
 
 html.theme-light .input-2g-os5:hover,
-html.theme-light .scrollableContainer__74017:hover {
+html.theme-light ._740174f3d6a2c8fe-scrollableContainer:hover {
     background-color: #ffffff23 !important;
 }
 
 /* attachedBars is the reply bar */
 html.theme-dark .input-2g-os5:focus-within,
-html.theme-dark .scrollableContainer__74017:focus-within {
+html.theme-dark ._740174f3d6a2c8fe-scrollableContainer:focus-within {
     background-color: #181a1d !important;
     box-shadow: 0 5px 8px #15171a;
 }
 
 html.theme-light .input-2g-os5:focus-within,
-html.theme-light .scrollableContainer__74017:focus-within {
+html.theme-light ._740174f3d6a2c8fe-scrollableContainer:focus-within {
     background-color: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
-.message__5126c {
+._5126c0cd07f243a0-message {
     border-radius: 8px !important;
 }
 
-.mentioned__5126c {
+._5126c0cd07f243a0-mentioned {
     border-radius: 0 8px 8px 0 !important
 }
 
 /*Textbox Text*/
-.placeholder__1b31f {
+._1b31f471f0bb10ab-placeholder {
     visibility: hidden !important;
 }
 
-.placeholder__1b31f::before {
+._1b31f471f0bb10ab-placeholder::before {
     content: var(--chillax-input-field);
     font-family: "Poppins";
     font-size: 13px;
     visibility: visible !important;
 }
 
-html.theme-dark .placeholder__1b31f::before {
+html.theme-dark ._1b31f471f0bb10ab-placeholder::before {
     color: rgba(255, 255, 255, 0.2);
 }
 
-html.theme-light .placeholder__1b31f::before {
+html.theme-light ._1b31f471f0bb10ab-placeholder::before {
     color: rgba(0, 0, 0, 0.2);
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled__74017 .placeholder__1b31f::before {
+.innerDisabled__74017 ._1b31f471f0bb10ab-placeholder::before {
     content: var(--chillax-input-field-locked) !important;
 }
 
 /* Fix slight scroll when text box is empty */
-.inner__74017 {
+._740174f3d6a2c8fe-inner {
     overflow: hidden !important;
 }
 
 /* Apps button next to text box */
-.button_e6e74f {
+.e6e74fd4d1221f53-button {
     background-color: transparent;
     transition: background-color 0.2s ease;
 }
 
-.button_e6e74f:hover {
+.e6e74fd4d1221f53-button:hover {
     background-color: #00000023;
 }
 
-.buttonActive_e6e74f {
+.e6e74fd4d1221f53-buttonActive {
     background-color: #181a1d;
 }
 
 /* Place typing indicator on top of message input box */
-.form_f75fb0 {
+.f75fb00fb7356cbe-form {
     display: flex;
     flex-direction: column;
 }
 
-.form_f75fb0 > div:first-child {
+.f75fb00fb7356cbe-form > div:first-child {
     /* Input box order */
     order: 2;
 }
 
-.channelTextArea_f75fb0 {
+.f75fb00fb7356cbe-channelTextArea {
     /* Remove margin for original typing indicator position */
     margin-bottom: calc(var(--space-8) - 2px);
 }
 
 /* When not focused, input box is transparent */
-.visual-refresh .channelTextArea_f75fb0 {
+.visual-refresh .f75fb00fb7356cbe-channelTextArea {
     background: transparent !important;
 }
 
-.form_f75fb0:has(.base_b88801) .form_f75fb0 {
+.f75fb00fb7356cbe-form:has(.b8880176888cc928-base) .f75fb00fb7356cbe-form {
     /* Add margin to the top when typing/slowmode indicator is active */
     margin-top: var(--custom-chat-input-margin-bottom);
 }
 
-.base_b88801 {
+.b8880176888cc928-base {
     /* Indicator order */
     position: static;
     order: 1;
 }
 
 /* Background in list of people who reacted to a message */
-.container_b7f4b4,
-.reactors_b7f4b4 {
+.b7f4b43fe1b6e285-container,
+.b7f4b43fe1b6e285-reactors {
     background-color: #181a1db7;
 }
 
-html.theme-dark .container_faa96b.isOpen_faa96b {
+html.theme-dark .faa96b2163f6a142-container.faa96b2163f6a142-isOpen {
     background-color: #181a1d;
 }
 
@@ -313,26 +313,26 @@ html.theme-dark .container-2qVG6q:hover {
     background-color: #181a1db7;
 }
 
-html.theme-dark .container_faa96b.isOpen_faa96b {
+html.theme-dark .faa96b2163f6a142-container.faa96b2163f6a142-isOpen {
     background-color: #181a1d;
 }
 
-.scroller_b7f4b4 {
+.b7f4b43fe1b6e285-scroller {
     background-color: #00000050;
 }
 
 /* Remove slowmode message */
-.cooldownWrapper_b21699 {
+.b216994de061a9e2-cooldownWrapper {
     font-size: 0px;
 }
 
 /* Increase visibility of message highlight */
-.backgroundFlash__5126c[style*="background-color: rgba(148, 156, 247, 0)"] {
+._5126c0cd07f243a0-backgroundFlash[style*="background-color: rgba(148, 156, 247, 0)"] {
     --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link__972a0:has(.highlighted__20a53) {
+._972a0d22c8afa7f0-link:has(._20a53846fe2e8513-highlighted) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,
@@ -343,16 +343,16 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
 }
 
 /* Right click menu blur */
-html.theme-dark .menu_c1e9c4 {
+html.theme-dark .c1e9c47c23f12ca3-menu {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-html.theme-light .menu_c1e9c4 {
+html.theme-light .c1e9c47c23f12ca3-menu {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu_c1e9c4::before,
-.menu_c1e9c4.submenu-1apzyU::before {
+.c1e9c47c23f12ca3-menu::before,
+.c1e9c47c23f12ca3-menu.submenu-1apzyU::before {
     /*Blurs the menu*/
     content: "";
     position: absolute;
@@ -365,6 +365,6 @@ html.theme-light .menu_c1e9c4 {
 }
 
 /* Fix blur in nested floating menu */
-.submenu_c1e9c4.menu_c1e9c4::before {
+.subc1e9c47c23f12ca3-menu.c1e9c47c23f12ca3-menu::before {
     width: calc(100% - 16px);
 }

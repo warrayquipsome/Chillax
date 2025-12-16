@@ -1,16 +1,16 @@
-.background__1fed1 {
+._1fed1dd06c7aabf7-background {
     background-color: transparent;
     padding: 0;
 }
 
-.fieldList__1fed1 {
+._1fed1dd06c7aabf7-fieldList {
     background-color: transparent;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     grid-gap: 5px;
 }
 
-.field__1fed1 {
+._1fed1dd06c7aabf7-field {
     width: 100%;
     border-radius: 8px;
     background-color: var(--background-primary);
@@ -24,51 +24,51 @@
     margin-bottom: 0;
 }
 
-.field__1fed1 .fieldButton__1fed1 {
+._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButton {
     background-color: var(--button-secondary-background);
     border-radius: 6px;
     -webkit-transition: background-color .17s ease, color .17s ease;
     transition: background-color .17s ease, color .17s ease;
 }
 
-.field__1fed1 .fieldButton__1fed1:hover {
+._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButton:hover {
     background-color: var(--button-secondary-background-hover);
 }
 
-.field__1fed1 .fieldButton__1fed1:hover > div {
+._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButton:hover > div {
     background: none;
 }
 
-.field__1fed1 .fieldButton__1fed1 {
+._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButton {
     width: 100%;
     margin-right: 0;
     position: relative;
 }
 
-.field__1fed1 .fieldButtonList__1fed1 {
+._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButtonList {
     gap: 5px;
 }
 
-.field__1fed1::-webkit-scrollbar {
+._1fed1dd06c7aabf7-field::-webkit-scrollbar {
     width: 16px;
     height: 16px;
 }
 
-.field__1fed1::-webkit-scrollbar-corner {
+._1fed1dd06c7aabf7-field::-webkit-scrollbar-corner {
     background-color: transparent;
 }
 
-.field__1fed1::-webkit-scrollbar-thumb {
+._1fed1dd06c7aabf7-field::-webkit-scrollbar-thumb {
     background-color: var(--scrollbar-auto-thumb);
     min-height: 40px;
 }
 
-.field__1fed1::-webkit-scrollbar-track {
+._1fed1dd06c7aabf7-field::-webkit-scrollbar-track {
     background-color: var(--scrollbar-auto-track);
 }
 
-.field__1fed1::-webkit-scrollbar-thumb,
-.field__1fed1::-webkit-scrollbar-track {
+._1fed1dd06c7aabf7-field::-webkit-scrollbar-thumb,
+._1fed1dd06c7aabf7-field::-webkit-scrollbar-track {
     border: 4px solid transparent;
     background-clip: padding-box;
     border-radius: 8px;
