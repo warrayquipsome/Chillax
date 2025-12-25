@@ -32,6 +32,11 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     display: none;
 }
 
+/* Hide quests section of friends list */
+._972a0d22c8afa7f0-link[href="/quest-home"] {
+    display: none;
+}
+
 /* Hide "Quest" advertisements */
 ._0d6162a4e6a4b802-mask {
     display: none;
