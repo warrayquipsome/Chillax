@@ -5,35 +5,43 @@
     --transitionspeed: 0.25s;
 }
 
-.visual-refresh ._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-searchBar {
     border: none !important;
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open) ._974928fe84ca9647-searchBar {
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar {
     width: 30px;
     transition: var(--transitionspeed);
     background-color: transparent;
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover ._974928fe84ca9647-searchBar {
-    width: 240px;
+.public-DraftEditorPlaceholder-root {
+    transition: color var(--transitionspeed) ease;
+}
+
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):not(:hover) .public-DraftEditorPlaceholder-root {
+    color: #0000;
+}
+
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar {
+    width: 244px;
     background-color: var(--background-tertiary);
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open) .iconContainer_fea832 {
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .iconContainer_fea832 {
     transform: scale(1.1);
     transition: var(--transitionspeed);
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover .iconContainer_fea832 {
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .iconContainer_fea832 {
     transform: scale(1);
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open) .icon_fea832 {
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .icon_fea832 {
     color: var(--text-normal);
 }
 
-._974928fe84ca9647-search:not(._974928fe84ca9647-open):hover .icon_fea832 {
+.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .icon_fea832 {
     color: var(--text-muted);
 }
 
