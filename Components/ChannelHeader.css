@@ -68,6 +68,10 @@ html.theme-light .d9c8822889d1d4a1-container {
 }
 
 /*pins / inbox background fix*/
+.e8b59c4b335dd2fc-header {
+    background-color: #0000;
+}
+
 .e8b59c4b335dd2fc-messagesPopoutWrap,
 ._957962c2bd49881b-recentMentionsPopout,
 ._084343c4f11eaaab-drawerSizingWrapper {
@@ -77,13 +81,22 @@ html.theme-light .d9c8822889d1d4a1-container {
 html.theme-dark .e8b59c4b335dd2fc-messagesPopoutWrap,
 html.theme-dark ._957962c2bd49881b-recentMentionsPopout,
 html.theme-dark ._084343c4f11eaaab-drawerSizingWrapper {
-    background: #181a1da6 !important;
+    background: rgba(0, 0, 0, 0.3) !important;
+}
+
+html.theme-dark .e8b59c4b335dd2fc-messageGroupWrapper {
+    background: #181a1da6;
 }
 
 html.theme-light .e8b59c4b335dd2fc-messagesPopoutWrap,
 html.theme-light ._957962c2bd49881b-recentMentionsPopout,
 html.theme-light ._084343c4f11eaaab-drawerSizingWrapper {
     background: rgb(223, 223, 223) !important;
+}
+
+/* Fix buttons on pins items */
+.e8b59c4b335dd2fc-buttonContainer {
+    background-color: #0000;
 }
 
 /* Inbox alignment fix */
