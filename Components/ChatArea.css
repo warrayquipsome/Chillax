@@ -299,26 +299,13 @@ html.theme-light ._1b31f471f0bb10ab-placeholder::before {
     order: 1;
 }
 
-/* Background in list of people who reacted to a message */
-.b7f4b43fe1b6e285-container,
-.b7f4b43fe1b6e285-reactors {
-    background-color: #181a1db7;
-}
-
-html.theme-dark .faa96b2163f6a142-container.faa96b2163f6a142-isOpen {
+/* Background in reactions modal */
+html.theme-dark ._8a031a135bfcb9ba-container {
     background-color: #181a1d;
 }
 
-html.theme-dark .container-2qVG6q:hover {
-    background-color: #181a1db7;
-}
-
-html.theme-dark .faa96b2163f6a142-container.faa96b2163f6a142-isOpen {
-    background-color: #181a1d;
-}
-
-.b7f4b43fe1b6e285-scroller {
-    background-color: #00000050;
+html.theme-light ._8a031a135bfcb9ba-container {
+    background-color: rgb(223, 223, 223);
 }
 
 /* Remove slowmode message */
