@@ -32,14 +32,14 @@
 }
 
 /* Title bar buttons */
-.c38106a3f0c3ca76-trailing {
+.trailing_c38106 {
     margin-right: var(--window-margin);
 }
 
 .recentsIcon_c99c29,
-.c38106a3f0c3ca76-trailing > .anchor_edefb8,  /* Help button */
-.c38106a3f0c3ca76-trailing > .c99c29809d200a61-clickable,  /* Inbox button */
-.c38106a3f0c3ca76-trailing > .clickable__9293f,  /* Snapshot button */
+.trailing_c38106 > .anchor_edefb8,  /* Help button */
+.trailing_c38106 > .c99c29809d200a61-clickable,  /* Inbox button */
+.trailing_c38106 > .clickable__9293f,  /* Snapshot button */
 .winButtons_c38106 > div {
     height: var(--space-32);
     background: var(--window-colour);
@@ -49,9 +49,9 @@
 }
 
 .recentsIcon_c99c29:hover,
-.c38106a3f0c3ca76-trailing > .anchor_edefb8:hover,  /* Help button */
-.c38106a3f0c3ca76-trailing > .c99c29809d200a61-clickable:hover,  /* Inbox button */
-.c38106a3f0c3ca76-trailing > .clickable__9293f:hover,  /* Snapshot button */
+.trailing_c38106 > .anchor_edefb8:hover,  /* Help button */
+.trailing_c38106 > .c99c29809d200a61-clickable:hover,  /* Inbox button */
+.trailing_c38106 > .clickable__9293f:hover,  /* Snapshot button */
 .winButtons_c38106 > div:hover {
     background: transparent;
     transition: 0.1s;
@@ -87,7 +87,7 @@
 }
 
 /* Keep some spacing between the edge when window margin is close to 0px */
-.c38106a3f0c3ca76-trailing {
+.trailing_c38106 {
     margin-right: calc(max(var(--window-margin), 4px));
 }
 

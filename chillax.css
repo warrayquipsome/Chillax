@@ -58,7 +58,7 @@
 }
 
 /* Member list */
-.container_c8ffbb, .members_c8ffbb, .c8ffbb79449f399c-member {
+.container_c8ffbb, .members_c8ffbb, .member_c8ffbb {
     background-color: transparent !important;
 }
 
@@ -74,7 +74,7 @@
 .chat_f75fb0,
 .chatContent_f75fb0,
 .container__9293f,
-.f75fb00fb7356cbe-channelTextArea {
+.channelTextArea_f75fb0 {
     border-color: transparent !important;
 }
 
@@ -285,12 +285,12 @@ span[class="inner-26JK4f"] > * {
 }
 
 /*recolor search*/
-._55c999adcf6db265-container {
+.container__55c99 {
     -webkit-box-shadow: var(--elevation-high) !important;
     box-shadow: var(--elevation-high) !important;
 }
 
-html.theme-light ._55c999adcf6db265-container {
+html.theme-light .container__55c99 {
     background-color: rgba(240, 240, 240, 0.2);
 }
 
@@ -307,7 +307,7 @@ html.theme-light ._2b2f1bb918566c48-elevationBorderHigh {
     background: rgba(255, 255, 255, 0.555) !important;
 }
 
-._55c999adcf6db265-container {
+.container__55c99 {
     border-radius: 8px !important;
 }
 
@@ -454,7 +454,7 @@ html.theme-light ._2b2f1bb918566c48-elevationBorderHigh {
 }
 
 /*menu animation*/
-._55c999adcf6db265-container,
+.container__55c99,
 .css-1x99fvh-menu,
 .css-3vaxre-menu,
 .drawerSizingWrapper__08434,
@@ -1674,19 +1674,19 @@ html.theme-light ._7e549558f336cddb-itemCard._00943886e1cf89d1-wrapper:hover {
 }
 
 .f8896c4f6be18f59-reactionMe:hover,
-.f8896c4f6be18f59-reaction:hover {
+.reaction_f8896c:hover {
     border: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
 
-.f8896c4f6be18f59-reaction {
+.reaction_f8896c {
     border-radius: 50px !important;
 }
 
-html.theme-dark .f8896c4f6be18f59-reaction {
+html.theme-dark .reaction_f8896c {
     background: rgba(255, 255, 255, 0.3);
 }
 
-html.theme-light .f8896c4f6be18f59-reaction {
+html.theme-light .reaction_f8896c {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -2590,7 +2590,7 @@ html.theme-light .container_faa96b.isOpen_faa96b {
     background-color: transparent !important;
 }
 
-div.f369dba7416c67f0-mainCard div.d9be463a3c35b91e-channelTextAreaInner.scrollableContainer__74017._740174f3d6a2c8fe-themedBackground {
+div.mainCard_f369db div.d9be463a3c35b91e-channelTextAreaInner.scrollableContainer__74017.themedBackground__74017 {
     background-color: transparent !important;
     box-shadow: none !important;
 }
@@ -2696,7 +2696,7 @@ html.theme-dark .backdrop__1a911 {
 }
 
 /* Search autocomplete background */
-html.theme-dark ._55c999adcf6db265-container {
+html.theme-dark .container__55c99 {
     background-color: #181a1da6 !important;
     backdrop-filter: blur(15px) !important;
 }

@@ -1,4 +1,4 @@
-#app-mount ._960e4207cea8323e-baseLayer {
+#app-mount .baseLayer__960e4 {
     opacity: 1 !important;
     transform: unset !important;
     will-change: unset !important;
@@ -121,7 +121,7 @@
     z-index: -1 !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 ._9293f6b2fc12398a-toolbar {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolbar__9293f {
     display: none !important;
 }
 

@@ -135,7 +135,7 @@ html.theme-light .wrapper_f7ecac {
     margin-right: 5px;
 }
 
-.base_b88801 .b8880176888cc928-text {
+.base_b88801 .text_b88801 {
     display: flex;
     align-items: center;
 }
@@ -278,13 +278,13 @@ html.theme-light .placeholder__1b31f::before {
     order: 2;
 }
 
-.f75fb00fb7356cbe-channelTextArea {
+.channelTextArea_f75fb0 {
     /* Remove margin for original typing indicator position */
     margin-bottom: calc(var(--space-8) - 2px);
 }
 
 /* When not focused, input box is transparent */
-.visual-refresh .f75fb00fb7356cbe-channelTextArea {
+.visual-refresh .channelTextArea_f75fb0 {
     background: transparent !important;
 }
 
