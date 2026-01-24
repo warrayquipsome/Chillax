@@ -1,4 +1,4 @@
-#app-mount ._960e4207cea8323e-baseLayer {
+#app-mount .baseLayer__960e4 {
     opacity: 1 !important;
     transform: unset !important;
     will-change: unset !important;
@@ -9,7 +9,7 @@
     animation: inherit !important;
 }
 
-#app-mount ._960e4207cea8323e-layer.stop-animations:first-child::after {
+#app-mount .layer__960e4.stop-animations:first-child::after {
     content: "" !important;
     position: fixed !important;
     background: rgb(0, 0, 0) !important;
@@ -24,7 +24,7 @@
     pointer-events: none !important;
 }
 
-.theme-light #app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer {
+.theme-light #app-mount .layer__960e4 ~ .layer__960e4 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -42,7 +42,7 @@
     z-index: 1000 !important;
 }
 
-.theme-dark #app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer {
+.theme-dark #app-mount .layer__960e4 ~ .layer__960e4 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -60,8 +60,8 @@
     z-index: 1000 !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer > div,
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-standardSidebarView {
+#app-mount .layer__960e4 ~ .layer__960e4 > div,
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b {
     position: static !important;
     border-radius: unset !important;
     width: 100% !important;
@@ -71,32 +71,32 @@
     overflow: hidden !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-sidebar {
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar__23e6b {
     width: 218px !important;
     padding: 20px 6px 20px 20px !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-contentColumnDefault {
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnDefault__23e6b {
     padding: 20px 40px !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer .aa8da23faa27393c-side {
+#app-mount .layer__960e4 ~ .layer__960e4 .side_aa8da2 {
     height: var(--settingsmodalheight) !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer .aa8da23faa27393c-header {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_aa8da2 {
     max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 
 /* the below one BD specific? Vencord don't seems to have it*/
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-standardSidebarView .editor {
+#app-mount .layer__960e4 ~ .layer__960e4 .standardSidebarView__23e6b .editor {
     height: calc(var(--settingsmodalheight) - 120px) !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer,
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer ._23e6b439306f125a-tools,
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer .c2b141c0f80863fb-container,
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer .c2b141c0f80863fb-closeButton {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .tools__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .container_c2b141,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -115,21 +115,21 @@
     cursor: default !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._23e6b439306f125a-toolsContainer {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer ._9293f6b2fc12398a-toolbar {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolbar__9293f {
     display: none !important;
 }
 
-#app-mount ._960e4207cea8323e-layer ~ ._960e4207cea8323e-layer .aa8da23faa27393c-header {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_aa8da2 {
     max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root {
+#app-mount .root__5c9fc {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -147,7 +147,7 @@
     z-index: 1000 !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root._5c9fcec194debbe7-enterDone {
+#app-mount .root__5c9fc.enterDone__5c9fc {
     transform: unset !important;
 }
 
@@ -170,14 +170,14 @@
     padding: 10px 0 10px !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root .perksModal-CLcR1c .carousel-3dvee9 {
+#app-mount .root__5c9fc .perksModal-CLcR1c .carousel-3dvee9 {
     margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq,
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .closeContent-I3JbQJ,
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .c2b141c0f80863fb-container,
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .c2b141c0f80863fb-closeButton {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .container_c2b141,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -196,21 +196,21 @@
     cursor: default !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-.theme-dark ._23e6b439306f125a-sidebarRegion {
+.theme-dark .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-.theme-light ._23e6b439306f125a-sidebarRegion {
+.theme-light .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-._23e6b439306f125a-contentRegion {
+.contentRegion__23e6b {
     zoom: 0.9 !important;
 }
 
@@ -219,27 +219,27 @@
  A comment would have helped
 */
 
-._65c15724a894a2e0-premiumFeatureBorder {
+.premiumFeatureBorder__65c15 {
     background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box border-box;
 }
 
 /* hide hover underline on selected tab */
-.aa8da23faa27393c-selected:after {
+.selected_aa8da2:after {
     background: transparent !important;
 }
 
-.aa8da23faa27393c-side .aa8da23faa27393c-item::after {
+.side_aa8da2 .item_aa8da2::after {
     /* Fix the double icon when hovering */
     display: none !important;
 }
 
 /* Gets rid of the annoying profile button ref */
-._1fed1dd06c7aabf7-userInfo .a22cb0c66246f5d3-button.a22cb0c66246f5d3-sm {
+.userInfo__1fed1 .button_a22cb0.sm_a22cb0 {
     display: none !important;
 }
 
 /*user setting redesign*/
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     font-family: "Roboto";
     font-size: 12px;
@@ -247,52 +247,52 @@
 }
 
 
-html.theme-dark ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+html.theme-dark .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-html.theme-light ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+html.theme-light .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     background: #fff !important;
     color: #000 !important;
 }
 
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"]:hover {
+.fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"]:hover {
     box-shadow: 0px 8px 15px rgba(229, 46, 46, 0.4);
     transition: 0.1s;
 }
 
-html.theme-dark ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"]:hover {
+html.theme-dark .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"]:hover {
     background: rgb(229, 46, 46) !important;
     color: #000 !important;
 }
 
-html.theme-light ._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"]:hover {
+html.theme-light .fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"]:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-._1fed1dd06c7aabf7-badgeList {
+.badgeList__1fed1 {
     border-radius: 8px;
     margin-top: 5px;
     padding: 2px;
 }
 
-html.theme-dark ._1fed1dd06c7aabf7-badgeList {
+html.theme-dark .badgeList__1fed1 {
     background-color: #333135;
 }
 
-html.theme-light ._1fed1dd06c7aabf7-badgeList {
+html.theme-light .badgeList__1fed1 {
     background-color: #e4e4e4;
 }
 
-._1fed1dd06c7aabf7-fieldList {
+.fieldList__1fed1 {
     margin-left: 10px;
     margin-bottom: 25px;
     grid-gap: 15px;
 }
 
-._1fed1dd06c7aabf7-field:last-child {
+.field__1fed1:last-child {
     margin-right: 0 !important;
 }
 
@@ -302,16 +302,16 @@ div[class="_1fed1dd06c7aabf7-field"] > button[aria-label="Edit username"][class=
     bottom: -1px;
 }
 
-._1fed1dd06c7aabf7-field > button {
+.field__1fed1 > button {
     width: 90%;
 }
 
-._1fed1dd06c7aabf7-fieldButtonList > button {
+.fieldButtonList__1fed1 > button {
     width: 100%;
 }
 
 /* This now actually targets the button and makes it takes the whole space */
-._1fed1dd06c7aabf7-fieldButton > button {
+.fieldButton__1fed1 > button {
     width: 100% !important;
 }
 
@@ -322,7 +322,7 @@ div[class="_1fed1dd06c7aabf7-field"] > button[aria-label="Edit username"][class=
     However, the repository got so I forked the addon
     to our repo for now.
  */
-._1fed1dd06c7aabf7-field {
+.field__1fed1 {
     border-radius: 8px;
     max-height: none;
     flex-flow: column;
@@ -333,51 +333,51 @@ div[class="_1fed1dd06c7aabf7-field"] > button[aria-label="Edit username"][class=
     height: 150px !important;
 }
 
-._1fed1dd06c7aabf7-field ._1fed1dd06c7aabf7-fieldButton {
+.field__1fed1 .fieldButton__1fed1 {
     background: transparent !important;
 }
 
-html.theme-dark ._1fed1dd06c7aabf7-field {
+html.theme-dark .field__1fed1 {
     background-color: #333135;
 }
 
-html.theme-light ._1fed1dd06c7aabf7-field {
+html.theme-light .field__1fed1 {
     background-color: #e4e4e4;
 }
 
-html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
+html.theme-dark .fieldSpacerBottom__1fed1 {
     margin-bottom: 0;
 }
 
-._1fed1dd06c7aabf7-field::-webkit-scrollbar {
+.field__1fed1::-webkit-scrollbar {
     width: 0;
 }
 
-._1fed1dd06c7aabf7-constrainedRow {
+.constrainedRow__1fed1 {
     overflow: visible;
 }
 
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Edit phone number"] {
     top: 30px !important;
     border-radius: 8px;
 }
 
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Edit username"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Edit username"] {
     top: 50px;
     border-radius: 8px;
 }
 
-._1fed1dd06c7aabf7-fieldButton._1fed1dd06c7aabf7-removeButton {
+.fieldButton__1fed1.removeButton__1fed1 {
     top: 30px !important;
     font-size: 12.7px;
 }
 
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button {
+.fieldButton__1fed1.button_a22cb0 {
     top: 30px;
     border-radius: 8px;
 }
 
-._1fed1dd06c7aabf7-background {
+.background__1fed1 {
     background: transparent !important;
 }
 
@@ -389,16 +389,16 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     transform: scale(0.98) translateX(-17px);
 }
 
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Edit phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Edit phone number"] {
     top: 50px;
     border-radius: 8px;
 }
 
-._1fed1dd06c7aabf7-fieldButton.a22cb0c66246f5d3-button[aria-label="Remove phone number"] {
+.fieldButton__1fed1.button_a22cb0[aria-label="Remove phone number"] {
     top: 30px !important;
 }
 
-._960e4207cea8323e-layer ._1fed1dd06c7aabf7-accountProfileCard ._1fed1dd06c7aabf7-userInfo {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 {
     align-items: center;
     justify-content: center;
     width: calc(100% - 34px);
@@ -406,7 +406,7 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     padding: 50px 0 9px;
 }
 
-._960e4207cea8323e-layer ._1fed1dd06c7aabf7-accountProfileCard ._1fed1dd06c7aabf7-userInfo .a22cb0c66246f5d3-button {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button_a22cb0 {
     position: absolute;
     top: 52.5px !important;
     right: 294.5px;
@@ -422,7 +422,7 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     box-shadow: none;
 }
 
-.a22cb0c66246f5d3-button {
+.button_a22cb0 {
     border-radius: 45px;
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.1);
     font-family: "Roboto";
@@ -430,35 +430,35 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     transition: 0.2s;
 }
 
-html.theme-dark .a22cb0c66246f5d3-button {
+html.theme-dark .button_a22cb0 {
     background: rgb(36, 36, 36) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-html.theme-light .a22cb0c66246f5d3-button {
+html.theme-light .button_a22cb0 {
     background: #fff !important;
     color: #000 !important;
 }
 
-.a22cb0c66246f5d3-button:hover {
+.button_a22cb0:hover {
     background: rgb(0, 0, 0) !important;
     transition: 0.1s;
 }
 
-html.theme-dark .a22cb0c66246f5d3-button:hover {
+html.theme-dark .button_a22cb0:hover {
     box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.4);
 }
 
-html.theme-light .a22cb0c66246f5d3-button:hover {
+html.theme-light .button_a22cb0:hover {
     box-shadow: -3px -3px 7px #cfcfcf inset, 3px 3px 7px #949aa1 inset;
 }
 
-._3b2602e558ef3de0-overlay .a22cb0c66246f5d3-button {
+.overlay__3b260 .button_a22cb0 {
     box-shadow: none !important; /* gets rid of the shadow */
 }
 
 /* fix for the newly added classes for the disable and Delete account button */
-.children__7bffb .a22cb0c66246f5d3-critical-primary, .children__7bffb .a22cb0c66246f5d3-critical-secondary {
+.children_a6ae9b .critical-primary_a22cb0, .children_a6ae9b .critical-secondary_a22cb0 {
     padding: 25px;
     height: 45px;
     font-family: "Roboto" !important;
@@ -473,66 +473,66 @@ html.theme-light .a22cb0c66246f5d3-button:hover {
     outline: none;
 }
 
-.children__7bffb .a22cb0c66246f5d3-critical-primary .a22cb0c66246f5d3-buttonChildrenWrapper span, .children__7bffb .a22cb0c66246f5d3-critical-secondary span {
+.children_a6ae9b .critical-primary_a22cb0 .buttonChildrenWrapper_a22cb0 span, .children_a6ae9b .critical-secondary_a22cb0 span {
     /* font-size: 0px !important; */
     visibility: hidden;
 }
 
-.children__7bffb .a22cb0c66246f5d3-critical-primary::before {
+.children_a6ae9b .critical-primary_a22cb0::before {
     content: "Disable";
     position: absolute;
     font-size: 14px !important;
 }
 
-.children__7bffb .a22cb0c66246f5d3-critical-secondary::before {
+.children_a6ae9b .critical-secondary_a22cb0::before {
     content: "Delete";
     position: absolute;
     font-size: 14px !important;
 }
 
 
-html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary {
+html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary {
+html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary:hover {
+html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
     transform: translateY(-7px);
 }
 
-html.theme-dark .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary:hover {
+html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
     transform: translateY(-7px);
 }
 
-html.theme-light .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary:hover {
+html.theme-light .children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
     transform: translateY(-7px);
 }
 
-html.theme-light .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary:hover {
+html.theme-light .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
     transform: translateY(-7px);
 }
 
-.children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-primary:hover, .children__7bffb ._6ca73e8c711ac804-buttonContainer .a22cb0c66246f5d3-critical-secondary:hover {
+.children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0:hover, .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
 }
 
 /* Done */
 
 /* For discord checkpoint stuff */
-#app-mount ._59d0d7075b521375-layerContainer ._5c9fcec194debbe7-root {
+#app-mount .layerContainer__59d0d .root__5c9fc {
     contain: strict !important;
     border-radius: 0 !important;
     width: 100% !important;

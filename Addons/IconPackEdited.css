@@ -181,7 +181,7 @@
     transform: scale(0.95);
 }
 
-._1f388bcaa446c0c8-tutorialContainer .homeIcon__560eb path {
+.tutorialContainer__1f388 .homeIcon__560eb path {
     d: path(var(--discord));
     transform-origin: center;
     transform: scale(2) translate(2px, -2px);
@@ -406,13 +406,13 @@ svg.slider-32CRPX rect:first-child {
     transform: scale(0.85) translate(-4px, -4px);
 }
 
-._0923f156a0410684-attachButton
+.attachButton__0923f
 [d="M12 2.00098C6.486 2.00098 2 6.48698 2 12.001C2 17.515 6.486 22.001 12 22.001C17.514 22.001 22 17.515 22 12.001C22 6.48698 17.514 2.00098 12 2.00098ZM17 13.001H13V17.001H11V13.001H7V11.001H11V7.00098H13V11.001H17V13.001Z"] {
     d: path(var(--attach));
     transform: scale(1.7) translate(0px, 0px);
 }
 
-._0923f156a0410684-attachButton
+.attachButton__0923f
 [d="M22.031 12.665c-.923-.4338-1.9384-.665-2.9778-.665-.695 0-1.3663.1013-2 .29V11h-4V7h-2v4h-4v2h4v4h1.29c-.1887.6337-.29 1.305-.29 2 0 1.0394.2312 2.055.665 2.978-.2207.0146-.4424.022-.665.022-2.6522 0-5.1957-1.0536-7.071-2.929C3.1067 17.1958 2.053 14.6523 2.053 12c0-5.5228 4.4772-10 10-10 2.6522 0 5.1957 1.0536 7.071 2.929 1.8754 1.8753 2.929 4.4188 2.929 7.071 0 .2225-.0074.4443-.022.665zM15.4457 13c-.9793.59-1.8023 1.413-2.3924 2.3924V13h2.3924z"] {
     d: path(var(--attach));
     transform-origin: center;
