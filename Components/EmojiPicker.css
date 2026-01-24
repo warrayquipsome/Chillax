@@ -1,38 +1,38 @@
 /*emoji/gif/sticker tab fix, and right-click reaction menu*/
 ._084343c4f11eaaab-drawerSizingWrapper,
-.c0e32c5cffed3d9f-wrapper {
+.wrapper_c0e32c {
     backdrop-filter: blur(15px) !important;
     border-radius: 5px;
 }
 
 html.theme-dark ._084343c4f11eaaab-drawerSizingWrapper,
-html.theme-dark .c0e32c5cffed3d9f-wrapper {
+html.theme-dark .wrapper_c0e32c {
     background: #18191ba6 !important;
 }
 
 html.theme-light ._084343c4f11eaaab-drawerSizingWrapper,
-html.theme-light .c0e32c5cffed3d9f-wrapper {
+html.theme-light .wrapper_c0e32c {
     background: #d4def1a6 !important;
 }
 
 /* Disable double background in emoji/gif/sticker tab menu */
-._084343c4f11eaaab-drawerSizingWrapper .c0e32c5cffed3d9f-wrapper {
+._084343c4f11eaaab-drawerSizingWrapper .wrapper_c0e32c {
     background: transparent !important;
     backdrop-filter: none !important;
     border-radius: 0;
 }
 
-html.theme-dark .b9ee0c229bc0b6bb-unicodeShortcut,
+html.theme-dark .unicodeShortcut_b9ee0c,
 html.theme-dark ._3ad28b0867fa3fad-standardStickerShortcut {
     background: #292b2f;
 }
 
-html.theme-light .b9ee0c229bc0b6bb-unicodeShortcut,
+html.theme-light .unicodeShortcut_b9ee0c,
 html.theme-light ._3ad28b0867fa3fad-standardStickerShortcut {
     background: #ebedef;
 }
 
-.fc7141859aaa98b7-emojiItem.fc7141859aaa98b7-emojiItemSelected {
+.emojiItem_fc7141.emojiItemSelected_fc7141 {
     background-color: #18191b90;
 }
 
@@ -59,7 +59,7 @@ html.theme-light ._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button {
     width: 95%
 }
 
-.b9ee0c229bc0b6bb-unicodeShortcut {
+.unicodeShortcut_b9ee0c {
     border-radius: 8px;
     margin: 12px;
     margin-left: 5px;

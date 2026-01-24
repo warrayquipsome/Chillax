@@ -276,12 +276,12 @@
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-avatar::before {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover ._0a06ed6ea040aa1b-avatar::before {
     background: var(--FG-cards-background-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-avatar::before {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179.active_cc6179 ._0a06ed6ea040aa1b-avatar::before {
     opacity: var(--FG-cards-avatar-opacity-active) !important;
     transition: var(--FG-transition)
 }
@@ -291,12 +291,12 @@
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
     opacity: var(--FG-cards-avatar-opacity-hover);
     transition: var(--FG-transition)
 }
 
-.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
+.peopleListItem_cc6179.active_cc6179 ._0a06ed6ea040aa1b-avatar.wrapper-1VLyxH {
     opacity: var(--FG-cards-avatar-opacity-active) !important;
     transition: var(--FG-transition)
 }
@@ -318,12 +318,12 @@
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-userInfo::before {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover ._0a06ed6ea040aa1b-userInfo::before {
     opacity: var(--FG-cards-banner-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-userInfo::before {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179.active_cc6179 ._0a06ed6ea040aa1b-userInfo::before {
     opacity: var(--FG-cards-banner-opacity-active);
     transition: var(--FG-transition)
 }
@@ -400,151 +400,151 @@
     margin-top: unset
 }
 
-._133bf5eea8e33a34-peopleColumn#online-tab .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#online-tab .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-normal);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-normal);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#all-tab .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#all-tab .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-normal);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-normal);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#pending-tab .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#pending-tab .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-normal);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-normal);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#blocked-tab .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-normal);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-normal);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-normal);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-normal);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-normal);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-normal);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#online-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#online-tab .peopleListItem_cc6179:hover .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-hover);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#all-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#all-tab .peopleListItem_cc6179:hover .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-hover);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#pending-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#pending-tab .peopleListItem_cc6179:hover .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-hover);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#blocked-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#blocked-tab .peopleListItem_cc6179:hover .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-hover);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .peopleListItem_cc6179:hover .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-hover);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .cc61794aab086a2e-peopleListItem:hover .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .peopleListItem_cc6179:hover .actionButton_f8fa06 {
     background: var(--FG-cards-button-background-hover);
     color: var(--FG-cards-button-icon-normal);
     opacity: var(--FG-cards-button-opacity-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#online-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#online-tab .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06 {
     opacity: var(--FG-cards-button-opacity-active) !important;
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#all-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#all-tab .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06 {
     opacity: var(--FG-cards-button-opacity-active) !important;
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#pending-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#pending-tab .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06 {
     opacity: var(--FG-cards-button-opacity-active) !important;
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#blocked-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#blocked-tab .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06 {
     opacity: var(--FG-cards-button-opacity-active) !important;
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06 {
     opacity: var(--FG-cards-button-opacity-active) !important;
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active .f8fa068db52f043f-actionButton {
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .peopleListItem_cc6179.active_cc6179 .actionButton_f8fa06 {
     opacity: var(--FG-cards-button-opacity-active) !important;
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn#online-tab .f8fa068db52f043f-actionButton:hover {
+._133bf5eea8e33a34-peopleColumn#online-tab .actionButton_f8fa06:hover {
     background: var(--FG-cards-button-icon-hover) !important;
     color: var(--FG-cards-button-icon-hover)
 }
 
-._133bf5eea8e33a34-peopleColumn#all-tab .f8fa068db52f043f-actionButton:hover {
+._133bf5eea8e33a34-peopleColumn#all-tab .actionButton_f8fa06:hover {
     background: var(--FG-cards-button-icon-hover) !important;
     color: var(--FG-cards-button-icon-hover)
 }
 
-._133bf5eea8e33a34-peopleColumn#pending-tab .f8fa068db52f043f-actionButton:hover {
+._133bf5eea8e33a34-peopleColumn#pending-tab .actionButton_f8fa06:hover {
     background: var(--FG-cards-button-icon-hover) !important;
     color: var(--FG-cards-button-icon-hover)
 }
 
-._133bf5eea8e33a34-peopleColumn#blocked-tab .f8fa068db52f043f-actionButton:hover {
+._133bf5eea8e33a34-peopleColumn#blocked-tab .actionButton_f8fa06:hover {
     background: var(--FG-cards-button-icon-hover) !important;
     color: var(--FG-cards-button-icon-hover)
 }
 
-._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .f8fa068db52f043f-actionButton:hover {
+._133bf5eea8e33a34-peopleColumn#favorized_friends-tab .actionButton_f8fa06:hover {
     background: var(--FG-cards-button-icon-hover) !important;
     color: var(--FG-cards-button-icon-hover)
 }
 
-._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .f8fa068db52f043f-actionButton:hover {
+._133bf5eea8e33a34-peopleColumn#hidden_friends-tab .actionButton_f8fa06:hover {
     background: var(--FG-cards-button-icon-hover) !important;
     color: var(--FG-cards-button-icon-hover)
 }
 
-.f8fa068db52f043f-actionButton {
+.actionButton_f8fa06 {
     margin-left: 9px
 }
 
@@ -569,7 +569,7 @@
     align-items: flex-end
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179 {
     background: var(--FG-cards-background-normal);
     border: var(--FG-cards-border-width) solid var(--FG-cards-border-color-normal);
     border-radius: var(--FG-cards-radius) !important;
@@ -579,13 +579,13 @@
     min-height: calc(var(--FG-cards-height) + var(--FG-cards-banner-height)) !important
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover {
     background: var(--FG-cards-background-hover);
     border: var(--FG-cards-border-width) solid var(--FG-cards-border-color-hover);
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179.active_cc6179 {
     background: var(--FG-cards-background-active) !important;
     transition: var(--FG-transition)
 }
@@ -631,13 +631,13 @@
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-username {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover ._0a06ed6ea040aa1b-username {
     color: var(--FG-cards-username-hover);
     opacity: var(--FG-cards-username-opacity-hover);
     transition: var(--FG-transition)
 }
 
-.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-username {
+.peopleListItem_cc6179.active_cc6179 ._0a06ed6ea040aa1b-username {
     opacity: var(--FG-cards-username-opacity-active) !important;
     transition: var(--FG-transition)
 }
@@ -652,13 +652,13 @@
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-discriminator {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover ._0a06ed6ea040aa1b-discriminator {
     color: var(--FG-cards-discriminator-hover);
     opacity: var(--FG-cards-discriminator-opacity-hover);
     transition: var(--FG-transition)
 }
 
-.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-discriminator {
+.peopleListItem_cc6179.active_cc6179 ._0a06ed6ea040aa1b-discriminator {
     opacity: var(--FG-cards-discriminator-opacity-active) !important;
     transition: var(--FG-transition)
 }
@@ -669,13 +669,13 @@
     transition: var(--FG-transition)
 }
 
-._133bf5eea8e33a34-peopleColumn .cc61794aab086a2e-peopleListItem:hover ._0a06ed6ea040aa1b-subtext {
+._133bf5eea8e33a34-peopleColumn .peopleListItem_cc6179:hover ._0a06ed6ea040aa1b-subtext {
     color: var(--FG-cards-status-hover);
     opacity: var(--FG-cards-status-opacity-hover);
     transition: var(--FG-transition)
 }
 
-.cc61794aab086a2e-peopleListItem.cc61794aab086a2e-active ._0a06ed6ea040aa1b-subtext {
+.peopleListItem_cc6179.active_cc6179 ._0a06ed6ea040aa1b-subtext {
     opacity: var(--FG-cards-status-opacity-active) !important;
     transition: var(--FG-transition)
 }

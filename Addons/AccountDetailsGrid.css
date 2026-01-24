@@ -1,9 +1,9 @@
-._1fed1dd06c7aabf7-background {
+.background__1fed1 {
     background-color: transparent;
     padding: 0;
 }
 
-._1fed1dd06c7aabf7-fieldList {
+.fieldList__1fed1 {
     background-color: transparent;
     display: grid;
     grid-template-columns: repeat(2, 1fr);

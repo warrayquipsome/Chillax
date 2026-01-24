@@ -1,88 +1,88 @@
 /*floating user controls*/
-._37e49614b9f110a9-container {
+.container__37e49 {
     background: transparent !important;
 }
 
-._5e434347c823b592-panels {
+.panels__5e434 {
     border: none !important;
 }
 
-html.theme-dark ._5e434347c823b592-panels {
+html.theme-dark .panels__5e434 {
     background: #181a1d !important;
     box-shadow: 0 5px 8px #15171a;
 }
 
-html.theme-light ._5e434347c823b592-panels {
+html.theme-light .panels__5e434 {
     background: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
 /* Dynamically re adjusting the position and width for new UI based on sidebar width */
-._5e434347c823b592-sidebar {
+.sidebar__5e434 {
     /* Value is 1000px if sidebar is wider than 375px, 0px otherwise */
     /* Use it to toggle pixel values with: clamp(0px, var(--is-wide), var(--value-when-wide)) */
     /* Or to invert it: clamp(0px, (var(--is-wide) * -1) + 1000px, var(--value-when-narrow)) */
     --is-wide: calc(max(min(100 * (var(--custom-guild-sidebar-width) - 375px), 1px), 0px) * 1000);
 }
 
-._5e434347c823b592-panels {
+.panels__5e434 {
     /* Set max width and shift to the right if the sidebar is wide */
     max-width: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, 1000px) + clamp(0px, var(--is-wide), 280px)) !important;
     left: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-panels-spacing)) + clamp(0px, var(--is-wide), 85px)) !important;
     border-radius: 15px;
 }
 
-.ef3116c2da186559-wrapper {
+.wrapper_ef3116 {
     /* If user area was shifted over, remove margin and allow channel list to go all the way down */
     /* Otherwise, use app panel / user area height as margin */
     margin-bottom: calc(clamp(0px, (var(--is-wide) * -1) + 1000px, var(--custom-app-panels-height, 0) + var(--space-xs)) + clamp(0px, var(--is-wide), var(--space-xs))) !important;
 }
 
-._5e434347c823b592-sidebar {
+.sidebar__5e434 {
     background-color: transparent;
     position: relative;
     overflow: hidden;
 }
 
-._5e434347c823b592-sidebar:after {
+.sidebar__5e434:after {
     background: transparent !important;
 }
 
-html.theme-dark ._5e434347c823b592-sidebar ._99f8cc7ad4790ce9-content:after {
+html.theme-dark .sidebar__5e434 ._99f8cc7ad4790ce9-content:after {
     color: rgba(255, 255, 255, 0.03);
     text-shadow: 0 0 15px #000;
 }
 
-html.theme-light ._5e434347c823b592-sidebar ._99f8cc7ad4790ce9-content:after {
+html.theme-light .sidebar__5e434 ._99f8cc7ad4790ce9-content:after {
     color: rgba(0, 0, 0, 0.1);
     text-shadow: 0 0 15px rgb(255, 255, 255);
 }
 
-/*._5e434347c823b592-panels > ._37e49614b9f110a9-container ._7c0bae9243151ddd-flex > :not(:last-child) {*/
+/*.panels__5e434 > .container__37e49 ._7c0bae9243151ddd-flex > :not(:last-child) {*/
 /*    opacity: 0 !important;*/
 /*    width: 50px;*/
 /*    transition: all 0.3s;*/
 /*}*/
 
-/*._5e434347c823b592-panels > ._37e49614b9f110a9-container:hover ._7c0bae9243151ddd-flex > :not(:last-child) {*/
+/*.panels__5e434 > .container__37e49:hover ._7c0bae9243151ddd-flex > :not(:last-child) {*/
 /*    opacity: 100% !important;*/
 /*    width: 40px;*/
 /*    margin-left: 10px;*/
 /*}*/
 
 /* Hide all immediate children */
-._5e434347c823b592-panels ._37e49614b9f110a9-buttons > * {
+.panels__5e434 ._37e49614b9f110a9-buttons > * {
     opacity: 0;
     transition: all 0.3s;
 }
 
 /* Make the last child (settings icon) visible by default */
-._5e434347c823b592-panels ._37e49614b9f110a9-buttons > :nth-last-child(2) {
+.panels__5e434 ._37e49614b9f110a9-buttons > :nth-last-child(2) {
     opacity: 1;
 }
 
 /* When hovering over the container, show all children */
-._5e434347c823b592-panels ._37e49614b9f110a9-buttons:hover > * {
+.panels__5e434 ._37e49614b9f110a9-buttons:hover > * {
     opacity: 1;
 }
 
@@ -114,13 +114,13 @@ html.theme-light ._5e434347c823b592-sidebar ._99f8cc7ad4790ce9-content:after {
 }
 
 /* Avatar in bottom left */
-._37e49614b9f110a9-avatarWrapper {
+.avatarWrapper__37e49 {
     max-width: 36px;
     min-width: 36px !important;
     transition: 0.3s;
 }
 
-._37e49614b9f110a9-avatarWrapper:hover {
+.avatarWrapper__37e49:hover {
     min-width: 270px !important;
     max-width: 270px;
     transition: 0.3s;
@@ -138,7 +138,7 @@ html.theme-light ._5e434347c823b592-sidebar ._99f8cc7ad4790ce9-content:after {
 }
 
 /* Settings/Deafen/Mute Buttons Animated */
-._67645e1530f1195d-button:hover ._201d5e8a3c09670a-contents {
+._67645e1530f1195d-button:hover .contents__201d5 {
     animation: UserModalButtons 0.5s normal ease;
 }
 
@@ -395,7 +395,7 @@ html.theme-light #vc-spotify-player {
     text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
 }
 
-/* #vc-spotify-progress-bar .a562c840daab72a7-grabber {
+/* #vc-spotify-progress-bar .grabber_a562c8 {
     width: var(--chillax-spotify-control-squid-width) !important;
     height: var(--chillax-spotify-control-squid-height) !important;
     background-color: transparent;
@@ -453,7 +453,7 @@ html.theme-light #vc-spotify-player {
 }
 
 /* Re-order elements to put spotify player at the top */
-._5e434347c823b592-panels {
+.panels__5e434 {
     display: flex;
     flex-direction: column;
     margin-top: 0;
@@ -476,12 +476,12 @@ html.theme-light #vc-spotify-player {
     order: 3;
 }
 
-.e131a99484292a19-container {
+.container_e131a9 {
     /* Voice chat controls */
     background-color: transparent !important;
 }
 
-._37e49614b9f110a9-container {
+.container__37e49 {
     /* Profile */
     order: 10;
 }

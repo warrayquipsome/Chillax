@@ -6,7 +6,7 @@
     transform: none !important;
 }
 
-._48112cbe77dc5022-folderPreviewWrapper:not([style=""]):before, ._48112cbe77dc5022-folderPreviewWrapper:not([style=""]):after {
+.folderPreviewWrapper__48112:not([style=""]):before, .folderPreviewWrapper__48112:not([style=""]):after {
     position: absolute;
     content: "";
     width: 24px;
@@ -20,6 +20,6 @@
     bottom: -45px;
 }
 
-/*.theme-light ._48112cbe77dc5022-folderPreviewWrapper {*/
+/*.theme-light .folderPreviewWrapper__48112 {*/
 /*    filter: brightness(0.5) saturate(3);*/
 /*}*/

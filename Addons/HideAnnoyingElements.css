@@ -18,7 +18,7 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     visibility: hidden !important;
 }
 
-#app-mount ._44b0c28be7879b7b-wrapper foreignObject[mask*=mobile]:after {
+#app-mount .wrapper__44b0c foreignObject[mask*=mobile]:after {
     display: none;
 }
 
