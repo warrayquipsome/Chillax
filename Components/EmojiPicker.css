@@ -1,34 +1,34 @@
 /*emoji/gif/sticker tab fix, and right-click reaction menu*/
-._084343c4f11eaaab-drawerSizingWrapper,
+.drawerSizingWrapper__08434,
 .wrapper_c0e32c {
     backdrop-filter: blur(15px) !important;
     border-radius: 5px;
 }
 
-html.theme-dark ._084343c4f11eaaab-drawerSizingWrapper,
+html.theme-dark .drawerSizingWrapper__08434,
 html.theme-dark .wrapper_c0e32c {
     background: #18191ba6 !important;
 }
 
-html.theme-light ._084343c4f11eaaab-drawerSizingWrapper,
+html.theme-light .drawerSizingWrapper__08434,
 html.theme-light .wrapper_c0e32c {
     background: #d4def1a6 !important;
 }
 
 /* Disable double background in emoji/gif/sticker tab menu */
-._084343c4f11eaaab-drawerSizingWrapper .wrapper_c0e32c {
+.drawerSizingWrapper__08434 .wrapper_c0e32c {
     background: transparent !important;
     backdrop-filter: none !important;
     border-radius: 0;
 }
 
 html.theme-dark .unicodeShortcut_b9ee0c,
-html.theme-dark ._3ad28b0867fa3fad-standardStickerShortcut {
+html.theme-dark .standardStickerShortcut__3ad28 {
     background: #292b2f;
 }
 
 html.theme-light .unicodeShortcut_b9ee0c,
-html.theme-light ._3ad28b0867fa3fad-standardStickerShortcut {
+html.theme-light .standardStickerShortcut__3ad28 {
     background: #ebedef;
 }
 
@@ -37,7 +37,7 @@ html.theme-light ._3ad28b0867fa3fad-standardStickerShortcut {
 }
 
 /*emoji tab design n fix*/
-._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button {
+.nav__08434 > .navList__08434 > button {
     flex: auto;
     bottom: 20px;
     line-height: 45px;
@@ -45,11 +45,11 @@ html.theme-light ._3ad28b0867fa3fad-standardStickerShortcut {
     border-radius: 0;
 }
 
-html.theme-dark ._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button {
+html.theme-dark .nav__08434 > .navList__08434 > button {
     background: #333135;
 }
 
-html.theme-light ._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button {
+html.theme-light .nav__08434 > .navList__08434 > button {
     background: #ebedef;
 }
 
@@ -67,14 +67,14 @@ html.theme-light ._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button {
     width: 85%;
 }
 
-html.theme-dark ._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button:hover {
+html.theme-dark .nav__08434 > .navList__08434 > button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 
-html.theme-light ._084343c4f11eaaab-nav > ._084343c4f11eaaab-navList > button:hover {
+html.theme-light .nav__08434 > .navList__08434 > button:hover {
     background: rgba(0, 0, 0, 0.2);
 }
 
-._084343c4f11eaaab-nav {
+.nav__08434 {
     padding: 0;
 }

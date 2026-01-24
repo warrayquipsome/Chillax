@@ -2,11 +2,11 @@
     --embed-border-radius: 5px;
 }
 
-html.theme-dark ._623de82e76ad7f82-embed code {
+html.theme-dark .embed__623de code {
     background: rgb(51, 50, 53);
 }
 
-html.theme-light ._623de82e76ad7f82-embed code {
+html.theme-light .embed__623de code {
     background: rgb(221, 221, 221);
 }
 

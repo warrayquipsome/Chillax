@@ -6,7 +6,7 @@
     font-size: var(--font-size) !important;
 }
 
-.c19a557985eb7793-messageContent,
+.messageContent_c19a55,
 .contents_c19a55 {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
@@ -17,11 +17,11 @@
 }
 
 /* custom "new unreads" pill */
-._7aaec78b97ff00f7-container._7aaec78b97ff00f7-bottom {
+.container__7aaec.bottom__7aaec {
     z-index: 9999 !important;
 }
 
-._7aaec78b97ff00f7-bar {
+.bar__7aaec {
     padding: 14px 50px;
 }
 
@@ -106,17 +106,17 @@ html.theme-light .wrapper_f7ecac {
 }
 
 /*channel resize*/
-.sidebar__5e434 ._2ea32c412048f708-name {
+.sidebar__5e434 .name__2ea32 {
     font-size: 14px;
 }
 
-.sidebar__5e434 ._2ea32c412048f708-icon {
+.sidebar__5e434 .icon__2ea32 {
     width: 16px;
     height: 16px;
 }
 
 /* Video player controls */
-.cf09d85aafe7e124-videoControls {
+.videoControls_cf09d8 {
     width: auto;
     margin: 15px;
     padding-bottom: 0px;
@@ -126,7 +126,7 @@ html.theme-light .wrapper_f7ecac {
     transition: 0.2s;
 }
 
-.cf09d85aafe7e124-wrapperControlsHidden .cf09d85aafe7e124-videoControls {
+.cf09d85aafe7e124-wrapperControlsHidden .videoControls_cf09d8 {
     margin-bottom: -30px;
 }
 
@@ -135,7 +135,7 @@ html.theme-light .wrapper_f7ecac {
     margin-right: 5px;
 }
 
-.b8880176888cc928-base .b8880176888cc928-text {
+.base_b88801 .b8880176888cc928-text {
     display: flex;
     align-items: center;
 }
@@ -188,7 +188,7 @@ html.theme-light .wrapper_f7ecac {
     border-radius: 15px;
 }
 
-.placeholder__1b31f.ec4baf0360ff3578-slateTextArea.fontSize16Padding__74017 {
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017 {
     color: transparent !important;
 }
 
@@ -288,12 +288,12 @@ html.theme-light .placeholder__1b31f::before {
     background: transparent !important;
 }
 
-.form_f75fb0:has(.b8880176888cc928-base) .form_f75fb0 {
+.form_f75fb0:has(.base_b88801) .form_f75fb0 {
     /* Add margin to the top when typing/slowmode indicator is active */
     margin-top: var(--custom-chat-input-margin-bottom);
 }
 
-.b8880176888cc928-base {
+.base_b88801 {
     /* Indicator order */
     position: static;
     order: 1;
@@ -309,7 +309,7 @@ html.theme-light .container__8a031 {
 }
 
 /* Remove slowmode message */
-.b216994de061a9e2-cooldownWrapper {
+.cooldownWrapper_b21699 {
     font-size: 0px;
 }
 
@@ -319,7 +319,7 @@ html.theme-light .container__8a031 {
 }
 
 /* Make unread DM's highlighted based on accent color */
-._972a0d22c8afa7f0-link:has(._20a53846fe2e8513-highlighted) {
+.link__972a0:has(._20a53846fe2e8513-highlighted) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,

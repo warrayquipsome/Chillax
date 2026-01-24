@@ -23,21 +23,21 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
 }
 
 /* Hide nitro section of friends list */
-._972a0d22c8afa7f0-link[href="/store"] {
+.link__972a0[href="/store"] {
     display: none;
 }
 
 /* Hide shop section of friends list */
-._972a0d22c8afa7f0-link[href="/shop"] {
+.link__972a0[href="/shop"] {
     display: none;
 }
 
 /* Hide quests section of friends list */
-._972a0d22c8afa7f0-link[href="/quest-home"] {
+.link__972a0[href="/quest-home"] {
     display: none;
 }
 
 /* Hide "Quest" advertisements */
-._0d6162a4e6a4b802-mask {
+.mask__0d616 {
     display: none;
 }

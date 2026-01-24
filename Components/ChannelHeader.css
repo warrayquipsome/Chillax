@@ -9,7 +9,7 @@
     border: none !important;
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open) .searchBar_c322aa {
+.search_c322aa:not(.open_c322aa) .searchBar_c322aa {
     width: 30px;
     transition: var(--transitionspeed);
     background-color: transparent;
@@ -19,33 +19,33 @@
     transition: color var(--transitionspeed) ease;
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open):not(:hover) .public-DraftEditorPlaceholder-root {
+.search_c322aa:not(.open_c322aa):not(:hover) .public-DraftEditorPlaceholder-root {
     color: #0000;
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open):hover .searchBar_c322aa {
+.search_c322aa:not(.open_c322aa):hover .searchBar_c322aa {
     width: 244px;
     background-color: var(--background-tertiary);
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open) .iconContainer_fea832 {
+.search_c322aa:not(.open_c322aa) .iconContainer_fea832 {
     transform: scale(1.1);
     transition: var(--transitionspeed);
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open):hover .iconContainer_fea832 {
+.search_c322aa:not(.open_c322aa):hover .iconContainer_fea832 {
     transform: scale(1);
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open) .icon_fea832 {
+.search_c322aa:not(.open_c322aa) .icon_fea832 {
     color: var(--text-normal);
 }
 
-.search_c322aa:not(.c322aadb96ff59c9-open):hover .icon_fea832 {
+.search_c322aa:not(.open_c322aa):hover .icon_fea832 {
     color: var(--text-muted);
 }
 
-.container__9293f.themed__9293f ._496769951eb140fe-search {
+.container__9293f.themed__9293f .search__49676 {
     order: -1 !important;
 }
 
@@ -74,13 +74,13 @@ html.theme-light .container_d9c882 {
 
 .messagesPopoutWrap_e8b59c,
 .recentMentionsPopout__95796,
-._084343c4f11eaaab-drawerSizingWrapper {
+.drawerSizingWrapper__08434 {
     backdrop-filter: blur(15px) !important;
 }
 
 html.theme-dark .messagesPopoutWrap_e8b59c,
 html.theme-dark .recentMentionsPopout__95796,
-html.theme-dark ._084343c4f11eaaab-drawerSizingWrapper {
+html.theme-dark .drawerSizingWrapper__08434 {
     background: rgba(0, 0, 0, 0.3) !important;
 }
 
@@ -90,17 +90,17 @@ html.theme-dark .messageGroupWrapper_e8b59c {
 
 html.theme-light .messagesPopoutWrap_e8b59c,
 html.theme-light .recentMentionsPopout__95796,
-html.theme-light ._084343c4f11eaaab-drawerSizingWrapper {
+html.theme-light .drawerSizingWrapper__08434 {
     background: rgb(223, 223, 223) !important;
 }
 
 /* Fix buttons on pins items */
-.e8b59c4b335dd2fc-buttonContainer {
+.buttonContainer_e8b59c {
     background-color: #0000;
 }
 
 /* Inbox alignment fix */
-._957962c2bd49881b-container {
+.container__95796 {
     padding-left: 16px;
 }
 

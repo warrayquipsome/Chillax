@@ -45,11 +45,11 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 /* Realign headers to be more visible when collapsed */
-.c8ffbb79449f399c-membersGroup {
+.membersGroup_c8ffbb {
     transition: padding 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) .c8ffbb79449f399c-membersGroup {
+.membersWrap_c8ffbb:not(:hover) .membersGroup_c8ffbb {
     padding-left: 2px;
 }
 
@@ -165,12 +165,12 @@ div:not(:hover) > .members_c8ffbb > div {
 /*}*/
 
 /*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .b32ca49f97332e1b-body,*/
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .c0bea05627c5dc35-overlay {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .overlay_c0bea0 {*/
 /*    opacity: 0;*/
 /*    transition: opacity 0.5s ease;*/
 /*}*/
 
 /*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .b32ca49f97332e1b-body,*/
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .c0bea05627c5dc35-overlay {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .overlay_c0bea0 {*/
 /*    opacity: 1;*/
 /*}*/

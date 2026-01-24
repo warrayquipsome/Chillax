@@ -71,12 +71,12 @@
     overflow: hidden !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-sidebar {
+#app-mount .layer__960e4 ~ .layer__960e4 .sidebar__23e6b {
     width: 218px !important;
     padding: 20px 6px 20px 20px !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-contentColumnDefault {
+#app-mount .layer__960e4 ~ .layer__960e4 .contentColumnDefault__23e6b {
     padding: 20px 40px !important;
 }
 
@@ -84,7 +84,7 @@
     height: var(--settingsmodalheight) !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 .aa8da23faa27393c-header {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_aa8da2 {
     max-width: calc(var(--settingsmodalwidth) - 256px) !important;;
 }
 
@@ -93,10 +93,10 @@
     height: calc(var(--settingsmodalheight) - 120px) !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-toolsContainer,
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-toolsContainer ._23e6b439306f125a-tools,
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-toolsContainer .c2b141c0f80863fb-container,
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-toolsContainer .c2b141c0f80863fb-closeButton {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .tools__23e6b,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .c2b141c0f80863fb-container,
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -115,7 +115,7 @@
     cursor: default !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 ._23e6b439306f125a-toolsContainer {
+#app-mount .layer__960e4 ~ .layer__960e4 .toolsContainer__23e6b {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
@@ -125,11 +125,11 @@
     display: none !important;
 }
 
-#app-mount .layer__960e4 ~ .layer__960e4 .aa8da23faa27393c-header {
+#app-mount .layer__960e4 ~ .layer__960e4 .header_aa8da2 {
     max-width: calc(var(--settingsmodalwidth) - 730px) !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root {
+#app-mount .root__5c9fc {
     position: fixed !important;
     top: 0 !important;
     right: 0 !important;
@@ -147,7 +147,7 @@
     z-index: 1000 !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root._5c9fcec194debbe7-enterDone {
+#app-mount .root__5c9fc._5c9fcec194debbe7-enterDone {
     transform: unset !important;
 }
 
@@ -170,14 +170,14 @@
     padding: 10px 0 10px !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root .perksModal-CLcR1c .carousel-3dvee9 {
+#app-mount .root__5c9fc .perksModal-CLcR1c .carousel-3dvee9 {
     margin-left: calc(-0.5 * (100vw - var(--settingsmodalwidth))) !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq,
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .closeContent-I3JbQJ,
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .c2b141c0f80863fb-container,
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq .c2b141c0f80863fb-closeButton {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeContent-I3JbQJ,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .c2b141c0f80863fb-container,
+#app-mount .root__5c9fc .closeWrapper-9ScmSq .closeButton_c2b141 {
     position: absolute !important;
     top: 0 !important;
     right: 0 !important;
@@ -196,17 +196,17 @@
     cursor: default !important;
 }
 
-#app-mount ._5c9fcec194debbe7-root .closeWrapper-9ScmSq {
+#app-mount .root__5c9fc .closeWrapper-9ScmSq {
     position: fixed !important;
     top: 22px !important;
     z-index: -1 !important;
 }
 
-.theme-dark ._23e6b439306f125a-sidebarRegion {
+.theme-dark .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
-.theme-light ._23e6b439306f125a-sidebarRegion {
+.theme-light .sidebarRegion__23e6b {
     background: var(--sidebar-colour);
 }
 
@@ -219,7 +219,7 @@
  A comment would have helped
 */
 
-._65c15724a894a2e0-premiumFeatureBorder {
+.premiumFeatureBorder__65c15 {
     background: linear-gradient(var(--background-primary), var(--background-primary)) padding-box border-box;
 }
 
@@ -234,7 +234,7 @@
 }
 
 /* Gets rid of the annoying profile button ref */
-._1fed1dd06c7aabf7-userInfo .button_a22cb0.sm_a22cb0 {
+.userInfo__1fed1 .button_a22cb0.sm_a22cb0 {
     display: none !important;
 }
 
@@ -272,17 +272,17 @@ html.theme-light ._1fed1dd06c7aabf7-fieldButton.button_a22cb0[aria-label="Remove
     color: rgb(255, 255, 255) !important;
 }
 
-._1fed1dd06c7aabf7-badgeList {
+.badgeList__1fed1 {
     border-radius: 8px;
     margin-top: 5px;
     padding: 2px;
 }
 
-html.theme-dark ._1fed1dd06c7aabf7-badgeList {
+html.theme-dark .badgeList__1fed1 {
     background-color: #333135;
 }
 
-html.theme-light ._1fed1dd06c7aabf7-badgeList {
+html.theme-light .badgeList__1fed1 {
     background-color: #e4e4e4;
 }
 
@@ -353,7 +353,7 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     width: 0;
 }
 
-._1fed1dd06c7aabf7-constrainedRow {
+.constrainedRow__1fed1 {
     overflow: visible;
 }
 
@@ -398,7 +398,7 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     top: 30px !important;
 }
 
-.layer__960e4 .accountProfileCard__1fed1 ._1fed1dd06c7aabf7-userInfo {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 {
     align-items: center;
     justify-content: center;
     width: calc(100% - 34px);
@@ -406,7 +406,7 @@ html.theme-dark ._1fed1dd06c7aabf7-fieldSpacerBottom {
     padding: 50px 0 9px;
 }
 
-.layer__960e4 .accountProfileCard__1fed1 ._1fed1dd06c7aabf7-userInfo .button_a22cb0 {
+.layer__960e4 .accountProfileCard__1fed1 .userInfo__1fed1 .button_a22cb0 {
     position: absolute;
     top: 52.5px !important;
     right: 294.5px;
@@ -532,7 +532,7 @@ html.theme-light .children__7bffb ._6ca73e8c711ac804-buttonContainer .critical-s
 /* Done */
 
 /* For discord checkpoint stuff */
-#app-mount .layerContainer__59d0d ._5c9fcec194debbe7-root {
+#app-mount .layerContainer__59d0d .root__5c9fc {
     contain: strict !important;
     border-radius: 0 !important;
     width: 100% !important;
