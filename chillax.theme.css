@@ -21,23 +21,23 @@
 */
 
 /* CHILLAX theme entry point */
-@import url("https://warrayquipsome.github.io/Chillax/chillax.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/chillax.css");
 
 /* removable addons */
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/EmojiReplace/base/Microsoft.css");
 @import url("https://mwittrien.github.io/BetterDiscordAddons/Themes/_res/SettingsIcons.css");
 @import url("https://chillax-org.github.io/Discolored/main.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/IconPackEdited.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/AvatarOnlyMemberList.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FolderRedesign.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Addons/IconPackEdited.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Addons/AvatarOnlyMemberList.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Addons/FolderRedesign.css");
 @import url("https://raw.githubusercontent.com/DiscordStyles/RadialStatus/refs/heads/deploy/RadialStatus.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/FriendGrid.css");
-@import url("https://warrayquipsome.github.io/Chillax/Addons/ColoredLinks.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Addons/FriendGrid.css");
+@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Addons/ColoredLinks.css");
 
 /*additional addons*/ /*(remove the both * to use)*/
 
 /* To hide annoying elements such as nitro, shop, sticker picker etc tab (remove the both * to use)*/
-/*@import url("https://warrayquipsome.github.io/Chillax/Addons/HideAnnoyingElements.css");*/
+/*@import url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Addons/HideAnnoyingElements.css");*/
 
 
 /*Chillax Roots*/
@@ -46,10 +46,10 @@
     --background-image: var(--wallpaper);
     --bg-opacity: 100%;
     /*bg dev suggestions*/
-    --wallpaper: url("https://warrayquipsome.github.io/Chillax/Wallpapers/chillax-default.png");
+    --wallpaper: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Wallpapers/chillax-default.png");
     /*modern background selection*/
-    --modern-dark-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-dark-bg.png");
-    --modern-light-bg: url("https://warrayquipsome.github.io/Chillax/Wallpapers/modern-light-bg.png");
+    --modern-dark-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Wallpapers/modern-dark-bg.png");
+    --modern-light-bg: url("https://raw.githubusercontent.com/warrayquipsome/Chillax/refs/heads/recent-fixes/Wallpapers/modern-light-bg.png");
 }
 
 
