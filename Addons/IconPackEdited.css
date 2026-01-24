@@ -181,7 +181,7 @@
     transform: scale(0.95);
 }
 
-._1f388bcaa446c0c8-tutorialContainer .homeIcon__560eb path {
+.tutorialContainer__1f388 .homeIcon__560eb path {
     d: path(var(--discord));
     transform-origin: center;
     transform: scale(2) translate(2px, -2px);
