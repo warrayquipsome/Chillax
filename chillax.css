@@ -43,7 +43,7 @@
     background-color: transparent !important;
 }
 
-._5e434347c823b592-sidebarListRounded {
+.sidebarListRounded__5e434 {
     backdrop-filter: none !important;
 }
 
@@ -112,7 +112,7 @@
 .container__9293f,
 .container__0b563,
 .container_c2efea,
-.visual-refresh .c791b281f2fedc32-page,
+.visual-refresh .page_c791b2,
 .visual-refresh .mainTableContainer__09a38,
 .visual-refresh .container__0b563, .visual-refresh .header__0b563,
 .visual-refresh .pageBody__41ed7,
@@ -137,11 +137,11 @@
 .pageWrapper__6db1d,
 .applicationStore_f07d62,
 .visual-refresh .homeWrapper__0920e,
-.ca1a02dcad190ff8-allPerksScroller, .mainPageScroller_ca1a02 {
+.allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
     background: transparent !important;
 }
 
-._3ce4302b7c49d475-headerArtV2 {
+.headerArtV2__3ce43 {
     border-radius: 15px;
 }
 
@@ -204,11 +204,11 @@ html.theme-light .floating-window-titlebar {
 }
 
 /*code block*/
-html.theme-dark ._506b39a96c2f8884-scrollbar {
+html.theme-dark .scrollbar__506b3 {
     background-color: rgba(0, 0, 0, 0.377) !important;
 }
 
-html.theme-light ._506b39a96c2f8884-scrollbar {
+html.theme-light .scrollbar__506b3 {
     background-color: rgba(255, 255, 255, 0.377) !important;
 }
 
@@ -2564,7 +2564,7 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
     background: transparent !important;
 }
 
-._89a343a153c6f2ec-flex textarea._506b39a96c2f8884-scrollbar {
+._89a343a153c6f2ec-flex textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
@@ -2586,7 +2586,7 @@ html.theme-light .container_faa96b.isOpen_faa96b {
 }
 
 /* Forum channel text input fixes */
-._89a343a153c6f2ec-flex textarea._506b39a96c2f8884-scrollbar {
+._89a343a153c6f2ec-flex textarea.scrollbar__506b3 {
     background-color: transparent !important;
 }
 
