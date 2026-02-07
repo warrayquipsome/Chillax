@@ -458,7 +458,7 @@ html.theme-light .button_a22cb0:hover {
 }
 
 /* fix for the newly added classes for the disable and Delete account button */
-.children_a6ae9b .critical-primary_a22cb0, .children_a6ae9b .critical-secondary_a22cb0 {
+.children__7bffb .critical-primary_a22cb0, .children__7bffb .critical-secondary_a22cb0 {
     padding: 25px;
     height: 45px;
     font-family: "Roboto" !important;
@@ -473,59 +473,59 @@ html.theme-light .button_a22cb0:hover {
     outline: none;
 }
 
-.children_a6ae9b .critical-primary_a22cb0 .buttonChildrenWrapper_a22cb0 span, .children_a6ae9b .critical-secondary_a22cb0 span {
+.children__7bffb .critical-primary_a22cb0 .buttonChildrenWrapper_a22cb0 span, .children__7bffb .critical-secondary_a22cb0 span {
     /* font-size: 0px !important; */
     visibility: hidden;
 }
 
-.children_a6ae9b .critical-primary_a22cb0::before {
+.children__7bffb .critical-primary_a22cb0::before {
     content: "Disable";
     position: absolute;
     font-size: 14px !important;
 }
 
-.children_a6ae9b .critical-secondary_a22cb0::before {
+.children__7bffb .critical-secondary_a22cb0::before {
     content: "Delete";
     position: absolute;
     font-size: 14px !important;
 }
 
 
-html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0 {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0 {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
     transform: translateY(-7px);
 }
 
-html.theme-dark .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
+html.theme-dark .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
     transform: translateY(-7px);
 }
 
-html.theme-light .children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
+html.theme-light .children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
     transform: translateY(-7px);
 }
 
-html.theme-light .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
+html.theme-light .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
     transform: translateY(-7px);
 }
 
-.children_a6ae9b .buttonContainer__6ca73 .critical-primary_a22cb0:hover, .children_a6ae9b .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
+.children__7bffb .buttonContainer__6ca73 .critical-primary_a22cb0:hover, .children__7bffb .buttonContainer__6ca73 .critical-secondary_a22cb0:hover {
     box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
 }
 

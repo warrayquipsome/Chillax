@@ -36,7 +36,7 @@
     margin-right: var(--window-margin);
 }
 
-.recentsIcon_ea0547,
+.recentsIcon_c99c29,
 .trailing_c38106 > .anchor_edefb8,  /* Help button */
 .trailing_c38106 > .clickable_c99c29,  /* Inbox button */
 .trailing_c38106 > .clickable__9293f,  /* Snapshot button */
@@ -48,7 +48,7 @@
     border-radius: var(--window-border-radius);
 }
 
-.recentsIcon_ea0547:hover,
+.recentsIcon_c99c29:hover,
 .trailing_c38106 > .anchor_edefb8:hover,  /* Help button */
 .trailing_c38106 > .clickable_c99c29:hover,  /* Inbox button */
 .trailing_c38106 > .clickable__9293f:hover,  /* Snapshot button */

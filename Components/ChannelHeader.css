@@ -5,11 +5,11 @@
     --transitionspeed: 0.25s;
 }
 
-.c322aadb96ff59c9-searchBar {
+.searchBar_c322aa {
     border: none !important;
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .c322aadb96ff59c9-searchBar {
+.search_c322aa:not(.open_c322aa) .searchBar_c322aa {
     width: 30px;
     transition: var(--transitionspeed);
     background-color: transparent;
@@ -19,29 +19,29 @@
     transition: color var(--transitionspeed) ease;
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):not(:hover) .public-DraftEditorPlaceholder-root {
+.search_c322aa:not(.open_c322aa):not(:hover) .public-DraftEditorPlaceholder-root {
     color: #0000;
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .c322aadb96ff59c9-searchBar {
+.search_c322aa:not(.open_c322aa):hover .searchBar_c322aa {
     width: 244px;
     background-color: var(--background-tertiary);
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .iconContainer_effbe2 {
+.search_c322aa:not(.open_c322aa) .iconContainer_fea832 {
     transform: scale(1.1);
     transition: var(--transitionspeed);
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .iconContainer_effbe2 {
+.search_c322aa:not(.open_c322aa):hover .iconContainer_fea832 {
     transform: scale(1);
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open) .icon_effbe2 {
+.search_c322aa:not(.open_c322aa) .icon_fea832 {
     color: var(--text-normal);
 }
 
-.c322aadb96ff59c9-search:not(.c322aadb96ff59c9-open):hover .icon_effbe2 {
+.search_c322aa:not(.open_c322aa):hover .icon_fea832 {
     color: var(--text-muted);
 }
 

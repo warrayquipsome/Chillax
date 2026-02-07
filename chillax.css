@@ -24,7 +24,7 @@
 /***TRANSPARENT CODES***/
 /**transparent part LVL I**/
 /*home tab fix*/
-.forumOrHome_ff5f90 {
+.forumOrHome__49676 {
     background: transparent;
 }
 
@@ -132,9 +132,9 @@
 
 /* Transparent background for the shop, nitro page */
 .visual-refresh .shop__6db1d,
-.shopScroll_e77fa3,
+.shopScroll__6db1d,
 .shop__08415,
-.pageWrapper_e77fa3,
+.pageWrapper__6db1d,
 .applicationStore_f07d62,
 .visual-refresh .homeWrapper__0920e,
 .allPerksScroller_ca1a02, .mainPageScroller_ca1a02 {
@@ -1025,7 +1025,7 @@ div[class*="_44b0c28be7879b7b-wrapper"][aria-label*="Online"]
 /*appearance theme preview*/
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"] {
     display: flex;
@@ -1033,7 +1033,7 @@ div[class*="_44b0c28be7879b7b-wrapper"][aria-label*="Online"]
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98 {
@@ -1047,7 +1047,7 @@ div[class*="_44b0c28be7879b7b-wrapper"][aria-label*="Online"]
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:first-child {
@@ -1056,7 +1056,7 @@ div[class*="_44b0c28be7879b7b-wrapper"][aria-label*="Online"]
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:nth-child(2) {
@@ -1065,7 +1065,7 @@ div[class*="_44b0c28be7879b7b-wrapper"][aria-label*="Online"]
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:nth-child(3) {
@@ -1075,7 +1075,7 @@ div[class*="_44b0c28be7879b7b-wrapper"][aria-label*="Online"]
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98
@@ -1086,7 +1086,7 @@ svg {
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98
@@ -1101,7 +1101,7 @@ svg {
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98
@@ -1113,7 +1113,7 @@ svg {
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:last-child
@@ -1124,7 +1124,7 @@ svg {
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 [role="radiogroup"]
 .item-2idW98:last-child
@@ -1137,7 +1137,7 @@ svg {
 
 #appearance-tab.contentColumn__23e6b
 > :not([class]):first-child
-> .children_a6ae9b
+> .children__7bffb
 > div:nth-child(2)
 .container-1zDvAE.marginTop20_fd297e {
     margin-top: 50px;
@@ -1361,7 +1361,7 @@ html.theme-light .inline {
 }
 
 /*disable and delete account button design*/
-.children_a6ae9b .colorRed__201d5 {
+.children__7bffb .colorRed__201d5 {
     /*width: 140px;*/
     height: 45px;
     font-family: "Roboto" !important;
@@ -1376,49 +1376,49 @@ html.theme-light .inline {
     outline: none;
 }
 
-html.theme-dark .children_a6ae9b .colorRed__201d5 {
+html.theme-dark .children__7bffb .colorRed__201d5 {
     color: rgb(255, 255, 255) !important;
     background-color: rgb(58, 58, 58) !important;
 }
 
-html.theme-light .children_a6ae9b .colorRed__201d5 {
+html.theme-light .children__7bffb .colorRed__201d5 {
     color: rgb(0, 0, 0) !important;
     background-color: rgb(255, 255, 255) !important;
 }
 
-.children_a6ae9b .colorRed__201d5:hover {
+.children__7bffb .colorRed__201d5:hover {
     box-shadow: 0px 15px 20px rgba(229, 46, 46, 0.4);
     transform: translateY(-7px);
 }
 
-html.theme-dark .children_a6ae9b .colorRed__201d5:hover {
+html.theme-dark .children__7bffb .colorRed__201d5:hover {
     background-color: rgb(229, 46, 46) !important;
     color: rgb(37, 37, 37) !important;
 }
 
-html.theme-light .children_a6ae9b .colorRed__201d5:hover {
+html.theme-light .children__7bffb .colorRed__201d5:hover {
     background-color: rgb(255, 129, 129) !important;
     color: rgb(255, 255, 255) !important;
 }
 
-/*.children_a6ae9b .colorRed__201d5 {*/
+/*.children__7bffb .colorRed__201d5 {*/
 /*    font-size: 0px !important;*/
 /*}*/
 
-.children_a6ae9b .disableButton_adabdf.colorRed__201d5::before {
+.children__7bffb .disableButton_d286c5.colorRed__201d5::before {
     content: "Disable";
     position: absolute;
     font-size: 11px !important;
 }
 
-.children_a6ae9b .lookOutlined__201d5.colorRed__201d5::before {
+.children__7bffb .lookOutlined__201d5.colorRed__201d5::before {
     content: "Delete";
     position: absolute;
     font-size: 11px !important;
 }
 
 /* For Logout from all devices button */
-.children_a6ae9b .logOutAllButton__803f2.lookOutlined__201d5.colorRed__201d5::before {
+.children__7bffb .logOutAllButton__803f2.lookOutlined__201d5.colorRed__201d5::before {
     content: "Logout" !important;
     position: absolute;
     font-size: 11px !important;
@@ -1657,7 +1657,7 @@ html.theme-light .itemCard__7e549.wrapper__00943:hover {
 }
 
 /*custom nsfw warning*/
-.image_def860 {
+.image__7184c {
     content: url("https://cdn-icons-png.flaticon.com/512/4842/4842436.png");
 }
 
@@ -2556,7 +2556,7 @@ html.theme-dark .container_faa96b.isOpen_faa96b {
     background-color: #181a1d70;
 }
 
-.forumOrHome_ff5f90 {
+.forumOrHome__49676 {
     background: transparent !important;
 }
 
@@ -2679,7 +2679,7 @@ html.theme-light .fieldSpacerBottom__1fed1 {
 }
 
 /* Disable .root__49fc1 background in unintended places */
-.container_f4e139, .zoomedCarouselModalRoot_f74404 {
+.container_ac6cb0, .zoomedCarouselModalRoot_f74404 {
     background: transparent !important;
     backdrop-filter: none !important;
 }
@@ -2839,7 +2839,7 @@ html.theme-light .header_aa8da2 {
     color: #585b5e;
 }
 
-html.theme-light .input_effbe2 {
+html.theme-light .input_fea832 {
     /* Search box in settings */
     color: #303030;
 }
