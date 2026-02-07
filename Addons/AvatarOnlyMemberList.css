@@ -58,11 +58,11 @@ div:not(:hover) > .members_c8ffbb > div {
 }
 
 /* Member list activity widget */
-._42bf58529787eb7a-contentImage {
+.contentImage__42bf5 {
     transition: transform 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) ._42bf58529787eb7a-contentImage {
+.membersWrap_c8ffbb:not(:hover) .contentImage__42bf5 {
     /* Undo expanded spacing and normal list width, then apply collapsed list width and necessary spacing to center the icon */
     transform: translateX(calc(18px - var(--custom-member-list-width) + var(--member-list-collapsed-width) - ((var(--member-list-collapsed-width) - 48px) / 2)));
 }
@@ -76,25 +76,25 @@ div:not(:hover) > .members_c8ffbb > div {
     border-color: transparent;
 }
 
-._7641b507c6cdbb10-container {
+.container__7641b {
     background: transparent !important;
     border: none !important;
 }
 
-._0f2e83213c878a13-infoSection {
+.infoSection__0f2e8 {
     transition: opacity 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) ._0f2e83213c878a13-infoSection {
+.membersWrap_c8ffbb:not(:hover) .infoSection__0f2e8 {
     opacity: 0;
 }
 
 /* Fade out usernames when collapsed */
-._91a9d7f7e5248a56-content {
+.content__91a9d {
     transition: opacity 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) ._91a9d7f7e5248a56-content {
+.membersWrap_c8ffbb:not(:hover) .content__91a9d {
     opacity: 0;
 }
 
@@ -148,29 +148,29 @@ div:not(:hover) > .members_c8ffbb > div {
 /*    border-top-left-radius: var(--memberlist-border-radius);*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) ._75742e4cc9019aeb-avatar {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .avatar__75742 {*/
 /*    !* Move profile picture out to still be visible when collapsed *!*/
 /*    transform: translate(-56px);*/
 /*    transition: transform 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover ._75742e4cc9019aeb-avatar {*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .avatar__75742 {*/
 /*    transform: none;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .none_d125d2,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .none_c49869,*/
 /*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .inner_c0bea0 {*/
 /*    !* Disable scrolling to allow profile to overflow the outer element *!*/
 /*    overflow: visible !important;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .b32ca49f97332e1b-body,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .body_b32ca4,*/
 /*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .overlay_c0bea0 {*/
 /*    opacity: 0;*/
 /*    transition: opacity 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .b32ca49f97332e1b-body,*/
+/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .body_b32ca4,*/
 /*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .overlay_c0bea0 {*/
 /*    opacity: 1;*/
 /*}*/

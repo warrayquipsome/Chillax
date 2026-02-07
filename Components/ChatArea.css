@@ -1,7 +1,7 @@
 /* Styles for the main chat area as well as the channel list */
 
 /*custom channel and text area font and size*/
-._9293f6b2fc12398a-title {
+.title__9293f {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
@@ -25,7 +25,7 @@
     padding: 14px 50px;
 }
 
-._7aaec78b97ff00f7-unreadIcon {
+.unreadIcon__7aaec {
     display: none;
 }
 
@@ -48,7 +48,7 @@
 }
 
 /* remove date divider */
-._908e20001ad67812-hasContent {
+.hasContent__908e2 {
     display: none;
 }
 
@@ -126,7 +126,7 @@ html.theme-light .wrapper_f7ecac {
     transition: 0.2s;
 }
 
-.cf09d85aafe7e124-wrapperControlsHidden .videoControls_cf09d8 {
+.wrapperControlsHidden_cf09d8 .videoControls_cf09d8 {
     margin-bottom: -30px;
 }
 
@@ -188,7 +188,7 @@ html.theme-light .wrapper_f7ecac {
     border-radius: 15px;
 }
 
-.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding__74017 {
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding_bdf0de {
     color: transparent !important;
 }
 
@@ -244,7 +244,7 @@ html.theme-light .placeholder__1b31f::before {
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-._740174f3d6a2c8fe-innerDisabled .placeholder__1b31f::before {
+.innerDisabled__74017 .placeholder__1b31f::before {
     content: var(--chillax-input-field-locked) !important;
 }
 
@@ -263,7 +263,7 @@ html.theme-light .placeholder__1b31f::before {
     background-color: #00000023;
 }
 
-.e6e74fd4d1221f53-buttonActive {
+.buttonActive_e6e74f {
     background-color: #181a1d;
 }
 
@@ -319,7 +319,7 @@ html.theme-light .container__8a031 {
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link__972a0:has(._20a53846fe2e8513-highlighted) {
+.link__972a0:has(.highlighted__20a53) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,

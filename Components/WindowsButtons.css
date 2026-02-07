@@ -36,9 +36,9 @@
     margin-right: var(--window-margin);
 }
 
-.recentsIcon_c99c29,
+.recentsIcon_ea0547,
 .trailing_c38106 > .anchor_edefb8,  /* Help button */
-.trailing_c38106 > .c99c29809d200a61-clickable,  /* Inbox button */
+.trailing_c38106 > .clickable_c99c29,  /* Inbox button */
 .trailing_c38106 > .clickable__9293f,  /* Snapshot button */
 .winButtons_c38106 > div {
     height: var(--space-32);
@@ -48,9 +48,9 @@
     border-radius: var(--window-border-radius);
 }
 
-.recentsIcon_c99c29:hover,
+.recentsIcon_ea0547:hover,
 .trailing_c38106 > .anchor_edefb8:hover,  /* Help button */
-.trailing_c38106 > .c99c29809d200a61-clickable:hover,  /* Inbox button */
+.trailing_c38106 > .clickable_c99c29:hover,  /* Inbox button */
 .trailing_c38106 > .clickable__9293f:hover,  /* Snapshot button */
 .winButtons_c38106 > div:hover {
     background: transparent;
