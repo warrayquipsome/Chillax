@@ -88,7 +88,7 @@ html.theme-light .sidebar__5e434 .content__99f8c:after {
 
 .buttons__37e49 {
     width: 100%;
-    justify-content: flex-end;
+    justify-content: space-evenly;
 }
 
 .container-6sXIoE .alignStretch_abf706.flex_abf706 {
@@ -114,13 +114,13 @@ html.theme-light .sidebar__5e434 .content__99f8c:after {
 }
 
 /* Avatar in bottom left */
-.avatarWrapper__37e49 {
+.accountPopoutButtonWrapper__37e49 {
     max-width: 36px;
     min-width: 36px !important;
     transition: 0.3s;
 }
 
-.avatarWrapper__37e49:hover {
+.accountPopoutButtonWrapper__37e49:hover {
     min-width: 270px !important;
     max-width: 270px;
     transition: 0.3s;
