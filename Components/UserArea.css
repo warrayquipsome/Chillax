@@ -77,7 +77,7 @@ html.theme-light .sidebar__5e434 .content__99f8c:after {
 }
 
 /* Make the last child (settings icon) visible by default */
-.panels__5e434 .buttons__37e49 > :nth-last-child(2) {
+.panels__5e434 .buttons__37e49 > :nth-last-child(1) {
     opacity: 1;
 }
 
@@ -88,7 +88,7 @@ html.theme-light .sidebar__5e434 .content__99f8c:after {
 
 .buttons__37e49 {
     width: 100%;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 .container-6sXIoE .alignStretch_abf706.flex_abf706 {
