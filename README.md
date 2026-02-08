@@ -6,7 +6,7 @@
     <hr width="250px"/>
     <div align="center">
         <a href="https://discord.com/invite/DrfX6286kF" target="_blank">
-            <img src="http://badge-oq5l.onrender.com/badge/discord/DrfX6286kF" style="width: 13em" alt="wq"/>
+            <img src="https://dcbadge.limes.pink/api/server/https://discord.gg/DrfX6286kF" style="width: 25em" alt="wq"/>
         </a>
         <br/>
         <a href="https://chillax-org.github.io/chillaxdocs/" target="_blank">
