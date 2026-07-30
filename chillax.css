@@ -2933,3 +2933,11 @@ html.theme-light .modeSelected__2ea32 .name__2ea32 {
     display: none !important;
 }
 
+/* Fix some VC buttons in grid view with multiple people screensharing having a red background */
+.fullRegionDropdownButton_f1ceac.disconnect_f1ceac {
+    background-color: transparent !important;
+}
+
+.colorable_f1ceac.disconnect_f1ceac {
+    background-color: transparent !important;
+}
