@@ -1612,21 +1612,6 @@ html.theme-light .withTagAsButton_b2ca13:hover {
     font-size: 12px;
 }
 
-/* pin home and add/public server */
-.scroller_ef3116 {
-    display: flex;
-    flex-direction: column;
-    overflow: unset !important;
-}
-
-.scroller_ef3116 > div[aria-label="Servers"] {
-    overflow: hidden auto;
-}
-
-.scroller_ef3116 > div[aria-label="Servers"]::-webkit-scrollbar {
-    width: 0px;
-}
-
 /*active now*/
 .heading-lg-medium-3gUJeM {
     text-align: center;
@@ -1694,7 +1679,8 @@ html.theme-light .reaction_f8896c {
 .scroller_ef3116 {
     display: flex;
     flex-direction: column;
-    overflow: unset;
+    gap: 8px !important; 
+    overflow: hidden scroll !important;
 }
 
 .scroller_ef3116 > div[aria-label="Servers"] {
