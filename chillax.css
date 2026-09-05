@@ -2693,11 +2693,6 @@ html.theme-dark .container__55c99 {
     background: transparent !important;
 }
 
-/* Fix for radial status shadow cropping (friend list and stuff) */
-.wrapper__44b0c.avatar__0a06e {
-    padding: 5px !important;
-}
-
 /* Adding support for Vencord summary plugin */
 
 /* summaries container */
