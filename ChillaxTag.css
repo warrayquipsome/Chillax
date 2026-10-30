@@ -1,1 +1,4 @@
-
+/* Deprecated upstream placeholder (it shipped empty for years and BTcord
+   no longer imports it, which saves a request on every client start).
+   The theme credit/watermark now lives in the Settings info line in
+   chillax.css. This file is kept so old external links do not 404. */

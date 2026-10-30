@@ -7,7 +7,7 @@
 
     --FG-cards-radius: 8px;
     --FG-cards-height: 180px;
-    --FG-cards-banner-background: var(--brand-experiment);
+    --FG-cards-banner-background: var(--accentcolorV2);
     --FG-cards-margin-bottom: 26px;
     --FG-cards-banner-height: 20px;
     --FG-cards-border-width: 1px;
@@ -55,10 +55,10 @@
 /* ║ Dark                     ║ Here you can make settings for the Dark Theme.                                          ║ */
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
-.theme-dark {
-    --FG-search-background: var(--background-tertiary);
+:is(.theme-dark, .theme-darker, .theme-midnight) {
+    --FG-search-background: var(--background-base-lowest, var(--background-tertiary, rgb(0 0 0 / 25%)));
 
-    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-normal: var(--background-base-lower, var(--background-secondary));
     --FG-cards-background-hover: var(--activity-card-background);
 
     --FG-cards-background-active: var(--activity-card-background);
@@ -66,12 +66,12 @@
     --FG-cards-border-color-normal: var(--background-modifier-accent);
     --FG-cards-border-color-hover: var(--background-modifier-accent);
 
-    --FG-cards-username-normal: var(--header-primary);
-    --FG-cards-username-hover: var(--header-primary);
-    --FG-cards-discriminator-normal: var(--header-secondary);
-    --FG-cards-discriminator-hover: var(--header-secondary);
-    --FG-cards-status-normal: var(--header-secondary);
-    --FG-cards-status-hover: var(--header-secondary);
+    --FG-cards-username-normal: var(--text-strong, var(--header-primary));
+    --FG-cards-username-hover: var(--text-strong, var(--header-primary));
+    --FG-cards-discriminator-normal: var(--text-subtle, var(--header-secondary));
+    --FG-cards-discriminator-hover: var(--text-subtle, var(--header-secondary));
+    --FG-cards-status-normal: var(--text-subtle, var(--header-secondary));
+    --FG-cards-status-hover: var(--text-subtle, var(--header-secondary));
 
     --FG-cards-button-icon-normal: var(--interactive-active);
     --FG-cards-button-icon-hover: var(--activity-card-background);
@@ -84,9 +84,9 @@
 /* ╚══════════════════════════╩═════════════════════════════════════════════════════════════════════════════════════════╝ */
 
 .theme-light {
-    --FG-search-background: var(--background-tertiary);
+    --FG-search-background: var(--background-base-lowest, var(--background-tertiary, rgb(0 0 0 / 25%)));
 
-    --FG-cards-background-normal: var(--background-secondary);
+    --FG-cards-background-normal: var(--background-base-lower, var(--background-secondary));
     --FG-cards-background-hover: var(--activity-card-background);
 
     --FG-cards-background-active: var(--activity-card-background);
@@ -94,12 +94,12 @@
     --FG-cards-border-color-normal: var(--background-modifier-accent);
     --FG-cards-border-color-hover: var(--background-modifier-accent);
 
-    --FG-cards-username-normal: var(--header-primary);
-    --FG-cards-username-hover: var(--header-primary);
-    --FG-cards-discriminator-normal: var(--header-secondary);
-    --FG-cards-discriminator-hover: var(--header-secondary);
-    --FG-cards-status-normal: var(--header-secondary);
-    --FG-cards-status-hover: var(--header-secondary);
+    --FG-cards-username-normal: var(--text-strong, var(--header-primary));
+    --FG-cards-username-hover: var(--text-strong, var(--header-primary));
+    --FG-cards-discriminator-normal: var(--text-subtle, var(--header-secondary));
+    --FG-cards-discriminator-hover: var(--text-subtle, var(--header-secondary));
+    --FG-cards-status-normal: var(--text-subtle, var(--header-secondary));
+    --FG-cards-status-hover: var(--text-subtle, var(--header-secondary));
 
     --FG-cards-button-icon-normal: var(--interactive-active);
     --FG-cards-button-icon-hover: var(--activity-card-background);
@@ -114,7 +114,7 @@
     left: 0px;
     font-weight: 700;
     font-family: var(--font-display);
-    color: var(--header-primary);
+    color: var(--text-strong, var(--header-primary));
     font-size: 20px;
     line-height: 24px;
     text-transform: capitalize;
@@ -138,19 +138,11 @@
     row-gap: 12px
 }
 
-.peopleColumn__133bf .peopleList__5ec2f .content-2a4AW9 [style="height: 0px;"] {
-    display: none
-}
-
 .peopleColumn__133bf {
     padding-top: 40px;
     padding-left: 20px;
     padding-right: 20px;
     padding-bottom: 20px
-}
-
-.peopleColumn__133bf .scrollerBase-_bVAAt {
-    overflow: visible !important
 }
 
 .peopleColumn__133bf {
@@ -188,15 +180,6 @@
 
 .peopleColumn__133bf::-webkit-scrollbar-track {
     background-color: var(--scrollbar-auto-track)
-}
-
-.info-1sUqUG .size12-oc4dx4:last-child::after {
-    content: "\a" "Friends-Grid " var(--FA-version) !important;
-    text-transform: none;
-    white-space: pre;
-    -webkit-user-select: all;
-    -moz-user-select: all;
-    user-select: all
 }
 
 @media screen and (min-width: 0px)and (max-width: 6000px) {
@@ -255,7 +238,7 @@
     }
 }
 
-.peopleColumn__133bf .avatar__0a06e.wrapper-1VLyxH {
+.peopleColumn__133bf .avatar__0a06e {
     transform: scale(1.8);
     margin-left: calc(16px + var(--FG-avatar-margin-left));
     margin-top: calc(var(--FG-avatar-margin-top) + var(--FG-cards-banner-height))
@@ -286,17 +269,17 @@
     transition: var(--FG-transition)
 }
 
-.peopleColumn__133bf .avatar__0a06e.wrapper-1VLyxH {
+.peopleColumn__133bf .avatar__0a06e {
     opacity: var(--FG-cards-avatar-opacity-normal);
     transition: var(--FG-transition)
 }
 
-.peopleColumn__133bf .peopleListItem_cc6179:hover .avatar__0a06e.wrapper-1VLyxH {
+.peopleColumn__133bf .peopleListItem_cc6179:hover .avatar__0a06e {
     opacity: var(--FG-cards-avatar-opacity-hover);
     transition: var(--FG-transition)
 }
 
-.peopleListItem_cc6179.active_cc6179 .avatar__0a06e.wrapper-1VLyxH {
+.peopleListItem_cc6179.active_cc6179 .avatar__0a06e {
     opacity: var(--FG-cards-avatar-opacity-active) !important;
     transition: var(--FG-transition)
 }
@@ -692,3 +675,7 @@
     display: none !important;
 }
 
+/* BTcord 1.0: replaces the pre-2023 spacer rule. Hides virtual-list 0px spacers. */
+.peopleColumn__133bf .peopleList__5ec2f [style="height: 0px;"] {
+    display: none;
+}

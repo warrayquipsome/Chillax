@@ -334,24 +334,6 @@
     display: none;
 }
 
-svg.slider-32CRPX rect:first-child {
-    transform: scale(0.7);
-    transform-origin: center;
-}
-
-.container-2nx-BQ,
-.input-2XRLou {
-    border-radius: 10px;
-}
-
-.container-2nx-BQ {
-    width: 35px;
-}
-
-.container-2nx-BQ.checked-25WXMf .slider-32CRPX[style*="left: 12px;"] {
-    left: 7px !important;
-}
-
 [d="M20 7H12L10.553 5.106C10.214 4.428 9.521 4 8.764 4H3C2.447 4 2 4.447 2 5V19C2 20.104 2.895 21 4 21H20C21.104 21 22 20.104 22 19V9C22 7.896 21.104 7 20 7Z"] {
     d: path(var(--folder));
 }
@@ -452,7 +434,7 @@ svg.slider-32CRPX rect:first-child {
     d: path(
             "M21.178 1.70703L22.592 3.12103L4.12103 21.593L2.70703 20.178L21.178 1.70703Z"
     );
-    fill: var(--background-primary);
+    fill: var(--background-base-low, var(--background-primary));
     z-index: 101;
 }
 
@@ -549,4 +531,9 @@ svg.slider-32CRPX rect:first-child {
     d: path(var(--description));
     transform-origin: center;
     transform: scale(0.9) translate(-3px, -3px);
+}
+
+/* BTcord 1.0: replaces the removed pre-2023 SVG switch rules. Discord switches are native buttons now. */
+button[role="switch"] {
+    border-radius: 10px;
 }

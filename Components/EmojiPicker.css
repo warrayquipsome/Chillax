@@ -5,8 +5,8 @@
     border-radius: 5px;
 }
 
-html.theme-dark .drawerSizingWrapper__08434,
-html.theme-dark .wrapper_c0e32c {
+html:is(.theme-dark, .theme-darker, .theme-midnight) .drawerSizingWrapper__08434,
+html:is(.theme-dark, .theme-darker, .theme-midnight) .wrapper_c0e32c {
     background: #18191ba6 !important;
 }
 
@@ -22,8 +22,8 @@ html.theme-light .wrapper_c0e32c {
     border-radius: 0;
 }
 
-html.theme-dark .unicodeShortcut_b9ee0c,
-html.theme-dark .standardStickerShortcut__3ad28 {
+html:is(.theme-dark, .theme-darker, .theme-midnight) .unicodeShortcut_b9ee0c,
+html:is(.theme-dark, .theme-darker, .theme-midnight) .standardStickerShortcut__3ad28 {
     background: #292b2f;
 }
 
@@ -45,7 +45,7 @@ html.theme-light .standardStickerShortcut__3ad28 {
     border-radius: 0;
 }
 
-html.theme-dark .nav__08434 > .navList__08434 > button {
+html:is(.theme-dark, .theme-darker, .theme-midnight) .nav__08434 > .navList__08434 > button {
     background: #333135;
 }
 
@@ -67,7 +67,7 @@ html.theme-light .nav__08434 > .navList__08434 > button {
     width: 85%;
 }
 
-html.theme-dark .nav__08434 > .navList__08434 > button:hover {
+html:is(.theme-dark, .theme-darker, .theme-midnight) .nav__08434 > .navList__08434 > button:hover {
     background: rgba(255, 255, 255, 0.2);
 }
 

@@ -1,19 +1,34 @@
+/* HideAnnoyingElements (OPT-IN addon)
+   Enable it by uncommenting its @import line in btcord.theme.css.
+   Updated in BTcord 1.0 for the Visual Refresh UI: Discord turned most
+   chat-box buttons from <div> into <button>, so selectors match both. */
+
 /* Hide the "Play Again" section in DMs */
 .container_e5a9ed {
     display: none !important;
 }
 
-/* Hide Nitro gift button */
-div[aria-label="Send a gift"] {
+/* Hide Nitro gift button in the chat box */
+:is(div, button)[aria-label="Send a gift"] {
     display: none;
 }
 
-/* Hide sticker picker button */
-div[aria-label="Open sticker picker"] {
+/* Hide sticker picker button in the chat box */
+:is(div, button)[aria-label="Open sticker picker"] {
     display: none;
 }
 
-/* Remove mobile icon */
+/* Hide GIF picker button in the chat box (BTcord addition) */
+:is(div, button)[aria-label="Open GIF picker"] {
+    display: none;
+}
+
+/* Hide the Apps button in the chat box (BTcord addition) */
+:is(div, button)[aria-label="Apps"] {
+    display: none;
+}
+
+/* Remove mobile icon next to avatars */
 foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     visibility: hidden !important;
 }
@@ -22,18 +37,23 @@ foreignObject[mask="url(#svg-mask-avatar-status-mobile-32)"]::after {
     display: none;
 }
 
-/* Hide nitro section of friends list */
+/* Hide Nitro section of the DM / friends navigation */
 .link__972a0[href="/store"] {
     display: none;
 }
 
-/* Hide shop section of friends list */
+/* Hide Shop section of the DM / friends navigation */
 .link__972a0[href="/shop"] {
     display: none;
 }
 
-/* Hide quests section of friends list */
+/* Hide Quests section of the DM / friends navigation */
 .link__972a0[href="/quest-home"] {
+    display: none;
+}
+
+/* Hide Activities section of the DM / friends navigation (BTcord addition) */
+.link__972a0[href="/activities"] {
     display: none;
 }
 

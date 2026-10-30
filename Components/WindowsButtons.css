@@ -4,7 +4,7 @@
 }
 
 .leading_c38106::before {
-    content: "‏‏‎ c h i l l a x";
+    content: " b t c o r d";
     font-size: 12px;
     font-weight: 900;
     font-family: "Poiret one" !important;
@@ -15,11 +15,12 @@
     margin-left: var(--window-margin);
     pointer-events: all;
     transition: 0.5s ease-in-out;
-    color: var(--text-normal);
+    color: var(--text-default, var(--text-normal));
 }
 
 .leading_c38106:hover::before {
-    content: "‏‏‎ c h i l l a x";
+    /* BTcord is a fork - upstream Chillax is credited on hover and in Settings. */
+    content: " btcord x chillax";
     letter-spacing: 2px;
 }
 

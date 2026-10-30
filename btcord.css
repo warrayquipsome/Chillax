@@ -1,0 +1,4 @@
+/* BTcord core shortcut.
+   Users should install btcord.theme.css (it carries the variables).
+   This file only forwards to the core stylesheet, chillax.css. */
+@import url("https://bt-studio-dev.github.io/BTcord/chillax.css");

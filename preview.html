@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en" class="theme-dark visual-refresh">
+<head>
+<meta charset="utf-8"/>
+<meta name="viewport" content="width=device-width, initial-scale=1"/>
+<title>BTcord — Live Preview</title>
+<!-- Real BTcord stylesheets (local copies; in Discord they load from GitHub Pages) -->
+<link rel="stylesheet" href="btcord.theme.css"/>
+<link rel="stylesheet" href="chillax.css"/>
+<link rel="stylesheet" href="Components/WindowsButtons.css"/>
+<link rel="stylesheet" href="Components/UserArea.css"/>
+<link rel="stylesheet" href="Components/Embeds.css"/>
+<link rel="stylesheet" href="Components/ChatArea.css"/>
+<link rel="stylesheet" href="Components/ChannelHeader.css"/>
+<link rel="stylesheet" href="Components/EmojiPicker.css"/>
+<link rel="stylesheet" href="Addons/AvatarOnlyMemberList.css"/>
+<link rel="stylesheet" href="Addons/ColoredLinks.css"/>
+<style>
+  /* ---- Mock Discord layout (preview only, not part of the theme) ---- */
+  :root{ --wallpaper:url("Wallpapers/btcord-default.jpg"); }
+  html,body{height:100%;}
+  body{margin:0;font-family:var(--font-name,Poppins),sans-serif;color:var(--text-default);overflow:hidden;}
+  .mock-bg{position:fixed;inset:0;}
+  .mock-app{position:relative;height:100vh;display:flex;flex-direction:column;}
+  .mock-bar{display:flex;align-items:center;gap:12px;padding:4px 0;}
+  .mock-bar .mock-spacer{flex:1;text-align:center;}
+  .mock-main{display:flex;min-height:0;flex:1;}
+  .mock-guilds{width:72px;display:flex;flex-direction:column;align-items:center;gap:10px;padding-top:10px;}
+  .mock-server{width:48px;height:48px;border-radius:50%;display:grid;place-items:center;font-weight:700;color:#fff;background:var(--bt-accent);cursor:pointer;transition:border-radius .2s;}
+  .mock-server:hover{border-radius:16px;}
+  .mock-server.alt{background:#2b2d31;color:var(--text-subtle);}
+  .mock-server.alt2{background:var(--bt-accent-2);color:#04222b;}
+  .mock-side{width:236px;display:flex;flex-direction:column;padding:8px 8px 0;}
+  .mock-servername{font-weight:700;padding:8px 6px 12px;color:var(--text-strong);}
+  .mock-cat{font-size:11px;text-transform:uppercase;letter-spacing:.05em;color:var(--text-muted);padding:12px 6px 4px;}
+  .mock-chan{display:flex;gap:6px;align-items:center;padding:5px 6px;cursor:pointer;color:var(--channels-default);}
+  .mock-chan.on{color:var(--text-strong);}
+  .mock-chat{flex:1;display:flex;flex-direction:column;min-width:0;}
+  .mock-head{display:flex;align-items:center;gap:8px;padding:10px 16px;font-weight:600;}
+  .mock-msgs{flex:1;overflow-y:auto;padding:16px;}
+  .mock-msg{display:flex;gap:12px;padding:6px 8px;}
+  .mock-ava{width:40px;height:40px;border-radius:50%;flex:0 0 40px;display:grid;place-items:center;color:#fff;font-weight:700;background:var(--bt-accent);}
+  .mock-ava.b{background:var(--bt-accent-2);color:#04222b;} .mock-ava.c{background:#f04747;}
+  .mock-uname{font-weight:600;color:var(--text-strong);margin-right:8px;}
+  .mock-time{font-size:11px;color:var(--text-muted);}
+  .mock-members{width:220px;padding:10px;}
+  .mock-member{display:flex;align-items:center;gap:10px;padding:5px 6px;}
+  .mock-member .mock-ava{width:32px;height:32px;flex-basis:32px;font-size:12px;}
+  .mock-panel{margin-top:auto;display:flex;align-items:center;gap:10px;padding:10px 6px;}
+  .mock-tools{position:fixed;right:28px;bottom:110px;z-index:50;background:var(--background-surface-highest);border:1px solid var(--border-normal);border-radius:12px;padding:12px 14px;font-size:12px;color:var(--text-default);box-shadow:0 8px 24px rgb(0 0 0/.35);}
+  .mock-tools b{display:block;margin-bottom:8px;color:var(--text-strong);}
+  .mock-swatch{width:22px;height:22px;border-radius:50%;border:2px solid #fff3;cursor:pointer;margin-right:6px;padding:0;}
+  .mock-btn{display:block;margin-top:8px;width:100%;padding:6px;border:0;border-radius:8px;background:var(--accentcolorV2);color:#fff;cursor:pointer;font-family:inherit;}
+  .mock-input{padding:0 16px 14px;}
+  .mock-box{display:flex;align-items:center;min-height:44px;padding:0 14px;}
+</style>
+</head>
+<body>
+<div class="bg__960e4 mock-bg"></div>
+
+<div class="mock-app">
+  <!-- Title bar (Visual Refresh) -->
+  <div class="bar_c38106 mock-bar">
+    <div class="leading_c38106"></div>
+    <div class="mock-spacer"><span class="title__85643">BT Studio — preview server</span></div>
+    <div class="trailing_c38106">
+      <div class="winButtons_c38106" style="display:flex">
+        <div class="winButton_c38106" style="display:grid;place-items:center;width:32px"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M1 5h8" stroke="currentColor"/></svg></div>
+        <div class="winButton_c38106" style="display:grid;place-items:center;width:32px"><svg width="10" height="10" viewBox="0 0 10 10"><rect x="1" y="1" width="8" height="8" fill="none" stroke="currentColor"/></svg></div>
+        <div class="winButton_c38106" style="display:grid;place-items:center;width:32px"><svg width="10" height="10" viewBox="0 0 10 10"><path d="M1 1l8 8M9 1l-8 8" stroke="currentColor"/></svg></div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Floating glass window -->
+  <div class="content__5e434" style="display:flex;flex:1;min-height:0">
+    <div class="mock-main" style="width:100%">
+      <!-- Server list -->
+      <nav class="wrapper_ef3116 mock-guilds">
+        <div class="mock-server">BT</div>
+        <div class="mock-server alt">CH</div>
+        <div class="mock-server alt2">DEV</div>
+        <div class="circleIconButton__5bc7e" style="width:48px;height:48px;display:grid;place-items:center;font-size:22px">+</div>
+      </nav>
+
+      <!-- Channel sidebar -->
+      <aside class="container__2637a mock-side">
+        <div class="mock-servername">BT Studio ▾</div>
+        <div class="mock-cat">Text Channels</div>
+        <div class="wrapper__2ea32 mock-chan on"><span class="name__2ea32"><span class="mainContent_preview"># announcements</span></span></div>
+        <div class="wrapper__2ea32 mock-chan"><span class="name__2ea32"><span class="mainContent_preview"># general</span></span></div>
+        <div class="wrapper__2ea32 mock-chan"><span class="name__2ea32"><span class="mainContent_preview"># btcord-updates</span></span></div>
+        <div class="mock-cat">Voice Channels</div>
+        <div class="wrapper__2ea32 mock-chan"><span class="name__2ea32">🔊 Lounge</span></div>
+        <div class="wrapper__2ea32 mock-chan"><span class="name__2ea32">🎵 Music 24/7</span></div>
+
+        <div class="panels__5e434 mock-panel">
+          <div class="container__37e49" style="display:flex;align-items:center;gap:10px">
+            <div class="mock-ava" style="width:34px;height:34px;font-size:12px">BT</div>
+            <div><div style="font-weight:600;color:var(--text-strong)">bt_studio</div><div style="font-size:11px;color:var(--text-muted)">Online</div></div>
+          </div>
+        </div>
+      </aside>
+
+      <!-- Chat -->
+      <main class="chat_f75fb0 mock-chat">
+        <div class="container__9293f mock-head"><span class="title__9293f"># announcements</span><span style="color:var(--text-muted);font-weight:400">BTcord 1.0 is here 🎉</span></div>
+        <div class="chatContent_f75fb0 mock-msgs">
+          <div class="message__5126c mock-msg">
+            <div class="mock-ava">BT</div>
+            <div>
+              <span class="username_c19a55 mock-uname">bt_studio</span><span class="mock-time">Today at 9:41 PM</span>
+              <div class="messageContent_c19a55">BTcord 1.0 is out — rebuilt for Discord's Visual Refresh UI. Old dead code out, glass everywhere, BT violet accent. 💜</div>
+              <div class="embedFull__623de" style="max-width:420px;padding:12px;margin-top:8px;border-radius:5px;position:relative">
+                <b>BTcord 1.0.0</b><br/>
+                <span class="messageContent_c19a55">Install, changelog and credits → <a href="https://github.com/BT-Studio-dev/BTcord">github.com/BT-Studio-dev/BTcord</a></span>
+              </div>
+            </div>
+          </div>
+
+          <div class="isUnread__908e2" style="margin:18px 0;position:relative"><span class="unreadPill__908e2" style="position:absolute">NEW</span></div>
+
+          <div class="message__5126c mentioned__5126c mock-msg">
+            <div class="mock-ava b">WQ</div>
+            <div>
+              <span class="username_c19a55 mock-uname">wq (upstream)</span><span class="mock-time">Today at 9:44 PM</span>
+              <div class="messageContent_c19a55">@bt_studio nice work keeping Chillax alive on the new UI 👋 <span class="edited_c19a55"></span></div>
+              <div style="margin-top:6px;display:flex;gap:6px">
+                <span class="reaction_f8896c reactionMe_f8896c" style="padding:2px 10px">💜 3</span>
+                <span class="reaction_f8896c" style="padding:2px 10px">🔥 2</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="message__5126c mock-msg">
+            <div class="mock-ava c">YOU</div>
+            <div>
+              <span class="username_c19a55 mock-uname">you</span><span class="mock-time">Today at 9:45 PM</span>
+              <div class="messageContent_c19a55">Try the accent swatches → same theme, your colour. Dark / Darker / Midnight / Light all work now.</div>
+            </div>
+          </div>
+        </div>
+
+        <div class="mock-input">
+          <div class="typing_b88801" style="height:20px"><strong>bt_studio</strong></div>
+          <form class="form_f75fb0">
+            <div class="channelTextArea_f75fb0">
+              <div class="scrollableContainer__74017 mock-box">
+                <span class="placeholder__1b31f">Message #announcements</span>
+              </div>
+            </div>
+          </form>
+        </div>
+      </main>
+
+      <!-- Member list -->
+      <aside class="container_c8ffbb mock-members">
+        <div class="membersWrap_c8ffbb"><div class="members_c8ffbb">
+          <div class="membersGroup_c8ffbb mock-cat">Online — 3</div>
+          <div class="mock-member"><div class="mock-ava">BT</div><span>bt_studio</span></div>
+          <div class="mock-member"><div class="mock-ava b">WQ</div><span>wq (upstream)</span></div>
+          <div class="mock-member"><div class="mock-ava c">YOU</div><span>you</span></div>
+        </div></div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<!-- Preview controls -->
+<div class="mock-tools">
+  <b>BTcord preview</b>
+  <div>Accent:
+    <button class="mock-swatch" style="background:#6d5cff" title="BT violet" onclick="setAccent('109, 92, 255','#6d5cff')"></button>
+    <button class="mock-swatch" style="background:#fb5454" title="Classic Chillax red" onclick="setAccent('251, 84, 84','#fb5454')"></button>
+    <button class="mock-swatch" style="background:#22c8ee" title="Cyan" onclick="setAccent('34, 200, 238','#22c8ee')"></button>
+    <button class="mock-swatch" style="background:#1df594" title="Green" onclick="setAccent('29, 245, 148','#1df594')"></button>
+  </div>
+  <button class="mock-btn" onclick="toggleMode()">Toggle dark / light</button>
+  <div style="margin-top:8px;color:var(--text-muted)">Static mock with the real BTcord CSS.<br/>Works in Discord after merge + Pages.</div>
+</div>
+
+<script>
+  function setAccent(rgb, hex){
+    var r = document.documentElement.style;
+    r.setProperty('--bt-accent-rgb', rgb);
+    r.setProperty('--bt-accent', hex);
+    r.setProperty('--accentcolor', rgb);
+    r.setProperty('--accentcolorV2', hex);
+  }
+  function toggleMode(){
+    var h = document.documentElement;
+    var light = h.classList.toggle('theme-light');
+    h.classList.toggle('theme-dark', !light);
+  }
+</script>
+</body>
+</html>

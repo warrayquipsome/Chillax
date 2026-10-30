@@ -13,7 +13,7 @@
 .field__1fed1 {
     width: 100%;
     border-radius: 8px;
-    background-color: var(--background-primary);
+    background-color: var(--background-base-low, var(--background-primary));
     max-height: unset;
     flex-direction: column;
     display: flex;
@@ -25,14 +25,14 @@
 }
 
 .field__1fed1 .fieldButton__1fed1 {
-    background-color: var(--button-secondary-background);
+    background-color: var(--control-secondary-background-default, var(--button-secondary-background, rgb(78 80 88 / 30%)));
     border-radius: 6px;
     -webkit-transition: background-color .17s ease, color .17s ease;
     transition: background-color .17s ease, color .17s ease;
 }
 
 .field__1fed1 .fieldButton__1fed1:hover {
-    background-color: var(--button-secondary-background-hover);
+    background-color: var(--control-secondary-background-hover, var(--button-secondary-background-hover, rgb(78 80 88 / 45%)));
 }
 
 .field__1fed1 .fieldButton__1fed1:hover > div {

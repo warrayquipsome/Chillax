@@ -11,7 +11,7 @@
 
 /* Discord */
 [href*="discord.com/channels/"] {
-    color: #7289da !important;
+    color: #5865f2 !important;
 }
 
 [href*="discord.com/channels/"]::before {
@@ -23,12 +23,23 @@
 [href*="discord.com/"],
 [href*="media.discordapp.net/"],
 [href*="cdn.discordapp.com/"] {
-    color: #7289da !important;
+    color: #5865f2 !important;
 }
 
-/* Twitter */
-[href*="twitter.com/"] {
+/* X / Twitter */
+[href*="twitter.com/"],
+[href*="x.com/"] {
     color: #00acee !important;
+}
+
+/* Bluesky */
+[href*="bsky.app/"] {
+    color: #1185fe !important;
+}
+
+/* Reddit */
+[href*="reddit.com/"] {
+    color: #ff4500 !important;
 }
 
 /* GitHub */
@@ -42,9 +53,9 @@
 }
 
 /* Steam */
-html.theme-dark [href*="store.steampowered.com"],
-html.theme-dark [href*="https://s.team"],
-html.theme-dark [href*="steamcommunity.com/"] {
+html:is(.theme-dark, .theme-darker, .theme-midnight) [href*="store.steampowered.com"],
+html:is(.theme-dark, .theme-darker, .theme-midnight) [href*="https://s.team"],
+html:is(.theme-dark, .theme-darker, .theme-midnight) [href*="steamcommunity.com/"] {
     color: #899db6 !important;
 }
 
