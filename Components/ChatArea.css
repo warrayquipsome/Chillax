@@ -43,7 +43,7 @@
 }
 
 /*remove unread with date*/ /*it causes issue with the theme*/
-.hasContent__5126c {
+.hasContent_SY_P2T {
     display: none;
 }
 
@@ -140,22 +140,22 @@ html.theme-light .wrapper_Z0MHyc {
     align-items: center;
 }
 
-.typing_b88801 {
+.typing_U9Tvvz {
     font-size: 0;
     /* Stop the chat messages from shifting when typing starts/stops */
     margin-top: -24px;
 }
 
-.typing_b88801 strong {
+.typing_U9Tvvz strong {
     font-size: 12px;
 }
 
-.typing_b88801 strong:after {
+.typing_U9Tvvz strong:after {
     content: ',';
     margin-right: 4px;
 }
 
-.typing_b88801 strong:nth-last-child(2)::after {
+.typing_U9Tvvz strong:nth-last-child(2)::after {
     content: 'and';
     margin: 0 4px;
     color: rgba(255, 255, 255, 0.8);
@@ -163,7 +163,7 @@ html.theme-light .wrapper_Z0MHyc {
     margin-top: -5px;
 }
 
-.typing_b88801 strong:last-of-type::after {
+.typing_U9Tvvz strong:last-of-type::after {
     content: var(--chillax-input-typing-indicator-many-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -171,7 +171,7 @@ html.theme-light .wrapper_Z0MHyc {
     margin-left: 4px;
 }
 
-.typing_b88801 strong:only-of-type::after {
+.typing_U9Tvvz strong:only-of-type::after {
     content: var(--chillax-input-typing-indicator-one-person);
     color: rgba(255, 255, 255, 0.8);
     font-weight: 400;
@@ -215,11 +215,11 @@ html.theme-light .scrollableContainer_2x8-Qn:focus-within {
     box-shadow: 0 5px 8px #d6d6d6;
 }
 
-.message__5126c {
+.message_SY_P2T {
     border-radius: 8px !important;
 }
 
-.mentioned__5126c {
+.mentioned_SY_P2T {
     border-radius: 0 8px 8px 0 !important
 }
 
@@ -314,7 +314,7 @@ html.theme-light .container_dvN-MP {
 }
 
 /* Increase visibility of message highlight */
-.backgroundFlash__5126c[style*="background-color: rgba(148, 156, 247, 0)"] {
+.backgroundFlash_SY_P2T[style*="background-color: rgba(148, 156, 247, 0)"] {
     --message-background-flash: rgba(var(--accentcolor), 0.2) !important;
 }
 
