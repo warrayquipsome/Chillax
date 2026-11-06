@@ -45,8 +45,18 @@
     color: var(--text-muted);
 }
 
+/* Collapse the outer wrapper to fit the icon by default */
 .container_ybUK7Z.themed_ybUK7Z .search_bWCaDq {
     order: -1 !important;
+    flex: 0 0 auto !important;
+    width: auto !important;
+}
+
+/* Expand back to full width when clicked/focused (or hovered) */
+.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:focus-within,
+.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:hover {
+    flex: 0 1 244px !important;
+    width: 244px !important;
 }
 
 /*threads background fix*/
