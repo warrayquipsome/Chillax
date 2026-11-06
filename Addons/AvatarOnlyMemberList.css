@@ -1,4 +1,4 @@
-.membersWrap_c8ffbb {
+.membersWrap_86es0b {
     transition: transform 0.5s ease;
     /* Shrink width by avatar width plus various padding (8px + 8px + XS space) */
     --member-list-collapsed-width: calc(32px + 2 * (16px + var(--space-xs)));
@@ -7,170 +7,170 @@
     transform: translateX(var(--member-list-collapsed-transform));
 }
 
-.membersWrap_c8ffbb:hover {
+.membersWrap_86es0b:hover {
     transform: none;
 }
 
-.members_c8ffbb {
+.members_86es0b {
     z-index: 1;
 }
 
-div:not(:hover) > .members_c8ffbb > div {
+div:not(:hover) > .members_86es0b > div {
     padding-top: 10px;
 }
 
-.members_c8ffbb {
+.members_86es0b {
     background-color: #0000;
     transition: 0.5s ease;
 }
 
-.members_c8ffbb:hover {
+.members_86es0b:hover {
     border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);
     /*margin-right: 15px;*/
     margin-bottom: 15px;
 }
 
 /*We could for instance let user control the color via a css var*/
-.theme-light .members_c8ffbb:hover {
+.theme-light .members_86es0b:hover {
     background: linear-gradient(90deg, rgba(255, 255, 255, 1) 0%, rgba(255, 255, 255, 1) 30%, rgba(255, 255, 255, 0) 100%);
 }
 
-.theme-dark .members_c8ffbb:hover {
+.theme-dark .members_86es0b:hover {
     background: linear-gradient(90deg, rgba(0, 0, 0, 1) 0%, rgba(0, 0, 0, 1) 30%, rgba(0, 0, 0, 0) 100%);
 }
 
 /* Make the list fill the window height */
-.membersWrap_c8ffbb {
+.membersWrap_86es0b {
     height: 100%;
 }
 
 /* Realign headers to be more visible when collapsed */
-.membersGroup_c8ffbb {
+.membersGroup_86es0b {
     transition: padding 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) .membersGroup_c8ffbb {
+.membersWrap_86es0b:not(:hover) .membersGroup_86es0b {
     padding-left: 2px;
 }
 
-.member__5d473 {
+.member_Iy0c7A {
     background-color: transparent;
 }
 
 /* Member list activity widget */
-.contentImage__42bf5 {
+.contentImage_DmENtF {
     transition: transform 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) .contentImage__42bf5 {
+.membersWrap_86es0b:not(:hover) .contentImage_DmENtF {
     /* Undo expanded spacing and normal list width, then apply collapsed list width and necessary spacing to center the icon */
     transform: translateX(calc(18px - var(--custom-member-list-width) + var(--member-list-collapsed-width) - ((var(--member-list-collapsed-width) - 48px) / 2)));
 }
 
-.container__0f2e8 {
+.container_g7esM5 {
     transition: background-color 0.5s ease, border-color 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) .container__0f2e8 {
+.membersWrap_86es0b:not(:hover) .container_g7esM5 {
     background-color: transparent;
     border-color: transparent;
 }
 
-.container__7641b {
+.container_UPjGEs {
     background: transparent !important;
     border: none !important;
 }
 
-.infoSection__0f2e8 {
+.infoSection_g7esM5 {
     transition: opacity 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) .infoSection__0f2e8 {
+.membersWrap_86es0b:not(:hover) .infoSection_g7esM5 {
     opacity: 0;
 }
 
 /* Fade out usernames when collapsed */
-.content__91a9d {
+.content_J1Adu_ {
     transition: opacity 0.5s ease;
 }
 
-.membersWrap_c8ffbb:not(:hover) .content__91a9d {
+.membersWrap_86es0b:not(:hover) .content_J1Adu_ {
     opacity: 0;
 }
 
 /* Fix the member count addon (vencord) */
-.members_c8ffbb:hover .vc-membercount-widget {
+.members_86es0b:hover .vc-membercount-widget {
     height: 40px;  /* 52px non-hover height minus 12px non-hover margin */
 }
 
-.members_c8ffbb:not(:hover) .vc-membercount-widget {
+.members_86es0b:not(:hover) .vc-membercount-widget {
     margin-bottom: -12px;
 }
 
-.members_c8ffbb:not(:hover) .vc-membercount-online-count,
-.members_c8ffbb:not(:hover) .vc-membercount-total-count {
+.members_86es0b:not(:hover) .vc-membercount-online-count,
+.members_86es0b:not(:hover) .vc-membercount-total-count {
     display: none !important;
 }
 
-.members_c8ffbb:not(:hover) > .vc-membercount-member-list > div {
+.members_86es0b:not(:hover) > .vc-membercount-member-list > div {
     box-sizing: border-box !important;
     flex: 1 0 100%;
 }
 
-.members_c8ffbb:not(:hover) > .vc-membercount-member-list {
+.members_86es0b:not(:hover) > .vc-membercount-member-list {
     flex-wrap: wrap;
 }
 
 /* Avatar-only DM profile */
-/* .outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) is the only way to select just the DM profile area */
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) {*/
+/* .outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) is the only way to select just the DM profile area */
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) {*/
 /*    !* Main transform *!*/
 /*    transform: translate(275px);*/
 /*    margin-left: -275px;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout),*/
-/*.inner_c0bea0:not(.user-profile-modal):not(.user-profile-popout) {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout),*/
+/*.inner_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) {*/
 /*    transition: transform 0.5s ease, border-radius 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover,*/
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .inner_c0bea0 {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout):hover,*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout):hover .inner_P1YEjQ {*/
 /*    transform: none;*/
 /*    border-radius: var(--memberlist-border-radius) 0 0 var(--memberlist-border-radius);*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .banner__68edb {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) .banner_s9bWOi {*/
 /*    transition: border-radius 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .banner__68edb {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout):hover .banner_s9bWOi {*/
 /*    border-top-left-radius: var(--memberlist-border-radius);*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .avatar__75742 {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) .avatar_WRLIGC {*/
 /*    !* Move profile picture out to still be visible when collapsed *!*/
 /*    transform: translate(-56px);*/
 /*    transition: transform 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .avatar__75742 {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout):hover .avatar_WRLIGC {*/
 /*    transform: none;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .none_c49869,*/
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .inner_c0bea0 {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) .none_d125d2,*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) .inner_P1YEjQ {*/
 /*    !* Disable scrolling to allow profile to overflow the outer element *!*/
 /*    overflow: visible !important;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .body_b32ca4,*/
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout) .overlay_c0bea0 {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) .body_A7qlid,*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout) .overlay_P1YEjQ {*/
 /*    opacity: 0;*/
 /*    transition: opacity 0.5s ease;*/
 /*}*/
 
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .body_b32ca4,*/
-/*.outer_c0bea0:not(.user-profile-modal):not(.user-profile-popout):hover .overlay_c0bea0 {*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout):hover .body_A7qlid,*/
+/*.outer_P1YEjQ:not(.user-profile-modal):not(.user-profile-popout):hover .overlay_P1YEjQ {*/
 /*    opacity: 1;*/
 /*}*/
