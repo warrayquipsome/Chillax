@@ -1,12 +1,12 @@
-.folderPreview_RTMSuZ {
+.folderPreview__48112 {
     display: none;
 }
 
-.expandedFolderIconWrapper__48112 {
+.expandedFolderIconWrapper_bc7085 {
     transform: none !important;
 }
 
-.folderPreviewWrapper_RTMSuZ:not([style=""]):before, .folderPreviewWrapper_RTMSuZ:not([style=""]):after {
+.folderPreviewWrapper__48112:not([style=""]):before, .folderPreviewWrapper__48112:not([style=""]):after {
     position: absolute;
     content: "";
     width: 24px;
@@ -20,6 +20,6 @@
     bottom: -45px;
 }
 
-/*.theme-light .folderPreviewWrapper_RTMSuZ {*/
+/*.theme-light .folderPreviewWrapper__48112 {*/
 /*    filter: brightness(0.5) saturate(3);*/
 /*}*/

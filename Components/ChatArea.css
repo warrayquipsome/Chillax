@@ -1,31 +1,31 @@
 /* Styles for the main chat area as well as the channel list */
 
 /*custom channel and text area font and size*/
-.title_ybUK7Z {
+.title__9293f {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.messageContent_2i8Bfm,
-.contents_2i8Bfm {
+.messageContent_c19a55,
+.contents_c19a55 {
     font-family: var(--font-name);
     font-size: var(--font-size) !important;
 }
 
-.markup_ku1OHH h1, .markup_ku1OHH h2, .markup_ku1OHH h3, .markup_ku1OHH h4, .markup_ku1OHH h5, .markup_ku1OHH h6 {
+.markup__75297 h1, .markup__75297 h2, .markup__75297 h3, .markup__75297 h4, .markup__75297 h5, .markup__75297 h6 {
     font-family: var(--font-name);
 }
 
 /* custom "new unreads" pill */
-.container_t1P8Sn.bottom_t1P8Sn {
+.container__7aaec.bottom__7aaec {
     z-index: 9999 !important;
 }
 
-.bar_t1P8Sn {
+.bar__7aaec {
     padding: 14px 50px;
 }
 
-.unreadIcon_t1P8Sn {
+.unreadIcon__7aaec {
     display: none;
 }
 
@@ -48,27 +48,27 @@
 }
 
 /* remove date divider */
-.hasContent_4TfzT5 {
+.hasContent__908e2 {
     display: none;
 }
 
 /* Un-hide unread divider with date */
-.isUnread_4TfzT5 {
+.isUnread__908e2 {
     display: flex !important;
 }
 
 /* Hide date in unread divider */
-.content_4TfzT5 {
+.content__908e2 {
     display: none;
 }
 
 /*custom unread divider style*/
-.unreadPillCap_4TfzT5 {
+.unreadPillCap__908e2 {
     display: none;
     right: 50%;
 }
 
-.unreadPill_4TfzT5 {
+.unreadPill__908e2 {
     background-color: var(--background-shading);
     color: #fb5454;
     font-size: 12px;
@@ -78,7 +78,7 @@
     width: 30px;
 }
 
-.isUnread_4TfzT5 {
+.isUnread__908e2 {
     --divider-color: rgb(237, 0, 255);
     border: none;
     background: linear-gradient(
@@ -92,31 +92,31 @@
     height: 1px;
 }
 
-.unreadPill_4TfzT5 {
+.unreadPill__908e2 {
     top: -6px;
 }
 
 /*message hover small buttons fix*/
-html.theme-dark .wrapper_Z0MHyc {
+html.theme-dark .wrapper_f7ecac {
     background: rgb(51, 49, 53) !important;
 }
 
-html.theme-light .wrapper_Z0MHyc {
+html.theme-light .wrapper_f7ecac {
     background: rgb(243, 243, 243) !important;
 }
 
 /*channel resize*/
-.sidebar_pog62O .name_TNyK-N {
+.sidebar__5e434 .name__2ea32 {
     font-size: 14px;
 }
 
-.sidebar_pog62O .icon_TNyK-N {
+.sidebar__5e434 .icon__2ea32 {
     width: 16px;
     height: 16px;
 }
 
 /* Video player controls */
-.videoControls_FJ99sr {
+.videoControls_cf09d8 {
     width: auto;
     margin: 15px;
     padding-bottom: 0px;
@@ -126,7 +126,7 @@ html.theme-light .wrapper_Z0MHyc {
     transition: 0.2s;
 }
 
-.wrapperControlsHidden_FJ99sr .videoControls_FJ99sr {
+.wrapperControlsHidden_cf09d8 .videoControls_cf09d8 {
     margin-bottom: -30px;
 }
 
@@ -181,36 +181,36 @@ html.theme-light .wrapper_Z0MHyc {
 
 /*chatbox recolour*/
 .input-2g-os5,
-.scrollableContainer_2x8-Qn {
+.scrollableContainer__74017 {
     background-color: transparent !important;
     transition: background-color 0.2s ease, border-color 0.2s ease;
     outline: none;
     border-radius: 15px;
 }
 
-.placeholder_SHcSVi.slateTextArea_q99V_-.fontSize16Padding__74017 {
+.placeholder__1b31f.slateTextArea_ec4baf.fontSize16Padding_bdf0de {
     color: transparent !important;
 }
 
 html.theme-dark .input-2g-os5:hover,
-html.theme-dark .scrollableContainer_2x8-Qn:hover {
+html.theme-dark .scrollableContainer__74017:hover {
     background-color: #00000023 !important;
 }
 
 html.theme-light .input-2g-os5:hover,
-html.theme-light .scrollableContainer_2x8-Qn:hover {
+html.theme-light .scrollableContainer__74017:hover {
     background-color: #ffffff23 !important;
 }
 
 /* attachedBars is the reply bar */
 html.theme-dark .input-2g-os5:focus-within,
-html.theme-dark .scrollableContainer_2x8-Qn:focus-within {
+html.theme-dark .scrollableContainer__74017:focus-within {
     background-color: #181a1d !important;
     box-shadow: 0 5px 8px #15171a;
 }
 
 html.theme-light .input-2g-os5:focus-within,
-html.theme-light .scrollableContainer_2x8-Qn:focus-within {
+html.theme-light .scrollableContainer__74017:focus-within {
     background-color: #e4e4e4 !important;
     box-shadow: 0 5px 8px #d6d6d6;
 }
@@ -224,71 +224,71 @@ html.theme-light .scrollableContainer_2x8-Qn:focus-within {
 }
 
 /*Textbox Text*/
-.placeholder_SHcSVi {
+.placeholder__1b31f {
     visibility: hidden !important;
 }
 
-.placeholder_SHcSVi::before {
+.placeholder__1b31f::before {
     content: var(--chillax-input-field);
     font-family: "Poppins";
     font-size: 13px;
     visibility: visible !important;
 }
 
-html.theme-dark .placeholder_SHcSVi::before {
+html.theme-dark .placeholder__1b31f::before {
     color: rgba(255, 255, 255, 0.2);
 }
 
-html.theme-light .placeholder_SHcSVi::before {
+html.theme-light .placeholder__1b31f::before {
     color: rgba(0, 0, 0, 0.2);
 }
 
 /* Change the message in the messagebox when you're restricted from sending messages in that channel. */
-.innerDisabled_2x8-Qn .placeholder_SHcSVi::before {
+.innerDisabled__74017 .placeholder__1b31f::before {
     content: var(--chillax-input-field-locked) !important;
 }
 
 /* Fix slight scroll when text box is empty */
-.inner_2x8-Qn {
+.inner__74017 {
     overflow: hidden !important;
 }
 
 /* Apps button next to text box */
-.button_s8hOwn {
+.button_e6e74f {
     background-color: transparent;
     transition: background-color 0.2s ease;
 }
 
-.button_s8hOwn:hover {
+.button_e6e74f:hover {
     background-color: #00000023;
 }
 
-.buttonActive_s8hOwn {
+.buttonActive_e6e74f {
     background-color: #181a1d;
 }
 
 /* Place typing indicator on top of message input box */
-.form_z_gUBg {
+.form_f75fb0 {
     display: flex;
     flex-direction: column;
 }
 
-.form_z_gUBg > div:first-child {
+.form_f75fb0 > div:first-child {
     /* Input box order */
     order: 2;
 }
 
-.channelTextArea_z_gUBg {
+.channelTextArea_f75fb0 {
     /* Remove margin for original typing indicator position */
     margin-bottom: calc(var(--space-8) - 2px);
 }
 
 /* When not focused, input box is transparent */
-.visual-refresh .channelTextArea_z_gUBg {
+.visual-refresh .channelTextArea_f75fb0 {
     background: transparent !important;
 }
 
-.form_z_gUBg:has(.base_b88801) .form_z_gUBg {
+.form_f75fb0:has(.base_b88801) .form_f75fb0 {
     /* Add margin to the top when typing/slowmode indicator is active */
     margin-top: var(--custom-chat-input-margin-bottom);
 }
@@ -300,11 +300,11 @@ html.theme-light .placeholder_SHcSVi::before {
 }
 
 /* Background in reactions modal */
-html.theme-dark .container_dvN-MP {
+html.theme-dark .container__8a031 {
     background-color: #181a1d;
 }
 
-html.theme-light .container_dvN-MP {
+html.theme-light .container__8a031 {
     background-color: rgb(223, 223, 223);
 }
 
@@ -319,7 +319,7 @@ html.theme-light .container_dvN-MP {
 }
 
 /* Make unread DM's highlighted based on accent color */
-.link_zln_tS:has(.highlighted_TBNqol) {
+.link__972a0:has(.highlighted__20a53) {
     border-left: 2px solid rgba(var(--accentcolor), 0.8);
     background: linear-gradient(
             90deg,
@@ -330,16 +330,16 @@ html.theme-light .container_dvN-MP {
 }
 
 /* Right click menu blur */
-html.theme-dark .menu_M3qk4j {
+html.theme-dark .menu_c1e9c4 {
     background-color: rgba(0, 0, 0, 0.3);
 }
 
-html.theme-light .menu_M3qk4j {
+html.theme-light .menu_c1e9c4 {
     background-color: rgba(255, 255, 255, 0.3);
 }
 
-.menu_M3qk4j::before,
-.menu_M3qk4j.submenu-1apzyU::before {
+.menu_c1e9c4::before,
+.menu_c1e9c4.submenu-1apzyU::before {
     /*Blurs the menu*/
     content: "";
     position: absolute;
@@ -352,6 +352,6 @@ html.theme-light .menu_M3qk4j {
 }
 
 /* Fix blur in nested floating menu */
-.subc1e9c47c23f12ca3-menu.menu_M3qk4j::before {
+.subc1e9c47c23f12ca3-menu.menu_c1e9c4::before {
     width: calc(100% - 16px);
 }
