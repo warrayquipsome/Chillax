@@ -386,7 +386,7 @@ html.theme-light .elevationBorderHigh_LyjY5_ {
     color: #fff !important;
 }
 
-.visual-refresh .barButtonAlt__0f481 {
+.visual-refresh .barButtonAlt_j9Vvzj {
     padding: 0px !important;
 }
 
@@ -1659,19 +1659,19 @@ html.theme-light .itemCard_-7KzVR.wrapper_o3hXTo:hover {
 }
 
 .reactionMe_f8896c:hover,
-.reaction_f8896c:hover {
+.reaction_UNkajC:hover {
     border: 1px solid rgba(255, 255, 255, 0.5) !important;
 }
 
-.reaction_f8896c {
+.reaction_UNkajC {
     border-radius: 50px !important;
 }
 
-html.theme-dark .reaction_f8896c {
+html.theme-dark .reaction_UNkajC {
     background: rgba(255, 255, 255, 0.3);
 }
 
-html.theme-light .reaction_f8896c {
+html.theme-light .reaction_UNkajC {
     background: rgba(0, 0, 0, 0.3);
 }
 
@@ -2902,7 +2902,7 @@ html.theme-light .modeSelected_TNyK-N .name_TNyK-N {
 
 /* Transparency fix for 'chatGradient' area newly introduced by Discord */
 
-.chatGradient__36d07 {
+.chatGradient_8AE1Qq {
     background: transparent !important
 }
 
