@@ -453,6 +453,11 @@ html.theme-light .elevationBorderHigh_LyjY5_ {
     margin-left: -6px;
 }
 
+/* making sure `You're Viewing Older Messages` button does not overlap*/
+.barButtonMain_j9Vvzj, .span_j9Vvzj {
+    display: none !important;
+}
+
 /*menu animation*/
 .container__55c99,
 .css-1x99fvh-menu,
