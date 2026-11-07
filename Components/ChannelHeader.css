@@ -7,56 +7,71 @@
 
 .searchBar_i16Ad0 {
     border: none !important;
+    display: flex !important;
+    flex-direction: row-reverse !important;
+    align-items: center !important;
+}
+
+/* Collapse the outer wrapper and inner bar together for a smooth transition */
+.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq {
+    order: -1 !important;
+    flex: 0 0 auto !important;
+    width: 30px !important;
+    transition: width var(--transitionspeed) ease !important;
+    overflow: hidden !important;
 }
 
 .search_i16Ad0:not(.open_i16Ad0) .searchBar_i16Ad0 {
     width: 30px;
-    transition: var(--transitionspeed);
+    transition: width var(--transitionspeed) ease, background-color var(--transitionspeed) ease;
     background-color: transparent;
 }
 
-.public-DraftEditorPlaceholder-root {
-    transition: color var(--transitionspeed) ease;
+/* Expand both wrappers when hovered, focused, or open */
+.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:hover,
+.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:focus-within,
+.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:has(.open_i16Ad0) {
+    width: 244px !important;
 }
 
-.search_i16Ad0:not(.open_i16Ad0):not(:hover) .public-DraftEditorPlaceholder-root {
-    color: #0000;
-}
-
-.search_i16Ad0:not(.open_i16Ad0):hover .searchBar_i16Ad0 {
+.search_i16Ad0:not(.open_i16Ad0):hover .searchBar_i16Ad0,
+.search_i16Ad0:focus-within .searchBar_i16Ad0 {
     width: 244px;
     background-color: var(--background-tertiary);
 }
 
-.search_i16Ad0:not(.open_i16Ad0) .iconContainer_fea832 {
+/* Hide placeholder text when collapsed */
+[data-slate-placeholder="true"] {
+    transition: color var(--transitionspeed) ease, opacity var(--transitionspeed) ease;
+}
+
+.search_i16Ad0:not(.open_i16Ad0):not(:hover):not(:focus-within) [data-slate-placeholder="true"] {
+    color: #0000 !important;
+    opacity: 0 !important;
+}
+
+/* Search icon scaling and color transitions */
+.icon_i16Ad0 {
+    flex-shrink: 0 !important;
+}
+
+.search_i16Ad0:not(.open_i16Ad0) .iconContainer_v966Ys {
     transform: scale(1.1);
     transition: var(--transitionspeed);
 }
 
-.search_i16Ad0:not(.open_i16Ad0):hover .iconContainer_fea832 {
+.search_i16Ad0:not(.open_i16Ad0):hover .iconContainer_v966Ys,
+.search_i16Ad0:focus-within .iconContainer_v966Ys {
     transform: scale(1);
 }
 
-.search_i16Ad0:not(.open_i16Ad0) .icon_fea832 {
+.search_i16Ad0:not(.open_i16Ad0) .icon_v966Ys {
     color: var(--text-normal);
 }
 
-.search_i16Ad0:not(.open_i16Ad0):hover .icon_fea832 {
+.search_i16Ad0:not(.open_i16Ad0):hover .icon_v966Ys,
+.search_i16Ad0:focus-within .icon_v966Ys {
     color: var(--text-muted);
-}
-
-/* Collapse the outer wrapper to fit the icon by default */
-.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq {
-    order: -1 !important;
-    flex: 0 0 auto !important;
-    width: auto !important;
-}
-
-/* Expand back to full width when clicked/focused (or hovered) */
-.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:focus-within,
-.container_ybUK7Z.themed_ybUK7Z .search_bWCaDq:hover {
-    flex: 0 1 244px !important;
-    width: 244px !important;
 }
 
 /*threads background fix*/
