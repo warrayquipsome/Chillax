@@ -146,6 +146,11 @@ html.theme-light .wrapper_Z0MHyc {
     margin-top: -24px;
 }
 
+/* fix for new element adding extra top positon */
+.inTextChannel_U9Tvvz.base_U9Tvvz {
+    top: 0px !important;
+}
+
 .typing_U9Tvvz strong {
     font-size: 12px;
 }
